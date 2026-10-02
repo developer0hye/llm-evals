@@ -1,0 +1,8 @@
+{
+  "model_id": "openai/gpt-6-luna",
+  "provider": "openai",
+  "reasoning": true,
+  "max_tokens": 64000,
+  "judge": null,
+  "subset": "main"
+}

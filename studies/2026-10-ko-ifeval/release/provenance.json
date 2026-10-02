@@ -1,0 +1,407 @@
+{
+ "source": {
+  "dataset": "google/IFEval",
+  "revision": "966cd89545d6b6acfd7638bc708b98261ca58e84",
+  "items_total": 541,
+  "items_excluded": 112,
+  "items_released": 429
+ },
+ "translator": {
+  "model": "google/gemini-3.1-pro-preview",
+  "provider_pin": "google-vertex/global/flex",
+  "reasoning": {
+   "effort": "high"
+  },
+  "temperature": 0,
+  "guideline_sha256": [
+   "c090a5261f66cd366204e41634984c71657150da5e9ae054f9dd0ae656f02b53"
+  ],
+  "cost_usd": 3.6891
+ },
+ "checker": "checker/ (allganize/IFEval-Ko@54199e3 with five [ko-ifeval] fixes)",
+ "edits": [
+  {
+   "key": 1546,
+   "id": "E01",
+   "finding": "R+V",
+   "prompt": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "repeat": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "kwargs": {},
+   "reason": "Guideline rule 6 wording '쉼표(,)' put an ASCII comma inside prompt_to_repeat, so the required verbatim repeat always fails punctuation:no_comma (strict). '(,)' removed from prompt and prompt_to_repeat."
+  },
+  {
+   "key": 1627,
+   "id": "E02",
+   "finding": "R+V",
+   "prompt": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "repeat": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "kwargs": {},
+   "reason": "Guideline rule 6 wording '쉼표(,)' put an ASCII comma inside prompt_to_repeat, so the required verbatim repeat always fails punctuation:no_comma (strict). '(,)' removed from prompt and prompt_to_repeat."
+  },
+  {
+   "key": 2063,
+   "id": "E03",
+   "finding": "R+V",
+   "prompt": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "repeat": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "kwargs": {},
+   "reason": "Guideline rule 6 wording '쉼표(,)' put an ASCII comma inside prompt_to_repeat, so the required verbatim repeat always fails punctuation:no_comma (strict). '(,)' removed from prompt and prompt_to_repeat."
+  },
+  {
+   "key": 2337,
+   "id": "E04",
+   "finding": "R+V",
+   "prompt": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "repeat": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "kwargs": {},
+   "reason": "Guideline rule 6 wording '쉼표(,)' put an ASCII comma inside prompt_to_repeat, so the required verbatim repeat always fails punctuation:no_comma (strict). '(,)' removed from prompt and prompt_to_repeat."
+  },
+  {
+   "key": 2713,
+   "id": "E05",
+   "finding": "R+V",
+   "prompt": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "repeat": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "kwargs": {},
+   "reason": "Guideline rule 6 wording '쉼표(,)' put an ASCII comma inside prompt_to_repeat, so the required verbatim repeat always fails punctuation:no_comma (strict). '(,)' removed from prompt and prompt_to_repeat."
+  },
+  {
+   "key": 2739,
+   "id": "E06",
+   "finding": "R+V",
+   "prompt": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "repeat": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "kwargs": {},
+   "reason": "Guideline rule 6 wording '쉼표(,)' put an ASCII comma inside prompt_to_repeat, so the required verbatim repeat always fails punctuation:no_comma (strict). '(,)' removed from prompt and prompt_to_repeat."
+  },
+  {
+   "key": 3633,
+   "id": "E07",
+   "finding": "R+V",
+   "prompt": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "repeat": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "kwargs": {},
+   "reason": "Guideline rule 6 wording '쉼표(,)' put an ASCII comma inside prompt_to_repeat, so the required verbatim repeat always fails punctuation:no_comma (strict). '(,)' removed from prompt and prompt_to_repeat."
+  },
+  {
+   "key": 3718,
+   "id": "E08",
+   "finding": "R+V",
+   "prompt": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "repeat": [
+    [
+     "쉼표(,)",
+     "쉼표"
+    ]
+   ],
+   "kwargs": {},
+   "reason": "Guideline rule 6 wording '쉼표(,)' put an ASCII comma inside prompt_to_repeat, so the required verbatim repeat always fails punctuation:no_comma (strict). '(,)' removed from prompt and prompt_to_repeat."
+  },
+  {
+   "key": 1691,
+   "id": "E09",
+   "finding": "R+C",
+   "prompt": [
+    [
+     "모저크리스탈",
+     "모저"
+    ],
+    [
+     "카를로비바리",
+     "바리"
+    ]
+   ],
+   "repeat": [],
+   "kwargs": {
+    "1": {
+     "forbidden_words": [
+      "모저",
+      "유리공장",
+      "프라프치체",
+      "카를로비",
+      "바리"
+     ]
+    }
+   },
+   "reason": "Guideline v1.1 over-corrected: '모저크리스탈' lets bare '모저' pass. Reverted to the v1.0 pilot rendering (Gemini output, work/pilot_translations.jsonl). Corpus screen: '모저' 0.00/10k, '바리' 0.31/10k eojeol, so the collision v1.1 guarded against is rare."
+  },
+  {
+   "key": 2471,
+   "id": "E10",
+   "finding": "R+C",
+   "prompt": [
+    [
+     "'미친'",
+     "'광기'"
+    ]
+   ],
+   "repeat": [],
+   "kwargs": {
+    "0": {
+     "forbidden_words": [
+      "슬픈",
+      "광기",
+      "스트레스"
+     ]
+    }
+   },
+   "reason": "'미친' (crazy) is a substring of '영향을 미친다', routine in the requested academic paper, so faithful answers fail. Replaced by another negative example word, '광기' (madness; 0.00/10k). The English lists the words as examples ('such as')."
+  },
+  {
+   "key": 2549,
+   "id": "E11",
+   "finding": "R+C",
+   "prompt": [
+    [
+     "'가오'",
+     "'gao'"
+    ]
+   ],
+   "repeat": [],
+   "kwargs": {
+    "1": {
+     "keywords": [
+      "gao",
+      "하트"
+     ]
+    }
+   },
+   "reason": "Keyword '가오' is satisfied by '다가오는' (0.46/10k), giving free credit. The source keyword 'gao' is a nonce token; kept in Latin script, as in the English item."
+  },
+  {
+   "key": 3369,
+   "id": "E12",
+   "finding": "R",
+   "prompt": [],
+   "repeat": [],
+   "kwargs": {
+    "1": {
+     "keyword": "옳"
+    }
+   },
+   "reason": "Keyword '옳다' (dictionary form) misses 옳은/옳습니다, so the '< 2' cap was near-vacuous. Stem '옳' (0.15/10k) counts all forms. Consequence: the required repeat now contains it twice (옳은, 옳다), so the item is unsatisfiable under strict scoring, exactly like the English source ('right' twice in the repeat). Tagged source_unsatisfiable_strict."
+  },
+  {
+   "key": 1733,
+   "id": "E13",
+   "finding": "R",
+   "prompt": [],
+   "repeat": [],
+   "kwargs": {
+    "0": {
+     "keyword": "대답했"
+    }
+   },
+   "reason": "Keyword '대답했다' fails a fairy tale written in -습니다 style ('대답했습니다'). Stem '대답했' covers both and is a substring of the prompt's '대답했다'."
+  },
+  {
+   "key": 2515,
+   "id": "E14",
+   "finding": "R",
+   "prompt": [
+    [
+     "1개의 구역을",
+     "최소 1개의 구역을"
+    ]
+   ],
+   "repeat": [],
+   "kwargs": {},
+   "reason": "Source 'at least one'; kwargs num_highlights >= 1. '1개의' read as exactly one."
+  },
+  {
+   "key": 3629,
+   "id": "E15",
+   "finding": "R",
+   "prompt": [
+    [
+     "핵심 부분 1개를",
+     "핵심 부분을 1개 이상"
+    ]
+   ],
+   "repeat": [],
+   "kwargs": {},
+   "reason": "Source 'some key parts'; kwargs >= 1. '1개를' read as exactly one."
+  },
+  {
+   "key": 3549,
+   "id": "E16",
+   "finding": "R",
+   "prompt": [
+    [
+     "정확히 두 번",
+     "두 번 이상"
+    ]
+   ],
+   "repeat": [],
+   "kwargs": {},
+   "reason": "Translator added 'exactly'; source 'twice', kwargs num_highlights >= 2."
+  },
+  {
+   "key": 3624,
+   "id": "E17",
+   "finding": "R",
+   "prompt": [
+    [
+     "(예: \"\n\n\")",
+     "(예: \"\\n\\n\")"
+    ]
+   ],
+   "repeat": [],
+   "kwargs": {},
+   "reason": "The source's literal '\\n\\n' example became two real newlines (an empty quote). Restored the literal. Not scored."
+  }
+ ],
+ "response_edits": [
+  {
+   "key": 1546,
+   "old": "쉼표(,)",
+   "new": "쉼표",
+   "reason": "follow E01"
+  },
+  {
+   "key": 1627,
+   "old": "쉼표(,)",
+   "new": "쉼표",
+   "reason": "follow E02"
+  },
+  {
+   "key": 2063,
+   "old": "쉼표(,)",
+   "new": "쉼표",
+   "reason": "follow E03"
+  },
+  {
+   "key": 2337,
+   "old": "쉼표(,)",
+   "new": "쉼표",
+   "reason": "follow E04"
+  },
+  {
+   "key": 2713,
+   "old": "쉼표(,)",
+   "new": "쉼표",
+   "reason": "follow E05"
+  },
+  {
+   "key": 2739,
+   "old": "쉼표(,)",
+   "new": "쉼표",
+   "reason": "follow E06"
+  },
+  {
+   "key": 3633,
+   "old": "쉼표(,)",
+   "new": "쉼표",
+   "reason": "follow E07"
+  },
+  {
+   "key": 3718,
+   "old": "쉼표(,)",
+   "new": "쉼표",
+   "reason": "follow E08"
+  },
+  {
+   "key": 2549,
+   "old": "가오",
+   "new": "gao",
+   "reason": "follow E11"
+  }
+ ],
+ "known_issues": {
+  "374": [
+   "source_unsatisfiable_strict"
+  ],
+  "3371": [
+   "source_unsatisfiable_strict"
+  ],
+  "3369": [
+   "source_unsatisfiable_strict"
+  ],
+  "2028": [
+   "lexical_collision"
+  ],
+  "1580": [
+   "lexical_inflection_weak"
+  ]
+ },
+ "files": {
+  "release/ko_ifeval_v1.jsonl": "46d85943714ed283787e5e5575181f837e1fdb46cdf4e6175537fdc050881fcc",
+  "work/translations.jsonl": "a8f364b8a5feb65b400e8c77fb9c81d33a1c234d7597641bf42a2465a2b9ada7",
+  "translation_guideline.md": "c090a5261f66cd366204e41634984c71657150da5e9ae054f9dd0ae656f02b53"
+ }
+}

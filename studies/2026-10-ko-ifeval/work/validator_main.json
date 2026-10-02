@@ -1,0 +1,77 @@
+{
+ "items": 429,
+ "flagged": 9,
+ "counts": {
+  "number_missing": 2,
+  "latin_kwarg": 9,
+  "boundary_wording": 1
+ },
+ "report": {
+  "143": [
+   [
+    "number_missing",
+    "length_constraints:number_paragraphs.num_paragraphs=2"
+   ]
+  ],
+  "1137": [
+   [
+    "latin_kwarg",
+    "keywords:forbidden_words.forbidden_words='nourriture'"
+   ]
+  ],
+  "1348": [
+   [
+    "latin_kwarg",
+    "keywords:existence.keywords='Brilliant'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:existence.keywords='Le'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:existence.keywords='Hou'"
+   ]
+  ],
+  "1379": [
+   [
+    "number_missing",
+    "keywords:frequency.frequency=2"
+   ]
+  ],
+  "1658": [
+   [
+    "latin_kwarg",
+    "keywords:existence.keywords='Python'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:existence.keywords='Java'"
+   ]
+  ],
+  "1675": [
+   [
+    "latin_kwarg",
+    "keywords:forbidden_words.forbidden_words='heute'"
+   ]
+  ],
+  "2534": [
+   [
+    "latin_kwarg",
+    "keywords:forbidden_words.forbidden_words='schlau'"
+   ]
+  ],
+  "2616": [
+   [
+    "boundary_wording",
+    "keywords:frequency: checker >= 2, prompt '1개 이상'"
+   ]
+  ],
+  "3324": [
+   [
+    "latin_kwarg",
+    "detectable_format:multiple_sections.section_spliter='Day'"
+   ]
+  ]
+ }
+}

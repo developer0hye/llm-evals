@@ -1,0 +1,8 @@
+{
+  "model_id": "google/gemma-4-26b-a4b-it",
+  "provider": "coreweave/bf16",
+  "reasoning": true,
+  "max_tokens": 16000,
+  "judge": null,
+  "subset": "pilot"
+}

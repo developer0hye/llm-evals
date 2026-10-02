@@ -1,0 +1,8 @@
+{
+  "model_id": "google/gemma-4-31b-it",
+  "provider": "crusoe/bf16",
+  "reasoning": true,
+  "max_tokens": 64000,
+  "judge": null,
+  "subset": "main"
+}

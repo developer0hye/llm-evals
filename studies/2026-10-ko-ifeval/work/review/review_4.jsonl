@@ -1,0 +1,54 @@
+{"key": 32, "issues": []}
+{"key": 167, "issues": []}
+{"key": 247, "issues": []}
+{"key": 321, "issues": []}
+{"key": 357, "issues": []}
+{"key": 1072, "issues": []}
+{"key": 1127, "issues": []}
+{"key": 1162, "issues": []}
+{"key": 1236, "issues": []}
+{"key": 1262, "issues": []}
+{"key": 1325, "issues": []}
+{"key": 1379, "issues": []}
+{"key": 1477, "issues": []}
+{"key": 1537, "issues": []}
+{"key": 1601, "issues": []}
+{"key": 1644, "issues": []}
+{"key": 1705, "issues": []}
+{"key": 1773, "issues": []}
+{"key": 1845, "issues": []}
+{"key": 1906, "issues": []}
+{"key": 1943, "issues": []}
+{"key": 2034, "issues": []}
+{"key": 2084, "issues": []}
+{"key": 2164, "issues": []}
+{"key": 2230, "issues": []}
+{"key": 2268, "issues": []}
+{"key": 2309, "issues": []}
+{"key": 2357, "issues": []}
+{"key": 2392, "issues": []}
+{"key": 2439, "issues": []}
+{"key": 2482, "issues": []}
+{"key": 2567, "issues": []}
+{"key": 2602, "issues": []}
+{"key": 2667, "issues": []}
+{"key": 2716, "issues": [{"type": "meaning_change", "severity": "minor", "detail": "English keyword 'the' (article, <2) replaced by content noun '회사'. Korean has no article; substitution is defensible but changes the task, and '회사' also matches 자회사/회사원."}]}
+{"key": 2785, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "English prompt asks for 'at least one placeholder' but kwargs require 3. Korean says '최소 3개', matching kwargs, so the Korean item is consistent; the English source is the defective one."}]}
+{"key": 2829, "issues": []}
+{"key": 2904, "issues": []}
+{"key": 2957, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Forbidden '어린이집' and '스토리텔링' miss spaced variants '어린이 집' and '스토리 텔링', so a violating answer can pass. Guideline rule 3 prefers a component stem for spaceable compounds."}]}
+{"key": 3048, "issues": []}
+{"key": 3089, "issues": []}
+{"key": 3156, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Keyword '사용불가' fails if an answer uses standard spacing '사용 불가' or '사용 불가능'. Prompt quotes '사용불가', so a careful answer passes; a natural one may not."}]}
+{"key": 3241, "issues": []}
+{"key": 3287, "issues": []}
+{"key": 3329, "issues": []}
+{"key": 3371, "issues": [{"type": "inherited_from_source", "severity": "breaks_scoring", "detail": "prompt_to_repeat contains the forbidden words 경제, 수요, 공급, so repeating it verbatim fails forbidden_words under strict scoring. Same in English (economy/demand/supply). Loose passes by dropping line 1."}, {"type": "changed_constraint", "severity": "minor", "detail": "Forbidden stem '수요' also matches '수요일' (Wednesday), a false fail for an unrelated common word."}]}
+{"key": 3439, "issues": []}
+{"key": 3505, "issues": []}
+{"key": 3563, "issues": []}
+{"key": 3623, "issues": []}
+{"key": 3672, "issues": []}
+{"key": 3718, "issues": [{"type": "inherited_from_source", "severity": "breaks_scoring", "detail": "prompt_to_repeat contains a comma ('쉼표(,)'), so the required verbatim repeat fails no_comma under strict scoring. English also has one ('brackets, i.e.'). Loose passes by dropping line 1."}]}
+{"key": 3749, "issues": []}
+{"key": 3757, "issues": []}

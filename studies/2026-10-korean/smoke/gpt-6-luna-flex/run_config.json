@@ -1,0 +1,11 @@
+{
+  "model_id": "openai/gpt-6-luna",
+  "provider": "openai/flex",
+  "reasoning": true,
+  "max_tokens": 16000,
+  "judge": [
+    "openai/gpt-6-luna",
+    "openai/flex"
+  ],
+  "subset": "golden"
+}

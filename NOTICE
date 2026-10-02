@@ -1,0 +1,44 @@
+llm-evals
+Copyright 2026 developer0hye
+
+This project's code, logs and write-ups are licensed under Apache-2.0 (LICENSE).
+
+Third-party code included
+-------------------------
+studies/2026-10-korean/third_party/simple_evals_grader.py
+  GRADER_TEMPLATE from openai/simple-evals @ 652c89d0ca9df547706735883097e9537d40dc47
+  (simpleqa_eval.py). MIT License, Copyright (c) 2024 OpenAI.
+  Full text: studies/2026-10-korean/third_party/LICENSE-simple-evals
+
+Evaluation data (fetched at run time, NOT redistributed here)
+--------------------------------------------------------------
+KoBALT-700            snunlp/KoBALT-700 @ 30c30a4            CC BY-NC 4.0
+  The KoBALT prompt template is read from the dataset's evaluation_protocol.md at run time.
+KoSimpleQA            naver-ai/KoSimpleQA @ 1bdbb61          CC BY 4.0
+KLUE-NER v1.1 (dev)   KLUE-benchmark/KLUE @ 3efd987          CC BY-SA 4.0
+LBox Open casename    lbox/lbox_open @ 10429ac               CC BY-NC 4.0
+
+Logged model responses can quote dataset text (e.g. an NER reply restates its
+input sentence), and rows carry the gold label. The Apache-2.0 license of this
+repository does NOT extend to these log files; they keep the license of the
+dataset they derive from:
+  studies/2026-10-korean/**/kobalt.jsonl          CC BY-NC 4.0 (KoBALT-700)
+  studies/2026-10-korean/**/lbox_casename.jsonl   CC BY-NC 4.0 (LBox Open)
+  studies/2026-10-korean/**/klue_ner.jsonl        CC BY-SA 4.0 (KLUE)
+The CC BY-NC files are for non-commercial use only.
+
+studies/2026-10-ko-ifeval
+-------------------------
+checker/  IFEval-Ko checker (allganize/IFEval-Ko @ 54199e3, ifeval_ko/), itself derived from
+          Google Research's IFEval code; Apache License 2.0 (headers retained). Modified: changes
+          are marked "[ko-ifeval]" in checker/instructions.py.
+Source data fetched at run time: google/IFEval @ 966cd89 (Apache-2.0).
+release/ko_ifeval_v1.jsonl: Korean translation of 429 google/IFEval items (Apache-2.0),
+          translated by Gemini 3.1 Pro under translation_guideline.md and edited as logged in
+          release/provenance.json. Distributed under Apache-2.0.
+work/lexical_collisions.json: eojeol counts derived from KLUE-NER v1.1 dev (CC BY-SA 4.0);
+          the corpus itself is not redistributed.
+evidence/ifeval_ko_audit/ifeval_ko_54199e3.parquet: copy of allganize/IFEval-Ko data (Apache-2.0,
+          per its card), kept as the audited artifact.
+evidence/translator_selection/sample.json: 120 segments of google/wmt24pp en-ko_KR (Apache-2.0).
+MetricX-24 (google-research/metricx, Apache-2.0) was run locally; not vendored.

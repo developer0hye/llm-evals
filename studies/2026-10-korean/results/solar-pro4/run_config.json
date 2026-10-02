@@ -1,0 +1,8 @@
+{
+  "model_id": "upstage/solar-pro4",
+  "provider": "upstage",
+  "reasoning": true,
+  "max_tokens": 64000,
+  "judge": null,
+  "subset": "main"
+}

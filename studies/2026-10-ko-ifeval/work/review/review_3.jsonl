@@ -1,0 +1,54 @@
+{"key": 30, "issues": []}
+{"key": 164, "issues": []}
+{"key": 240, "issues": []}
+{"key": 301, "issues": [{"type": "meaning_change", "severity": "minor", "detail": "'slow' became forbidden '천천히' (slowly); '느리게/느린' (slow) passes while English bans 'slow'. Scope shifted, not broken."}]}
+{"key": 349, "issues": []}
+{"key": 1069, "issues": []}
+{"key": 1108, "issues": []}
+{"key": 1154, "issues": []}
+{"key": 1233, "issues": []}
+{"key": 1259, "issues": []}
+{"key": 1322, "issues": []}
+{"key": 1377, "issues": []}
+{"key": 1476, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "'rename' rendered as forbidden '변경' (change), which English allows ('changed' passes there). Stricter than source; still satisfiable via '바뀝니다'."}]}
+{"key": 1531, "issues": []}
+{"key": 1591, "issues": []}
+{"key": 1643, "issues": []}
+{"key": 1691, "issues": [{"type": "changed_constraint", "severity": "breaks_scoring", "detail": "'모저크리스탈' and '유리공장' miss '모저', '모저 유리', '유리 공장'; tested: '모저 유리 공장' passes. A natural violation of Moser/Glassworks passes. '카를로비' makes '카를로비바리' redundant."}]}
+{"key": 1759, "issues": []}
+{"key": 1837, "issues": []}
+{"key": 1902, "issues": []}
+{"key": 1939, "issues": []}
+{"key": 2028, "issues": [{"type": "changed_constraint", "severity": "breaks_scoring", "detail": "Forbidden '예' is one syllable inside 예를 들어, 예상, 예보, 예외; tested: '예를 들어' fails. Honest answers fail. '아니오/아뇨/네' escape the list."}]}
+{"key": 2078, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "Prompt says exactly 1 bullet, then 'include a few bullet points'; an answer following 'a few' fails num_bullets=1. Same contradiction in English."}]}
+{"key": 2162, "issues": []}
+{"key": 2229, "issues": []}
+{"key": 2266, "issues": []}
+{"key": 2305, "issues": []}
+{"key": 2355, "issues": []}
+{"key": 2386, "issues": []}
+{"key": 2436, "issues": []}
+{"key": 2475, "issues": []}
+{"key": 2549, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Keyword '가오' is a substring of 다가오다 and 가오리; tested: '다가오는' satisfies it. English 'gao' has no such collision."}]}
+{"key": 2596, "issues": []}
+{"key": 2662, "issues": []}
+{"key": 2713, "issues": [{"type": "unsatisfiable", "severity": "breaks_scoring", "detail": "prompt_to_repeat contains '쉼표(,)', so the verbatim repeat required first contains an ASCII comma and fails punctuation:no_comma (strict). English repeat text has no comma."}]}
+{"key": 2780, "issues": []}
+{"key": 2828, "issues": []}
+{"key": 2889, "issues": []}
+{"key": 2941, "issues": []}
+{"key": 3041, "issues": []}
+{"key": 3084, "issues": []}
+{"key": 3131, "issues": []}
+{"key": 3224, "issues": []}
+{"key": 3281, "issues": []}
+{"key": 3327, "issues": []}
+{"key": 3369, "issues": [{"type": "changed_constraint", "severity": "breaks_scoring", "detail": "Keyword '옳다' is a dictionary form; 옳은/옳아/옳습니다 are not counted (tested). A limerick saying '항상 옳은' repeatedly passes the <2 cap."}, {"type": "inherited_from_source", "severity": "minor", "detail": "English is unsatisfiable: repeated prompt holds 'right' twice, so count>=2. Korean repeat holds '옳다' once, so Korean is satisfiable; scoring differs from source."}]}
+{"key": 3429, "issues": []}
+{"key": 3502, "issues": []}
+{"key": 3557, "issues": []}
+{"key": 3619, "issues": []}
+{"key": 3669, "issues": []}
+{"key": 3710, "issues": []}
+{"key": 3748, "issues": []}
+{"key": 3756, "issues": []}

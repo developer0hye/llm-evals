@@ -1,0 +1,7 @@
+aiohttp==3.12.15
+pytest==8.4.2
+absl-py==2.5.0
+immutabledict==4.3.1
+langdetect==1.0.9
+nltk==3.10.3
+packaging==26.3

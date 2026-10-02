@@ -1,0 +1,8 @@
+{
+  "model_id": "z-ai/glm-5.3-flash",
+  "provider": "z-ai/fp8",
+  "reasoning": true,
+  "max_tokens": 64000,
+  "judge": null,
+  "subset": "main"
+}

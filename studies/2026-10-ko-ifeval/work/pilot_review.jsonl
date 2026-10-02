@@ -1,0 +1,28 @@
+{"key": 3109, "issues": []}
+{"key": 3538, "issues": []}
+{"key": 1561, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "prompt_to_repeat contains '<<이름>>', so any answer that repeats the prompt passes detectable_format:title even without a titled company name. Same in English ('<<name>>')."}]}
+{"key": 227, "issues": []}
+{"key": 127, "issues": [{"type": "meaning_change", "severity": "minor", "detail": "'feed' rendered as forbidden '수유' (breast/bottle feeding), narrower than English 'feed'; an answer writing '밥을 먹이다' passes. Defensible for infant context; scope narrowed, not broken."}]}
+{"key": 1203, "issues": []}
+{"key": 1691, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Forbidden stems '모저' and '바리' occur inside common words (이모저모, 바리스타, 발바리), so honest answers can fail; '유리공장' misses spaced '유리 공장'. Violates guideline rule 3 on non-hiding stems."}]}
+{"key": 2439, "issues": []}
+{"key": 2035, "issues": []}
+{"key": 3748, "issues": []}
+{"key": 1305, "issues": []}
+{"key": 1943, "issues": []}
+{"key": 1730, "issues": []}
+{"key": 3311, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "Prompt asks for three keywords (지표, 목표, 관리) but kwargs check only 지표 and 관리, so an answer omitting 목표 passes. English has the same mismatch ('objective' absent from kwargs)."}]}
+{"key": 2239, "issues": []}
+{"key": 3563, "issues": []}
+{"key": 2323, "issues": []}
+{"key": 247, "issues": []}
+{"key": 1705, "issues": []}
+{"key": 2616, "issues": []}
+{"key": 2515, "issues": []}
+{"key": 2292, "issues": []}
+{"key": 3644, "issues": []}
+{"key": 1902, "issues": []}
+{"key": 2482, "issues": []}
+{"key": 2136, "issues": []}
+{"key": 2880, "issues": [{"type": "mistranslation", "severity": "minor", "detail": "'반드시 부스터 단어로 시작' has no quotes or '라는', so it can read as 'a booster word'. Suggest \"'부스터'라는 단어로\" to name first_word unambiguously."}]}
+{"key": 1551, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "Prompt requires a <<title>> on both cover letters; detectable_format:title passes on any single non-empty <<…>> span, so one untitled letter still passes. Same in English."}]}

@@ -1,0 +1,54 @@
+{"key": 16, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "prompt_to_repeat contains '<<xyz의 이야기>>', so repeating the prompt alone satisfies detectable_format:title even if the story has no title. Same in English ('<<story of xyz>>')."}]}
+{"key": 142, "issues": []}
+{"key": 219, "issues": []}
+{"key": 292, "issues": []}
+{"key": 340, "issues": []}
+{"key": 1005, "issues": []}
+{"key": 1098, "issues": []}
+{"key": 1147, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Forbidden '감사' (thanks) also matches homonym 監査 (audit, '보안 감사', '감사원'); a formal SSO-fix statement mentioning a security audit false-fails. English 'thanks' has no such collision. Narrow channel."}]}
+{"key": 1217, "issues": []}
+{"key": 1251, "issues": []}
+{"key": 1305, "issues": []}
+{"key": 1372, "issues": []}
+{"key": 1446, "issues": []}
+{"key": 1512, "issues": []}
+{"key": 1580, "issues": [{"type": "changed_constraint", "severity": "breaks_scoring", "detail": "Forbidden '타다' matches only the dictionary form (and 타다가); natural inflections 타는/탔어요/타고/탈 escape, so a story using 'ride' passes. Near-vacuous versus English 'ride', the base surface form."}, {"type": "changed_constraint", "severity": "minor", "detail": "Forbidden '할 수' covers only 하다+can; '탈 수 있다', '배울 수 있다' (= can) pass, as does '할수'. English 'can' catches every use. '수 있' would match the modal."}]}
+{"key": 1629, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Forbidden '정류장' misses the same-word variant '정류소' (bus stop); the stem '정류' would catch both, per the guideline's stem rule. Narrow false-pass channel."}]}
+{"key": 1675, "issues": []}
+{"key": 1739, "issues": []}
+{"key": 1823, "issues": []}
+{"key": 1893, "issues": []}
+{"key": 1934, "issues": []}
+{"key": 2015, "issues": []}
+{"key": 2070, "issues": []}
+{"key": 2142, "issues": []}
+{"key": 2215, "issues": []}
+{"key": 2250, "issues": []}
+{"key": 2303, "issues": []}
+{"key": 2328, "issues": []}
+{"key": 2381, "issues": []}
+{"key": 2417, "issues": []}
+{"key": 2467, "issues": []}
+{"key": 2532, "issues": []}
+{"key": 2590, "issues": []}
+{"key": 2637, "issues": []}
+{"key": 2691, "issues": []}
+{"key": 2752, "issues": []}
+{"key": 2811, "issues": [{"type": "meaning_change", "severity": "minor", "detail": "'Yo' rendered as nonstandard '요우'; Korean rap writes the interjection as Latin 'Yo' or '요'. Latin 'Yo'/'check'/'peace' are not forbidden, so 'Yo, check it' lyrics pass."}]}
+{"key": 2871, "issues": []}
+{"key": 2925, "issues": []}
+{"key": 3001, "issues": []}
+{"key": 3079, "issues": []}
+{"key": 3126, "issues": []}
+{"key": 3221, "issues": []}
+{"key": 3272, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "prompt_to_repeat contains '<<아메리칸 토닉>>' and one '브랜드', so the repeat alone satisfies title and half of the frequency>=2 count. Same in English."}]}
+{"key": 3323, "issues": []}
+{"key": 3362, "issues": []}
+{"key": 3415, "issues": []}
+{"key": 3484, "issues": []}
+{"key": 3540, "issues": []}
+{"key": 3606, "issues": []}
+{"key": 3644, "issues": []}
+{"key": 3697, "issues": []}
+{"key": 3743, "issues": []}
+{"key": 3754, "issues": []}

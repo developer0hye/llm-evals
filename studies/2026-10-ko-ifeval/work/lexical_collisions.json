@@ -1,0 +1,4977 @@
+{
+ "corpus": "KLUE-NER v1.1 dev",
+ "eojeol": 65378,
+ "rows": [
+  {
+   "key": 127,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "수면",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "수면간",
+     1
+    ],
+    [
+     "수면",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 127,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "요리",
+   "per_10k": 0.76,
+   "hits": 5,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "요리해",
+     2
+    ],
+    [
+     "요리를",
+     1
+    ],
+    [
+     "요리연구가",
+     1
+    ],
+    [
+     "요리도",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 127,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "수유",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 127,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "일정",
+   "per_10k": 1.53,
+   "hits": 10,
+   "embedded_share": 0.1,
+   "top": [
+    [
+     "일정을",
+     6
+    ],
+    [
+     "일정하다고",
+     1
+    ],
+    [
+     "의사일정",
+     1
+    ],
+    [
+     "일정부분은",
+     1
+    ],
+    [
+     "일정에도",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 142,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "노크",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 142,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "고양이",
+   "per_10k": 1.22,
+   "hits": 8,
+   "embedded_share": 0.125,
+   "top": [
+    [
+     "고양이와",
+     2
+    ],
+    [
+     "고양이",
+     2
+    ],
+    [
+     "'상상고양이'를",
+     1
+    ],
+    [
+     "고양이인",
+     1
+    ],
+    [
+     "고양이도",
+     1
+    ],
+    [
+     "고양이처럼",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 260,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "친구",
+   "per_10k": 6.58,
+   "hits": 43,
+   "embedded_share": 0.419,
+   "top": [
+    [
+     "친구",
+     8
+    ],
+    [
+     "여자친구",
+     4
+    ],
+    [
+     "친구의",
+     2
+    ],
+    [
+     "남자친구랑",
+     2
+    ],
+    [
+     "친구들",
+     2
+    ],
+    [
+     "여자친구의",
+     2
+    ],
+    [
+     "친구랑",
+     2
+    ],
+    [
+     "여자친구가",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 260,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "핸슨",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 301,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "천천히",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "천천히",
+     1
+    ],
+    [
+     "보내보면서,천천히",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 301,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "처럼",
+   "per_10k": 6.88,
+   "hits": 45,
+   "embedded_share": 0.978,
+   "top": [
+    [
+     "이처럼",
+     5
+    ],
+    [
+     "것처럼",
+     4
+    ],
+    [
+     "시원처럼",
+     1
+    ],
+    [
+     "한병태처럼",
+     1
+    ],
+    [
+     "행사처럼",
+     1
+    ],
+    [
+     "덱스터처럼",
+     1
+    ],
+    [
+     "신작처럼...",
+     1
+    ],
+    [
+     "리뷰처럼",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 301,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "어린아이",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 371,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "열쇠",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "열쇠를",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 374,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "젊은것들",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 374,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "망할",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "망할",
+     1
+    ],
+    [
+     "실망할수밖에",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1069,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "상관관계",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1069,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "경험",
+   "per_10k": 1.53,
+   "hits": 10,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "경험이",
+     3
+    ],
+    [
+     "경험을",
+     2
+    ],
+    [
+     "경험에",
+     1
+    ],
+    [
+     "경험할거",
+     1
+    ],
+    [
+     "경험하게",
+     1
+    ],
+    [
+     "경험할",
+     1
+    ],
+    [
+     "경험",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1139,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "엄마",
+   "per_10k": 2.45,
+   "hits": 16,
+   "embedded_share": 0.188,
+   "top": [
+    [
+     "엄마가",
+     3
+    ],
+    [
+     "엄마",
+     3
+    ],
+    [
+     "희래엄마나",
+     1
+    ],
+    [
+     "엄마로",
+     1
+    ],
+    [
+     "엄마한테",
+     1
+    ],
+    [
+     "엄마르르ᅳ",
+     1
+    ],
+    [
+     "한세경엄마",
+     1
+    ],
+    [
+     "엄마라는",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1139,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "어머니",
+   "per_10k": 1.53,
+   "hits": 10,
+   "embedded_share": 0.1,
+   "top": [
+    [
+     "어머니",
+     5
+    ],
+    [
+     "어머니는",
+     2
+    ],
+    [
+     "어머니를",
+     1
+    ],
+    [
+     "어머니에",
+     1
+    ],
+    [
+     "시어머니",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1147,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "현장",
+   "per_10k": 5.51,
+   "hits": 36,
+   "embedded_share": 0.111,
+   "top": [
+    [
+     "현장을",
+     8
+    ],
+    [
+     "현장에",
+     7
+    ],
+    [
+     "현장에서",
+     5
+    ],
+    [
+     "현장",
+     4
+    ],
+    [
+     "현장조사를",
+     1
+    ],
+    [
+     "현장이다.",
+     1
+    ],
+    [
+     "사고현장에",
+     1
+    ],
+    [
+     "공사현장의",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1147,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "감사",
+   "per_10k": 2.91,
+   "hits": 19,
+   "embedded_share": 0.263,
+   "top": [
+    [
+     "감사드립니다!",
+     1
+    ],
+    [
+     "감사나눔",
+     1
+    ],
+    [
+     "감사보고서에",
+     1
+    ],
+    [
+     "감사용",
+     1
+    ],
+    [
+     "국정감사장을",
+     1
+    ],
+    [
+     "국정감사에서",
+     1
+    ],
+    [
+     "감사하단",
+     1
+    ],
+    [
+     "감사의",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1147,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "문제",
+   "per_10k": 7.04,
+   "hits": 46,
+   "embedded_share": 0.065,
+   "top": [
+    [
+     "문제를",
+     11
+    ],
+    [
+     "문제",
+     8
+    ],
+    [
+     "문제가",
+     5
+    ],
+    [
+     "문제에",
+     3
+    ],
+    [
+     "문제로",
+     3
+    ],
+    [
+     "문제는",
+     2
+    ],
+    [
+     "문제점을",
+     2
+    ],
+    [
+     "문제와",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 1147,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "협력자",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1203,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "전쟁",
+   "per_10k": 1.84,
+   "hits": 12,
+   "embedded_share": 0.333,
+   "top": [
+    [
+     "전쟁이",
+     2
+    ],
+    [
+     "전쟁의",
+     2
+    ],
+    [
+     "6·25전쟁시기",
+     1
+    ],
+    [
+     "사랑과전쟁을",
+     1
+    ],
+    [
+     "항일전쟁승리",
+     1
+    ],
+    [
+     "전쟁으로",
+     1
+    ],
+    [
+     "겨울전쟁",
+     1
+    ],
+    [
+     "전쟁영화",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1203,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "평화",
+   "per_10k": 1.07,
+   "hits": 7,
+   "embedded_share": 0.143,
+   "top": [
+    [
+     "평화공원의",
+     1
+    ],
+    [
+     "'평화의",
+     1
+    ],
+    [
+     "평화롭게",
+     1
+    ],
+    [
+     "평화로웠다는",
+     1
+    ],
+    [
+     "평화적으로",
+     1
+    ],
+    [
+     "평화적",
+     1
+    ],
+    [
+     "평화를",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1233,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "마천루",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1237,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "아르헨티나",
+   "per_10k": 0.76,
+   "hits": 5,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "아르헨티나",
+     2
+    ],
+    [
+     "아르헨티나와의",
+     1
+    ],
+    [
+     "아르헨티나와",
+     1
+    ],
+    [
+     "아르헨티나는",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1242,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "별명",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "별명을",
+     2
+    ],
+    [
+     "별명이",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1265,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "폐기물",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "폐기물",
+     1
+    ],
+    [
+     "방사성폐기물",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1265,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "재료",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "재료로",
+     3
+    ],
+    [
+     "재료의",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1265,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "식사",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.25,
+   "top": [
+    [
+     "식사를",
+     1
+    ],
+    [
+     "식사는",
+     1
+    ],
+    [
+     "식사",
+     1
+    ],
+    [
+     "저녁식사를",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1281,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "인턴",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "인턴을",
+     1
+    ],
+    [
+     "인턴사원은",
+     1
+    ],
+    [
+     "인턴십",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1281,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "성장",
+   "per_10k": 1.53,
+   "hits": 10,
+   "embedded_share": 0.2,
+   "top": [
+    [
+     "신성장",
+     1
+    ],
+    [
+     "경제성장률과",
+     1
+    ],
+    [
+     "성장이",
+     1
+    ],
+    [
+     "성장한",
+     1
+    ],
+    [
+     "성장시킬",
+     1
+    ],
+    [
+     "성장하는",
+     1
+    ],
+    [
+     "성장을",
+     1
+    ],
+    [
+     "성장률이",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1342,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "사진",
+   "per_10k": 10.86,
+   "hits": 71,
+   "embedded_share": 0.07,
+   "top": [
+    [
+     "사진",
+     14
+    ],
+    [
+     "사진이",
+     10
+    ],
+    [
+     "사진을",
+     10
+    ],
+    [
+     "사진에는",
+     7
+    ],
+    [
+     "사진으로",
+     4
+    ],
+    [
+     "사진입니다.",
+     4
+    ],
+    [
+     "사진이라고",
+     2
+    ],
+    [
+     "사진과",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 1375,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "취약",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.333,
+   "top": [
+    [
+     "취약해",
+     1
+    ],
+    [
+     "취약계층에게",
+     1
+    ],
+    [
+     "의료취약지역의",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1379,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "세라",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "'보쿠세라'가",
+     1
+    ],
+    [
+     "류세라",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1379,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "세라",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "'보쿠세라'가",
+     1
+    ],
+    [
+     "류세라",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1393,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "동의어",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1466,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "테일러",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "테일러",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1466,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "스위프트",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "스위프트,",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1466,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "투게더",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "'해피투게더",
+     1
+    ],
+    [
+     "'해피투게더3'",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1476,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "이름",
+   "per_10k": 4.59,
+   "hits": 30,
+   "embedded_share": 0.067,
+   "top": [
+    [
+     "이름을",
+     11
+    ],
+    [
+     "이름으로",
+     4
+    ],
+    [
+     "이름이",
+     4
+    ],
+    [
+     "이름만",
+     1
+    ],
+    [
+     "이름의",
+     1
+    ],
+    [
+     "이름임을",
+     1
+    ],
+    [
+     "이름에",
+     1
+    ],
+    [
+     "이름까지",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1476,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "변경",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.25,
+   "top": [
+    [
+     "변경신청을",
+     1
+    ],
+    [
+     "변경했다.",
+     1
+    ],
+    [
+     "수립-집행-변경-발표",
+     1
+    ],
+    [
+     "변경하며",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1498,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "연상",
+   "per_10k": 1.38,
+   "hits": 9,
+   "embedded_share": 0.333,
+   "top": [
+    [
+     "연상시키는",
+     3
+    ],
+    [
+     "여우주연상",
+     1
+    ],
+    [
+     "연상케",
+     1
+    ],
+    [
+     "남우주연상을",
+     1
+    ],
+    [
+     "연상의",
+     1
+    ],
+    [
+     "도둑들을연상케했고",
+     1
+    ],
+    [
+     "연상",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1508,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "숲",
+   "per_10k": 0.76,
+   "hits": 5,
+   "embedded_share": 0.2,
+   "top": [
+    [
+     "숲을",
+     1
+    ],
+    [
+     "대나무숲'",
+     1
+    ],
+    [
+     "숲'에",
+     1
+    ],
+    [
+     "숲속안",
+     1
+    ],
+    [
+     "숲",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1508,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "수수께끼",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1531,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "아틀란티스",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1531,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "경찰관",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "경찰관이",
+     2
+    ],
+    [
+     "경찰관",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1580,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "할 수",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1580,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "타다",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1629,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "정류장",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "버스정류장",
+     1
+    ],
+    [
+     "버스정류장에서",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1691,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "모저크리스탈",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1691,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "유리공장",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1691,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "프라프치체",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1691,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "카를로비",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1691,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "카를로비바리",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1713,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "실망",
+   "per_10k": 2.91,
+   "hits": 19,
+   "embedded_share": 0.053,
+   "top": [
+    [
+     "실망했다.",
+     1
+    ],
+    [
+     "뻔한실망만",
+     1
+    ],
+    [
+     "실망스러웠음",
+     1
+    ],
+    [
+     "실망했던.",
+     1
+    ],
+    [
+     "실망시킨다!...",
+     1
+    ],
+    [
+     "실망입니다ᅮ",
+     1
+    ],
+    [
+     "실망스런",
+     1
+    ],
+    [
+     "실망..바티칸에",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1733,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "대답했다",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1825,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "부족",
+   "per_10k": 2.29,
+   "hits": 15,
+   "embedded_share": 0.267,
+   "top": [
+    [
+     "부족한",
+     4
+    ],
+    [
+     "부족함.",
+     1
+    ],
+    [
+     "부족할",
+     1
+    ],
+    [
+     "작은이해부족",
+     1
+    ],
+    [
+     "부족하고,",
+     1
+    ],
+    [
+     "부족을",
+     1
+    ],
+    [
+     "부족과",
+     1
+    ],
+    [
+     "부족한거",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1825,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "모델",
+   "per_10k": 2.75,
+   "hits": 18,
+   "embedded_share": 0.333,
+   "top": [
+    [
+     "모델로",
+     3
+    ],
+    [
+     "모델",
+     3
+    ],
+    [
+     "모델을",
+     1
+    ],
+    [
+     "모델은",
+     1
+    ],
+    [
+     "표준모델을",
+     1
+    ],
+    [
+     "경제모델이",
+     1
+    ],
+    [
+     "후속모델로",
+     1
+    ],
+    [
+     "모델인",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1825,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "성능",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "성능",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1825,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "품질",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "머..품질보증!",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1825,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "아키텍처",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1845,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "계산",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "계산동의",
+     1
+    ],
+    [
+     "계산해보면",
+     1
+    ],
+    [
+     "계산이",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1845,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "신고",
+   "per_10k": 6.58,
+   "hits": 43,
+   "embedded_share": 0.047,
+   "top": [
+    [
+     "신고를",
+     11
+    ],
+    [
+     "신고했다.",
+     5
+    ],
+    [
+     "신고",
+     4
+    ],
+    [
+     "신고한",
+     3
+    ],
+    [
+     "신고에",
+     2
+    ],
+    [
+     "신고된",
+     2
+    ],
+    [
+     "신고하지",
+     2
+    ],
+    [
+     "신고가",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 1845,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "결론",
+   "per_10k": 0.76,
+   "hits": 5,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "결론적으론",
+     1
+    ],
+    [
+     "결론내렸다.",
+     1
+    ],
+    [
+     "결론짓지",
+     1
+    ],
+    [
+     "결론은",
+     1
+    ],
+    [
+     "결론을",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 1857,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "그리드",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1928,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "살점",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 1936,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "불량",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "불량",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 1936,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "부진",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.333,
+   "top": [
+    [
+     "부진까지",
+     1
+    ],
+    [
+     "이부진",
+     1
+    ],
+    [
+     "부진으로",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2028,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "예",
+   "per_10k": 49.86,
+   "hits": 326,
+   "embedded_share": 0.282,
+   "top": [
+    [
+     "예정이다.",
+     40
+    ],
+    [
+     "예정입니다.",
+     9
+    ],
+    [
+     "집행유예",
+     8
+    ],
+    [
+     "예정이라고",
+     8
+    ],
+    [
+     "예전에",
+     5
+    ],
+    [
+     "예상",
+     5
+    ],
+    [
+     "예상된다.",
+     5
+    ],
+    [
+     "예쁘고",
+     4
+    ]
+   ]
+  },
+  {
+   "key": 2028,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "아니요",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2034,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "효소",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2034,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "항체",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2041,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "부유",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2041,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "금전",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "금전적",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2084,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "복용량",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2084,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "사망",
+   "per_10k": 5.66,
+   "hits": 37,
+   "embedded_share": 0.027,
+   "top": [
+    [
+     "사망한",
+     5
+    ],
+    [
+     "사망했다.",
+     4
+    ],
+    [
+     "사망했다고",
+     4
+    ],
+    [
+     "사망하는",
+     3
+    ],
+    [
+     "사망자",
+     3
+    ],
+    [
+     "사망자가",
+     2
+    ],
+    [
+     "사망했습니다.",
+     2
+    ],
+    [
+     "사망",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 2139,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "비율",
+   "per_10k": 0.92,
+   "hits": 6,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "비율은",
+     2
+    ],
+    [
+     "비율이",
+     1
+    ],
+    [
+     "비율에",
+     1
+    ],
+    [
+     "비율을",
+     1
+    ],
+    [
+     "비율",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2139,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "알티이",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2142,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "포식성",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2143,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "변경",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.25,
+   "top": [
+    [
+     "변경신청을",
+     1
+    ],
+    [
+     "변경했다.",
+     1
+    ],
+    [
+     "수립-집행-변경-발표",
+     1
+    ],
+    [
+     "변경하며",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2143,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "여유",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "여유를",
+     1
+    ],
+    [
+     "여유롭게",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2207,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "우리",
+   "per_10k": 10.71,
+   "hits": 70,
+   "embedded_share": 0.071,
+   "top": [
+    [
+     "우리",
+     15
+    ],
+    [
+     "우리나라",
+     11
+    ],
+    [
+     "우리의",
+     5
+    ],
+    [
+     "우리는",
+     4
+    ],
+    [
+     "우리곁에",
+     3
+    ],
+    [
+     "우리나라의",
+     3
+    ],
+    [
+     "우리가",
+     2
+    ],
+    [
+     "우리를",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 2207,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "영향",
+   "per_10k": 1.84,
+   "hits": 12,
+   "embedded_share": 0.083,
+   "top": [
+    [
+     "영향으로",
+     2
+    ],
+    [
+     "영향을",
+     2
+    ],
+    [
+     "영향에",
+     1
+    ],
+    [
+     "영향권에",
+     1
+    ],
+    [
+     "영향력을",
+     1
+    ],
+    [
+     "영향때문인지",
+     1
+    ],
+    [
+     "영향이",
+     1
+    ],
+    [
+     "영향력",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2246,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "기후",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "기후변화",
+     1
+    ],
+    [
+     "기후,",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2292,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "분명히",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "분명히",
+     3
+    ]
+   ]
+  },
+  {
+   "key": 2328,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "스타트업",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2328,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "캡슐",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "타임캡슐이",
+     1
+    ],
+    [
+     "캡슐호텔은",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2386,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "콧노래",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2392,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "설립",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "설립한",
+     1
+    ],
+    [
+     "설립",
+     1
+    ],
+    [
+     "설립된",
+     1
+    ],
+    [
+     "설립하고",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2395,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "벼룩",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "벼룩시장구인구직은",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2432,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "사망",
+   "per_10k": 5.66,
+   "hits": 37,
+   "embedded_share": 0.027,
+   "top": [
+    [
+     "사망한",
+     5
+    ],
+    [
+     "사망했다.",
+     4
+    ],
+    [
+     "사망했다고",
+     4
+    ],
+    [
+     "사망하는",
+     3
+    ],
+    [
+     "사망자",
+     3
+    ],
+    [
+     "사망자가",
+     2
+    ],
+    [
+     "사망했습니다.",
+     2
+    ],
+    [
+     "사망",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 2432,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "익사",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2471,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "슬픈",
+   "per_10k": 0.92,
+   "hits": 6,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "슬픈",
+     5
+    ],
+    [
+     "슬픈..",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2471,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "미친",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "미친듯한",
+     1
+    ],
+    [
+     "못미친다해도",
+     1
+    ],
+    [
+     "미친듯이",
+     1
+    ],
+    [
+     "열정,미친에너지,포스,무대",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2471,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "스트레스",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "스트레스를",
+     2
+    ],
+    [
+     "스트레스테스트",
+     1
+    ],
+    [
+     "스트레스",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2485,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "잉크",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2485,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "회고록",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "회고록",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2549,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "가오",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.333,
+   "top": [
+    [
+     "다가오네요.",
+     1
+    ],
+    [
+     "가오카오가",
+     1
+    ],
+    [
+     "가오쯔치(高梓淇-고재기",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2549,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "하트",
+   "per_10k": 0.76,
+   "hits": 5,
+   "embedded_share": 0.4,
+   "top": [
+    [
+     "하트,",
+     1
+    ],
+    [
+     "조쉬하트넷은",
+     1
+    ],
+    [
+     "하트빌딩,",
+     1
+    ],
+    [
+     "화이트하트레인에",
+     1
+    ],
+    [
+     "하트를",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2567,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "피날레",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2567,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "적게",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "적게",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 2577,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "기원전",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2577,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "문화",
+   "per_10k": 5.35,
+   "hits": 35,
+   "embedded_share": 0.486,
+   "top": [
+    [
+     "교육문화체육관광위원회",
+     2
+    ],
+    [
+     "방송문화진흥회로부터",
+     1
+    ],
+    [
+     "인천종합문화예술회관은",
+     1
+    ],
+    [
+     "문화가",
+     1
+    ],
+    [
+     "조직문화",
+     1
+    ],
+    [
+     "병영문화",
+     1
+    ],
+    [
+     "청춘문화싸롱은",
+     1
+    ],
+    [
+     "복합문화공간이다.",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2577,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "선사시대",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "ᄏᄏᄏ선사시대",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2583,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "구성",
+   "per_10k": 5.05,
+   "hits": 33,
+   "embedded_share": 0.212,
+   "top": [
+    [
+     "구성,",
+     3
+    ],
+    [
+     "구성된",
+     3
+    ],
+    [
+     "구성도",
+     2
+    ],
+    [
+     "구성.",
+     2
+    ],
+    [
+     "구성에",
+     2
+    ],
+    [
+     "재구성하고",
+     1
+    ],
+    [
+     "구성한",
+     1
+    ],
+    [
+     "전개.구성",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2591,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "메달리스트",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "금메달리스트",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2591,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "세타",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2602,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "젤다",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2602,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "하이랄",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2602,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "링크",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2602,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "가논",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2616,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "싱글",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "싱글",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 2649,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "혁명",
+   "per_10k": 1.07,
+   "hits": 7,
+   "embedded_share": 0.429,
+   "top": [
+    [
+     "혁명",
+     2
+    ],
+    [
+     "혁명을",
+     1
+    ],
+    [
+     "지하혁명조직",
+     1
+    ],
+    [
+     "민주혁명회와",
+     1
+    ],
+    [
+     "혁명으로",
+     1
+    ],
+    [
+     "통일혁명당",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2649,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "세금",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "세금을",
+     1
+    ],
+    [
+     "세금",
+     1
+    ],
+    [
+     "세금이",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2662,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "소통",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "소통을",
+     1
+    ],
+    [
+     "의사소통과",
+     1
+    ],
+    [
+     "의사소통",
+     1
+    ],
+    [
+     "소통할",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2662,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "가볍게",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "가볍게",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 2683,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "채택",
+   "per_10k": 1.38,
+   "hits": 9,
+   "embedded_share": 0.111,
+   "top": [
+    [
+     "채택하는",
+     3
+    ],
+    [
+     "채택",
+     1
+    ],
+    [
+     "증인채택",
+     1
+    ],
+    [
+     "채택했던",
+     1
+    ],
+    [
+     "채택을",
+     1
+    ],
+    [
+     "채택한",
+     1
+    ],
+    [
+     "채택되고",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2683,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "운송",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "전국버스운송사업조합연합회,",
+     1
+    ],
+    [
+     "전국고속버스운송사업조합,",
+     1
+    ],
+    [
+     "전국전세버스운송사업조합연합회",
+     1
+    ],
+    [
+     "전국고속버스운송사업조합이",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2716,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "회사",
+   "per_10k": 4.44,
+   "hits": 29,
+   "embedded_share": 0.414,
+   "top": [
+    [
+     "회사",
+     7
+    ],
+    [
+     "결혼정보회사",
+     3
+    ],
+    [
+     "회사에",
+     2
+    ],
+    [
+     "회사는",
+     2
+    ],
+    [
+     "회사의",
+     2
+    ],
+    [
+     "자회사인",
+     2
+    ],
+    [
+     "전문회사",
+     1
+    ],
+    [
+     "회사와",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2811,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "요우",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2811,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "평화",
+   "per_10k": 1.07,
+   "hits": 7,
+   "embedded_share": 0.143,
+   "top": [
+    [
+     "평화공원의",
+     1
+    ],
+    [
+     "'평화의",
+     1
+    ],
+    [
+     "평화롭게",
+     1
+    ],
+    [
+     "평화로웠다는",
+     1
+    ],
+    [
+     "평화적으로",
+     1
+    ],
+    [
+     "평화적",
+     1
+    ],
+    [
+     "평화를",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2811,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "체크",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2828,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "패러디",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.25,
+   "top": [
+    [
+     "패러디영화들",
+     1
+    ],
+    [
+     "패러디가",
+     1
+    ],
+    [
+     "남...ᄏᄏ패러디",
+     1
+    ],
+    [
+     "패러디",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2871,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "피에스타",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 2957,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "어린이집",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "어린이집",
+     3
+    ],
+    [
+     "어린이집에서",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2957,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "스토리텔링",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "스토리텔링이라고",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 2997,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "단락",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "일단락",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "이야기",
+   "per_10k": 8.72,
+   "hits": 57,
+   "embedded_share": 0.105,
+   "top": [
+    [
+     "이야기를",
+     14
+    ],
+    [
+     "이야기가",
+     6
+    ],
+    [
+     "이야기는",
+     5
+    ],
+    [
+     "이야기.",
+     4
+    ],
+    [
+     "이야기",
+     3
+    ],
+    [
+     "이야기에",
+     1
+    ],
+    [
+     "이야기하기보다",
+     1
+    ],
+    [
+     "가슴이야기'가",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "살인자",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "사망",
+   "per_10k": 5.66,
+   "hits": 37,
+   "embedded_share": 0.027,
+   "top": [
+    [
+     "사망한",
+     5
+    ],
+    [
+     "사망했다.",
+     4
+    ],
+    [
+     "사망했다고",
+     4
+    ],
+    [
+     "사망하는",
+     3
+    ],
+    [
+     "사망자",
+     3
+    ],
+    [
+     "사망자가",
+     2
+    ],
+    [
+     "사망했습니다.",
+     2
+    ],
+    [
+     "사망",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "발견",
+   "per_10k": 4.59,
+   "hits": 30,
+   "embedded_share": 0.067,
+   "top": [
+    [
+     "발견됐다.",
+     7
+    ],
+    [
+     "발견된",
+     4
+    ],
+    [
+     "발견",
+     3
+    ],
+    [
+     "발견했다.",
+     2
+    ],
+    [
+     "발견하지",
+     1
+    ],
+    [
+     "발견한걸로",
+     1
+    ],
+    [
+     "발견했다고",
+     1
+    ],
+    [
+     "발견됐습니다.",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "법률",
+   "per_10k": 1.22,
+   "hits": 8,
+   "embedded_share": 0.25,
+   "top": [
+    [
+     "법률가의",
+     1
+    ],
+    [
+     "법률",
+     1
+    ],
+    [
+     "폭력행위등처벌에관한법률위반(공동공갈)로",
+     1
+    ],
+    [
+     "법률에",
+     1
+    ],
+    [
+     "법률신문이",
+     1
+    ],
+    [
+     "법률을",
+     1
+    ],
+    [
+     "관한법률",
+     1
+    ],
+    [
+     "법률대리인인",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "침실",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "살해",
+   "per_10k": 1.99,
+   "hits": 13,
+   "embedded_share": 0.231,
+   "top": [
+    [
+     "살해한",
+     4
+    ],
+    [
+     "살해하고",
+     1
+    ],
+    [
+     "살해하려고",
+     1
+    ],
+    [
+     "살해하게",
+     1
+    ],
+    [
+     "청부살해",
+     1
+    ],
+    [
+     "토막살해한",
+     1
+    ],
+    [
+     "살해하기로",
+     1
+    ],
+    [
+     "살해하겠다고",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "결과",
+   "per_10k": 9.48,
+   "hits": 62,
+   "embedded_share": 0.145,
+   "top": [
+    [
+     "결과",
+     23
+    ],
+    [
+     "결과,",
+     11
+    ],
+    [
+     "결과를",
+     9
+    ],
+    [
+     "결과에",
+     3
+    ],
+    [
+     "조사결과",
+     2
+    ],
+    [
+     "경찰조사결과",
+     2
+    ],
+    [
+     "수사결과라는",
+     1
+    ],
+    [
+     "연구결과를",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "사용",
+   "per_10k": 7.34,
+   "hits": 48,
+   "embedded_share": 0.042,
+   "top": [
+    [
+     "사용하는",
+     5
+    ],
+    [
+     "사용한",
+     4
+    ],
+    [
+     "사용하고",
+     3
+    ],
+    [
+     "사용",
+     3
+    ],
+    [
+     "사용할",
+     3
+    ],
+    [
+     "사용자",
+     2
+    ],
+    [
+     "사용시",
+     2
+    ],
+    [
+     "사용자를",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "접근",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "접근하고",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "사람들",
+   "per_10k": 5.2,
+   "hits": 34,
+   "embedded_share": 0.029,
+   "top": [
+    [
+     "사람들이",
+     11
+    ],
+    [
+     "사람들의",
+     5
+    ],
+    [
+     "사람들에겐",
+     2
+    ],
+    [
+     "사람들과",
+     2
+    ],
+    [
+     "사람들은",
+     2
+    ],
+    [
+     "사람들도",
+     2
+    ],
+    [
+     "사람들이라면",
+     2
+    ],
+    [
+     "사람들'과",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3081,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "대통령",
+   "per_10k": 11.17,
+   "hits": 73,
+   "embedded_share": 0.014,
+   "top": [
+    [
+     "대통령",
+     18
+    ],
+    [
+     "대통령의",
+     17
+    ],
+    [
+     "대통령은",
+     9
+    ],
+    [
+     "대통령과",
+     7
+    ],
+    [
+     "대통령이",
+     7
+    ],
+    [
+     "대통령을",
+     2
+    ],
+    [
+     "대통령궁",
+     1
+    ],
+    [
+     "대통령,",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3091,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "코끼리",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "코끼리란",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3109,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "사촌",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3114,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "짖",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "울부짖는",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3114,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "뛰",
+   "per_10k": 4.13,
+   "hits": 27,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "뛰어난",
+     9
+    ],
+    [
+     "뛰어든",
+     2
+    ],
+    [
+     "뛰어나다",
+     1
+    ],
+    [
+     "뛰는거",
+     1
+    ],
+    [
+     "뛰어넘진",
+     1
+    ],
+    [
+     "뛰어나게",
+     1
+    ],
+    [
+     "뛰어들었다.",
+     1
+    ],
+    [
+     "뛰었고",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3156,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "신뢰",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "신뢰감",
+     1
+    ],
+    [
+     "신뢰하지",
+     1
+    ],
+    [
+     "신뢰회복을",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3156,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "브랜드",
+   "per_10k": 1.68,
+   "hits": 11,
+   "embedded_share": 0.182,
+   "top": [
+    [
+     "브랜드",
+     5
+    ],
+    [
+     "유명브랜드",
+     1
+    ],
+    [
+     "국가브랜드컨퍼런스’",
+     1
+    ],
+    [
+     "브랜드다.",
+     1
+    ],
+    [
+     "브랜드로",
+     1
+    ],
+    [
+     "브랜드를",
+     1
+    ],
+    [
+     "브랜드인",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3156,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "고객",
+   "per_10k": 1.99,
+   "hits": 13,
+   "embedded_share": 0.077,
+   "top": [
+    [
+     "고객이",
+     3
+    ],
+    [
+     "고객",
+     2
+    ],
+    [
+     "고객에게",
+     2
+    ],
+    [
+     "고객의",
+     1
+    ],
+    [
+     "고객들의",
+     1
+    ],
+    [
+     "개인고객의",
+     1
+    ],
+    [
+     "고객은",
+     1
+    ],
+    [
+     "고객이면",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3156,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "법률",
+   "per_10k": 1.22,
+   "hits": 8,
+   "embedded_share": 0.25,
+   "top": [
+    [
+     "법률가의",
+     1
+    ],
+    [
+     "법률",
+     1
+    ],
+    [
+     "폭력행위등처벌에관한법률위반(공동공갈)로",
+     1
+    ],
+    [
+     "법률에",
+     1
+    ],
+    [
+     "법률신문이",
+     1
+    ],
+    [
+     "법률을",
+     1
+    ],
+    [
+     "관한법률",
+     1
+    ],
+    [
+     "법률대리인인",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3156,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "정책",
+   "per_10k": 3.21,
+   "hits": 21,
+   "embedded_share": 0.286,
+   "top": [
+    [
+     "정책을",
+     6
+    ],
+    [
+     "인권정책연구소장의",
+     1
+    ],
+    [
+     "정책토론회를",
+     1
+    ],
+    [
+     "정책",
+     1
+    ],
+    [
+     "경제복지정책팀,",
+     1
+    ],
+    [
+     "통일외교안보정책팀,",
+     1
+    ],
+    [
+     "예산정책처가",
+     1
+    ],
+    [
+     "정책은",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3156,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "사용불가",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3166,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "단계",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.667,
+   "top": [
+    [
+     "1단계",
+     1
+    ],
+    [
+     "2단계",
+     1
+    ],
+    [
+     "단계인",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3166,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "단계들",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3272,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "브랜드",
+   "per_10k": 1.68,
+   "hits": 11,
+   "embedded_share": 0.182,
+   "top": [
+    [
+     "브랜드",
+     5
+    ],
+    [
+     "유명브랜드",
+     1
+    ],
+    [
+     "국가브랜드컨퍼런스’",
+     1
+    ],
+    [
+     "브랜드다.",
+     1
+    ],
+    [
+     "브랜드로",
+     1
+    ],
+    [
+     "브랜드를",
+     1
+    ],
+    [
+     "브랜드인",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3305,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "기후",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "기후변화",
+     1
+    ],
+    [
+     "기후,",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3305,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "에너지",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "포스코에너지",
+     1
+    ],
+    [
+     "열정,미친에너지,포스,무대",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3305,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "친환경",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "친환경",
+     2
+    ]
+   ]
+  },
+  {
+   "key": 3311,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "지표",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "지지표가",
+     1
+    ],
+    [
+     "지표면에서는",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3311,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "관리",
+   "per_10k": 4.74,
+   "hits": 31,
+   "embedded_share": 0.452,
+   "top": [
+    [
+     "관리를",
+     2
+    ],
+    [
+     "관리하는",
+     2
+    ],
+    [
+     "관리한",
+     1
+    ],
+    [
+     "건강관리에",
+     1
+    ],
+    [
+     "관리해주는",
+     1
+    ],
+    [
+     "질병관리본부도",
+     1
+    ],
+    [
+     "동물보호관리시스템에",
+     1
+    ],
+    [
+     "질병관리본부장의",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3315,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "대학교",
+   "per_10k": 1.68,
+   "hits": 11,
+   "embedded_share": 0.909,
+   "top": [
+    [
+     "서리대학교",
+     1
+    ],
+    [
+     "공립대학교로",
+     1
+    ],
+    [
+     "'서울대학교",
+     1
+    ],
+    [
+     "윈린과학기술대학교",
+     1
+    ],
+    [
+     "전남대학교",
+     1
+    ],
+    [
+     "전북대학교",
+     1
+    ],
+    [
+     "서울대학교",
+     1
+    ],
+    [
+     "홍익대학교",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3327,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "젠장",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3327,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "가짜",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "가짜딸,",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3327,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "가짜",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "가짜딸,",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3345,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "강도",
+   "per_10k": 1.22,
+   "hits": 8,
+   "embedded_share": 0.25,
+   "top": [
+    [
+     "강도",
+     3
+    ],
+    [
+     "강도가",
+     1
+    ],
+    [
+     "압축강도는",
+     1
+    ],
+    [
+     "강도는",
+     1
+    ],
+    [
+     "강도상해",
+     1
+    ],
+    [
+     "수강도",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3345,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "살해",
+   "per_10k": 1.99,
+   "hits": 13,
+   "embedded_share": 0.231,
+   "top": [
+    [
+     "살해한",
+     4
+    ],
+    [
+     "살해하고",
+     1
+    ],
+    [
+     "살해하려고",
+     1
+    ],
+    [
+     "살해하게",
+     1
+    ],
+    [
+     "청부살해",
+     1
+    ],
+    [
+     "토막살해한",
+     1
+    ],
+    [
+     "살해하기로",
+     1
+    ],
+    [
+     "살해하겠다고",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3345,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "학살",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3345,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "점령",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "점령했던",
+     1
+    ],
+    [
+     "점령",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3345,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "침공",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "침공당했다는",
+     1
+    ],
+    [
+     "침공한",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3362,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "연비",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "연비를",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3362,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "연료",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 1.0,
+   "top": [
+    [
+     "출연료를",
+     1
+    ],
+    [
+     "핵연료",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3369,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "옳다",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3371,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "농부",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "농부인",
+     1
+    ],
+    [
+     "농부'가",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3371,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "경제",
+   "per_10k": 4.74,
+   "hits": 31,
+   "embedded_share": 0.258,
+   "top": [
+    [
+     "경제",
+     5
+    ],
+    [
+     "경제적인",
+     3
+    ],
+    [
+     "혐의(특정경제범죄",
+     1
+    ],
+    [
+     "경제단체협의회",
+     1
+    ],
+    [
+     "경제단체를",
+     1
+    ],
+    [
+     "경제성장률과",
+     1
+    ],
+    [
+     "전국경제인연합회(전경련)에",
+     1
+    ],
+    [
+     "경제혁신",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3371,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "수요",
+   "per_10k": 1.07,
+   "hits": 7,
+   "embedded_share": 0.286,
+   "top": [
+    [
+     "수요일인",
+     2
+    ],
+    [
+     "수요가",
+     1
+    ],
+    [
+     "'수요미식회'에는",
+     1
+    ],
+    [
+     "전력수요가",
+     1
+    ],
+    [
+     "수요에",
+     1
+    ],
+    [
+     "수요일",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3371,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "공급",
+   "per_10k": 1.68,
+   "hits": 11,
+   "embedded_share": 0.273,
+   "top": [
+    [
+     "공급이",
+     3
+    ],
+    [
+     "공급",
+     2
+    ],
+    [
+     "택시공급도",
+     1
+    ],
+    [
+     "전력공급",
+     1
+    ],
+    [
+     "공급에도",
+     1
+    ],
+    [
+     "과잉공급",
+     1
+    ],
+    [
+     "공급가가",
+     1
+    ],
+    [
+     "공급을",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3376,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "오후",
+   "per_10k": 21.57,
+   "hits": 141,
+   "embedded_share": 0.021,
+   "top": [
+    [
+     "오후",
+     131
+    ],
+    [
+     "오후부터",
+     5
+    ],
+    [
+     "오후에",
+     2
+    ],
+    [
+     "10시~오후",
+     1
+    ],
+    [
+     "10시∼오후",
+     1
+    ],
+    [
+     "24일오후",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3376,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "괴로운",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "괴로운",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3386,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "나눗셈",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3386,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "정답",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "정답을",
+     1
+    ],
+    [
+     "복수정답인정처분",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3386,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "나머지",
+   "per_10k": 2.45,
+   "hits": 16,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "나머지",
+     12
+    ],
+    [
+     "나머지는",
+     2
+    ],
+    [
+     "나머지를",
+     1
+    ],
+    [
+     "나머지애들이짜고치는데",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3401,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "아이스프로그",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3401,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "블리자드",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3401,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "소송",
+   "per_10k": 2.45,
+   "hits": 16,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "소송에서",
+     3
+    ],
+    [
+     "소송을",
+     3
+    ],
+    [
+     "청구소송을",
+     2
+    ],
+    [
+     "이혼소송을",
+     2
+    ],
+    [
+     "재산분할소송에서",
+     1
+    ],
+    [
+     "이혼소송이",
+     1
+    ],
+    [
+     "이혼청구소송에서",
+     1
+    ],
+    [
+     "소송에",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3415,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "안타깝게도",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3415,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "안타깝게도",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3439,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "빌",
+   "per_10k": 4.74,
+   "hits": 31,
+   "embedded_share": 0.387,
+   "top": [
+    [
+     "빌",
+     5
+    ],
+    [
+     "빌려",
+     2
+    ],
+    [
+     "종교빌딩",
+     1
+    ],
+    [
+     "내일도칸타빌레를",
+     1
+    ],
+    [
+     "빌리",
+     1
+    ],
+    [
+     "빌라리카",
+     1
+    ],
+    [
+     "빌어주려",
+     1
+    ],
+    [
+     "빌보드",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3439,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "경제학자",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3439,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "위르겐",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "위르겐",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3445,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "컴퓨터",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "컴퓨터게임의",
+     1
+    ],
+    [
+     "컴퓨터",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3445,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "과학",
+   "per_10k": 3.06,
+   "hits": 20,
+   "embedded_share": 0.85,
+   "top": [
+    [
+     "국립과학수사연구원에",
+     2
+    ],
+    [
+     "'과학페스티벌'에서",
+     1
+    ],
+    [
+     "법과학",
+     1
+    ],
+    [
+     "보쿰응용과학대",
+     1
+    ],
+    [
+     "미래창조과학부로",
+     1
+    ],
+    [
+     "서울과학기술대,",
+     1
+    ],
+    [
+     "윈린과학기술대학교",
+     1
+    ],
+    [
+     "교육과학기술부와",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3479,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "이름",
+   "per_10k": 4.59,
+   "hits": 30,
+   "embedded_share": 0.067,
+   "top": [
+    [
+     "이름을",
+     11
+    ],
+    [
+     "이름으로",
+     4
+    ],
+    [
+     "이름이",
+     4
+    ],
+    [
+     "이름만",
+     1
+    ],
+    [
+     "이름의",
+     1
+    ],
+    [
+     "이름임을",
+     1
+    ],
+    [
+     "이름에",
+     1
+    ],
+    [
+     "이름까지",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3479,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "노래",
+   "per_10k": 3.52,
+   "hits": 23,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "노래도",
+     4
+    ],
+    [
+     "노래가",
+     3
+    ],
+    [
+     "노래는",
+     3
+    ],
+    [
+     "노래",
+     3
+    ],
+    [
+     "노래를",
+     2
+    ],
+    [
+     "노래만",
+     1
+    ],
+    [
+     "노래부르는데",
+     1
+    ],
+    [
+     "노래에",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3479,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "사람",
+   "per_10k": 19.43,
+   "hits": 127,
+   "embedded_share": 0.205,
+   "top": [
+    [
+     "사람이",
+     19
+    ],
+    [
+     "사람은",
+     13
+    ],
+    [
+     "사람들이",
+     11
+    ],
+    [
+     "사람",
+     6
+    ],
+    [
+     "사람들의",
+     5
+    ],
+    [
+     "사람의",
+     5
+    ],
+    [
+     "사람으로",
+     4
+    ],
+    [
+     "사람을",
+     4
+    ]
+   ]
+  },
+  {
+   "key": 3479,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "남자",
+   "per_10k": 5.05,
+   "hits": 33,
+   "embedded_share": 0.061,
+   "top": [
+    [
+     "남자",
+     11
+    ],
+    [
+     "남자가",
+     4
+    ],
+    [
+     "남자를",
+     3
+    ],
+    [
+     "남자친구랑",
+     2
+    ],
+    [
+     "남자에게",
+     1
+    ],
+    [
+     "남자품에",
+     1
+    ],
+    [
+     "'강남자동차운전면허'",
+     1
+    ],
+    [
+     "남자다.",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3479,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "여자",
+   "per_10k": 5.97,
+   "hits": 39,
+   "embedded_share": 0.154,
+   "top": [
+    [
+     "여자",
+     15
+    ],
+    [
+     "여자친구",
+     4
+    ],
+    [
+     "여자친구의",
+     2
+    ],
+    [
+     "여자아이가",
+     2
+    ],
+    [
+     "여자친구가",
+     2
+    ],
+    [
+     "여자친구와",
+     2
+    ],
+    [
+     "여자5명도",
+     1
+    ],
+    [
+     "여자배구의",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3506,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "제안서",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3506,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "프로젝트",
+   "per_10k": 0.46,
+   "hits": 3,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "프로젝트'를",
+     1
+    ],
+    [
+     "프로젝트를",
+     1
+    ],
+    [
+     "프로젝트는",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3518,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "보상",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "보상하냐?",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3518,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "이민자",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3538,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "폭탄",
+   "per_10k": 0.31,
+   "hits": 2,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "폭탄'이",
+     1
+    ],
+    [
+     "자살폭탄공격을",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3565,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "운동광",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3595,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "아름다움",
+   "per_10k": 0.76,
+   "hits": 5,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "아름다움에",
+     1
+    ],
+    [
+     "아름다움~",
+     1
+    ],
+    [
+     "아름다움을",
+     1
+    ],
+    [
+     "아름다움과",
+     1
+    ],
+    [
+     "아름다움만으로",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3595,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "예쁨",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "예쁨",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3680,
+   "instruction_id": "keywords:frequency",
+   "kwarg": "keyword",
+   "string": "매듭",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3709,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "향수",
+   "per_10k": 0.61,
+   "hits": 4,
+   "embedded_share": 0.25,
+   "top": [
+    [
+     "고전향수를",
+     1
+    ],
+    [
+     "향수'를",
+     1
+    ],
+    [
+     "향수가",
+     1
+    ],
+    [
+     "향수.그리고",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3709,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "상쾌",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3709,
+   "instruction_id": "keywords:forbidden_words",
+   "kwarg": "forbidden_words",
+   "string": "좋은",
+   "per_10k": 7.49,
+   "hits": 49,
+   "embedded_share": 0.122,
+   "top": [
+    [
+     "좋은",
+     31
+    ],
+    [
+     "좋은데",
+     2
+    ],
+    [
+     "딱좋은영화",
+     1
+    ],
+    [
+     "인상좋은",
+     1
+    ],
+    [
+     "좋은작품이였습니다.",
+     1
+    ],
+    [
+     "좋은.",
+     1
+    ],
+    [
+     "연기향연,좋은희곡을",
+     1
+    ],
+    [
+     "더좋은",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3732,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "축제",
+   "per_10k": 1.84,
+   "hits": 12,
+   "embedded_share": 0.5,
+   "top": [
+    [
+     "축제가",
+     2
+    ],
+    [
+     "보령머드축제에",
+     1
+    ],
+    [
+     "축제",
+     1
+    ],
+    [
+     "축제의",
+     1
+    ],
+    [
+     "대학축제",
+     1
+    ],
+    [
+     "축제인",
+     1
+    ],
+    [
+     "모래축제'를",
+     1
+    ],
+    [
+     "장례축제를",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3732,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "강물",
+   "per_10k": 0.0,
+   "hits": 0,
+   "embedded_share": null,
+   "top": []
+  },
+  {
+   "key": 3748,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "강아지",
+   "per_10k": 0.15,
+   "hits": 1,
+   "embedded_share": 0.0,
+   "top": [
+    [
+     "강아지들",
+     1
+    ]
+   ]
+  },
+  {
+   "key": 3748,
+   "instruction_id": "keywords:existence",
+   "kwarg": "keywords",
+   "string": "하루",
+   "per_10k": 4.44,
+   "hits": 29,
+   "embedded_share": 0.034,
+   "top": [
+    [
+     "하루",
+     12
+    ],
+    [
+     "하루에",
+     3
+    ],
+    [
+     "하루가",
+     2
+    ],
+    [
+     "하루마의",
+     1
+    ],
+    [
+     "하루나(湯川遙菜·42)",
+     1
+    ],
+    [
+     "하루,",
+     1
+    ],
+    [
+     "하루하루를",
+     1
+    ],
+    [
+     "하루전",
+     1
+    ]
+   ]
+  }
+ ]
+}

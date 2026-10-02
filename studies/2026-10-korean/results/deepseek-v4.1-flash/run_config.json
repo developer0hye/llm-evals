@@ -1,0 +1,8 @@
+{
+  "model_id": "deepseek/deepseek-v4.1-flash",
+  "provider": "streamlake/fp8",
+  "reasoning": true,
+  "max_tokens": 64000,
+  "judge": null,
+  "subset": "main"
+}

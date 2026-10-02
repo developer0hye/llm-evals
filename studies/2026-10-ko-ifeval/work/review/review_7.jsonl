@@ -1,0 +1,53 @@
+{"key": 127, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "'feed'→'수유' narrows to breastfeeding: '아이에게 밥을 먹이다' passes though English bans feed. 'cook'→'요리' lets the synonym '조리' through."}]}
+{"key": 181, "issues": []}
+{"key": 286, "issues": []}
+{"key": 334, "issues": []}
+{"key": 1000, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "Prompt URL 'Raymond_III,_Count_of_Tripoli' contains an ASCII comma; an answer that cites the source URL fails no_comma. Same in English."}]}
+{"key": 1092, "issues": []}
+{"key": 1137, "issues": []}
+{"key": 1203, "issues": []}
+{"key": 1246, "issues": []}
+{"key": 1281, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "The mandatory repeat already contains '인턴' and '성장', so keywords:existence passes even if the limerick omits them. Same in English (intern/grow)."}]}
+{"key": 1348, "issues": []}
+{"key": 1393, "issues": []}
+{"key": 1498, "issues": []}
+{"key": 1551, "issues": []}
+{"key": 1620, "issues": []}
+{"key": 1658, "issues": []}
+{"key": 1733, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Keyword is the inflected form '대답했다', not a stem; a fairy tale in -습니다 style writing '대답했습니다' fails. Rule 3 wants a stem such as '대답했'."}]}
+{"key": 1800, "issues": []}
+{"key": 1879, "issues": []}
+{"key": 1927, "issues": []}
+{"key": 1980, "issues": []}
+{"key": 2063, "issues": [{"type": "unsatisfiable", "severity": "breaks_scoring", "detail": "prompt_to_repeat contains '쉼표(,)를', so the required verbatim repeat puts an ASCII comma in the response; strict no_comma always fails. English repeat span has no comma. Loose passes only via first-line removal."}]}
+{"key": 2136, "issues": []}
+{"key": 2207, "issues": [{"type": "meaning_change", "severity": "minor", "detail": "'have'→'영향' bans the content noun 'effect' rather than the verb 'have'; a different lexical restriction than the English."}, {"type": "meaning_change", "severity": "minor", "detail": "'ours'→'우리' also bans '우리의' (our); English 'ours' does not match 'Our results', so the Korean constraint is broader."}]}
+{"key": 2245, "issues": []}
+{"key": 2292, "issues": []}
+{"key": 2323, "issues": []}
+{"key": 2374, "issues": []}
+{"key": 2398, "issues": []}
+{"key": 2464, "issues": []}
+{"key": 2505, "issues": []}
+{"key": 2585, "issues": []}
+{"key": 2622, "issues": []}
+{"key": 2683, "issues": []}
+{"key": 2749, "issues": []}
+{"key": 2801, "issues": []}
+{"key": 2857, "issues": []}
+{"key": 2918, "issues": []}
+{"key": 2985, "issues": []}
+{"key": 3071, "issues": []}
+{"key": 3112, "issues": []}
+{"key": 3198, "issues": []}
+{"key": 3256, "issues": []}
+{"key": 3311, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "Prompt requires '목표' but kwargs check only '지표' and '관리'; an answer omitting '목표' passes. English kwargs likewise omit 'objective'."}]}
+{"key": 3350, "issues": []}
+{"key": 3401, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Latin-script 'IceFrog'/'Blizzard' and spaced '아이스 프로그' escape the forbidden match, so an answer naming them passes; kwargs carry only the Hangul forms."}]}
+{"key": 3453, "issues": []}
+{"key": 3536, "issues": []}
+{"key": 3569, "issues": []}
+{"key": 3631, "issues": []}
+{"key": 3690, "issues": []}
+{"key": 3732, "issues": []}
+{"key": 3752, "issues": []}

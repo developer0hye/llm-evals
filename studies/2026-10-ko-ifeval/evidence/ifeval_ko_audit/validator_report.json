@@ -1,0 +1,394 @@
+{
+ "items": 342,
+ "flagged": 45,
+ "counts": {
+  "number_missing": 15,
+  "boundary_wording": 18,
+  "constrained_options": 1,
+  "string_not_in_prompt": 14,
+  "latin_kwarg": 16,
+  "repeat_wording": 4,
+  "repeat_conflict": 3,
+  "char_unit_for_words": 1
+ },
+ "report": {
+  "19": [
+   [
+    "number_missing",
+    "length_constraints:number_words.num_words=701"
+   ]
+  ],
+  "127": [
+   [
+    "number_missing",
+    "keywords:frequency.frequency=6"
+   ],
+   [
+    "boundary_wording",
+    "keywords:frequency: checker >= 6, prompt '5회 이상'"
+   ]
+  ],
+  "143": [
+   [
+    "number_missing",
+    "length_constraints:number_paragraphs.num_paragraphs=2"
+   ]
+  ],
+  "164": [
+   [
+    "boundary_wording",
+    "length_constraints:number_words: checker < 300, prompt '300단어 이하'"
+   ]
+  ],
+  "227": [
+   [
+    "constrained_options",
+    "detectable_format:constrained_response"
+   ]
+  ],
+  "286": [
+   [
+    "boundary_wording",
+    "length_constraints:number_sentences: checker < 10, prompt '10문장 이하'"
+   ]
+  ],
+  "337": [
+   [
+    "number_missing",
+    "length_constraints:number_words.num_words=336"
+   ]
+  ],
+  "340": [
+   [
+    "number_missing",
+    "detectable_format:number_highlighted_sections.num_highlights=1"
+   ],
+   [
+    "boundary_wording",
+    "length_constraints:number_words: checker < 30, prompt '30단어 이하'"
+   ]
+  ],
+  "1092": [
+   [
+    "boundary_wording",
+    "length_constraints:number_words: checker < 300, prompt '300단어 이하'"
+   ]
+  ],
+  "1203": [
+   [
+    "string_not_in_prompt",
+    "keywords:frequency.keyword='peace'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:frequency.keyword='peace'"
+   ]
+  ],
+  "1217": [
+   [
+    "number_missing",
+    "length_constraints:number_words.num_words=151"
+   ]
+  ],
+  "1265": [
+   [
+    "number_missing",
+    "length_constraints:number_sentences.num_sentences=31"
+   ]
+  ],
+  "1268": [
+   [
+    "boundary_wording",
+    "length_constraints:number_sentences: checker < 6, prompt '6문장 이하'"
+   ]
+  ],
+  "1348": [
+   [
+    "string_not_in_prompt",
+    "keywords:existence.keywords='brilliant'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:existence.keywords='brilliant'"
+   ],
+   [
+    "string_not_in_prompt",
+    "keywords:existence.keywords='le'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:existence.keywords='le'"
+   ],
+   [
+    "string_not_in_prompt",
+    "keywords:existence.keywords='hou'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:existence.keywords='hou'"
+   ]
+  ],
+  "1381": [
+   [
+    "boundary_wording",
+    "length_constraints:number_sentences: checker < 10, prompt '10문장 이하'"
+   ]
+  ],
+  "1418": [
+   [
+    "number_missing",
+    "length_constraints:number_sentences.num_sentences=31"
+   ]
+  ],
+  "1561": [
+   [
+    "repeat_wording",
+    "combination:repeat_prompt"
+   ]
+  ],
+  "1601": [
+   [
+    "number_missing",
+    "length_constraints:number_words.num_words=101"
+   ]
+  ],
+  "1627": [
+   [
+    "repeat_wording",
+    "combination:repeat_prompt"
+   ]
+  ],
+  "1643": [
+   [
+    "number_missing",
+    "length_constraints:number_words.num_words=801"
+   ],
+   [
+    "boundary_wording",
+    "length_constraints:number_words: checker >= 801, prompt '800단어 이상'"
+   ]
+  ],
+  "1658": [
+   [
+    "string_not_in_prompt",
+    "keywords:existence.keywords='python'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:existence.keywords='python'"
+   ],
+   [
+    "string_not_in_prompt",
+    "keywords:existence.keywords='java'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:existence.keywords='java'"
+   ]
+  ],
+  "1691": [
+   [
+    "string_not_in_prompt",
+    "keywords:forbidden_words.forbidden_words='moser'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:forbidden_words.forbidden_words='moser'"
+   ],
+   [
+    "string_not_in_prompt",
+    "keywords:forbidden_words.forbidden_words='glassworks'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:forbidden_words.forbidden_words='glassworks'"
+   ],
+   [
+    "string_not_in_prompt",
+    "keywords:forbidden_words.forbidden_words='pravcice'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:forbidden_words.forbidden_words='pravcice'"
+   ],
+   [
+    "string_not_in_prompt",
+    "keywords:forbidden_words.forbidden_words='karlovy'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:forbidden_words.forbidden_words='karlovy'"
+   ],
+   [
+    "string_not_in_prompt",
+    "keywords:forbidden_words.forbidden_words='vary'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:forbidden_words.forbidden_words='vary'"
+   ]
+  ],
+  "1837": [
+   [
+    "number_missing",
+    "length_constraints:number_sentences.num_sentences=26"
+   ]
+  ],
+  "1879": [
+   [
+    "boundary_wording",
+    "length_constraints:number_words: checker < 600, prompt '600단어 이하'"
+   ]
+  ],
+  "2063": [
+   [
+    "repeat_wording",
+    "combination:repeat_prompt"
+   ]
+  ],
+  "2069": [
+   [
+    "number_missing",
+    "length_constraints:number_words.num_words=121"
+   ]
+  ],
+  "2142": [
+   [
+    "string_not_in_prompt",
+    "keywords:frequency.keyword='predatory'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:frequency.keyword='predatory'"
+   ]
+  ],
+  "2243": [
+   [
+    "boundary_wording",
+    "length_constraints:number_words: checker < 150, prompt '150단어 이하'"
+   ]
+  ],
+  "2266": [
+   [
+    "boundary_wording",
+    "length_constraints:number_sentences: checker < 7, prompt '7문장 이하'"
+   ]
+  ],
+  "2395": [
+   [
+    "string_not_in_prompt",
+    "keywords:forbidden_words.forbidden_words='json'"
+   ]
+  ],
+  "2534": [
+   [
+    "latin_kwarg",
+    "keywords:forbidden_words.forbidden_words='schlau'"
+   ]
+  ],
+  "2577": [
+   [
+    "latin_kwarg",
+    "keywords:forbidden_words.forbidden_words='BC'"
+   ]
+  ],
+  "2674": [
+   [
+    "boundary_wording",
+    "length_constraints:number_sentences: checker < 10, prompt '10문장 이하'"
+   ]
+  ],
+  "2780": [
+   [
+    "boundary_wording",
+    "length_constraints:number_sentences: checker < 6, prompt '6문장 이내'"
+   ]
+  ],
+  "2997": [
+   [
+    "latin_kwarg",
+    "keywords:frequency.keyword='para'"
+   ]
+  ],
+  "3041": [
+   [
+    "boundary_wording",
+    "length_constraints:number_sentences: checker < 7, prompt '7문장 이하'"
+   ]
+  ],
+  "3089": [
+   [
+    "number_missing",
+    "length_constraints:number_sentences.num_sentences=61"
+   ]
+  ],
+  "3109": [
+   [
+    "number_missing",
+    "keywords:frequency.frequency=3"
+   ],
+   [
+    "boundary_wording",
+    "keywords:frequency: checker >= 3, prompt '2회 이상'"
+   ]
+  ],
+  "3345": [
+   [
+    "string_not_in_prompt",
+    "keywords:frequency.keyword='robber'"
+   ],
+   [
+    "latin_kwarg",
+    "keywords:frequency.keyword='robber'"
+   ]
+  ],
+  "3371": [
+   [
+    "repeat_conflict",
+    "forbidden '경제' in prompt_to_repeat"
+   ],
+   [
+    "repeat_conflict",
+    "forbidden '수요' in prompt_to_repeat"
+   ],
+   [
+    "repeat_conflict",
+    "forbidden '공급' in prompt_to_repeat"
+   ]
+  ],
+  "3415": [
+   [
+    "boundary_wording",
+    "length_constraints:number_words: checker < 200, prompt '200단어 이하'"
+   ],
+   [
+    "number_missing",
+    "keywords:frequency.frequency=6"
+   ]
+  ],
+  "3505": [
+   [
+    "repeat_wording",
+    "combination:repeat_prompt"
+   ]
+  ],
+  "3538": [
+   [
+    "char_unit_for_words",
+    "length_constraints:number_words"
+   ]
+  ],
+  "3691": [
+   [
+    "boundary_wording",
+    "length_constraints:number_sentences: checker < 10, prompt '10문장 이하'"
+   ]
+  ],
+  "3739": [
+   [
+    "boundary_wording",
+    "length_constraints:number_sentences: checker < 3, prompt '3문장 이하'"
+   ]
+  ]
+ }
+}

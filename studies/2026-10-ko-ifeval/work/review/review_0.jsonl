@@ -1,0 +1,54 @@
+{"key": 13, "issues": []}
+{"key": 136, "issues": []}
+{"key": 209, "issues": []}
+{"key": 288, "issues": []}
+{"key": 337, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "English prompt says 400 words but kwargs check 336. Korean follows kwargs (336단어 이상), so it is consistent but differs from the English wording."}]}
+{"key": 1001, "issues": []}
+{"key": 1094, "issues": []}
+{"key": 1139, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "prompt_to_repeat contains both keywords '엄마' and '어머니', so the repeat alone satisfies keywords:existence. Same in English."}]}
+{"key": 1216, "issues": []}
+{"key": 1248, "issues": []}
+{"key": 1286, "issues": []}
+{"key": 1367, "issues": []}
+{"key": 1418, "issues": []}
+{"key": 1508, "issues": []}
+{"key": 1561, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "prompt_to_repeat contains '<<이름>>', so the repeat alone satisfies detectable_format:title. Same in English ('<<name>>')."}]}
+{"key": 1627, "issues": [{"type": "unsatisfiable", "severity": "breaks_scoring", "detail": "prompt_to_repeat contains '쉼표(,)', so a verbatim repeat fails no_comma under strict scoring. English is also unsatisfiable ('brackets, i.e.'). Dropping '(,)' and the comma would fix it."}, {"type": "inherited_from_source", "severity": "minor", "detail": "prompt_to_repeat contains '<<제목>>', so the repeat alone satisfies detectable_format:title. Same in English ('<<title>>')."}]}
+{"key": 1659, "issues": []}
+{"key": 1738, "issues": []}
+{"key": 1802, "issues": []}
+{"key": 1886, "issues": []}
+{"key": 1928, "issues": []}
+{"key": 2010, "issues": []}
+{"key": 2069, "issues": []}
+{"key": 2139, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "Source keyword 'rte' is meaningless. The English substring check also matched 'shorter' and 'quarter'. Korean '알티이' must be written as a nonsense token, which makes the item harder."}]}
+{"key": 2209, "issues": []}
+{"key": 2246, "issues": []}
+{"key": 2299, "issues": []}
+{"key": 2324, "issues": []}
+{"key": 2380, "issues": []}
+{"key": 2404, "issues": []}
+{"key": 2465, "issues": []}
+{"key": 2515, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "English 'at least one' became '1개의 구역을 강조' (reads as exactly 1). Checker is >=1. An answer with several highlights passes despite the Korean wording. Use '최소 1개'."}]}
+{"key": 2589, "issues": []}
+{"key": 2628, "issues": []}
+{"key": 2685, "issues": []}
+{"key": 2751, "issues": []}
+{"key": 2807, "issues": []}
+{"key": 2859, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "In an XML answer, the closing tags after the last period count as an extra sentence. An honest 3-sentence XML summary therefore scores 4 and fails 'less than 4'. Same splitter behavior in English."}]}
+{"key": 2921, "issues": []}
+{"key": 2997, "issues": [{"type": "meaning_change", "severity": "minor", "detail": "'para' was read as '단락' (paragraph). In English the substring 'para' also matched separate, prepare and compare, so the Korean item is stricter. Prompt and kwargs still agree."}]}
+{"key": 3073, "issues": []}
+{"key": 3114, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "'run' became the syllable '뛰'. The common verb 달리다 escapes it (false pass), and 뛰어나다 or 뛰어들다 trigger it (false fail). The prompt names '글자', so the item is self-consistent."}]}
+{"key": 3203, "issues": []}
+{"key": 3263, "issues": []}
+{"key": 3315, "issues": []}
+{"key": 3351, "issues": []}
+{"key": 3409, "issues": []}
+{"key": 3479, "issues": []}
+{"key": 3538, "issues": []}
+{"key": 3595, "issues": []}
+{"key": 3633, "issues": [{"type": "unsatisfiable", "severity": "breaks_scoring", "detail": "prompt_to_repeat contains '쉼표(,)', so a verbatim repeat always fails no_comma under strict scoring. Introduced by the translation: the English prompt_to_repeat has no comma."}]}
+{"key": 3691, "issues": []}
+{"key": 3739, "issues": []}
+{"key": 3753, "issues": []}

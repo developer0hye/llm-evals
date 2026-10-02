@@ -1,0 +1,53 @@
+{"key": 122, "issues": []}
+{"key": 179, "issues": []}
+{"key": 281, "issues": []}
+{"key": 332, "issues": []}
+{"key": 374, "issues": [{"type": "inherited_from_source", "severity": "breaks_scoring", "detail": "prompt_to_repeat contains both forbidden words 젊은것들 and 망할, so the mandatory verbatim repeat fails forbidden_words under strict (loose passes by dropping line 1). English repeat also contains youngins/damn."}, {"type": "changed_constraint", "severity": "minor", "detail": "Forbidden 젊은것들 misses spaced '젊은 것들' and singular 젊은것 (false pass); 망할 also matches 망하다 forms like '회사가 망할 것' (false fail, unlikely here)."}]}
+{"key": 1082, "issues": []}
+{"key": 1131, "issues": []}
+{"key": 1187, "issues": []}
+{"key": 1242, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Only 별명 is forbidden; the loanword 닉네임 (direct transliteration of the forbidden English 'nickname') passes, so a violating answer can still say nickname."}]}
+{"key": 1268, "issues": []}
+{"key": 1342, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Forbidden-by-frequency stem 사진 hides in 조사진/검사진/수사진 (survey/inspection team); rare in business advice but a faithful answer using them fails."}]}
+{"key": 1392, "issues": []}
+{"key": 1481, "issues": []}
+{"key": 1548, "issues": []}
+{"key": 1619, "issues": []}
+{"key": 1656, "issues": []}
+{"key": 1730, "issues": []}
+{"key": 1793, "issues": []}
+{"key": 1858, "issues": []}
+{"key": 1922, "issues": []}
+{"key": 1954, "issues": []}
+{"key": 2041, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Forbidden 부유/금전 miss the natural equivalents 부자 and 돈; an answer saying '돈이 많아졌어' passes, unlike English 'money'. Trade-off made to avoid 부자연스러운/돈독한 collisions."}]}
+{"key": 2118, "issues": []}
+{"key": 2195, "issues": []}
+{"key": 2243, "issues": []}
+{"key": 2284, "issues": []}
+{"key": 2314, "issues": []}
+{"key": 2362, "issues": []}
+{"key": 2396, "issues": []}
+{"key": 2457, "issues": []}
+{"key": 2497, "issues": []}
+{"key": 2583, "issues": []}
+{"key": 2617, "issues": []}
+{"key": 2677, "issues": []}
+{"key": 2739, "issues": [{"type": "unsatisfiable", "severity": "breaks_scoring", "detail": "prompt_to_repeat contains '쉼표(,)', so the verbatim repeat puts an ASCII comma in the response and no_comma fails under strict. English repeat text has no comma; caused by guideline rule 6 wording."}]}
+{"key": 2798, "issues": []}
+{"key": 2844, "issues": []}
+{"key": 2909, "issues": []}
+{"key": 2977, "issues": []}
+{"key": 3063, "issues": []}
+{"key": 3109, "issues": []}
+{"key": 3191, "issues": []}
+{"key": 3245, "issues": []}
+{"key": 3305, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "Hindi-only answer must begin with the Korean prompt repeat, which already contains 기후/에너지/친환경, so keywords:existence is trivially met. Same in English. Passes if Hindi body dominates langdetect."}]}
+{"key": 3345, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Keyword 강도 is a homonym (robber / intensity, '강도 높은'), so frequency can be met without the robber sense; forbidden 침공 misses the common synonym 침략."}]}
+{"key": 3386, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "나눗셈 does not catch verb forms 나누면/나눈, and 정답 does not catch 답; '10을 3으로 나누면 답은 3' passes, whereas English 'divide'/'answer' would fail."}]}
+{"key": 3445, "issues": []}
+{"key": 3518, "issues": []}
+{"key": 3567, "issues": []}
+{"key": 3629, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "English 'some key parts' (plural) became '핵심 부분 1개' (exactly one). Checker is >=1, so faithful answers pass, but answers with several highlights contradict the Korean prompt yet pass."}]}
+{"key": 3682, "issues": []}
+{"key": 3724, "issues": []}
+{"key": 3751, "issues": []}

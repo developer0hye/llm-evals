@@ -1,0 +1,4802 @@
+[
+ {
+  "model": "opus-5.5",
+  "segment_id": 890,
+  "domain": "literary",
+  "hyp": "그들은 완전히 틀렸다. 아이보리는 남쪽 별관으로 걸어가며 생각했다. 하인들은 벽을 따라 서성이며 서로 속닥거리고 있었다. 저들은 저 안에 뭐가 있는지 전혀 몰라.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.002492,
+  "out_tokens": 103
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 986,
+  "domain": "literary",
+  "hyp": "“응, 보여.” 코렌이 후두 마이크로 대답했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.002616,
+  "out_tokens": 116
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 899,
+  "domain": "literary",
+  "hyp": "“그거 무슨 공책이야?” 아이보리가 카리의 침대에 앉아 그녀 옆에 자리를 잡으며 물었다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.004668,
+  "out_tokens": 217
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 802,
+  "domain": "literary",
+  "hyp": "웃기지 않은가? 인력은 절반밖에 남지 않았는데, 우리는 서로를 해치는 것조차 멈추지 못한다. 나는 서둘러 걸음을 재촉했다. 앨의 가게가 바로 모퉁이만 돌면 있었으니, 안에만 들어가면 괜찮을 터였다. 뒤를 힐끗 돌아보며 더 이상 미행이 붙지 않았음을 확인한 나는 \"앨본의 전당포!\"라고 적힌 환하게 빛나는 간판 앞에 섰다. 걸음을 늦추며 나는 다시 한번 안으로 들어섰다–이곳은 좀 더 은밀한 장소였다. 앨본은 돌연변이가 되어 팔트리쿠스로 몰래 숨어든 사람들을 종종 받아들이곤 했기 때문이다. 문을 열자, 묘하게도 불이 꺼져 있었다–앨은 없었다. 피난민들도 없었다. 아무것도. 뭔가 잘못되어 있었다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.015612,
+  "out_tokens": 728
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 858,
+  "domain": "literary",
+  "hyp": "\"응, 난 괜찮아. 뭘 하나 죽였거든, 금방 괜찮아질 거야.\" 카옐은 자신이 해 놓은 결과물을 살펴보았다. 그사이 테눅이 아래로 내려와 그의 옆에 착지하더니, 원래의 스파스트 모습으로 다시 변신했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.009392,
+  "out_tokens": 445
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 922,
+  "domain": "literary",
+  "hyp": "아이보리는 카리의 문만큼이나 정교한 문으로 다가갔다. 문에는 여섯 원시룡 중 하나로, 프로스트펠을 창조했다고 전해지는 백룡이 그려져 있었다. 하긴 그 화가라면 자기 문에 백룡을 그려 넣을 만도 했다. 그는 역사를 좋아했으니까.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00328,
+  "out_tokens": 138
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 916,
+  "domain": "literary",
+  "hyp": "그들은 공주가 마침내 익숙한 틀에서 벗어나, 물감처럼 자신의 힘으로는 어쩔 수 없는 것들을 부탁하기 시작했다는 사실에 안도하며 방을 나섰다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.005672,
+  "out_tokens": 265
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 895,
+  "domain": "literary",
+  "hyp": "\"들어가도 될까요?\" 아이보리가 물었다. 예전에 묻지도 않고 들어갔던 일이 떠올랐기 때문이다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003648,
+  "out_tokens": 167
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 869,
+  "domain": "literary",
+  "hyp": "니시는 어깨를 으쓱하고는 카메라를 집어 들어, 이제는 확실히 죽은 짐승들의 사진을 몇 장 찍었다. 그러고 나서 가장 아끼는 단검, 화려하고 어딘가 사신스러운 그 단검을 꺼내 들고는 괴물의 뿔 한쪽을 잘라내기 시작했고, 이어서 나머지 한쪽으로 넘어갔다. 그런데 니시가 막 일을 끝낸 바로 그때, 괴물들이 갑자기 불타오르기 시작하더니 순식간에 한 무더기의 재로 변해 버렸다. 니시가 잘라낸 뿔들도 마찬가지였다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.014212,
+  "out_tokens": 671
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 914,
+  "domain": "literary",
+  "hyp": "\"알았어! 이따 봐?\" 아이보리가 일어나 종이와 공책이 어지럽게 널린 사이를 요리조리 빠져나가며 물었다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001616,
+  "out_tokens": 63
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 883,
+  "domain": "literary",
+  "hyp": "“그녀를 놔줘!”",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001732,
+  "out_tokens": 75
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 941,
+  "domain": "literary",
+  "hyp": "이타니아 시각 0430. 코렌은 이렇게 일찍 일어나는 것이 정말 싫었다. 무엇보다 중대원 모두를 깨우는 것이 그의 책임이었기 때문이다. 소리 없이 침상에서 빠져나온 그는 전투복을 입고 돌격 조끼를 걸친 뒤, 사물함에서 소지품을 챙겼다. 특히 작은 상자 하나만큼은 조심스럽게 다뤘다. 그는 소총을 어깨에 메고, 헬멧을 벨트에 달린 작은 고리에 걸었다. 헬멧에는 호흡기, 고글 등 필요한 장비가 전부 갖춰져 있었다. 탄약 파우치를 점검한 뒤, 그는 조용히 막사를 나섰다. 군화 밑에서 진흙과 얼음이 질척거렸다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.015208,
+  "out_tokens": 713
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 847,
+  "domain": "literary",
+  "hyp": "\"그거 까다롭겠는데!\"",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.0006,
+  "out_tokens": 16
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 921,
+  "domain": "literary",
+  "hyp": "애써 신경을 끄려 해도 소용이 없자, 그들은 귀를 막았다. 그들은 왕실 화가의 방으로 향했는데, 그 방은 동쪽 별관의 왼쪽 두 번째 문이었다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.006776,
+  "out_tokens": 319
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 827,
+  "domain": "literary",
+  "hyp": "카옐은 타살린이 무슨 생각을 하고 있는지 짐작이 가서 킥킥거렸다. \"그래, 그럴 만하지. 그런데 뭘 알아챈 거야? 그리고 왜 그렇게 급하게 날아가 버린 거고?\"",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.008868,
+  "out_tokens": 422
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 864,
+  "domain": "literary",
+  "hyp": "다행히도 레트빅의 질문에 답한 것은 다시 몸을 일으킨 타살린이었다. 그는 온몸이 베이고 긁힌 상처투성이였고 약간 멍해 보였지만, 크게 다친 것 같지는 않았다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.002404,
+  "out_tokens": 97
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 983,
+  "domain": "literary",
+  "hyp": "\"그건 곧 알게 되겠지.\" 코렌이 웃으며 말했다. 오슨은 더 이상 대화를 이어가지 않았다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001472,
+  "out_tokens": 56
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 816,
+  "domain": "literary",
+  "hyp": "\"내가 직접 나는 거랑 거대한 분홍색 드래곤한테 갑자기 끌려가는 건 완전히 다르다고!\"",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001424,
+  "out_tokens": 55
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 950,
+  "domain": "literary",
+  "hyp": "\"좋은 지적이군, 상병.\" 코렌이 말했다. 그는 손을 뻗어 스위치를 탁 올렸다. 막사 안에서 귀를 찢는 듯한 요란한 경보음이 울려 퍼졌다. 안에서 웅얼거리는 고함 소리와 사람들이 허둥지둥 비틀거리는 소리가 들려왔다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003268,
+  "out_tokens": 139
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 856,
+  "domain": "literary",
+  "hyp": "닛시는 무슨 일이 일어났는지 깨닫기까지 잠시 시간이 걸렸다. 케이엘에게 기이한 그림자 능력이 있다는 건 모두가 알고 있었다. 대부분이 그 힘을 불경하고 꽤나 무시무시하게 여겼기에 그가 좀처럼 쓰지 않는 능력이었다. 하지만 케이엘이 어떤 어둠 속에서든 그 힘을 쓸 수 있다는 건 닛시도 몰랐다. 그리고 케이엘이 하는 행동을 보아하니, 그 역시 꽤나 놀란 모양이었다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.005344,
+  "out_tokens": 234
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 928,
+  "domain": "literary",
+  "hyp": "하지만 왕자는 그렇게 생각하지 않았다. \"에이, 자기야, 그냥 한때일 뿐이라는 거 알잖아! 나이 들면 다 괜찮아질 거야!\" 그가 혀 꼬인 소리로 말했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00236,
+  "out_tokens": 97
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 972,
+  "domain": "literary",
+  "hyp": "중대는 흩어져 각자의 분대로 모였고, 분대장들은 대원들을 전차 한 대에 올라타게 했다. 코렌은 호송대 앞쪽에 있는 전차 한 대에 몸을 끌어올려 네믹, 크레이스, 그리고 신병 두 명과 합류했다. 코렌은 그 신병들이 며칠 전에 도착했던 것은 기억했지만, 그들에 대해 아는 것은 별로 없었다. 옆쪽에 걸터앉아 다리를 늘어뜨린 채, 그는 배낭과 무전기를 고쳐 맸다. 무전기는 이어피스와 후두 마이크에 연결되어 있었다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.005864,
+  "out_tokens": 253
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 946,
+  "domain": "literary",
+  "hyp": "그가 대답하기도 전에 문이 열리더니, 해리스와 크레이스, 그리고 몇몇 사람들이 이미 옷을 다 차려입고 장비까지 갖춘 채 서둘러 나왔다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.002048,
+  "out_tokens": 84
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 829,
+  "domain": "literary",
+  "hyp": "강대한 트라키가 갑자기 얼어붙었다. 니시와 카옐 역시 얼어붙은 채, 빈터의 한 틈으로 시선을 빼앗겼다. 크고 검은 무언가가 쉭쉭거리며 그들을 노려보고 있었다. 그것이 무엇이든, 그것은 거대한 두 쌍의 날개를 활짝 펼치더니 앞으로 돌진해 왔다. 세 작은 존재를 뚫고 지나가야 한다는 것쯤은 아랑곳하지 않고, 오직 타살린을 노리고서. 카옐과 테눅은 간신히 몸을 피할 수 있었지만, 니시는 그대로 휩쓸려 끌려가다가 하마터면 타살린에게 내동댕이쳐질 뻔했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.006724,
+  "out_tokens": 294
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 871,
+  "domain": "literary",
+  "hyp": "프롤로그",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00036,
+  "out_tokens": 7
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 817,
+  "domain": "literary",
+  "hyp": "\"그렇게 나쁘진 않잖아, 그렇지, 카옐?\"",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.002388,
+  "out_tokens": 106
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 810,
+  "domain": "literary",
+  "hyp": "감시 영상을 휴대폰으로 옮겨, 하나하나 뚫어지게 지켜보았다. 아무것도 없었다. 마치 그들이 애초에 그곳에 없었던 것처럼. 말도 안 된다. 카메라는 원격 접속이 가능하더라도 보안이 철저했다. 어떻게..? 으아악. 나는 머릿속 생각들을 좀 떨쳐낼 작정으로 화가 난 채 벌떡 일어섰다 – 현관으로 걸어가 신발을 신고 열쇠를 챙겼다. \"금방 다녀올게요, 아빠.\"침묵. 뭐, 됐다. 아빠는 원래 대답을 잘 안 하니까. 어차피 나보다 더 중요한 무언가를 하느라 바쁘겠지.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.01646,
+  "out_tokens": 781
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 967,
+  "domain": "literary",
+  "hyp": "몇 초마다 분대장들에게서 응답이 들어왔다. 해리스, 크레이스, 라빅은 처음 이곳에 왔을 때만 해도 모두 계급 낮은 부사관이었다. 넷은 지구에서 기초 군사 훈련을 받던 시절부터 줄곧 좋은 친구 사이였다. 코렌이 그들을 처음 만난 지 2년도 채 되지 않았을 텐데, 지금은 그때가 아득히 먼 옛날처럼 느껴졌다. 그들은 분대장이었지만, 크레이스는 전임 소대장이 데이브레이크 저격수의 총알을 맞고 의병 전역한 뒤로 일주일 전부터 2소대를 지휘하고 있었다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.016928,
+  "out_tokens": 804
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 876,
+  "domain": "literary",
+  "hyp": "남부는 절박했고, 남부 왕실은 유혈 사태를 멈추기 위해서라면 무엇이든 할 각오였다. 그들은 하나뿐인 공주를 북부의 왕비로 내주고, 장차 왕이 될 아들을 낳게 하겠다고 제안했다. 그렇게 되면 남부는 북부와 합쳐 하나의 왕국을 이루게 될 터였다. 북부는 이를 받아들였고, 에이르웬 공주는 아쿨 왕자와 혼인했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.004412,
+  "out_tokens": 192
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 912,
+  "domain": "literary",
+  "hyp": "이젤",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.000316,
+  "out_tokens": 5
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 144,
+  "domain": "news",
+  "hyp": "2023년 12월 20일자로 작성된 유출 메모에 따르면, 에두는 회계총감에게 국가사회투자청 계좌의 자금을 에두 여사가 이끄는 부처 산하의 연방정부 빈곤 퇴치 사업인 \"취약계층 지원 보조금(Grants for Vulnerable Groups)\"의 회계 담당자 브리짓 오니옐루의 개인 계좌로 이체하라고 지시했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.013348,
+  "out_tokens": 634
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 26,
+  "domain": "news",
+  "hyp": "맥주 양조업계, 와인업계의 폐기물 감축 규정 면제에 거품 물고 반발",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.004536,
+  "out_tokens": 212
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 91,
+  "domain": "news",
+  "hyp": "2017년 아버지 알렉스와 함께 회사를 설립한 스콧 브루스터 대표이사는 다음과 같이 말했다. \"스코틀랜드 건설 부문이 재활용 자재와 순환 자재의 사용을 늘리는 한편, 업계가 사용하는 천연자원의 양과 배출하는 탄소의 양을 줄여야 할 필요성을 인식하고 있다는 점이 점점 더 분명해지고 있습니다. 지난 6년간 재활용된 건설·철거·굴착 폐기물의 양은 엄청나게 증가했으며, 이번 두 번째 사업장에 대한 투자는 이 분야에 추가로 확장할 여지가 있음을 보여줍니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.006108,
+  "out_tokens": 262
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 112,
+  "domain": "news",
+  "hyp": "부당한 유죄 판결을 무효화하려는 리시 수낵의 법, 의도치 않은 심각한 결과 초래할 수도 - 스코츠먼 논평",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00604,
+  "out_tokens": 284
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 81,
+  "domain": "news",
+  "hyp": "누군가 감히 스코틀랜드의 NHS가 위기 상황이 아니라거나, 이것이 그저 겨울철마다 으레 겪는 문제일 뿐이라고 말한다면, 우리는 분노해야 마땅하다. 위험한 것은 궁지에 몰린 마이클 매시슨 보건장관 같은 정치인들이 우리를 설득하는 데 성공할 수도 있다는 점이다. 유감스럽긴 하지만 이 상황은 어쨌든 용인할 만하며, 이런 상황에서 장관들이 더 할 수 있는 일은 없고, 이것이 새로운 일상이라고 말이다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.016836,
+  "out_tokens": 805
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 53,
+  "domain": "news",
+  "hyp": "의회는 1996년 이후 12개 법안을 모두 개별적으로 통과시킨 적이 없다. 롤러 의원은 절차가 올바르게 진행되도록 하기 위해 법안 중 4개의 통과를 늦출 가치가 있다고 말했다. 의회가 12월까지 12개 법안을 통과시키지 못하면, 재정책임법에 따라 국방 및 비국방 재량 지출에 1퍼센트의 예산 삭감이 적용된다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.004152,
+  "out_tokens": 175
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 142,
+  "domain": "news",
+  "hyp": "베타 에두는 어떻게 제 기능을 잃은 정치 체제의 희생양이 되었나",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00242,
+  "out_tokens": 106
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 123,
+  "domain": "news",
+  "hyp": "우리가 발견한 사실은 즉각적인 조치가 필요하다는 것을 보여줍니다. 워싱턴주의 인구 증가를 감안하더라도, 2000년부터 2019년 사이 워싱턴주의 구치소 사망률은 거의 세 배로 증가했으며, 이는 전국 평균 증가폭의 16배에 달합니다. 다른 주들을 앞질러, 워싱턴주는 현재 전국에서 구치소 사망률이 네 번째로 높은 주가 되었습니다. 이런 상황이 계속되어서는 안 됩니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00488,
+  "out_tokens": 212
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 114,
+  "domain": "news",
+  "hyp": "더 스코츠먼(The Scotsman)을 비롯한 여러 언론이 수년간 지적해 왔듯이, 호라이즌 스캔들로 수백 명의 우체국 지점장이 억울하게 유죄 판결을 받은 일은 역사상 가장 심각한 사법 오판 사례 중 하나다. 사람들은 감옥에 갔고, 집과 결혼 생활, 명예를 잃었으며, 정직한 사람이 범죄자 취급을 받는 정신적 고통을 견뎌야 했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.009572,
+  "out_tokens": 446
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 134,
+  "domain": "news",
+  "hyp": "항공기 기종은 일반적으로 항공편 예약 정보에 표시되어 있습니다. Google 항공편에서는 목록을 펼치면 항공편 세부 정보에 포함되어 있으며, 개별 항공사의 예약 페이지에도 대개 기재되어 있습니다. 어떤 이유로 Google 항공편이나 예약 페이지에서 항공기 기종을 확인할 수 없다면, Expert Flyer나 Seat Guru 같은 사이트에서 좌석 배치도와 항공기 기종 등의 항공편 정보를 모아서 제공합니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.005004,
+  "out_tokens": 214
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 67,
+  "domain": "news",
+  "hyp": "Better Markets의 공동 창립자이자 회장 겸 CEO인 데니스 M. 켈러허(Dennis M. Kelleher)는 이번 승인이 \"수천만 명의 투자자와 은퇴자들에게 암호화폐 약탈자들을 풀어놓을 뿐만 아니라 금융 안정성까지 훼손할 가능성이 높은 역사적인 실수\"라고 말했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003532,
+  "out_tokens": 150
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 16,
+  "domain": "news",
+  "hyp": "아프리카 일부 농촌 공동체에서는 시민사회단체들이 유해한 통과의례를 보건 교육으로 대체하고 있다. 그러한 프로그램 중 하나는 케냐 마사이족 마을 마파라샤의 지도자 카만다 티마이요가 여성 할례에 대한 생각을 바꾸는 데 도움을 주었다. 그는 르몽드와의 인터뷰에서 자신이 \"무지에서 벗어났다\"며 이 관습을 버리겠다고 말했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.004416,
+  "out_tokens": 189
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 4,
+  "domain": "news",
+  "hyp": "시소는 다양한 주제를 능숙하게 넘나들며 아크릴, 파스텔, 연필, 수채화 등으로 그려낸 풍경화, 초상화, 정물화를 왕성하게 선보여 왔다. 가족 초상, 직접 촬영한 참고 사진, 그리고 기억에서 영감을 얻은 그의 다채로운 작품들은 폭넓은 관심사와 여러 매체를 아우르는 기량을 잘 보여준다. 시소의 열대 풍경화와 바다 풍경화는 그가 지나온 삶의 지리적 배경을 반영하며, 풍부한 패턴을 활용하고 인물을 함께 담아 문화와 기억, 그리고 환경 사이에 의미 있는 연결 고리를 만들어낸다. 시소는 작품 제목을 스페인어와 영어를 섞어 짓는데, 이는 로스앤젤레스 카운티에서의 삶을 이루는 소중하고도 본질적인 복합성을 나타낸다. 「비센테 시소: 땅과 물의 기억(Vicente Siso: Memories of the Land and Water)」전은 1월 13일 토요일에 개막하며, 오후 6시부터 8시까지 리셉션이 열린다. 전시는 3월 3일 일요일까지 계속된다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.010744,
+  "out_tokens": 471
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 24,
+  "domain": "news",
+  "hyp": "노동자들의 분위기는 갈수록 격앙되고 있다. 하베크 장관은 \"혁명에 대한 환상을 담은 호소문들이 나돌고 있다\"고 경고했다. 극우 정당인 독일을 위한 대안(AfD)은 이러한 불만을 부추기는 데 총력을 기울이고 있다. 드레스덴에서는 또 다른 극우 단체인 '자유 작센'이 농민 시위에 잠입해 \"신호등의 소멸\"을 외쳤다('신호등'은 사회민주당, 자유민주당, 녹색당으로 구성된 연립정부를 각 당의 상징색에 빗대어 부르는 말이다).",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.008756,
+  "out_tokens": 397
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 103,
+  "domain": "news",
+  "hyp": "소시지 롤과 스테이크 베이크로 유명한 FTSE 250 기업, 매장망은 늘리되 가격은 올리지 않을 계획",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.004332,
+  "out_tokens": 199
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 1,
+  "domain": "news",
+  "hyp": "땅과 물을 담은 시소의 작품, 새 갤러리 전시의 중심에 서다",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003204,
+  "out_tokens": 146
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 127,
+  "domain": "news",
+  "hyp": "감독은 수감자들만을 위한 것이 아닙니다. 저희 태스크포스는 감독 기관이 과중한 부담을 안고 있는 구치소 시스템과 협력하여, 직원의 안전을 증진하고 재범률을 낮추는 현명한 정책을 비롯해 절실히 필요한 지원과 권고를 제공할 수 있다는 점을 인식했습니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003412,
+  "out_tokens": 144
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 86,
+  "domain": "news",
+  "hyp": "건설 폐기물 재활용 업체, 순환경제 추진 속 컴버놀드에 신규 공장 개설",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001204,
+  "out_tokens": 44
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 63,
+  "domain": "news",
+  "hyp": "SEC는 수년간 유사한 펀드에 대한 신청을 거부해 왔다. 그러나 지난해 미국 컬럼비아특별구 연방항소법원은 파생상품 펀드를 비트코인을 직접 보유하는 펀드로 전환하겠다는 그레이스케일의 신청을 SEC가 승인하지 않은 것에 대해 SEC에 불리한 판결을 내리며, SEC의 입장을 \"",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.011188,
+  "out_tokens": 530
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 84,
+  "domain": "news",
+  "hyp": "실제로 스코틀랜드 공중보건청(Public Health Scotland)의 새로운 수치에 따르면 상황은 오히려 악화되고 있습니다. 11월에 퇴원이 지연된 환자는 1,910명으로, 4월의 1,730명보다 늘었습니다. 구급차가 환자를 신속하게 인계하지 못하는 이유 중 하나는 병동이 꽉 차 응급실까지 포화 상태이기 때문입니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00394,
+  "out_tokens": 169
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 17,
+  "domain": "news",
+  "hyp": "세계은행은 다른 사례들도 제시한다. 1970년부터 2022년까지 방글라데시는 여성 문해율을 네 배로 끌어올렸고, 여성의 노동시장 참여율을 두 배로 높였다. 국내총생산은 세 배 이상 증가했다. 이러한 변화는 스스로 추진력을 얻어 나갔다. 지역 사회 내부에서 여성을 유급 교사와 보건 인력으로 채용한 것이 신뢰를 높였고 \"여성의 이동과 노동을 사회적으로 더 수용 가능한 것으로 만들었다.\"",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.005052,
+  "out_tokens": 218
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 49,
+  "domain": "news",
+  "hyp": "강경 우파 성향의 프리덤 코커스 소속인 로젠데일 의원은 수요일 표결을 무산시킨 인물 중 한 명이다. 그는 존슨 의장이 성사시킨 합의안의 총액이 지나치게 높으며, 34조 달러에 달하는 국가 부채를 줄이는 데 거의 기여하지 못한다고 보고 있다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003348,
+  "out_tokens": 141
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 118,
+  "domain": "news",
+  "hyp": "미국에서는 도널드 트럼프가 대통령 재임 당시 기소 면책 특권이 있었다고 주장하려 하고 있다. 영국에서는 보리스 존슨이 브렉시트 계획을 원활히 추진하기 위해 불법적으로 의회를 정회시켰으며, 수낵은 르완다가 안전한 국가가 아니라는 대법원 판결을, 르완다가 안전한 국가라고 규정하는 법률을 통과시킴으로써 뒤집으려 하고 있다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.004404,
+  "out_tokens": 188
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 73,
+  "domain": "news",
+  "hyp": "크레멘은 또한 고객에게 러시아어로 서비스를 제공한 키예프의 한 택시 기사에게 3,400흐리우냐(89달러)의 벌금이 부과되었다고 확인했다. 옴부즈맨은 \"국가 언어로 정보나 서비스를 받을 권리가 침해된 경우의 상세한 행동 알고리즘\"을 대중에게 상기시키며, 이러한 사례가 발생하면 즉시 위원 웹사이트에 민원을 제기할 것을 촉구했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00454,
+  "out_tokens": 192
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 29,
+  "domain": "news",
+  "hyp": "환경부 장관들은 크리스마스 전에 포장 및 포장 폐기물 규정(PPWR) 법안에 대한 EU 이사회 협상 권한에 합의했으며, 이로써 이미 실무 차원에서 진행 중인 유럽의회와의 정치적 협상이 곧 시작될 수 있는 길이 열렸다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00308,
+  "out_tokens": 127
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 31,
+  "domain": "news",
+  "hyp": "12월 18일 장관급 회의에서는 와인 생산자들에 대한 예외가 마련되었다. 이는 이번 10년이 끝날 때까지 제품의 10%를 재사용 또는 리필 시스템 내에서 재사용 가능한 용기로 공급하고, 2040년에는 그 비율을 40%로 높여야 한다는 요건에 대한 예외이다. 이 예외는 유럽의회 역시 지지한 요건, 즉 해당 제안에 따라 2029년까지 도입되어야 하는 보증금 반환 제도에서 와인을 면제해야 한다는 요건에도 적용될 것이다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.014772,
+  "out_tokens": 701
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 135,
+  "domain": "news",
+  "hyp": "어떤 항공기 기종이 가장 안전한지 판단하는 것은 그리 간단하지 않습니다. 미국 국가교통안전위원회(NTSB)는 사고 및 준사고에 관한 정보를 담은 종합 데이터베이스를 운영하고 있습니다. 미국 연방항공청(FAA) 또한 항공안전정보분석공유(ASIAS) 페이지를 통해 최근 10일간의 사고 및 준사고 예비 보고서를 제공하며, 여기에는 관련 항공기의 제조사 정보도 포함되어 있습니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00492,
+  "out_tokens": 211
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 19,
+  "domain": "news",
+  "hyp": "세계은행은 그 메시지를 널리 알리기를 희망하고 있다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00088,
+  "out_tokens": 31
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 143,
+  "domain": "news",
+  "hyp": "최근 볼라 아메드 티누부 대통령 행정부의 인도주의 및 빈곤퇴치부 장관인 베타 에두와 관련된 사건에서, 5억 8,500만 나이라 규모의 민생 지원 기금을 유용했다는 의혹이 제기되면서 그녀의 해임을 요구하는 목소리가 나오고 있다. 에두 장관이 연방 회계감사원장(AG) 올루와토인 마데인에게 5억 8,500만 나이라를 개인 계좌로 이체하도록 지시한 것으로 알려진 유출 메모가 공개된 이후, 장관은 거센 대중적 반발에 직면했다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.005692,
+  "out_tokens": 241
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 70,
+  "domain": "news",
+  "hyp": "당국은 국가의 탈러시아화를 위해 국민들에게 신고를 촉구하고 있다",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001084,
+  "out_tokens": 39
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 389,
+  "domain": "social",
+  "hyp": "혹시 밖에서 저를 보시면 편하게 인사해 주세요!",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.000884,
+  "out_tokens": 30
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 197,
+  "domain": "social",
+  "hyp": "우리는 무의식적으로, 한때 모든 것을 둘러싸고 있던 보편적인 공동체에 닿기를 갈망한다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00138,
+  "out_tokens": 54
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 192,
+  "domain": "social",
+  "hyp": "우리는 출처를 따질 필요도 없이 곧장 본론으로 뛰어들 수 있었어요. 출처를 알아내는 게 그렇게 쉽지 않았으니까요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.0095,
+  "out_tokens": 459
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 322,
+  "domain": "social",
+  "hyp": "하지만 조금 되감아 보자. \"그 안에 실제로 뭐가 들어 있는데?\"라고 묻는 소리가 들린다. 물론 아무도 안 물어봤지만.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.008936,
+  "out_tokens": 431
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 628,
+  "domain": "social",
+  "hyp": "이제 우리 침실을 때려 부수기 시작할 시간. 집에서 간단하게 꾸미기만 하고 제대로 손 안 댄 마지막 방이다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.006424,
+  "out_tokens": 303
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 421,
+  "domain": "social",
+  "hyp": "@user36 올려주신 안경 둘 다 마음에 들어요, 색깔이 정말 예쁘네요... 저도 새 안경 사고 싶어져요 😂",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.0016,
+  "out_tokens": 63
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 664,
+  "domain": "social",
+  "hyp": "순서대로 스트리밍되지는 않지만, 브라우저는 마치 순서대로 스트리밍된 것처럼 HTML 문서를 조립합니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001556,
+  "out_tokens": 61
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 411,
+  "domain": "social",
+  "hyp": "젠장, 이 녹슨 K1100! 고착 안 된 나사가 단 하나라도 있긴 한 거야?!",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.005684,
+  "out_tokens": 269
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 206,
+  "domain": "social",
+  "hyp": "미디어에 대한 집단적 의식이 부재한 상황에서, 우리는 비판적 시각을 유지하는 데 도움이 되는 수준의 계급의식을 키워 왔다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00176,
+  "out_tokens": 71
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 313,
+  "domain": "social",
+  "hyp": "둥지 상자에 어안 렌즈는 좀 과할지도 모르겠네요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.002744,
+  "out_tokens": 122
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 450,
+  "domain": "social",
+  "hyp": "물론이죠! 지금은 Nextcloud를 쓰고 있는데, 가족용이든 업무용이든 처음 시작하기에 무난한 선택이에요",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001548,
+  "out_tokens": 61
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 306,
+  "domain": "social",
+  "hyp": "추신 - 이제 우리가 그녀의 소설을 좋아하는 걸 미안해하거나, 그냥 무난한 작품이라며 감싸 주는 단계는 지났길 바라.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.005404,
+  "out_tokens": 254
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 533,
+  "domain": "social",
+  "hyp": "지상 교육, 순조로운 출발",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00176,
+  "out_tokens": 76
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 214,
+  "domain": "social",
+  "hyp": "인상적인 공중제비를 돌더니 단번에 내 뗏목을 박살 냈다",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.004104,
+  "out_tokens": 191
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 446,
+  "domain": "social",
+  "hyp": "오오, *정말* 너무 고마워요!! 진짜 감사해요!! 🙏",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001532,
+  "out_tokens": 61
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 329,
+  "domain": "social",
+  "hyp": "저는 이걸 기능이라고 부릅니다. 그래야 새들도 사생활을 좀 지킬 수 있으니까요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.0042,
+  "out_tokens": 196
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 591,
+  "domain": "social",
+  "hyp": "현금으로 전환, 더 이상 마진 거래는 안 함.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003268,
+  "out_tokens": 151
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 652,
+  "domain": "social",
+  "hyp": "3. 섹션 1, 2, 3 등의 HTML",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00176,
+  "out_tokens": 74
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 441,
+  "domain": "social",
+  "hyp": "@user4 @user3 할 수 있어요! 그리고 제 경험을 기꺼이 나눠 드릴게요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001212,
+  "out_tokens": 45
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 255,
+  "domain": "social",
+  "hyp": "저는 그게 정말 삶을 긍정하게 해 주는 일이라고 느껴요. 이토록 단순한 재료들을 그렇게 풍부하고 복합적인 무언가로 탈바꿈시키는 것 말이에요. 마치 탄생을 목격하는 것처럼요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.006616,
+  "out_tokens": 313
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 680,
+  "domain": "social",
+  "hyp": "@user27 헤헤 고마워 user26",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001388,
+  "out_tokens": 57
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 582,
+  "domain": "social",
+  "hyp": "이제 2024년에 백만 미터도 가능할지 궁금해지네요? 🤔 #peloton",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001104,
+  "out_tokens": 39
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 478,
+  "domain": "social",
+  "hyp": "덧붙이자면, 필수가 아니라는 말도 내가 직접 가서 대놓고 물어보고 나서야 해줬어 •_•",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003976,
+  "out_tokens": 183
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 469,
+  "domain": "social",
+  "hyp": "Hugging Face의 “The Stack”에서 가장 좋은 점은, 나와 관련해 목록에 올라 있는 저장소 중 ~대부분이~ 상당수가 — 지금도, 그리고 예전부터 줄곧 — 비공개 저장소라는 것이다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.01088,
+  "out_tokens": 524
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 304,
+  "domain": "social",
+  "hyp": "그리고 그녀는 영어를 아주 능숙하게 구사해요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.000828,
+  "out_tokens": 29
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 386,
+  "domain": "social",
+  "hyp": "행사에 갈 때는 항상 가지고 다녀요. 현재 제 일정에 잡혀 있는 예정된 행사는 다음뿐이에요:",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00362,
+  "out_tokens": 165
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 475,
+  "domain": "social",
+  "hyp": "@user42 제가 my-blog에 마지막으로 공개 게시물을 올린 게 2022년이라고 나오는데, 이 저장소는 분명히 몇 년 동안 비공개 상태였거든요. 정말 흥미롭네요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.002636,
+  "out_tokens": 113
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 581,
+  "domain": "social",
+  "hyp": "이번 달에 10만 미터를 목표로 열심히 해 왔는데, 아마 달성할 수 있을 것 같아요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.006768,
+  "out_tokens": 324
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 356,
+  "domain": "social",
+  "hyp": "패널이 그냥 개구린가 봐. 그래서 더 큰 걸로 새로 주문했어. 이걸로 해결되면 좋겠다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003936,
+  "out_tokens": 180
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 321,
+  "domain": "social",
+  "hyp": "좋아요, 그래서 낮에 새 둥지 상자를 달았어요. 정원의 새 자리에 단 모습은 이렇답니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.001864,
+  "out_tokens": 76
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 754,
+  "domain": "speech",
+  "hyp": "그리고 저는 경험이 정말 많아요. 해외에서도 일해 봤고, 이 대륙에서도 일해 봤어요. 여러 주에서, 여러 시장 분야에서 일해 봤죠. 그런데 사람들이 그런 이야기에 정말 흥미를 느끼더라고요. 뭐랄까, 그 뒷이야기가 어떤지 알고 싶어 하는 거죠. 그래서 이 영상들 중 일부는 실제로 이 업계에서 일하는 사람이 알려 주는 팁이 될 거예요. 그리고 바로 그 점이 여러분이 팔로우하고 계실지도 모르는 다른 여행 블로거들과 저를 조금 차별화해 주는 부분이라고 생각해요. 그러니까, 예를 들어 크루즈 업계에서는 일해 본 적이 없을 수도 있지만, 호스피탈리티 학위를 따면서 관련 수업을 들어야 했거든요. 그래서 직접 일해 보지는 않았더라도, 그 분야에 대해 제대로 배운 거죠.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.009764,
+  "out_tokens": 441
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 711,
+  "domain": "speech",
+  "hyp": "물, 바다를 이루는 액체. 그리고 그것은 끝없는 심연을 채우고 있다. 이 광활한 수중 세계의 끝없이 펼쳐진 대양으로 감히 나아가는 이는 극소수에 불과하다. 바다에 사는 생물 대부분은 말하자면 인간 사회처럼 도시에서 살아간다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003164,
+  "out_tokens": 133
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 718,
+  "domain": "speech",
+  "hyp": "그럼, 거기서 조부모님 앞에서 무대를 가진 이후로 처음 음악을 쓰고 공연하기 시작한 건 언제였나요? 음, 기본적으로는 공연을 더 많이 했어요. 곡을 조금 쓰기도 했지만, 전문가들에게 맡겼죠. 그러니까, 전문 작곡가들과 함께 녹음하면서 전 세계적으로 엄청난 히트곡들을 냈을 때요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00396,
+  "out_tokens": 172
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 704,
+  "domain": "speech",
+  "hyp": "다운로드하면 파일 크기가 작아서 꽤 빨리 받아질 거예요. 그러면 바로 이렇게 생긴 앱이 나올 겁니다, 아시겠죠? 그래서 지금 이걸 클릭해 볼게요. 그러면 바로 이런 화면이 보일 거예요. 자, 실험에 대해 몇 가지 말씀드릴게요. 우선 한 가지 알아두실 점은, 여러분이 작성하게 될 실험 워크시트의 실험 지침은 설명이 없어도 충분히 이해할 수 있다는 거예요. 그러니까 사실 이 영상의 목적은 앱 자체를 사용하는 방법을 보여 드리는 거예요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.005988,
+  "out_tokens": 261
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 705,
+  "domain": "speech",
+  "hyp": "뭐, 그래도 핑크 플로이드보다는 낫게 들리네. 그러니까 매닉 마이너에서는 화면에 있는 아이템을 전부 모은 다음 골인 지점으로 가야 해. 그리고 공기가 다 떨어지거나 뭔가에 부딪히기 전에 해내야 하지. 근데 대체 뭐에 부딪힌다는 거냐고? 잡초! 풀만 만져도 죽을 수 있어. 내 팬층 절반 얘기 같네. 그리고 방금 봤어? 완전히 다른 발판에 있던 잡초에 닿아서 죽었잖아. 그냥 발판을 뚫고 지나가서 잡초에 부딪힌 거야. 진짜 훌륭한 게임 디자인이다, 야. 그리고 여기 이 개자식은 계속 르르르르르! 거리고 있고!",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.012548,
+  "out_tokens": 585
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 786,
+  "domain": "speech",
+  "hyp": "너, 너 말이야, 세상아! 정말 놀라움으로 가득하구나, 그렇지? 몇 년 전에 밀라 요보비치가 나오는 레지던트 이블 영화 몇 편을 보면서 \"이보다 더 나빠질 수는 없어!\"라고 생각했던 게 기억나. 그래, 그때가 차라리 단순한 시절이었던 것 같아. 그런데 2021년이 마지막 숨을 헐떡이면서 내놓은 게 바로 『레지던트 이블: 웰컴 투 라쿤 시티』였지. 일명, 웰컴 투 지옥.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.010064,
+  "out_tokens": 467
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 788,
+  "domain": "speech",
+  "hyp": "오늘은 토케 비치에 와 있어요. 토케 비치는 여기 시에라리온에 있는 리조트예요. 사촌들이랑 같이 왔어요. 멋진 하루가 될 것 같아요. 그냥 해변에서 정말 느긋하게 보내는 시간이에요. 별다른 일이 있거나 계획된 건 없는데... 어, 결혼식 피로연이 있는 것 같네요. 다들 결혼하네요. 우와, 결혼식이나 무슨 약혼식 같은 게 있는 것 같아요. 여기 정말 아름다워요. 그렇죠?",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.005228,
+  "out_tokens": 221
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 685,
+  "domain": "speech",
+  "hyp": "우린 준비가 안 됐어. 게다가 당신이 그렉을 해고하는 바람에 거긴 더 위험해질 거야. 그 사람한테 줄 돈이 없으니까 그런 거잖아, 버트. 이 일을 벌이는 건 당신이지, 내가 아니야. 웃기지 마. 이 애들을 여기까지 데려오려고 내가 무슨 짓까지 해야 했는지 몰라? 보험회사에 건 보증금, 그걸 전부 날리고 싶어? 애들 중 하나라도 다칠 위험을 감수하느니? 응. 왜? 전엔 신경도 안 썼잖아.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.014796,
+  "out_tokens": 703
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 759,
+  "domain": "speech",
+  "hyp": "엄마가 아빠는 우리 보러 오기 싫어한대요. 엄마가 그래? 네. 사람마다 다 자기 이야기가 있는 법이란다, 아들아. 그게 엄마 이야기인가 보구나. 인생이란 게 원래 그렇게 묘하잖니?",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.006912,
+  "out_tokens": 325
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 765,
+  "domain": "speech",
+  "hyp": "안녕하세요, 여행 브이로그에 오신 것을 환영합니다. 오늘은 로테르담을 둘러볼 거예요. 로테르담은 자위트홀란트주에 있는 도시입니다. 현대적이고 도시적인 느낌의 건축물 때문에 호불호가 갈리는 도시이기도 해요. 로테르담은 제2차 세계대전 중 독일군의 공격으로 거의 완전히 파괴되었습니다. 이 때문에 도시를 새로 재건해야 했고, 그 결과 네덜란드의 다른 도시들과는 상당히 다른 모습을 갖게 되었어요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.006872,
+  "out_tokens": 304
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 714,
+  "domain": "speech",
+  "hyp": "스타파이어. 타마란의 공주. 편안하시길 바라오. 바그록 경! 오! 참으로 대단한 기백이로군. 네 언니가 너를 넘긴 건 현명한 판단이었어. 가블러 목!",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.008136,
+  "out_tokens": 383
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 741,
+  "domain": "speech",
+  "hyp": "여러분 중 많은 분이 늘어가는 제 나이를 두고 꽤나 즐거워하셨다는 걸 압니다. 최근에 제가 받은 수술까지 제 나이와 엮으셨더군요. 자, 솔직히 말씀드리죠. 저는 젊었을 때도 똑같은 수술을 받았는데, 그때 기분이 너무 좋아서 너무 늙기 전에 한 번 더 받고 싶었던 겁니다. 하지만 저도 제 나이는 잘 알고 있습니다. 요즘 건강검진을 받으러 가면 이제 더 이상 몇 살이냐고 묻지도 않아요. 그냥 탄소 연대 측정을 하더군요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.013064,
+  "out_tokens": 619
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 689,
+  "domain": "speech",
+  "hyp": "저는 아이들이, 아이들이 선생님이 뭔가에 대해 틀렸다고 생각할 때는 선생님에게도 이의를 제기하라고 격려합니다. 사람들이 세상에 나가서 모든 걸 있는 그대로 받아들이지만은 않는 게 좋은 일이라고 생각해요. 그렇죠. 네. 그러니까 그런 종류의 독립성이--. 의원님은 하원의원 시절에 모든 표결에 대해 페이스북에 설명하신 걸로 유명한데요, 그건 권력을 가진 쪽이 \"자, 제가 이렇게 한 이유는 이겁니다\"라고 말하는, 보기 드문 양보죠. 네, 그리고 사실, 아시다시피, 지도부와 의회의 많은 사람들이 제가 그렇게 하는 걸 좋아하지 않았어요. 제가 지역구 주민들에게 그들에게 이의를 제기할 수 있는 힘을 주고 있었으니까요. 네.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.018384,
+  "out_tokens": 872
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 692,
+  "domain": "speech",
+  "hyp": "바다 공룡은 분명 아직도 살아 있을 거야. 생각에 잠기신 데 끼어들어 죄송합니다, 아가씨. 하지만 엄밀히 말하자면, 마른 땅 위를 걸어 다닌 파충류만을 공룡이라고 부릅니다. 물속에 살았던 것들은 해양 파충류라고 부르는데, 그들은 모두 아주, 아주 오래전에 사라졌지요. 무슨 일이 있었는데요? 곧 알게 될 겁니다, 줄리.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.011828,
+  "out_tokens": 558
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 767,
+  "domain": "speech",
+  "hyp": "여러분, 안녕하세요? Veteran Construction의 잭입니다. 많은 분들이 지붕 공사 관련 유튜브는 이번이 처음이실 텐데요. 그래서 제게 아주 의미 있는 영상으로 여러분을 직접 맞이하고 싶었습니다. 이번 영상의 주제는 '슁글 시공을 한 번도 해 본 적 없는 제가 지금 아는 걸 모두 알고서 이 지붕을 시공한다면 어떻게 할까?'입니다. DIY 하시는 분들이나 슁글 시공을 처음 하시는 분들이 실수 없이, 적절한 안전 조치를 취하면서, 시간 낭비 없이 제대로 작업을 끝낼 수 있도록 도와드리는 영상이 될 겁니다. 자, 우선 이 자재부터 제대로 알아보겠습니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.009992,
+  "out_tokens": 454
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 697,
+  "domain": "speech",
+  "hyp": "오늘은 벤 애플렉이 한 인터뷰에 대해 해명한 일에 대해 이야기해 보려고 합니다. 그렉, 우리가 볼 영상에 대해 소개 좀 해 주시겠어요? 네, 그러니까 몇 주 전에 벤 애플렉이 하워드 스턴과 두 시간짜리 인터뷰를 했거든요. 전처와의 이혼, 그리고 가족에 대해 이야기했는데, 그 일로 후폭풍이 좀 있었어요. 자, 그럼 보시죠. 벤 애플렉입니다!",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.006684,
+  "out_tokens": 298
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 700,
+  "domain": "speech",
+  "hyp": "이제 보시다시피 무대 뒤에서 무슨 일이 일어나든 상관없어요. 쇼는 계속될 테니까요. 그리고 Lovely Lych 님이 영상이 정말 좋았다는 댓글을 남겨 주셨어요. 이렇게 쓰셨네요. \"축제에 가는 과정이나 그곳 분위기, 음식 같은 비하인드 장면들이 좋았어요. 말하자면 여러분의 하루 같은 거요.\" 이번 영상도 마음에 드셨으면 좋겠고, 앞으로도 최대한 많이 보여 드릴게요. 자, 이제 점심시간이에요. Deep이 스크램블 에그를 만들고 있어요. 여기서 비법은 노른자를 하나 더 넣는 거예요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.010084,
+  "out_tokens": 460
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 784,
+  "domain": "speech",
+  "hyp": "안녕하세요, 새로운 시리즈의 일종의 파일럿 편에 오신 것을 환영합니다. 이 시리즈에서는 세계 최악의 스캔들 몇 가지의 역사를 깊이 파헤쳐 볼 예정인데요--여러분이 알고 계실 만한 것도 있고, 모르실 만한 것도 있을 겁니다. 이 시리즈는 부분적으로 RTE의 프로그램인 'Scannál'에서 영감을 받았습니다. 다만 아일랜드와 관련된 사건에만 초점을 맞추기보다는, 다루는 범위를 더 넓혀 볼 계획입니다. 자, 그럼 더 지체하지 말고 시작해 보겠습니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.006044,
+  "out_tokens": 268
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 691,
+  "domain": "speech",
+  "hyp": "자, 여러분이 살 필요 없도록 제가 대신 Xbox Series X를 샀습니다. 아니, 어쩌면 여러분도 진짜 사셔야 할지도 모르겠네요. 이번 영상에서는 Xbox Series X를 선택했을 때의 장단점을 전부 알려드리겠습니다. 실제 하드웨어, 컨트롤러, 게임까지, 지금까지 Xbox Series X를 써 보면서 겪은 거의 모든 것을 살펴볼 예정입니다. 그럼 이 영상 재미있게 보시고, 어쩌면 도움까지 되셨으면 좋겠습니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.011784,
+  "out_tokens": 553
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 770,
+  "domain": "speech",
+  "hyp": "스카티 킬머 채널 시간입니다. 여러분 차 페인트가 바랬나요? 그렇다면 채널 고정하세요. 오늘은 바랜 페인트를 광택 작업으로 되살리는 방법을 알려드릴 테니까요. 필요한 건 물 한 양동이, 폴리셔, 그리고 이 맥과이어스 얼티밋 컴파운드 한 병이 전부입니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.003984,
+  "out_tokens": 170
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 750,
+  "domain": "speech",
+  "hyp": "안녕하세요, 여러분, TS 매디슨이에요. 비즈니스나 브랜드, 제품을 성장시키고 싶으시다면, 저와 함께 광고해 보는 건 어떠세요? booktsmadison@gmail.com으로 이메일 보내주시면 저희의 종합 광고 패키지에 참여하실 수 있어요. 순방문자, 순구독자, 자기야, 폭넓은 타깃층까지. 오늘 바로 저와 함께 광고하세요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.004244,
+  "out_tokens": 180
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 768,
+  "domain": "speech",
+  "hyp": "구조대가 도시를 순찰하는 동안, 우리는 상자 안에서 박물관을 지키는 일을 맡을게. 우리가 안에서 기다리고 있는데 악당들이 카보니타를 훔치려 한다면 좋은 생각은 아닐 거야. 돈이 다 떨어졌어! 저 다이아몬드를 훔쳐서 팔아야겠어! 안 그러면 탄산음료로 실험을 해야 할 거라고! 봇들을 어떻게 안으로 들여보내지? 그건 다 해결해 뒀어.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.008864,
+  "out_tokens": 407
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 731,
+  "domain": "speech",
+  "hyp": "하버드 대학교 심리학 석사 과정에 처음 지원했을 때는 불합격했지만, 결국 입학 허가를 받았다. 초기의 이러한 좌절은 밀그램이 퀸스 칼리지에서 학부 심리학 과목을 하나도 수강하지 않았기 때문이었다. 1961년, 밀그램은 사회심리학 박사 학위를 받았다. 비슷한 시기에 그는 예일 대학교의 조교수가 되었다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.004656,
+  "out_tokens": 202
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 748,
+  "domain": "speech",
+  "hyp": "트랜스유로파 페스티벌은 2년마다 열리는 문화·정치·예술 행사이자 포럼이자 컨퍼런스로, 꽤 다양한 형식을 한데 아우르고 있습니다. 저희는 이 행사를 주최하는 단체인 유러피언 얼터너티브로서 이 일을 이제 10년째 해 오고 있습니다. 그래서 경험이 상당히 많은 편이죠. 동시에 이 행사는 유랑하는 행사라서, 매번 다른 도시에서 열립니다. 지난번, 그러니까 2년 전에는 베오그라드에서 열었는데, 유럽연합 바깥에 있는 도시였죠. 올해 2017년에는 여러 가지 이유로 마드리드에 오고 싶었습니다.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.008216,
+  "out_tokens": 366
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 716,
+  "domain": "speech",
+  "hyp": "어떻게 그렇게 일찍부터, 음, 공학은 과제의 일부일 뿐이라는 것을 생각하거나 깨닫게 되셨나요? 특히 우리는 엔지니어로서 문제를 다루는 사람이라고 배우잖아요, 그렇죠? 그리고 해결책을 찾는 거죠. 그게 우리의 일이니까요. 그럼요, 그럼요. 어떻게 그렇게 일찍 그런 생각에 이르게 되셨나요? 글쎄요, 말하자면 묘한 우연이었어요. 물론 저는 1970년대에 자랐습니다. 저는 정치의식뿐 아니라 학문적 이해도 1970년대에 얻었고, 물론 그런 시대적 맥락이 엄청나게 중요하죠.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00732,
+  "out_tokens": 325
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 747,
+  "domain": "speech",
+  "hyp": "화성에서요, 화성은 지구의 절반 크기인 행성이죠. 아주 오래전 화성에는 물이 많았습니다. 그런 종류의 일을 하려면... 화성에는 높이가 81,000피트, 그러니까 에베레스트보다 거의 세 배나 높은 화산이 있어요. 그러니까, 그 엄청난 시간 동안 일어난 일은 정말 제 상상력으로는 다 헤아릴 수가 없어요. 아무튼, 먼저 물이고요. 최초의 생명은 37억 년 전, 그냥 생명이라고 해 두죠. 그러니까, 아주, 아주 이른, 그러니까, 초기 진화 과정의",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.017616,
+  "out_tokens": 840
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 790,
+  "domain": "speech",
+  "hyp": "먼저 인포시스의 CEO이신 비샬 시카 박사님께 질문을 드리며 시작하고자 합니다. 비샬, 박사님은 철도 엔지니어의 아들이시죠. 그 시절의 기술을 직접 보셨고, 또 서퍼이시기도 하니 파도를 피하는 법에 대해서는 누구보다 잘 아실 겁니다. 새로운 기술이 불러올 파괴적 변화 가운데 우리가 가장 주목해야 할 것은 무엇이며, 그 이유는 무엇입니까? 왜 우리는 이러한 파괴적 변화에 그토록 주목해야 할까요?",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.007536,
+  "out_tokens": 341
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 708,
+  "domain": "speech",
+  "hyp": "안녕하세요, 바이아노 리노의 바이아노입니다. 네, 오늘은 줄눈 보수를 좀 해 보겠습니다. 타일은 한 14년, 15년 정도 된 것 같아요. 타일을 좀 안정시키려고 하는 건데요, 지금 상태로 보면 타일은 괜찮아 보여요. 그냥 몇몇 군데가 좀 들뜨고 있을 뿐이에요. 타일 전체를, 줄눈 전체를 다 교체하고 싶지는 않아요. 전체 리노베이션을 할 준비가 될 때까지 버틸 수 있도록 보수만 좀 할 거예요. 네, 이거 녹화되고 있나요?",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.01508,
+  "out_tokens": 714
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 756,
+  "domain": "speech",
+  "hyp": "여보세요. 올버니 연결은 어떻게 됐습니까? 통화 중이라고요? 그럼 교환 주임에게 연락해서 회선을 비워 두라고 하세요. 공무입니다. 생사가 걸린 문제예요. 케네디 양, 사실대로 말하고 있기를 바랍니다. 그렇지 않다면 당신에게 좋지 않을 겁니다. 정말이에요, 제가 한 말은 한마디도 빠짐없이 다 사실이에요. 더컨이 저를 붙잡았어요. 제 드레스를 찢었고요. 우린 몸싸움을 벌였어요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.009196,
+  "out_tokens": 426
+ },
+ {
+  "model": "opus-5.5",
+  "segment_id": 734,
+  "domain": "speech",
+  "hyp": "타르로 실링을 하면 금이 갑니다. 보여드릴게요. 지금 실리콘을 제거하고 있는데, 이게 하면 안 되는 것 중 하나예요. 실리콘 실런트 말이에요. 그런데 누군가 여기에 타르를 바르고 그 위에 페인트를 칠해 놨어요. 보여드릴게요. 그게 무슨 효과가 있었을까요? 그냥 메꾸는 재료일 뿐이에요.",
+  "finish": "stop",
+  "provider": "Claude Platform on AWS",
+  "cost": 0.00404,
+  "out_tokens": 174
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 890,
+  "domain": "literary",
+  "hyp": "그들은 완전히 틀렸다. 고용인들이 벽 주변을 서성이며 서로 수군거리는 사이, 남쪽 별관을 향해 걸어가며 아이보리는 생각했다. 그들은 그 안에 무엇이 있는지 전혀 모른다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.026654,
+  "out_tokens": 2210
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 986,
+  "domain": "literary",
+  "hyp": "“그래, 보인다.” 코렌이 인후 마이크를 사용해 대답했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.020122,
+  "out_tokens": 1670
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 899,
+  "domain": "literary",
+  "hyp": "“그건 무슨 노트야?” 아이보리가 카리의 침대 위 그녀 옆에 앉으며 물었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.019394,
+  "out_tokens": 1609
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 802,
+  "domain": "literary",
+  "hyp": "참 우습지 않은가? 인력이 절반밖에 남지 않았는데도, 우리는 서로를 해치는 것조차 참지 못한다. 나는 황급히 발걸음을 재촉했다. 알의 가게가 모퉁이만 돌면 있었기에, 그 안에 들어가면 괜찮을 것이었다. 뒤를 힐끗 돌아보며 더 이상 미행이 없음을 확인한 나는 \"알본의 전당포!\"라고 적힌 밝게 빛나는 간판 앞에 섰다. 걸음을 늦추며 나는 다시 안으로 들어갔다. 알본은 돌연변이가 되어 팔트리쿠스에 몰래 숨어든 사람들을 종종 거두어 주었기에, 이곳은 좀 더 은밀한 장소였다. 문을 열자 흥미롭게도 불이 꺼져 있었다. 알도 없었다. 피난민도 없었다. 아무것도 없었다. 이곳은 뭔가 잘못되어 있었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.033358,
+  "out_tokens": 2751
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 858,
+  "domain": "literary",
+  "hyp": "\"그래, 난 괜찮아. 뭔가를 죽였거든, 금방 괜찮아질 거야.\"\n\n카엘이 자신의 솜씨를 살펴보는 동안, 테누크가 아래로 내려와 그의 옆에 착지하며 원래의 스파스트 모습으로 다시 변신했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.030252,
+  "out_tokens": 2508
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 922,
+  "domain": "literary",
+  "hyp": "아이보리는 카리의 것만큼이나 정교한 문으로 다가갔다. 그 위에는 프로스트펠을 창조했다고 전해지는 6마리의 태고의 드래곤 중 하나인 화이트 드래곤이 있었다. 하지만 그 화가가 자신의 문에 그것을 그려둔 것은 납득할 만했다. 그는 역사를 좋아했으니까.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.031134,
+  "out_tokens": 2581
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 916,
+  "domain": "literary",
+  "hyp": "그들은 공주가 마침내 안락지대에서 벗어나 물감처럼 자신의 힘 밖의 것을 요구한다는 사실에 안도하며 방을 나섰다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.018132,
+  "out_tokens": 1502
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 895,
+  "domain": "literary",
+  "hyp": "\"들어가도 될까요?\" 아이보리가 묻지 않고 들어갔던 때를 떠올리며 물었다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.011908,
+  "out_tokens": 985
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 869,
+  "domain": "literary",
+  "hyp": "니시는 어깨를 으쓱하고는 카메라를 집어 들고, 이제 확실히 죽은 짐승들의 사진을 몇 장 찍었다. 그러고는 자신이 가장 좋아하는 단검, 사신 느낌이 나는 화려한 단검을 꺼내어 그 괴물의 뿔 중 하나를 잘라내기 시작했고, 이어서 다른 쪽 뿔로 넘어갔다. 하지만 니시가 막 끝마쳤을 때, 그 괴물들은 갑자기 불타오르기 시작하더니 순식간에 잿더미로 변해버렸다. 니시가 잘라낸 뿔들에도 똑같은 일이 일어났다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.026022,
+  "out_tokens": 2148
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 914,
+  "domain": "literary",
+  "hyp": "“알았어! 이따 봐?” 아이보리가 자리에서 일어나 널브러진 종이와 공책들 사이를 빠져나가며 물었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.010438,
+  "out_tokens": 862
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 883,
+  "domain": "literary",
+  "hyp": "“그녀를 놔줘!”",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.008042,
+  "out_tokens": 665
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 941,
+  "domain": "literary",
+  "hyp": "이타니아 시간 0430시. 코렌은 이렇게 일찍 일어나는 것을 싫어했다. 주로 중대원 모두를 깨우는 것이 그의 임무였기 때문이다. 조용히 침상에서 빠져나온 그는 전투복을 입고 강습 조끼를 걸친 뒤, 관물대에서 소지품을 챙기며 유독 작은 상자 하나를 조심스럽게 다루었다. 그는 소총을 어깨에 메고 벨트에 연결된 작은 고리에 헬멧을 걸었다. 거기에는 방독면, 고글 등 필요한 모든 장구류가 갖춰져 있었다. 탄약 파우치를 확인한 후 그는 조용히 막사 밖으로 걸어 나갔고, 군화 밑에서는 진흙과 얼음이 질척거렸다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.025488,
+  "out_tokens": 2099
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 847,
+  "domain": "literary",
+  "hyp": "그거 까다롭겠는데!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.01068,
+  "out_tokens": 884
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 921,
+  "domain": "literary",
+  "hyp": "그들은 애써 무시하는 것이 통하지 않자 귀를 막았다. 그들은 궁정 화가의 방으로 발걸음을 옮겼는데, 그곳은 동관의 왼쪽에서 두 번째 문이었다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.02395,
+  "out_tokens": 1985
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 827,
+  "domain": "literary",
+  "hyp": "카엘은 타살린이 무슨 생각을 하고 있는지 짐작할 수 있었기에 낄낄거렸다. \"그래, 그럴 만도 하지. 근데 뭘 주운 거야, 그리고 왜 그렇게 빨리 날아가 버린 거야?\"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.02222,
+  "out_tokens": 1841
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 864,
+  "domain": "literary",
+  "hyp": "다행히도 레트빅의 질문에는 다시 몸을 일으킨 타살린이 대답해 주었다. 그는 온통 베이고 긁힌 상처투성이에 조금 멍해 보였지만, 크게 다친 것 같지는 않았다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.01341,
+  "out_tokens": 1106
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 983,
+  "domain": "literary",
+  "hyp": "\"두고 보면 알겠지.\" 코렌이 웃으며 말했다. 오슨은 대화를 이어가지 않았다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.010806,
+  "out_tokens": 892
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 816,
+  "domain": "literary",
+  "hyp": "\"내 비행은 거대한 분홍색 드래곤에게 갑작스럽게 끌려가는 것과는 아주 달라!\"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.028348,
+  "out_tokens": 2355
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 950,
+  "domain": "literary",
+  "hyp": "“좋은 지적이네, 스페셜리스트,” 코렌이 말했다. 그는 안으로 손을 뻗어 스위치를 켰다. 막사 안에서 크고 날카로운 경보음이 울렸다. 안에서 웅얼거리는 고함 소리와 사람들이 이리저리 비틀거리는 소리가 들려왔다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.036066,
+  "out_tokens": 2994
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 856,
+  "domain": "literary",
+  "hyp": "니시가 무슨 일이 일어났는지 파악하는 데는 잠시 시간이 걸렸다. 그들은 모두 카엘에게 기이한 그림자 능력이 있다는 것을 알고 있었는데, 이는 대부분의 사람들이 불경하고 다소 무섭게 여겼기 때문에 그가 거의 사용하지 않는 능력이었다. 하지만 니시는 카엘이 어떠한 어둠 속에서든 그 능력을 사용할 수 있다는 것은 몰랐다. 그리고 카엘의 행동으로 보아, 그 역시 꽤 놀란 눈치였다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.027438,
+  "out_tokens": 2269
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 928,
+  "domain": "literary",
+  "hyp": "하지만 왕자는 그렇게 생각하지 않았다. “아, 자기야, 그냥 다 한때라는 거 알잖아! 나이 들면 다 지나갈 거라고!” 그가 혀 꼬인 소리로 말했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.021476,
+  "out_tokens": 1778
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 972,
+  "domain": "literary",
+  "hyp": "중대는 흩어져 분대별로 모였고, 부사관들의 지시에 따라 전차 중 한 대에 올라탔다. 코렌은 행렬 앞쪽에 있는 전차 중 한 대 위로 몸을 끌어올려 네믹, 크레이스, 그리고 두 명의 신병과 합류했다. 코렌은 며칠 전 그들이 도착했던 것은 기억했지만, 그들에 대해 아는 것은 별로 없었다. 그는 측면에 앉아 다리를 밖으로 늘어뜨린 채, 이어피스와 인후 마이크에 연결된 군장과 무전기를 고쳐 맸다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.02706,
+  "out_tokens": 2234
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 946,
+  "domain": "literary",
+  "hyp": "그가 대답하기도 전에 문이 열리더니, 해리스, 크레이스, 그리고 다른 몇몇이 이미 옷을 다 입고 장비까지 완전히 갖춘 채 서둘러 나왔다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.014784,
+  "out_tokens": 1223
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 829,
+  "domain": "literary",
+  "hyp": "강력한 트라키가 갑자기 얼어붙었다. 니시와 카엘도 얼어붙었고, 그들의 시선은 공터의 틈새로 쏠렸다. 크고 검은 무언가가 쉿쉿 소리를 내며 그들을 노려보고 있었다. 정체가 무엇이든 간에, 그것은 두 쌍의 거대한 날개를 펼치고 타살린을 노리며 앞으로 돌진했다. 세 명의 더 작은 존재들을 뚫고 지나가야 한다는 사실은 안중에도 없었다. 카엘과 테누크는 간신히 몸을 숨겼지만, 니시는 그대로 휩쓸려 끌려가 타살린 쪽으로 거의 내동댕이쳐졌다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.028852,
+  "out_tokens": 2383
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 871,
+  "domain": "literary",
+  "hyp": "프롤로그",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.002994,
+  "out_tokens": 245
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 817,
+  "domain": "literary",
+  "hyp": "\"그렇게 나쁘진 않아, 그렇지, 카엘?\"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.017848,
+  "out_tokens": 1481
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 810,
+  "domain": "literary",
+  "hyp": "감시 영상을 내 모바일 기기로 옮긴 뒤, 나는 화면 하나하나를 뚫어지게 지켜보았다. 아무것도 없었다. 마치 처음부터 그곳에 없었던 것 같았다. 말도 안 돼. 원격 접속을 하더라도 카메라 보안은 철저했는데. 어떻게..? 아악. 나는 머릿속의 생각들을 좀 지워버릴 요량으로 화가 나서 일어섰다 – 그리고는 걸음을 옮겨 신발을 꿰어 신고 열쇠를 챙겼다. “금방 다녀올게요, 아빠.” 침묵. 뭐 어때, 평소에도 대답을 잘 안 하셨고, 어차피 나보다 더 중요한 일을 하느라 바쁘실 테니까.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.02805,
+  "out_tokens": 2316
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 967,
+  "domain": "literary",
+  "hyp": "몇 초마다 그는 분대장들로부터 응답을 받았다. 해리스, 크레이스, 라빅은 그곳에 처음 도착했을 때만 해도 모두 하급 부사관이었다. 그들 네 명은 지구에서 기초 군사 훈련을 받을 때부터 친한 친구였다. 코렌이 그들을 만난 지 2년도 채 되지 않았을 텐데, 지금은 너무나도 오래전 일처럼 느껴졌다. 그들은 분대장이었지만, 크레이스는 이전 소대장이 데이브레이크 저격수의 총탄에 맞아 의병 전역을 한 이후인 일주일 전부터 2소대를 이끌고 있었다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.028334,
+  "out_tokens": 2338
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 876,
+  "domain": "literary",
+  "hyp": "남부는 절박했고, 그들의 왕실은 유혈 사태를 막기 위해서라면 무슨 일이든 할 각오가 되어 있었다. 그들은 하나뿐인 공주를 북부의 왕비로 보내 미래의 왕이 될 아들을 낳게 하겠다고 제안했다. 그렇게 되면 남부는 북부와 통합하여 하나의 왕국을 이룰 것이었다. 북부는 이를 수락했고, 에이르웬 공주는 아쿨 왕자와 결혼했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.023174,
+  "out_tokens": 1916
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 912,
+  "domain": "literary",
+  "hyp": "이젤",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.002528,
+  "out_tokens": 206
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 144,
+  "domain": "news",
+  "hyp": "2023년 12월 20일자 유출된 메모에 따르면, 에두는 회계총국장에게 국가사회투자청 계좌에서 에두 장관의 부처 산하 프로젝트인 \"취약계층 지원금\"이라는 연방 정부 빈곤 퇴치 프로젝트의 회계 담당자 브리짓 오니옐루의 개인 계좌로 자금을 이체할 것을 지시했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.037828,
+  "out_tokens": 3136
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 26,
+  "domain": "news",
+  "hyp": "맥주 양조업자들, 와인 양조업자들의 폐기물 방지 규정 면제에 격분",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.040516,
+  "out_tokens": 3370
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 91,
+  "domain": "news",
+  "hyp": "2017년 아버지 알렉스와 함께 사업을 설립한 스콧 브루스터 대표이사는 다음과 같이 말했습니다. \"스코틀랜드의 건설 부문이 재활용 및 2차 자재의 사용을 늘리는 동시에 업계가 사용하는 천연자원의 양과 배출하는 탄소량을 줄여야 할 필요성을 인식하고 있다는 점이 점점 더 분명해지고 있습니다. 지난 6년 동안 재활용된 건설, 철거 및 굴착 폐기물의 양은 엄청나게 증가했으며, 이번 두 번째 부지에 대한 우리의 투자는 이 분야에 추가로 확장할 여지가 있음을 보여줍니다.\"",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.024922,
+  "out_tokens": 2054
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 112,
+  "domain": "news",
+  "hyp": "잘못된 유죄 판결을 무효화하는 리시 수낵의 법안은 심각한 의도치 않은 결과를 초래할 수 있다 - 스코츠맨 논평",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.01671,
+  "out_tokens": 1385
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 81,
+  "domain": "news",
+  "hyp": "만약 누군가 감히 스코틀랜드의 NHS가 위기 상황이 아니라고 하거나, 이것이 그저 평소와 같은 겨울철 문제일 뿐이라고 말한다면, 우리는 분노해야 합니다. \n\n위험한 것은 궁지에 몰린 마이클 매시슨 보건부 장관 같은 정치인들이, 유감스럽지만 이는 어느 정도 용인될 수 있는 일이고, 현 상황에서 장관들이 더 이상 할 수 있는 일이 없으며, 이것이 새로운 일상이라고 우리를 설득하는 데 성공할 것이라는 점입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.019362,
+  "out_tokens": 1595
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 53,
+  "domain": "news",
+  "hyp": "의회는 1996년 이후 12개 법안 모두를 개별적으로 통과시킨 적이 없다. 롤러는 절차가 제대로 이루어지도록 하기 위해 4개 법안의 통과를 미룰 가치가 있다고 말했다. 의회가 12월까지 12개 법안을 통과시키지 못하면, 재정책임법에 따라 국방 및 비국방 재량 지출에 1%의 예산 삭감이 적용될 것이다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.016124,
+  "out_tokens": 1327
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 142,
+  "domain": "news",
+  "hyp": "베타 에두는 어떻게 제 기능을 하지 못하는 정치 시스템의 희생양이 되었는가",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.015294,
+  "out_tokens": 1268
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 123,
+  "domain": "news",
+  "hyp": "우리가 발견한 사실은 즉각적인 조치가 필요함을 보여줍니다. 워싱턴주의 인구 증가를 고려하더라도, 워싱턴주의 구치소 사망률은 2000년에서 2019년 사이에 거의 3배 증가했습니다 - 이는 전국 평균의 16배에 달하는 증가폭입니다. 다른 주들을 앞지르며, 워싱턴주는 현재 전국에서 네 번째로 높은 구치소 사망률을 기록하고 있습니다. 이러한 상황이 계속되어서는 안 됩니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.020938,
+  "out_tokens": 1728
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 114,
+  "domain": "news",
+  "hyp": "스코츠먼을 비롯한 여러 곳에서 수년간 지적해 왔듯이, 호라이즌 스캔들로 인해 수백 명의 우체국 지점장들이 부당하게 유죄 판결을 받은 사건은 역사상 가장 심각한 사법적 오판 중 하나다. 사람들은 수감되었고, 집과 결혼 생활, 명성을 잃었으며, 정직한 사람이 범죄자 취급을 받는 정신적 고통을 견뎌야 했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.026484,
+  "out_tokens": 2191
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 134,
+  "domain": "news",
+  "hyp": "항공기 기종은 일반적으로 항공편 예약 정보에 기재되어 있습니다. 구글 플라이트에서는 항목을 펼치면 항공편 세부 정보에 포함되어 있으며, 개별 항공사의 예약 페이지에도 보통 표시됩니다. 어떤 이유로든 구글 플라이트나 예약 페이지에서 항공기 기종이 명확하게 나와 있지 않다면, Expert Flyer나 Seat Guru 같은 사이트에서 좌석 배치도 및 항공기 기종과 같은 항공편 정보를 종합하여 제공합니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.027744,
+  "out_tokens": 2294
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 67,
+  "domain": "news",
+  "hyp": "베터 마켓(Better Markets)의 공동 창립자이자 사장 겸 CEO인 데니스 M. 켈러허는 이번 승인이 \"수천만 명의 투자자와 은퇴자들에게 암호화폐 포식자들을 풀어놓을 뿐만 아니라 금융 안정성도 훼손할 가능성이 높은 역사적인 실수\"라고 말했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.012176,
+  "out_tokens": 1002
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 16,
+  "domain": "news",
+  "hyp": "아프리카의 일부 농촌 지역사회에서는 시민사회 단체들이 해로운 통과의례를 보건 교육으로 대체하고 있다. 그러한 프로그램 중 하나는 케냐 마파라샤의 마사이족 마을 지도자인 카만다 티마이요가 여성 할례에 대한 생각을 바꾸는 데 도움을 주었다. 그는 르몽드지에 자신이 \"무지에서 벗어났으며\" 그 관습을 버릴 것이라고 말했다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.020544,
+  "out_tokens": 1696
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 4,
+  "domain": "news",
+  "hyp": "다양한 주제를 능숙하게 다루며, 시소는 아크릴, 파스텔, 연필 또는 수채화로 표현된 풍경화, 초상화, 정물화 등 방대한 연작을 창작해 왔습니다. 가족 초상화, 직접 찍은 참고 사진, 그리고 기억을 바탕으로 한 그의 다채로운 작품들은 다양한 매체를 아우르는 그의 폭넓은 관심사와 기량을 보여줍니다. 시소의 열대 풍경화와 바다 풍경화는 그의 과거 지리적 배경을 반영하며, 풍부한 패턴을 활용하고 인물을 배치하여 문화, 기억, 환경 간의 의미 있는 연결 고리를 만들어 냅니다. 시소는 스페인어와 영어를 혼용하여 작품의 제목을 짓는데, 이는 로스앤젤레스 카운티에서의 삶이 지닌 찬미받아 마땅하며 필수불가결한 복잡성을 상징합니다. \"비센테 시소: 땅과 물의 기억\"은 1월 13일 토요일에 개막하며, 오후 6시부터 8시까지 리셉션이 열립니다. 이 전시는 3월 3일 일요일까지 관람할 수 있습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.04371,
+  "out_tokens": 3610
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 24,
+  "domain": "news",
+  "hyp": "노동자들의 분위기가 갈수록 격앙되고 있다. 하베크는 \"혁명에 대한 환상을 담은 호소문들이 유포되고 있다\"고 경고했다. 극우 정당인 '독일을 위한 대안'은 이러한 불만을 부추기기 위해 전력을 다하고 있다. 드레스덴에서는 또 다른 극우 단체인 '자유 작센'이 농민 시위에 침투해 \"신호등의 소멸\"을 촉구했다(사회민주당, 자유민주당, 녹색당으로 구성된 집권 연정이 각 정당의 상징색 때문에 이렇게 불린다).",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.031018,
+  "out_tokens": 2565
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 103,
+  "domain": "news",
+  "hyp": "소시지 롤과 스테이크 베이크로 유명한 FTSE 250 기업이 지점망은 확대하되 가격은 인상하지 않을 계획이다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.01847,
+  "out_tokens": 1531
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 1,
+  "domain": "news",
+  "hyp": "시소의 대지와 물 묘사, 새로운 갤러리 전시의 중심이 되다",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.01743,
+  "out_tokens": 1446
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 127,
+  "domain": "news",
+  "hyp": "감독은 수감자들의 이익만을 위한 것이 아닙니다. 우리 태스크포스는 감독 기구가 과중한 부담을 안고 있는 교도소 시스템과 협력하여, 직원의 안전을 증진하고 재범을 줄이는 합리적인 정책을 포함해 꼭 필요한 지원과 권고안을 제공할 수 있다는 점을 인식했습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.029164,
+  "out_tokens": 2418
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 86,
+  "domain": "news",
+  "hyp": "건설 폐기물 재활용 업체, 순환 경제 추진 속 컴버놀드 신규 공장 개장",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.009318,
+  "out_tokens": 770
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 63,
+  "domain": "news",
+  "hyp": "SEC는 수년 동안 유사한 펀드에 대한 신청을 거부해 왔다. 그러나 작년에 미국 워싱턴 D.C. 연방항소법원은 파생상품 펀드를 비트코인을 직접 보유하는 펀드로 전환하려는 그레이스케일의 신청 승인을 거부한 SEC의 결정에 반하는 판결을 내리며, SEC의 입장을 \"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.020188,
+  "out_tokens": 1668
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 84,
+  "domain": "news",
+  "hyp": "실제로 스코틀랜드 공중보건국의 새로운 통계는 상황이 오히려 악화되고 있음을 보여줍니다: 11월에 병원에서 퇴원이 지연된 사람은 1,910명으로 4월의 1,730명에서 증가했습니다. 구급차가 환자를 신속하게 내려주지 못하는 한 가지 이유는 병동이 꽉 차서 응급실이 가득 찼기 때문입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.029022,
+  "out_tokens": 2404
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 17,
+  "domain": "news",
+  "hyp": "세계은행은 다른 사례들도 제시합니다. 1970년부터 2022년까지 방글라데시는 여성 문해율을 4배, 여성의 경제활동 참가율을 2배로 늘렸습니다. 국내총생산은 3배 이상 증가했습니다. 이러한 변화는 자체적인 추진력을 얻었습니다. 자신들이 속한 지역사회 내에서 여성들을 유급 교사 및 보건 종사자로 채용한 것은 신뢰를 높였고 \"여성의 이동과 노동을 사회적으로 더 용인되게 만들었습니다.\"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.027602,
+  "out_tokens": 2283
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 49,
+  "domain": "news",
+  "hyp": "강경 우파 프리덤 코커스 소속인 로젠데일은 수요일 투표를 좌초시킨 인물 중 한 명이었다. 그는 존슨의 합의안에 명시된 총액이 너무 높고, 34조 달러의 국가 부채를 삭감하는 데 턱없이 부족하다고 보고 있다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.017392,
+  "out_tokens": 1436
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 118,
+  "domain": "news",
+  "hyp": "미국에서는 도널드 트럼프가 대통령으로서 자신에게 기소 면책 특권이 있었다고 주장하려 하고 있다. 영국에서는 보리스 존슨이 자신의 브렉시트 계획을 추진하기 위해 불법적으로 의회를 정회시켰으며, 수낵은 르완다가 안전한 국가라고 규정하는 법안을 통과시킴으로써 르완다가 안전하지 않다는 대법원의 판결을 뒤집으려 하고 있다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.025566,
+  "out_tokens": 2116
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 73,
+  "domain": "news",
+  "hyp": "크레민은 또한 러시아어로 고객을 응대한 키이우의 택시 기사에게 3,400흐리우냐(89달러)의 벌금이 부과되었다고 확인했다. 옴부즈만은 대중에게 \"국가 언어로 정보나 서비스를 제공받을 권리가 침해될 경우의 구체적인 행동 알고리즘\"을 상기시키며, 이러한 사례가 발생할 경우 즉시 위원회 웹사이트에 민원을 제기할 것을 촉구했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.022752,
+  "out_tokens": 1878
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 29,
+  "domain": "news",
+  "hyp": "환경 장관들은 크리스마스 이전에 제안된 포장 및 포장재 폐기물 규정(PPWR)에 대한 EU 이사회의 협상 위임안에 합의하여, 실무급에서는 이미 진행 중인 유럽 의회와의 임박한 정치적 협상을 위한 길을 열었습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.027258,
+  "out_tokens": 2260
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 31,
+  "domain": "news",
+  "hyp": "12월 18일 장관급 회의에서는 2020년대 말까지 제품의 10%를 재사용 또는 리필 시스템 내의 재사용 가능 용기로 공급해야 하고 2040년에는 그 비율이 40%로 상향된다는 요건에서 와인 제조업체를 제외하는 예외 조항이 마련되었다. 이 면제 조치는 또한 유럽 의회가 마찬가지로 지지하는 바와 같이, 해당 제안에 따라 2029년까지 도입되어야 하는 보증금 반환 제도에서 와인이 면제되어야 한다는 요건에도 적용될 것이다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.048132,
+  "out_tokens": 3990
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 135,
+  "domain": "news",
+  "hyp": "어떤 항공기 모델이 가장 안전한지 판단하는 것은 그리 간단하지 않습니다. 국가교통안전위원회는 사고 및 사건에 대한 종합적인 정보 데이터베이스를 관리합니다. 연방항공청 또한 자사의 항공 안전 정보 분석 및 공유 페이지에서 관련 항공기의 제조사가 포함된 지난 10일간의 예비 사고 및 사건 보고서를 제공합니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.024312,
+  "out_tokens": 2011
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 19,
+  "domain": "news",
+  "hyp": "세계은행은 그 메시지를 전파하기를 희망합니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.014048,
+  "out_tokens": 1165
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 143,
+  "domain": "news",
+  "hyp": "볼라 아메드 티누부 대통령 행정부의 인도주의 및 빈곤퇴치부 장관인 베타 에두와 관련된 최근 사건에서, 5억 8,500만 나이라의 구호 자금을 유용했다는 의혹 속에 그녀의 해임을 요구하는 목소리가 나오고 있습니다. 해당 장관은 연방 회계총국장(AG)인 올루와토인 마데인에게 5억 8,500만 나이라를 개인 계좌로 이체하라고 지시한 것으로 알려진 유출 메모가 폭로된 이후 대중의 거센 비난에 직면했습니다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.027274,
+  "out_tokens": 2252
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 70,
+  "domain": "news",
+  "hyp": "당국은 국가를 탈러시아화하기 위해 국민들에게 신고할 것을 촉구하고 있다",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.01445,
+  "out_tokens": 1197
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 389,
+  "domain": "social",
+  "hyp": "밖에서 우연히 저를 마주치시면 편하게 인사해 주세요!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.012454,
+  "out_tokens": 1031
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 197,
+  "domain": "social",
+  "hyp": "우리는 무의식적으로 그 모든 것을 둘러싸고 있던 보편적인 공동체와 연결되기를 갈망한다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.012346,
+  "out_tokens": 1022
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 192,
+  "domain": "social",
+  "hyp": "출처를 파악하기가 그렇게 쉽지 않았기 때문에, 우리는 출처를 고려할 필요 없이 바로 일에 뛰어들 수 있었습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.038138,
+  "out_tokens": 3170
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 322,
+  "domain": "social",
+  "hyp": "하지만 조금 되돌아가 보죠. \"저 안에는 실제로 뭐가 들어있나요?\" 아무도 묻지 않는 소리가 들리네요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.01784,
+  "out_tokens": 1479
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 628,
+  "domain": "social",
+  "hyp": "이제 우리 침실을 다 때려 부수기 시작할 시간이다. 간단하게 살짝 꾸미기만 했을 뿐 아무것도 하지 않은 집안의 마지막 방이다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.023396,
+  "out_tokens": 1941
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 421,
+  "domain": "social",
+  "hyp": "@user36 올려주신 안경 둘 다 마음에 들어요, 색깔이 정말 예쁘네요... 저도 새 안경 사고 싶어지네요 😂",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.010384,
+  "out_tokens": 857
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 664,
+  "domain": "social",
+  "hyp": "비순차적으로 스트리밍되겠지만, 브라우저는 마치 순서대로 스트리밍된 것처럼 HTML 문서를 조립할 것입니다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.013984,
+  "out_tokens": 1157
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 411,
+  "domain": "social",
+  "hyp": "빌어먹을 이 녹슨 K1100! 고착되지 않은 나사가 단 하나라도 있긴 한 거야?!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.016456,
+  "out_tokens": 1364
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 206,
+  "domain": "social",
+  "hyp": "미디어를 둘러싼 집단 의식이 부재한 상황에서, 우리는 비판적 태도를 유지하는 데 도움이 되는 일정 수준의 계급 의식을 발전시켰다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.014902,
+  "out_tokens": 1234
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 313,
+  "domain": "social",
+  "hyp": "어쩌면 새집에 어안 렌즈는 조금 과할지도 모르겠네요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.016772,
+  "out_tokens": 1391
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 450,
+  "domain": "social",
+  "hyp": "물론 그럴게요 ! 지금은 Nextcloud를 사용하고 있는데, 가족용이든 업무용이든 무난하게 시작하기 좋은 첫걸음이에요",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.01668,
+  "out_tokens": 1382
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 306,
+  "domain": "social",
+  "hyp": "ps - 우리가 그녀의 소설을 좋아하는 것에 대해 변명하거나 평균은 된다고 옹호하는 단계는 지났기를 바랍니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.025176,
+  "out_tokens": 2090
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 533,
+  "domain": "social",
+  "hyp": "지상 교육, 순조로운 출발",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.015594,
+  "out_tokens": 1294
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 214,
+  "domain": "social",
+  "hyp": "인상적인 공중제비를 돌고는 단 한 번의 움직임으로 내 뗏목을 박살냈다",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.017418,
+  "out_tokens": 1445
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 446,
+  "domain": "social",
+  "hyp": "오오, *너무* 감사해요!! 정말 감사드려요!! 🙏",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.018792,
+  "out_tokens": 1559
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 329,
+  "domain": "social",
+  "hyp": "저는 이걸 기능이라고 부릅니다. 그래야 새들도 프라이버시를 좀 가질 수 있으니까요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.017288,
+  "out_tokens": 1434
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 591,
+  "domain": "social",
+  "hyp": "현금으로 전환하세요, 마진 거래는 중단하세요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.028998,
+  "out_tokens": 2411
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 652,
+  "domain": "social",
+  "hyp": "3. 섹션 1, 2, 3 등을 위한 HTML",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.005146,
+  "out_tokens": 422
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 441,
+  "domain": "social",
+  "hyp": "@user4 @user3 할 수 있어요! 그리고 제 인사이트를 기꺼이 공유해 드릴게요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.012408,
+  "out_tokens": 1026
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 255,
+  "domain": "social",
+  "hyp": "저는 그것이 참으로 삶을 긍정하게 해준다고 느낍니다; 그토록 단순한 재료들을 그처럼 풍부하고 복잡한 무언가로 변화시키는 것 말이죠. 마치 탄생을 지켜보는 것과 같아요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.024108,
+  "out_tokens": 2001
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 680,
+  "domain": "social",
+  "hyp": "@user27 헤헤 고마워 user26",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.006632,
+  "out_tokens": 547
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 582,
+  "domain": "social",
+  "hyp": "이제 2024년에 100만 미터가 가능할지 궁금하네 🤔 #peloton",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.012476,
+  "out_tokens": 1032
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 478,
+  "domain": "social",
+  "hyp": "덧붙이자면, 제가 직접 가서 확실하게 물어보고 나서야 필수가 아니라고 하더라고요 •_•",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.015238,
+  "out_tokens": 1262
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 469,
+  "domain": "social",
+  "hyp": "Hugging Face의 “The Stack”에서 가장 좋은 점은 내게 표시되는 저장소 중 ~대부분이~ 많은 수가 — 그리고 항상 그래왔듯 — 비공개 저장소라는 점이다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.026586,
+  "out_tokens": 2205
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 304,
+  "domain": "social",
+  "hyp": "그리고 그녀는 영어에 매우 능통합니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00913,
+  "out_tokens": 755
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 386,
+  "domain": "social",
+  "hyp": "행사에 참석할 때면 저는 그것들을 지니고 있습니다. 현재 제 캘린더에 예정된 행사는 다음이 전부입니다:",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.017388,
+  "out_tokens": 1441
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 475,
+  "domain": "social",
+  "hyp": "@user42 이거 매우 흥미롭네요. my-blog에 올린 제 가장 최근 공개 게시물이 2022년이라고 나오지만, 저는 이 저장소가 몇 년 동안 비공개 상태였다고 확신하기 때문입니다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.01976,
+  "out_tokens": 1636
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 581,
+  "domain": "social",
+  "hyp": "이번 달에 10만 미터를 목표로 밀어붙이고 있었는데, 무난히 달성할 수 있을 것 같습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.022048,
+  "out_tokens": 1830
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 356,
+  "domain": "social",
+  "hyp": "패널이 그냥 개구린가 보다. 이걸로 해결되길 바라며 이제 더 큰 걸로 주문했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.021944,
+  "out_tokens": 1821
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 321,
+  "domain": "social",
+  "hyp": "자, 그래서 낮에 새 둥지 상자를 달았어요. 정원의 새 자리에 있는 모습은 이렇습니다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.021,
+  "out_tokens": 1741
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 754,
+  "domain": "speech",
+  "hyp": "그리고 저는 경험이 아주 많습니다. 해외에서도 일해봤습니다. 이 대륙에서도 일해봤고요. 여러 주와 다양한 시장 부문에서도 일했습니다. 그리고 제가 알게 된 것은 사람들이 그런 점을 정말 흥미로워한다는 것입니다. 사람들은 비하인드 스토리가 어떤지 알고 싶어 하더라고요. 그래서 이 영상들 중 일부는 실제로 이 업계에서 일하는 사람의 팁이 될 것이며, 저는 그 점이 여러분이 팔로우하시는 다른 여행 블로거들과 저를 조금 차별화하는 부분이라고 생각합니다. 제가 예를 들어 크루즈 업계 같은 곳에서 직접 일해본 적은 없을지 몰라도, 호스피탈리티 학위를 따기 위해 관련 과정을 수강해야만 했습니다. 그래서 직접 일해보지 않은 분야라도, 그에 대한 교육은 받았습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.034906,
+  "out_tokens": 2880
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 711,
+  "domain": "speech",
+  "hyp": "물, 바다를 이루는 액체. 그리고 끝없는 심연을 채웁니다. 오직 소수만이 이 광활한 수중 세계의 끝없는 넓은 바다로 모험을 떠납니다. 대부분의 해양 거주민들은 말하자면 인간 사회처럼 도시에 거주합니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.031784,
+  "out_tokens": 2636
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 718,
+  "domain": "speech",
+  "hyp": "그럼, 조부모님 앞에서 무대를 선보인 이후에 언제 처음 음악을 만들고 공연하기 시작하셨나요? 음, 기본적으로는 공연을 더 많이 했죠. 곡을 조금 쓰긴 했지만, 아시다시피 전문 작곡가들과 함께 전 세계적으로 엄청난 히트를 친 곡들을 녹음할 때는 전문가들에게 맡겼거든요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.020958,
+  "out_tokens": 1732
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 704,
+  "domain": "speech",
+  "hyp": "그리고 다운로드해 보시면, 파일 크기가 작아서 꽤 금방 될 겁니다. 그러면 딱 이렇게 생긴 앱을 받게 되실 겁니다, 아시겠죠? 그럼 제가 지금 바로 클릭해 보겠습니다. 그리고 이게 여러분이 여기서 바로 보게 되실 화면입니다. 그래서, 실습과 관련해 몇 가지 말씀드리겠습니다. 자, 한 가지 참고하실 점은 여러분이 작성하실 실습 워크시트의 지시사항들은 꽤 이해하기 쉽게 잘 되어 있다는 것입니다. 그래서 사실 이 영상의 목적은 앱 자체의 사용법을 보여드리는 것입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.024712,
+  "out_tokens": 2035
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 705,
+  "domain": "speech",
+  "hyp": "뭐, 그래도 핑크 플로이드보단 듣기 좋네요. 그래서 매닉 마이너에서는 화면에 있는 아이템을 전부 모아서 목표 지점으로 가면 됩니다. 그리고 산소가 떨어지거나 어딘가에 부딪히기 전에 해내야 하죠. 정확히 뭐에 부딪히냐고요? 잡초요! 풀을 만지면 죽을 수 있다고요. 제 팬덤 절반 얘기 같네요. 그리고 완전히 다른 발판에 있는 잡초에 닿아서 죽은 거 보셨어요? 그냥 발판을 뚫고 지나가서 잡초에 부딪혔다고요. 참 훌륭한 게임 디자인이네요, 진짜. 그리고 여기엔 '르르르르!' 거리는 이 새끼도 있죠!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.029752,
+  "out_tokens": 2455
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 786,
+  "domain": "speech",
+  "hyp": "너, 너란 세상은! 참 놀라움으로 가득하구나, 안 그래? 몇 년 전 밀라 요보비치가 나오는 '레지던트 이블' 영화 몇 편을 보면서 \"이보다 더 최악일 순 없어!\"라고 생각했던 게 기억난다. 그래, 그때가 참 속 편한 시절이었지. 하지만 2021년이 마지막 숨을 헐떡이며 '레지던트 이블: 웰컴 투 라쿤 시티'를 내놓았다. 일명, 웰컴 투 헬.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0812,
+  "out_tokens": 6747
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 788,
+  "domain": "speech",
+  "hyp": "오늘 저희는 토케 해변에 와 있어요. 토케 해변은 이곳 시에라리온에 있는 리조트예요. 저는 사촌들과 함께 왔어요. 정말 멋진 하루가 될 것 같아요. 그냥 해변에서 아주 여유로운 시간을 보내는 거죠. 딱히 별일이 있거나 계획해 둔 건 없지만... 오, 결혼식 피로연이 열리려나 봐요. 다들 결혼을 하네요. 오오, 결혼식이나 약혼식 같은 걸 하는 것 같아요. 이곳은 정말 아름답네요. 그렇지 않나요?",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.031796,
+  "out_tokens": 2629
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 685,
+  "domain": "speech",
+  "hyp": "우린 준비 안 됐어. 게다가 네가 그렉을 자르는 바람에 저 밖은 더 위험해질 거라고. 걔한테 줄 돈이 없으니까 그렇지, 버트. 네가 이렇게 만든 거야, 내가 아니라. 웃기고 있네. 이 애들을 여기까지 데려오려고 내가 무슨 짓까지 했는지 몰라? 보험사에 걸어둔 보증금, 그거 다 날리고 싶어? 애들 중 하나라도 다칠 위험을 감수하느니 차라리 날리겠냐고? 그래. 왜? 전에는 신경도 안 썼잖아.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.040806,
+  "out_tokens": 3379
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 759,
+  "domain": "speech",
+  "hyp": "엄마가 그러는데, 아빠가 우리 보러 오기 싫대요. 엄마가 그래? 네. 사람은 누구나 자기만의 이야기가 있단다, 아들아. 그게 엄마의 이야기인가 보구나. 인생이란 게 참 묘하지, 안 그러니?",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.033448,
+  "out_tokens": 2776
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 765,
+  "domain": "speech",
+  "hyp": "안녕하세요, 이번 여행 브이로그에 오신 것을 환영합니다. 오늘은 로테르담 시를 둘러보겠습니다. 로테르담은 자위트홀란트주에 위치한 도시입니다. 이곳은 보다 현대적이고 도시적인 느낌의 건축물 때문에 호불호가 갈리는 도시이기도 합니다. 로테르담은 제2차 세계 대전 당시 독일군의 공격을 받아 거의 완전히 파괴되었습니다. 이로 인해 도시를 재건해야 했고, 그 결과 네덜란드의 다른 도시들과는 꽤 다른 모습을 띠게 되었습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.028356,
+  "out_tokens": 2344
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 714,
+  "domain": "speech",
+  "hyp": "스타파이어. 타마란의 공주. 편안하길 바라지. 바그록 영주! 오! 정말 대단한 기백이군. 네 언니가 널 넘긴 건 현명한 선택이었어. 가블러 넥!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.02019,
+  "out_tokens": 1672
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 741,
+  "domain": "speech",
+  "hyp": "여러분 중 많은 분들이 제가 나이 드는 것을 두고 농담하며 즐거워하신다는 걸 알고 있습니다. 심지어 제가 최근에 받은 수술까지 제 나이와 연관 지으시더군요. 뭐, 솔직히 말씀드리겠습니다. 저는 젊었을 때도 똑같은 수술을 받았는데, 그때 기분이 너무 좋아서 더 늙기 전에 한 번 더 받고 싶었을 뿐입니다. 하지만 저도 제 나이를 잘 알고 있습니다. 요즘 건강검진을 받으러 가면, 병원에서는 더 이상 제게 몇 살이냐고 묻지 않습니다. 그냥 탄소 연대 측정을 하더군요.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.026054,
+  "out_tokens": 2150
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 689,
+  "domain": "speech",
+  "hyp": "저는 그들이, 그들이 선생님이 무언가 틀렸다고 생각할 때조차 선생님께 이의를 제기하도록 격려합니다. 저는 사람들이 세상에 나가서 모든 것을 있는 그대로만 받아들이지 않는 것이 좋은 일이라고 생각합니다. 맞습니다. 네. 그러니까 그런 독립성 말이죠--. 의원님은 하원의원 시절 페이스북에 본인의 모든 표결에 대해 설명하신 것으로 유명한데, 이는 권력자가 \"자, 이게 제가 이렇게 행동한 이유입니다\"라고 말하는 보기 드문 양보입니다. 네, 그리고 사실, 아시다시피 지도부와 의회의 많은 사람들은 제가 그렇게 하는 것을 달가워하지 않았습니다. 제가 지역구 주민들에게 그들에게 이의를 제기할 수 있는 힘을 주고 있었기 때문이죠. 네.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.041568,
+  "out_tokens": 3437
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 692,
+  "domain": "speech",
+  "hyp": "전 바다 공룡이 아직 존재한다고 확신해요. 생각을 방해해서 죄송합니다, 마드모아젤. 하지만 엄밀히 말하자면, 마른 땅을 걸어 다녔던 파충류만을 공룡이라고 부릅니다. 물속에 살았다면 해양 파충류라고 부르며, 그들은 아주, 아주 오래전에 모두 사라졌습니다. 무슨 일이 있었냐고요? 곧 알게 될 겁니다, 줄리.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.047102,
+  "out_tokens": 3909
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 767,
+  "domain": "speech",
+  "hyp": "안녕하세요 여러분? 베테랑 컨스트럭션의 잭입니다. 유튜브에서 지붕 공사 관련 영상을 처음 보시는 분들이 많으실 텐데요. 그래서 저에게 아주 의미 있는 영상을 만들어 여러분을 직접 환영하고자 합니다. 이번 영상의 주제는 '만약 제가 슁글 작업을 한 번도 해본 적이 없는 상태에서 이 지붕을 시공해야 한다면, 지금 알고 있는 모든 지식을 바탕으로 어떻게 작업할 것인가?'입니다. 따라서 이 영상은 DIY에 도전하시는 분들이나 초보 슁글 작업자분들이 실수를 방지하고, 시간 낭비 없이 작업을 제대로 끝내기 위한 올바른 예방 조치를 취하는 데 도움을 줄 것입니다. 자, 가장 먼저 해야 할 일은 이 자재와 친숙해지는 것입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0278,
+  "out_tokens": 2289
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 697,
+  "domain": "speech",
+  "hyp": "오늘은 벤 애플렉이 자신의 인터뷰에 대해 해명한 일에 대해 이야기해 보겠습니다. 그렉, 우리가 시청할 영상에 대해 설명해 주시죠. 네, 몇 주 전에 벤 애플렉이 하워드 스턴과 2시간 동안 인터뷰를 했는데요. 그는 전처와의 이혼과 가족에 대해 이야기했고, 그로 인해 약간의 파장이 있었습니다. 자, 그럼 보시죠. 벤 애플렉입니다!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.023748,
+  "out_tokens": 1960
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 700,
+  "domain": "speech",
+  "hyp": "이제 보시다시피 무대 뒤에서 무슨 일이 일어나든 상관없어요. 쇼는 계속될 테니까요. 그리고 러블리 리치(Lovely Lych)님께서 영상이 정말 좋았다는 댓글을 남겨주셨어요. 이렇게 적어주셨죠. \"페스티벌로 이동하는 과정, 그곳의 분위기, 음식 같은 비하인드 요소들이 좋았어요. 말하자면 당신의 하루 같은 거요.\" 그러니 이번 영상도 마음에 드셨기를 바라며, 앞으로도 가능한 한 많은 것을 보여드릴게요. 자, 이제 점심시간인데요, 딥(Deep)이 스크램블 에그를 만들고 있어요. 여기서 비결은 계란 노른자를 하나 더 넣는 거예요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.030218,
+  "out_tokens": 2493
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 784,
+  "domain": "speech",
+  "hyp": "안녕하세요, 새로운 시리즈의 파일럿 격인 방송에 오신 것을 환영합니다. 이 시리즈에서는 세계 최악의 스캔들들의 역사를 파헤쳐 볼 예정입니다—여러분이 아실 수도 있고, 모르실 수도 있는 사건들이죠. 이 방송은 RTE의 프로그램인 'Scannál'에서 부분적으로 영감을 받았습니다. 다만, 아일랜드와 관련된 사건들에만 초점을 맞추기보다는 제가 다룰 내용의 범위를 좀 더 넓혀볼 계획입니다. 자, 그럼 지체하지 않고 바로 시작하겠습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.024786,
+  "out_tokens": 2046
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 691,
+  "domain": "speech",
+  "hyp": "그래서, 여러분이 굳이 사실 필요 없도록 제가 엑스박스 시리즈 X를 구매했습니다. 아니면 사실 꼭 사셔야 할지도 모르죠. 이번 영상에서는 엑스박스 시리즈 X를 선택할 때의 모든 장단점을 말씀드리려고 합니다. 또한 실제 하드웨어, 컨트롤러, 게임 등 지금까지 제가 엑스박스 시리즈 X를 사용하며 경험한 거의 모든 것들을 살펴보겠습니다. 그러니 이번 영상을 재밌게 즐겨주시길 바라며, 유용한 정보도 얻어 가셨으면 좋겠습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.027626,
+  "out_tokens": 2282
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 770,
+  "domain": "speech",
+  "hyp": "스코티 킬머 채널 시간입니다. 자동차 페인트가 빛바랬나요? 그렇다면 채널 고정하세요, 오늘 제가 빛바랜 페인트를 광택 내어 없애는 방법을 보여드릴 테니까요. 그리고 필요한 건 물 한 양동이, 광택기, 그리고 이 맥과이어스 얼티밋 컴파운드 한 병뿐입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.025724,
+  "out_tokens": 2129
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 750,
+  "domain": "speech",
+  "hyp": "안녕하세요 여러분, TS 매디슨이에요. 비즈니스, 브랜드나 제품을 키우고 싶으시다면, 저와 함께 광고해 보는 건 어떨까요? booktsmadison@gmail.com으로 이메일을 보내 저희의 종합 광고 패키지를 만나보세요. 순 방문자 수, 순 구독자 수, 자기야, 폭넓은 타깃층까지. 오늘 바로 저와 함께 광고하세요.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.021002,
+  "out_tokens": 1734
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 768,
+  "domain": "speech",
+  "hyp": "구조대가 도시를 순찰하는 동안, 상자 속 박물관은 우리가 지킬게. 우리가 안에서 기다리고 있는데 악당들이 카보니타를 훔치려 하는 건 좋은 생각이 아닐 거야. 우린 돈이 다 떨어졌어! 그 다이아몬드를 훔쳐서 팔아야 해! 안 그러면 탄산음료로 실험을 해야 한단 말이야! 로봇들은 어떻게 안으로 들여보내지? 다 처리해 뒀어.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.028926,
+  "out_tokens": 2390
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 731,
+  "domain": "speech",
+  "hyp": "하버드 심리학 석사 과정에 대한 초기 지원은 거절당했지만, 결국 입학을 허가받았다. 이러한 초기의 좌절은 밀그램이 퀸스 칼리지에서 심리학 학부 과목을 전혀 수강하지 않았기 때문이었다. 1961년, 밀그램은 사회심리학 박사 학위를 받았다. 그는 비슷한 시기에 예일 대학교의 조교수가 되었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.019848,
+  "out_tokens": 1639
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 748,
+  "domain": "speech",
+  "hyp": "트랜스유로파 페스티벌은 꽤 많은 다양한 형식을 한데 모으는 격년제 문화, 정치, 예술 행사/포럼/콘퍼런스입니다. 이 행사를 주최하는 단체인 '유러피언 얼터너티브(European Alternative)'로서 저희는 10년 동안 이 일을 해왔습니다. 그래서 저희는 꽤 많은 경험을 가지고 있습니다. 동시에 이 행사는 노마드적인 성격을 띠고 있어서 항상 다른 도시에서 열립니다. 지난번인 2년 전에는 베오그라드, 즉 유럽 연합 밖의 도시에 있었습니다. 올해인 2017년에는 꽤 여러 가지 다양한 이유로 마드리드에 오고 싶었습니다.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.042164,
+  "out_tokens": 3487
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 716,
+  "domain": "speech",
+  "hyp": "어떻게 그렇게 일찍부터, 음, 엔지니어링은 단지 과제의 일부일 뿐이라는 걸 생각하거나 깨닫게 되셨나요? 특히 우리는 엔지니어로서 문제를 다루는 것이라고 배우잖아요, 그렇죠? 그리고 해결책을 찾는 것이라고요. 그게 우리의 일이죠. 그럼요, 그럼요. 어떻게 그렇게 일찍 그런 사실을 알게 되셨나요? 글쎄요, 말하자면 이상한 우연의 일치였죠. 물론, 저는 1970년대에 자랐습니다. 저는 1970년대에 학문적 이해뿐만 아니라 정치적 의식을 갖게 되었는데, 그러한 맥락은 물론 엄청나게 중요합니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.031584,
+  "out_tokens": 2607
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 747,
+  "domain": "speech",
+  "hyp": "지구 크기의 절반인 행성, 화성에는요. 아주 오래전에 화성에는 물이 아주 많았어요. 그런 걸 하려면... 화성에는 8만 1천 피트 높이의 화산이 있는데--에베레스트보다 거의 세 배나 높죠. 그러니까, 뭐랄까, 그 엄청난 시간 동안 일어난 일들은 정말 제 상상력으로는 가늠하기조차 힘들어요. 아무튼, 먼저 물이 있었죠. 첫 생명체: 37억 년, 그냥 생명체라고 해두죠. 그러니까, 있잖아요, 꽤, 꽤 이른 시기에, 그, 있잖아요, 초기 진화의...",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.03286,
+  "out_tokens": 2714
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 790,
+  "domain": "speech",
+  "hyp": "먼저 인포시스의 CEO이신 비샬 시카 박사님께 말씀을 청하며 시작하겠습니다. 비샬, 박사님은 철도 엔지니어의 아들이시죠. 그 시절의 기술을 지켜보셨고, 또한 서퍼이시기도 하니 파도를 피하는 법에 대해서는 아주 잘 아실 겁니다. 신기술로 인해 다가오는 파괴적 변화 중 우리가 가장 주목해야 할 것은 무엇이며, 그 이유는 무엇입니까? 왜 우리가 그러한 파괴적 변화에 그토록 주목해야 하는 것일까요?",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.02317,
+  "out_tokens": 1911
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 708,
+  "domain": "speech",
+  "hyp": "안녕하세요, 바히아노 리노의 바히아노입니다. 네, 줄눈 보수 작업을 좀 할 겁니다. 타일은 한 14, 15년 정도 된 것 같네요. 지금 상태로도 타일은 좋아 보이기 때문에, 단지 타일을 안정시키기 위해 이 작업을 하려는 겁니다. 몇몇 군데만 좀 헐거워졌거든요. 타일 전체나 줄눈 전체를 교체하고 싶지는 않아요. 전체 리모델링을 할 준비가 될 때까지 버틸 수 있도록 약간의 보수만 할 예정입니다. 네, 이거 녹화되고 있나요?",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.017728,
+  "out_tokens": 1454
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 756,
+  "domain": "speech",
+  "hyp": "여보세요. 올버니 통화는 어떻게 됐소? 통화 중이오? 그럼 수석 교환원을 불러서 회선을 열어두라고 하시오. 공무요. 생사가 걸린 문제요. 케네디 양, 당신 말이 사실이길 바라오. 그렇지 않다면 당신에게 좋지 않을 거요. 제가 한 말은 한 마디도 빠짐없이 다 사실이에요. 더컨이 절 붙잡았어요. 그가 제 드레스를 찢었어요. 우린 몸싸움을 벌였어요.",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.039554,
+  "out_tokens": 3277
+ },
+ {
+  "model": "gemini-3.1-pro",
+  "segment_id": 734,
+  "domain": "speech",
+  "hyp": "타르를 사용해 밀봉하면 갈라지게 됩니다. 제가 보여드릴게요. 지금 실리콘을 제거하고 있는데요, 이건 절대 쓰면 안 되는 것 중 하나입니다. 바로 실리콘 실러 말이죠. 그런데 누군가 여기에 타르를 바르고 그 타르 위에 페인트를 칠해 놨네요. 보여드리겠습니다. 이게 무슨 역할을 했을까요? 그냥 충전재일 뿐입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.028478,
+  "out_tokens": 2357
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 890,
+  "domain": "literary",
+  "hyp": "틀려도 단단히 틀렸다. 고용인들이 서로 속삭이며 벽 주위를 배회하는 가운데, 남관 쪽으로 걸어가며 아이보리는 생각했다. 그들은 그 안에 무엇이 있는지 전혀 모른다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00442275,
+  "out_tokens": 1166
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 986,
+  "domain": "literary",
+  "hyp": "“응, 보여.” 코런이 인후 마이크로 대답했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.003192,
+  "out_tokens": 843
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 899,
+  "domain": "literary",
+  "hyp": "“그거 무슨 노트야?” 아이보리가 카리의 침대에서 그녀 옆에 앉으며 물었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00480225,
+  "out_tokens": 1272
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 802,
+  "domain": "literary",
+  "hyp": "웃기지 않은가? 인력이 절반밖에 남지 않았는데도 서로를 해치는 것조차 멈추지 못하다니. 나는 서둘러 발걸음을 재촉했다. 모퉁이만 돌면 앨의 가게였으니, 안으로 들어가면 안전할 터였다. 뒤를 힐끗 돌아보고 더 이상 미행이 붙지 않았음을 확인한 뒤, \"알본의 전당포!\"라고 밝게 빛나는 간판 앞에 섰다. 한결 느려진 걸음으로 다시 안으로 들어섰다. 알본은 돌연변이가 되어 팔트리쿠스로 몰래 숨어든 이들을 종종 거두어 주곤 했기에 이곳은 비교적 은밀한 장소였다. 문을 열었을 때, 기이하게도 불은 모두 꺼져 있었다. 앨은 없었다. 피난민들도 없었다. 아무것도 없었다. 무언가 잘못되어 있었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.005226,
+  "out_tokens": 1359
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 858,
+  "domain": "literary",
+  "hyp": "\"어, 난 괜찮아. 뭘 좀 죽였더니 금방 괜찮아질 거야.\" 테눅이 아래로 내려와 본래의 스파스트 모습으로 다시 변신하며 그의 곁에 착지하는 동안, 카엘은 자신의 솜씨를 살펴보았다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0059835,
+  "out_tokens": 1580
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 922,
+  "domain": "literary",
+  "hyp": "아이보리는 카리의 것만큼이나 정교한 문으로 다가갔다. 문에는 프로스트펠을 창조했다고 전해지는 6대 태초의 용 중 하나인 백룡이 새겨져 있었다. 하지만 화가가 자신의 문에 그것을 둘 법도 했다. 그는 역사를 좋아했으니까.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.004605,
+  "out_tokens": 1212
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 916,
+  "domain": "literary",
+  "hyp": "그들은 공주가 마침내 자신의 안전지대를 벗어나 물감처럼 자신의 힘이 닿지 않는 것들을 요구하기 시작했다는 사실에 안도하며 방을 나섰다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0055755,
+  "out_tokens": 1476
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 895,
+  "domain": "literary",
+  "hyp": "“들어가도 될까요?” 아이보리가 묻지도 않고 들어갔던 때를 떠올리며 물었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0031785,
+  "out_tokens": 839
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 869,
+  "domain": "literary",
+  "hyp": "니시는 어깨를 으쓱하더니 카메라를 집어 들고, 이제는 확실히 죽은 짐승들의 사진을 몇 장 찍었다. 그러고는 자신이 가장 좋아하는, 화려하고 사신 느낌이 물씬 나는 단검을 꺼내 괴수의 뿔 하나를 잘라내기 시작한 뒤 다른 쪽 뿔로 넘어갔다. 하지만 니시가 작업을 마치자마자 괴수들이 갑자기 불타오르기 시작하더니, 순식간에 한 무더기의 재로 변해버렸다. 니시가 잘라낸 뿔에도 똑같은 일이 일어났다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0037785,
+  "out_tokens": 983
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 914,
+  "domain": "literary",
+  "hyp": "“좋아! 나중에 봐?” 아이보리는 자리에서 일어나 어지럽게 널브러진 종이와 공책 사이를 요리조리 빠져나가며 물었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00339525,
+  "out_tokens": 896
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 883,
+  "domain": "literary",
+  "hyp": "“그녀를 놓아줘!”",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00100875,
+  "out_tokens": 263
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 941,
+  "domain": "literary",
+  "hyp": "이타니아 시각 0430. 코렌은 이렇게 일찍 일어나는 것을 끔찍이도 싫어했다. 주로 중대의 다른 인원들을 전부 깨우는 것이 그의 몫이었기 때문이었다. 침상에서 조용히 빠져나온 그는 전투복을 입고 돌격 조끼를 걸친 다음, 유독 한 작은 상자를 조심스레 다루며 관물함에서 짐을 챙겼다. 소총을 어깨에 둘러메고 벨트에 달린 작은 고리에 헬멧을 걸었다. 헬멧에는 방독면, 고글 등 필요한 모든 부착물이 빠짐없이 갖춰져 있었다. 탄약 파우치를 확인한 그는 조용히 막사 밖으로 걸어 나갔고, 군화 아래로 진흙과 얼음이 질척거렸다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0058725,
+  "out_tokens": 1536
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 847,
+  "domain": "literary",
+  "hyp": "그거 꽤 까다롭겠는데!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0032745,
+  "out_tokens": 866
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 921,
+  "domain": "literary",
+  "hyp": "애써 무시하려 해도 소용이 없자, 그들은 귀를 막았다. 그들은 동관 왼쪽에서 두 번째 문에 있는 왕실 화가의 방으로 향했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.003828,
+  "out_tokens": 1008
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 827,
+  "domain": "literary",
+  "hyp": "카엘은 타살린이 무슨 생각을 하고 있는지 짐작이 가 쿡쿡 웃었다. \"그래, 그건 그래. 그런데 뭘 집어 든 거야? 그리고 왜 그렇게 급하게 날아간 건데?\"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.004248,
+  "out_tokens": 1120
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 864,
+  "domain": "literary",
+  "hyp": "다행히도 레트빅의 질문에는 다시 몸을 추스르고 일어난 타살린이 답했다. 그는 온통 베이고 긁힌 상처투성이에 다소 멍해 보였지만, 그리 심하게 다친 것 같지는 않았다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.003873,
+  "out_tokens": 1019
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 983,
+  "domain": "literary",
+  "hyp": "“두고 보면 알겠지.” 코런이 웃으며 말했다. 오슨은 대화를 이어가지 않았다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.001995,
+  "out_tokens": 522
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 816,
+  "domain": "literary",
+  "hyp": "\"내 비행은 거대한 분홍색 용에게 갑자기 끌려가는 것과는 완전히 다르다고!\"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.004068,
+  "out_tokens": 1076
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 950,
+  "domain": "literary",
+  "hyp": "“좋은 지적이군, 스페셜리스트.” 코렌이 말했다. 그는 안으로 손을 뻗어 스위치를 딸깍 켰다. 막사 안에서 귀를 찢을 듯 요란한 경보음이 울려 퍼졌다. 안쪽에서 웅얼거리는 듯한 고함 소리와 사람들이 허둥지둥 비틀거리는 소리가 들려왔다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00599925,
+  "out_tokens": 1586
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 856,
+  "domain": "literary",
+  "hyp": "니시가 무슨 일이 일어났는지 파악하는 데는 잠시 시간이 걸렸다. 카엘에게 기이한 그림자 능력이 있다는 건 다들 알고 있었다. 대부분의 사람들이 그 힘을 불경하고 꽤나 끔찍한 것으로 여겼기에 카엘도 거의 쓰지 않던 능력이었다. 하지만 카엘이 어떤 어둠 속에서든 그 능력을 쓸 수 있다는 사실은 니시도 알지 못했다. 게다가 카엘의 반응으로 보아, 그 자신 역시 꽤나 놀란 눈치였다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00397875,
+  "out_tokens": 1040
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 928,
+  "domain": "literary",
+  "hyp": "하지만 왕자의 생각은 달랐다. “에이 자기야, 그냥 한때 그러는 것뿐인 거 알잖아! 나이 들면 다 지나갈 일이야!” 그가 혀 꼬부라진 소리로 말했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00492,
+  "out_tokens": 1298
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 972,
+  "domain": "literary",
+  "hyp": "중대는 흩어져 분대별로 모였고, 분대장들은 대원들을 전차에 탑승시켰다. 코렌은 행렬 앞쪽에 있는 전차 중 하나에 몸을 끌어올려 타며 네믹, 크레이스, 그리고 신병 두 명과 합류했다. 코렌은 그들이 며칠 전에 도착했던 것은 기억하고 있었지만, 그들에 대해 잘 알지는 못했다. 전차 옆쪽에 걸터앉아 다리를 늘어뜨린 채, 그는 이어피스와 후두 마이크로 연결된 배낭과 무전기를 바로잡았다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.005232,
+  "out_tokens": 1370
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 946,
+  "domain": "literary",
+  "hyp": "그가 대답하기도 전에 문이 열렸고, 이미 옷과 장비를 완벽하게 갖춘 해리스와 크레이스, 그리고 다른 몇몇 사람이 서둘러 밖으로 나왔다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0027555,
+  "out_tokens": 724
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 829,
+  "domain": "literary",
+  "hyp": "강력한 트라키가 갑자기 얼어붙었다. 니시와 카옐도 얼어붙었고, 그들의 시선은 공터의 틈새로 쏠렸다. 크고 검은 무언가가 쉭쉭 소리를 내며 그들을 노려보고 있었다. 그것이 무엇이든 간에, 놈은 거대한 두 쌍의 날개를 활짝 펼치고는 더 작은 세 존재를 뚫고 지나가야 한다는 사실 따위는 아랑곳하지 않은 채 타살린을 노리고 앞으로 돌진했다. 카옐과 테눅은 가까스로 몸을 숨겼지만, 니시는 그대로 휩쓸려 끌려가며 타살린에게 거의 내던져지다시피 했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00513225,
+  "out_tokens": 1343
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 871,
+  "domain": "literary",
+  "hyp": "프롤로그",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0009765,
+  "out_tokens": 255
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 817,
+  "domain": "literary",
+  "hyp": "\"그렇게 나쁘진 않잖아, 그렇지, 카엘?\"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00273975,
+  "out_tokens": 723
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 810,
+  "domain": "literary",
+  "hyp": "감시 화면을 모바일 기기로 옮겨 두고는 하나하나 유심히 지켜보았다. 아무것도 없었다. 마치 애초에 거기에 없었던 것만 같았다. 말도 안 된다. 원격 접속이라 해도 카메라 보안은 철저했는데. 대체 어떻게..? 으아악. 머릿속의 복잡한 생각들을 털어내야겠다는 생각에 씩씩대며 자리에서 일어났다. 신발을 꿰어 신고 열쇠를 챙겨 걸음을 옮겼다. “금방 올게요, 아빠.” 침묵. 뭐, 상관없다. 평소에도 딱히 대답을 안 하기도 했고, 어차피 나보다 훨씬 더 중요한 일로 바쁠 테니까.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00552675,
+  "out_tokens": 1448
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 967,
+  "domain": "literary",
+  "hyp": "몇 초마다 분대장들로부터 응답이 들어왔다. 해리스, 크레이스, 라빅은 이곳에 처음 왔을 때만 해도 모두 하급 부사관이었다. 네 사람 모두 지구의 훈련소 시절부터 절친한 친구 사이였다. 코렌이 그들을 만난 지는 2년도 채 되지 않았을 텐데, 지금은 까마득한 옛일처럼 느껴졌다. 그들은 분대장이었지만, 크레이스는 전임 소대장이 데이브레이크 저격수의 총탄에 맞아 의병 제대한 뒤 일주일 전부터 2소대를 이끌고 있었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.003471,
+  "out_tokens": 898
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 876,
+  "domain": "literary",
+  "hyp": "남부는 절박했고, 왕실은 유혈 사태를 막기 위해서라면 무엇이든 하려 했다. 그들은 하나뿐인 공주를 북부의 왕비로 보내 훗날 왕이 될 아들을 낳게 하겠다고 제안했다. 그렇게 남부는 북부와 합쳐져 하나의 왕국이 될 터였다. 북부는 이를 받아들였고, 에이르웬 공주는 아쿨 왕자와 결혼했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0046845,
+  "out_tokens": 1231
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 912,
+  "domain": "literary",
+  "hyp": "이젤",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00067275,
+  "out_tokens": 174
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 144,
+  "domain": "news",
+  "hyp": "2023년 12월 20일 자 유출된 문건에 따르면, 에두 장관은 국가사회투자청 계좌의 자금을 자신의 소관 부처 산하 연방 정부 빈곤 구제 프로젝트인 '취약계층을 위한 보조금(Grants for Vulnerable Groups)'의 회계 담당자 브리짓 오니옐루의 개인 계좌로 이체하도록 정부회계총국장에게 지시했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.005271,
+  "out_tokens": 1386
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 26,
+  "domain": "news",
+  "hyp": "맥주업계, 와인 제조업체의 폐기물 방지 규정 면제에 격분",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0061485,
+  "out_tokens": 1632
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 91,
+  "domain": "news",
+  "hyp": "2017년 아버지 알렉스와 함께 사업을 시작한 스콧 브루스터 대표는 다음과 같이 말했습니다. \"스코틀랜드 건설업계가 재활용 및 2차 자재의 사용을 늘리는 한편, 업계에서 사용하는 천연자원의 양과 배출하는 탄소량을 줄여야 할 필요성을 점점 더 깊이 인식하고 있다는 점이 명백해지고 있습니다. 지난 6년 동안 재활용된 건설, 철거 및 굴착 폐기물의 양은 비약적으로 증가했으며, 이번 두 번째 사업장에 대한 당사의 투자는 이 분야에 추가적인 확장의 여지가 충분히 있음을 보여줍니다.\"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.005262,
+  "out_tokens": 1376
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 112,
+  "domain": "news",
+  "hyp": "부당한 유죄 판결을 무효화하기 위한 리시 수낵의 법률은 심각한 의도치 않은 결과를 초래할 수 있다 - 스코츠먼 논평",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00291,
+  "out_tokens": 767
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 81,
+  "domain": "news",
+  "hyp": "만약 누군가가 감히 스코틀랜드의 NHS가 위기 상황이 아니라거나, 이는 그저 일상적인 겨울철 문제일 뿐이라고 말한다면 우리는 분노해야 마땅합니다. 진정 위험한 점은, 궁지에 몰린 마이클 매시슨 보건부 장관 같은 정치인들이 비록 유감스럽기는 하나 이는 어떻게든 받아들여야 할 문제이며, 현 상황에서 장관들이 더는 할 수 있는 일이 없고, 이것이 바로 '새로운 일상(뉴노멀)'이라며 우리를 설득하는 데 성공하는 것입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.004197,
+  "out_tokens": 1097
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 53,
+  "domain": "news",
+  "hyp": "의회는 1996년 이후 12개 법안을 모두 개별적으로 통과시킨 적이 없다. 롤러는 절차가 제대로 진행되도록 보장하기 위해 4개 법안의 통과를 미룰 가치가 있다고 말했다. 의회가 12월까지 12개 법안을 통과시키지 못할 경우, 재정책임법에 따라 국방 및 비국방 재량 지출에 1%의 예산 삭감이 적용된다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0036675,
+  "out_tokens": 958
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 142,
+  "domain": "news",
+  "hyp": "베타 에두는 어떻게 기능 부전의 정치 시스템의 희생양이 되었는가",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0035235,
+  "out_tokens": 932
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 123,
+  "domain": "news",
+  "hyp": "우리가 발견한 사실은 즉각적인 조치가 필요함을 보여줍니다. 워싱턴주의 인구 증가를 감안하더라도, 2000년에서 2019년 사이 워싱턴주 구치소 사망률은 거의 세 배로 증가했습니다 — 이는 전국 평균의 16배에 달하는 증가폭입니다. 다른 주들을 앞지르며, 워싱턴주는 현재 전국에서 네 번째로 높은 구치소 사망률을 기록하고 있습니다. 이러한 상황이 계속되어서는 안 됩니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0078345,
+  "out_tokens": 2069
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 114,
+  "domain": "news",
+  "hyp": "스코츠먼(The Scotsman)지를 비롯한 여러 곳에서 수년간 지적해 왔듯이, 호라이즌 스캔들로 인해 수백 명의 우체국 지점장들이 부당하게 유죄 판결을 받은 사건은 역사상 가장 심각한 사법 오판 중 하나입니다. 사람들은 교도소에 수감되었고, 집과 가정, 명예를 잃었으며, 정직한 사람임에도 범죄자 취급을 당하는 정신적 고통을 견뎌야 했습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.004707,
+  "out_tokens": 1236
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 134,
+  "domain": "news",
+  "hyp": "항공기 기종은 일반적으로 항공편 예약 정보에 기재되어 있습니다. 구글 플라이트에서는 목록을 펼쳤을 때 항공편 상세 정보에 포함되어 있으며, 각 항공사의 예약 페이지에도 대개 명시되어 있습니다. 만약 어떤 이유로든 구글 플라이트나 예약 페이지에서 기종을 명확히 확인할 수 없는 경우, Expert Flyer나 Seat Guru 같은 사이트에서 좌석 배치도와 항공기 기종 같은 항공편 정보를 종합하여 제공합니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0043185,
+  "out_tokens": 1130
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 67,
+  "domain": "news",
+  "hyp": "베터 마켓츠(Better Markets)의 공동 창립자이자 회장 겸 CEO인 데니스 M. 켈러허는 이번 승인이 \"수천만 명의 투자자와 은퇴자들에게 암호화폐 포식자들을 풀어놓을 뿐만 아니라, 금융 안정성 또한 훼손할 가능성이 높은 역사적인 실수\"라고 말했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0020445,
+  "out_tokens": 530
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 16,
+  "domain": "news",
+  "hyp": "아프리카의 일부 시골 지역사회에서는 시민사회단체들이 유해한 통과의례를 보건 교육으로 대체하고 있다. 그러한 프로그램 중 하나는 케냐 마파라샤 마사이족 마을의 지도자인 카만다 티마이오가 여성 할례에 대한 생각을 바꾸는 데 도움을 주었다. 그는 <르 몽드>에 자신이 \"무지에서 벗어났다\"며 이 관습을 중단할 것이라고 말했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00583875,
+  "out_tokens": 1538
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 4,
+  "domain": "news",
+  "hyp": "다양한 주제를 능숙하게 아우르는 시소(Siso)는 아크릴, 파스텔, 연필, 수채화 등을 활용하여 풍경화, 초상화, 정물화에 이르는 수많은 작품군을 선보여 왔습니다. 가족사진과 직접 촬영한 참고 사진, 그리고 기억을 바탕으로 한 그의 다채로운 구성은 여러 매체를 넘나드는 폭넓은 관심사와 뛰어난 기량을 보여줍니다. 시소의 열대 풍경화와 바다 풍경화는 그의 과거가 깃든 지리적 배경을 반영하며, 풍부한 패턴을 활용하고 인물을 담아냄으로써 문화, 기억, 환경 사이의 의미 있는 연결고리를 형성합니다. 시소는 스페인어와 영어를 혼용하여 작품 제목을 짓는데, 이는 로스앤젤레스 카운티에서의 그의 삶이 지닌 소중하고도 본질적인 복합성을 나타냅니다. 《Vicente Siso: Memories of the Land and Water》 전시는 1월 13일 토요일에 개막하며, 오후 6시부터 8시까지 리셉션이 열립니다. 전시는 3월 3일 일요일까지 이어집니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00828,
+  "out_tokens": 2169
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 24,
+  "domain": "news",
+  "hyp": "노동자들의 분위기는 점점 더 격앙되고 있다. 하베크 장관은 \"혁명적 환상을 담은 호소문들이 나돌고 있다\"고 경고했다. 극우 정당인 독일을 위한 대안(AfD)은 이러한 불만을 부채질하는 데 전력을 다하고 있다. 드레스덴에서는 또 다른 극우 단체인 '자유 작센'이 농민 시위에 침투해 \"신호등의 소멸\"을 요구했다(사회민주당, 자유민주당, 녹색당 연립정부는 각 정당의 상징색 때문에 '신호등'이라 불린다).",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.004941,
+  "out_tokens": 1294
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 103,
+  "domain": "news",
+  "hyp": "소시지 롤과 스테이크 베이크로 유명한 FTSE 250 기업이 가격은 올리지 않고 매장망을 확대할 계획이다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00343425,
+  "out_tokens": 906
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 1,
+  "domain": "news",
+  "hyp": "시소가 묘사한 대지와 물, 새 갤러리 전시의 중심에 서다",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0029685,
+  "out_tokens": 784
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 127,
+  "domain": "news",
+  "hyp": "감독은 수감자만을 위한 것이 아닙니다. 저희 태스크포스는 감독 기구가 과중한 부담을 안고 있는 교정 시스템과 협력하여, 직원의 안전을 도모하고 재범률을 낮추는 현명한 정책을 비롯해 절실히 필요한 지원과 권고를 제공할 수 있음을 인식했습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.005493,
+  "out_tokens": 1450
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 86,
+  "domain": "news",
+  "hyp": "건설 폐기물 재활용 업체, 순환 경제 추진 속 컴버놀드 신규 공장 개소",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00269175,
+  "out_tokens": 710
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 63,
+  "domain": "news",
+  "hyp": "SEC는 수년간 유사한 펀드의 승인 신청을 거부해 왔다. 그러나 작년, 미국 컬럼비아 특별구 연방 항소법원은 파생상품 펀드를 비트코인에 직접 투자하는 펀드로 전환하겠다는 그레이스케일의 신청을 SEC가 거부한 것에 대해 SEC에 불리한 판결을 내리며, SEC의 입장을 \"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.005772,
+  "out_tokens": 1522
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 84,
+  "domain": "news",
+  "hyp": "실제로 스코틀랜드 공중보건국의 최신 통계는 상황이 사실상 더 악화되고 있음을 보여준다: 11월에 병원에서 지체된 환자는 1,910명으로, 4월의 1,730명에서 증가했다. 구급차가 환자를 신속하게 인계하지 못하는 한 가지 이유는 병동이 꽉 차서 응급실도 가득 찼기 때문이다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.006954,
+  "out_tokens": 1837
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 17,
+  "domain": "news",
+  "hyp": "세계은행은 다른 사례들도 제시한다. 1970년부터 2022년까지 방글라데시는 여성 문해율을 4배, 여성 노동 참여율을 2배로 끌어올렸다. 국내총생산(GDP)은 3배 이상 증가했다. 이러한 변화는 스스로 추진력을 얻었다. 지역사회 내부에서 유급 여성 인력을 교사와 보건 인력으로 채용한 것은 신뢰를 높였으며 \"여성의 이동과 노동이 사회적으로 더 용인되도록 만들었다.\"",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00397725,
+  "out_tokens": 1040
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 49,
+  "domain": "news",
+  "hyp": "강경 우파 단체인 프리덤 코커스 소속의 로젠데일은 수요일 표결을 무산시킨 인물 중 한 명이었다. 그는 존슨 의장 합의안의 총지출액 규모가 너무 과도하며, 34조 달러에 달하는 국가 부채를 줄이기에는 턱없이 부족하다고 보고 있다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00315675,
+  "out_tokens": 826
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 118,
+  "domain": "news",
+  "hyp": "미국에서 도널드 트럼프는 대통령으로서 형사 기소 면책특권이 있었다고 주장하려 하고 있다. 영국에서는 보리스 존슨이 브렉시트 계획을 수월하게 추진하기 위해 의회를 불법적으로 정회시켰으며, 수낵은 르완다가 안전한 국가라고 명시하는 법을 통과시켜 르완다는 안전한 국가가 아니라는 대법원의 판결을 뒤집으려 하고 있다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00476025,
+  "out_tokens": 1252
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 73,
+  "domain": "news",
+  "hyp": "크레멘은 또한 러시아어로 승객을 응대한 키이우의 한 택시 운전사에게 3,400흐리우냐(89달러)의 벌금이 부과되었음을 확인했다. 옴부즈만은 \"국어로 정보나 서비스를 제공받을 권리가 침해되었을 때의 상세한 대처 요령\"을 대중에게 상기시키며, 이러한 사례가 발생할 경우 즉시 보호관 웹사이트에 민원을 제기할 것을 촉구했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00599475,
+  "out_tokens": 1577
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 29,
+  "domain": "news",
+  "hyp": "환경부 장관들은 크리스마스 전에 제안된 포장 및 포장 폐기물 규정(PPWR)에 대한 EU 이사회의 협상 지침에 합의하여, 이미 실무 차원에서 진행 중인 유럽의회와의 임박한 정치적 협상을 위한 길을 열었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00329175,
+  "out_tokens": 864
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 31,
+  "domain": "news",
+  "hyp": "12월 18일 장관급 회담 결과, 와인 제조업자들은 2020년대 말까지 제품의 10%를 재사용 또는 리필 시스템 내 재사용 가능 용기에 담아 공급해야 하고 2040년에는 이 비율을 40%까지 늘려야 한다는 요건에서 예외를 인정받았다. 이러한 면제 조치는 유럽의회 역시 지지한 바와 같이, 해당 법안에 따라 2029년까지 도입되어야 하는 보증금 반환 제도에서 와인을 제외하도록 한 요건에도 동일하게 적용될 예정이다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0034245,
+  "out_tokens": 888
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 135,
+  "domain": "news",
+  "hyp": "어떤 항공기 기종이 가장 안전한지 판단하는 것은 그리 간단하지 않습니다. 미국 국가교통안전위원회(NTSB)는 사고 및 준사고에 관한 종합적인 정보 데이터베이스를 관리하고 있습니다. 또한 미국 연방항공청(FAA)은 '항공 안전 정보 분석 및 공유(Aviation Safety Information Analysis and Sharing)' 페이지를 통해 해당 항공기 제조사를 포함한 최근 10일간의 예비 사고 및 준사고 보고서를 제공합니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00474375,
+  "out_tokens": 1247
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 19,
+  "domain": "news",
+  "hyp": "세계은행은 그 메시지를 널리 전파하기를 희망한다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00358425,
+  "out_tokens": 949
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 143,
+  "domain": "news",
+  "hyp": "볼라 아메드 티누부 대통령 행정부의 베타 에두(Betta Edu) 인도주의 업무·빈곤완화부 장관과 관련된 최근 사건에서, 5억 8,500만 나이라 규모의 구호 기금 유용 의혹이 불거지며 그의 해임을 촉구하는 목소리가 나오고 있다. 해당 장관은 올루와토인 마데인(Oluwatoyin Madein) 연방 회계총감(AG)에게 5억 8,500만 나이라를 개인 계좌로 이체하도록 지시한 것으로 알려진 문건이 유출되어 공개되면서 거센 대중적 역풍에 직면했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0061305,
+  "out_tokens": 1610
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 70,
+  "domain": "news",
+  "hyp": "당국은 국가의 탈러시아화를 위해 주민들에게 신고할 것을 촉구하고 있다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00218475,
+  "out_tokens": 574
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 389,
+  "domain": "social",
+  "hyp": "혹시 밖에서 저를 마주치신다면 편하게 인사해 주세요!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00347325,
+  "out_tokens": 918
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 197,
+  "domain": "social",
+  "hyp": "우리는 한때 그 모든 것을 둘러싸고 있던 보편적 공동체와 연결되기를 무의식적으로 갈망한다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0030675,
+  "out_tokens": 810
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 192,
+  "domain": "social",
+  "hyp": "출처를 알아내기가 그리 쉽지 않았기 때문에, 우리는 출처를 고려할 필요 없이 곧바로 일에 뛰어들 수 있었습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00420675,
+  "out_tokens": 1112
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 322,
+  "domain": "social",
+  "hyp": "하지만 잠깐 되감아 봅시다. \"그 안에 실제로 뭐가 들어 있는데?\" 아무도 묻지 않는 소리가 들리는군요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00432825,
+  "out_tokens": 1145
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 628,
+  "domain": "social",
+  "hyp": "이제 우리 침실을 때려부술 시간이다. 그동안 가볍게 꾸미기만 했던, 집에서 마지막으로 남은 방이다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0034215,
+  "out_tokens": 902
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 421,
+  "domain": "social",
+  "hyp": "@user36 올리신 안경 둘 다 마음에 들어요. 이건 색상이 진짜 예쁘네요... 저도 새로 사고 싶어져요 😂",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00261375,
+  "out_tokens": 687
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 664,
+  "domain": "social",
+  "hyp": "순서가 뒤바뀌어 스트리밍되겠지만, 브라우저는 마치 순서대로 스트리밍된 것처럼 HTML 문서를 조립할 것입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00433425,
+  "out_tokens": 1146
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 411,
+  "domain": "social",
+  "hyp": "이 빌어먹을 녹슨 K1100! 안 쩔어붙은 나사가 단 하나라도 있긴 한 거야?!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00456675,
+  "out_tokens": 1209
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 206,
+  "domain": "social",
+  "hyp": "미디어에 대한 집단적 의식이 부재한 상황에서, 우리는 비판적인 태도를 유지하는 데 도움이 되는 수준의 계급의식을 형성했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00345525,
+  "out_tokens": 912
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 313,
+  "domain": "social",
+  "hyp": "어쩌면 둥지 상자에 어안 렌즈는 좀 과한 걸지도 모르겠다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00393375,
+  "out_tokens": 1041
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 450,
+  "domain": "social",
+  "hyp": "물론이죠, 그럴게요! 현재는 Nextcloud를 쓰고 있는데, 가족용이든 업무용이든 전반적으로 시작하기에 좋은 첫 단계예요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0031185,
+  "out_tokens": 822
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 306,
+  "domain": "social",
+  "hyp": "ps - 그녀의 소설을 좋아하는 것에 대해 미안해하거나 그저 평범한 편이라고 변호하는 단계는 이제 지났기를 바랍니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00417975,
+  "out_tokens": 1105
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 533,
+  "domain": "social",
+  "hyp": "지상 교육, 순조로운 출발",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.002814,
+  "out_tokens": 744
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 214,
+  "domain": "social",
+  "hyp": "멋진 공중제비를 돌더니 단 한 번의 동작으로 내 뗏목을 박살 냈다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00304725,
+  "out_tokens": 805
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 446,
+  "domain": "social",
+  "hyp": "오오, 정말 *너무* 감사해요!! 진짜 감사드려요!! 🙏",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00273075,
+  "out_tokens": 720
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 329,
+  "domain": "social",
+  "hyp": "전 이걸 기능이라고 불러요. 그래야 새들도 사생활을 좀 지킬 수 있죠.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00477,
+  "out_tokens": 1264
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 591,
+  "domain": "social",
+  "hyp": "현금으로 전환, 마진은 이제 그만.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00294975,
+  "out_tokens": 780
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 652,
+  "domain": "social",
+  "hyp": "3. 섹션 1, 2, 3 등을 위한 HTML",
+  "finish": "stop",
+  "provider": "Google AI Studio",
+  "cost": 0.00197775,
+  "out_tokens": 519
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 441,
+  "domain": "social",
+  "hyp": "@user4 @user3 할 수 있어요! 그리고 기꺼이 제 인사이트를 공유해 드릴게요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00261225,
+  "out_tokens": 687
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 255,
+  "domain": "social",
+  "hyp": "이토록 단순한 재료를 그처럼 풍부하고 복합적인 무언가로 변화시키는 것은 삶에 대한 커다란 긍정을 느끼게 합니다. 마치 탄생을 목격하는 것처럼요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00297225,
+  "out_tokens": 783
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 680,
+  "domain": "social",
+  "hyp": "@user27 헤헤 고마워 user26",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.001488,
+  "out_tokens": 390
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 582,
+  "domain": "social",
+  "hyp": "이제 2024년에 100만 미터도 가능할지 궁금해지네? 🤔 #peloton",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00288075,
+  "out_tokens": 759
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 478,
+  "domain": "social",
+  "hyp": "덧붙이자면, 제가 직접 가서 확실하게 물어보고 나서야 필수가 아니라고 하더라고요 •_•",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00419775,
+  "out_tokens": 1110
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 469,
+  "domain": "social",
+  "hyp": "Hugging Face의 “The Stack”에서 가장 기가 막힌 점은 내 것으로 조회되는 리포지토리 중 ~대다수가~ 상당수가 — 언제나 그래왔듯 — 비공개 리포지토리라는 점이다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00621225,
+  "out_tokens": 1644
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 304,
+  "domain": "social",
+  "hyp": "그리고 그녀는 영어에 매우 능숙합니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00184875,
+  "out_tokens": 486
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 386,
+  "domain": "social",
+  "hyp": "행사에 있을 때는 지니고 다닙니다. 현재 제 캘린더에 예정된 유일한 행사는 다음과 같습니다:",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.003141,
+  "out_tokens": 828
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 475,
+  "domain": "social",
+  "hyp": "@user42 이거 정말 흥미롭네요. my-blog에 올린 제 최신 공개 글이 2022년이라고 나와 있는데, 이 레포는 몇 년 동안 비공개 상태였던 게 확실하거든요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00355725,
+  "out_tokens": 936
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 581,
+  "domain": "social",
+  "hyp": "이번 달에 10만 미터를 목표로 밀어붙이고 있었는데, 달성할 수 있을 것 같다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0057705,
+  "out_tokens": 1530
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 356,
+  "domain": "social",
+  "hyp": "그냥 패널이 좆구린가 보다. 이번엔 해결되길 바라며 더 큰 걸로 주문했다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00402075,
+  "out_tokens": 1063
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 321,
+  "domain": "social",
+  "hyp": "자, 낮 동안에 새로운 새집을 걸어 두었어요. 정원의 제자리에 달아 놓은 모습은 이렇습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0034035,
+  "out_tokens": 897
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 754,
+  "domain": "speech",
+  "hyp": "그리고 저는 경험이 꽤 많아요. 해외에서도 일해 봤고, 이 대륙에서도 일해 봤으며, 여러 주와 다양한 시장 부문에서도 일해 봤죠. 그런데 제가 보니까 사람들이 그런 점에 정말 흥미를 느끼더라고요. 일종의 비하인드 스토리가 어떤지 알고 싶어 해요. 그래서 앞으로 올릴 영상 중 일부는 이 업계에서 실제로 일하는 사람의 팁이 될 텐데, 이게 아마 여러분이 팔로우하시는 다른 여행 블로거들과 저를 조금 차별화해 주는 부분이 아닐까 싶어요. 있잖아요, 예를 들어 제가 크루즈 업계에서까지 일해보진 않았을 수도 있지만, 호텔경영학 학위를 따면서 관련 수업들을 이수해야 했거든요. 그러니 직접 일해보지는 않았더라도, 그에 대한 교육은 확실히 받은 셈이죠.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00574725,
+  "out_tokens": 1498
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 711,
+  "domain": "speech",
+  "hyp": "물, 바다를 이루는 액체입니다. 그리고 끝없는 깊이를 채우고 있습니다. 이 광활한 수중 세계의 끝없는 망망대해로 나아가는 것은 오직 소수뿐입니다. 대부분의 해양 생물은 인간 사회처럼, 말하자면 '도시'에서 살아갑니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.007482,
+  "out_tokens": 1980
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 718,
+  "domain": "speech",
+  "hyp": "그럼, 거기서 조부모님 앞에서 무대를 가진 이후에 언제 처음으로 곡을 쓰고 공연을 하기 시작했나요? 음, 사실은 공연을 더 많이 했어요. 곡 작업을 조금 하기는 했지만 전문가들에게 맡겼죠. 아시다시피, 전문 작곡가들과 함께 전 세계적인 엄청난 히트곡들을 녹음하던 때였으니까요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0037965,
+  "out_tokens": 995
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 704,
+  "domain": "speech",
+  "hyp": "그리고 다운로드하시면 파일 용량이 작아서 꽤 금방 끝날 겁니다. 딱 이렇게 생긴 앱을 받게 되실 텐데요, 아시겠죠? 그럼 지금 그걸 바로 클릭해 보겠습니다. 그리고 바로 여기서 보시게 될 화면이 이 화면입니다. 자, 이제 이번 실습과 관련해 몇 가지 말씀을 드리겠습니다. 여기서 한 가지 참고하실 점은, 여러분이 진행할 실습 워크시트의 안내 내용이 꽤 직관적이라는 점입니다. 따라서 사실상 이 영상의 목적은 앱 자체의 사용법을 보여드리는 것입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00484575,
+  "out_tokens": 1263
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 705,
+  "domain": "speech",
+  "hyp": "뭐, 그래도 핑크 플로이드보단 듣기 좋네요. 그러니까 <매닉 마이너>에서는 화면에 있는 모든 아이템을 모아서 목표 지점으로 가야 합니다. 산소가 다 떨어지거나 어딘가에 부딪히기 전에 해야 하죠. 정확히 뭐에 부딪히냐고요? 잡초요! 풀에 닿았다고 죽는 겁니다. 딱 제 팬들의 절반 얘기 같네요. 그리고 제가 완전히 다른 발판에 있던 잡초에 닿아서 죽은 거 보셨나요? 그냥 발판을 뚫고 지나가서 잡초에 닿았다고요. 참 훌륭한 게임 디자인이네요, 진짜. 게다가 저기서 크르르르! 거리고 있는 이 자식도 있고요!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00618075,
+  "out_tokens": 1619
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 786,
+  "domain": "speech",
+  "hyp": "너, 그래 바로 세상아! 넌 정말이지 놀라움으로 가득 차 있구나, 안 그래? 몇 년 전 밀라 요보비치 주연의 <레지던트 이블> 영화들을 보며 \"이보다 더 최악일 수는 없다!\"라고 생각했던 기억이 난다. 그래, 그때가 차라리 속 편했던 시절이었지. 하지만 2021년이 마지막 숨을 헐떡이며 내놓은 것은 바로 <레지던트 이블: 라쿤시티>였다. 일명, 지옥에 온 것을 환영한다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0051585,
+  "out_tokens": 1352
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 788,
+  "domain": "speech",
+  "hyp": "오늘은 토케 비치에 와 있어요. 토케 비치는 이곳 시에라리온에 있는 리조트예요. 사촌들과 함께 왔어요. 아주 멋진 하루가 될 것 같아요. 그냥 해변에서 정말 느긋하게 쉬는 시간이죠. 별다른 일도 없고 계획된 것도 전혀 없지만... 어, 결혼식 피로연이 열리는 것 같네요. 다들 결혼하나 봐요. 우와, 결혼식이나 일종의 약혼식 같은 게 있나 봐요. 여기 밖 풍경이 정말 아름다워 보여요. 그렇지 않나요?",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00512175,
+  "out_tokens": 1341
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 685,
+  "domain": "speech",
+  "hyp": "우린 아직 준비가 안 됐어. 게다가 네가 그렉을 해고하는 바람에 저 밖은 더 위험해질 거라고. 그 사람한테 줄 돈이 없으니까 그렇지, 버트. 이러는 건 너야, 내가 아니라. 내가 이러긴 개뿔. 내가 이 애들을 여기까지 데려오려고 무슨 짓까지 해야 했는지 몰라? 보험 회사에 걸어 놓은 보증금, 그거 다 날리고 싶어? 애들 중 누구 하나 다칠 위험을 무릅쓰느니 차라리? 그래. 왜? 전에는 신경도 안 썼잖아.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0105405,
+  "out_tokens": 2785
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 759,
+  "domain": "speech",
+  "hyp": "엄마가 그러는데 아빠 우리 보러 오기 싫대요. 엄마가 그래? 네. 누구에게나 각자의 사연이 있는 법이란다, 아들아. 그게 엄마 사연인가 보네. 인생이란 게 참 묘하지, 안 그래?",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00608475,
+  "out_tokens": 1609
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 765,
+  "domain": "speech",
+  "hyp": "안녕하세요, 이번 여행 브이로그에 오신 것을 환영합니다. 오늘은 로테르담을 둘러보겠습니다. 로테르담은 남홀란트주에 위치한 도시입니다. 현대적이고 도시적인 느낌의 건축물 때문에 호불호가 갈리는 도시이기도 합니다. 로테르담은 제2차 세계 대전 당시 독일군의 공격으로 도시가 거의 완전히 파괴되었습니다. 이 때문에 도시를 재건해야 했고, 그 결과 네덜란드의 다른 도시들과는 사뭇 다른 모습을 띠게 되었습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00593175,
+  "out_tokens": 1559
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 714,
+  "domain": "speech",
+  "hyp": "스타파이어. 타마란의 공주. 편안하길 바라지. 바그록 경! 오! 참으로 대단한 기백이군. 너를 넘겨준 네 언니가 현명했어. 이 횡설수설 목통아!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00798225,
+  "out_tokens": 2116
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 741,
+  "domain": "speech",
+  "hyp": "많은 분들이 제 늘어가는 나이를 두고 농담거리로 삼고 계신 걸 압니다. 심지어 최근 제가 받은 수술까지 나이와 연관 짓기도 하셨지요. 솔직히 말씀드리자면, 저는 젊었을 때도 똑같은 수술을 받았었는데 그때 너무 좋았어서 더 나이 들기 전에 한 번 더 받아보고 싶었을 뿐입니다. 하지만 저도 제 나이를 잘 알고는 있습니다. 요즘은 건강검진을 받으러 가도 몇 살인지 묻지도 않더군요. 그냥 방사성 탄소 연대 측정을 할 뿐입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00596325,
+  "out_tokens": 1565
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 689,
+  "domain": "speech",
+  "hyp": "저는 선생님이 무언가 틀렸다고 생각될 때, 그럴 때조차도 선생님에게 이의를 제기하라고 권합니다. 사람들이 세상 밖으로 나가 모든 것을 있는 그대로만 받아들이지 않는 건 좋은 일이라고 생각해요. 맞아요. 네. 그러니까 그런 독립성 말이죠—. 의원님께서는 하원의원 시절 페이스북에 자신의 모든 표결 이유를 설명한 것으로 유명하신데, 이는 권력자가 \"좋습니다, 제가 왜 그렇게 행동했는지 밝히죠\"라고 말하는 보기 드문 양보였습니다. 네, 그리고 사실 아시다시피 지도부와 의회의 많은 사람들은 제가 그렇게 하는 것을 달가워하지 않았습니다. 유권자들에게 그들에게 맞설 수 있는 힘을 실어주고 있었으니까요. 네.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00521775,
+  "out_tokens": 1359
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 692,
+  "domain": "speech",
+  "hyp": "해양 공룡은 분명 아직도 존재해요. 생각에 잠겨 계신데 끼어들어 죄송하군요, 아가씨. 하지만 엄밀히 말하자면, 육지를 걸어 다닌 파충류만을 공룡이라고 부른답니다. 물속에서 살았다면 해양 파충류라고 부르며, 그것들은 아주, 아주 오래전에 모두 사라졌지요. 무슨 일이 있었는데요? 곧 알게 될 거란다, 줄리.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00615525,
+  "out_tokens": 1622
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 767,
+  "domain": "speech",
+  "hyp": "안녕하세요, 여러분? 베테랑 컨스트럭션(Veteran Construction)의 잭입니다. 많은 분들이 유튜브에서 지붕 공사 관련 영상을 보시는 건 이번이 처음이실 텐데요. 그래서 저에게 정말 의미 있는 영상을 통해 여러분을 직접 환영해 드리고 싶었습니다. 이번 영상의 주제는 '싱글(슁글) 시공을 한 번도 안 해본 상태에서 이 지붕을 작업해야 한다면, 지금 알고 있는 모든 노하우를 바탕으로 과연 어떻게 할 것인가?'입니다. 이 영상은 DIY를 하시는 분들이나 초보 시공자분들이 실수를 피하고 필요한 주의를 기울여, 시간 낭비 없이 작업을 제대로 마칠 수 있도록 도와드릴 겁니다. 자, 그럼 가장 먼저 이 자재에 대해 익숙해지는 것부터 시작하겠습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.005412,
+  "out_tokens": 1410
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 697,
+  "domain": "speech",
+  "hyp": "오늘은 벤 애플렉이 자신의 인터뷰에 대해 해명한 것에 관해 이야기해 보려 합니다. 그렉, 우리가 함께 볼 영상에 대해 말씀해 주시겠어요? 네, 몇 주 전에 벤 애플렉이 하워드 스턴과 2시간 동안 인터뷰를 진행했습니다. 전 아내와의 결별과 가족에 대해 이야기했고, 그로 인해 후폭풍을 좀 겪었는데요. 자, 그럼 보시죠. 바로 만나보시죠, 벤 애플렉입니다!",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00547425,
+  "out_tokens": 1437
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 700,
+  "domain": "speech",
+  "hyp": "이제 보시다시피 무대 뒤에서 무슨 일이 일어나든 상관없습니다. 쇼는 계속되어야 하니까요. 그리고 Lovely Lych 님께서 영상을 정말 좋아해 주셨다는 댓글을 남겨주셨어요. 그분은 \"페스티벌로 가는 여정이나 현장 분위기, 음식 같은 무대 뒤 이야기들이 좋았어요. 말하자면 당신의 일상 같은 거요.\"라고 남겨주셨죠. 여러분도 이번 영상을 좋아해 주셨으면 좋겠고, 앞으로도 최대한 많은 것을 보여드릴게요. 자, 이제 점심시간인데요, Deep이 스크램블 에그를 만들고 있어요. 여기서 비결은 달걀노른자를 하나 더 넣는 거랍니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00536325,
+  "out_tokens": 1400
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 784,
+  "domain": "speech",
+  "hyp": "안녕하세요, 새로운 시리즈의 일종의 파일럿에 오신 것을 환영합니다. 이번 시리즈에서는 세계 최악의 스캔들 몇 가지의 역사를 깊이 파헤쳐 볼 예정입니다--여러분이 이미 알고 계신 것도 있고, 모르는 것도 있겠죠. 부분적으로는 '스카날(Scannál)'이라는 RTE 프로그램에서 영감을 받았습니다. 하지만 아일랜드와 관련된 사건에만 집중하기보다는 다루는 범위를 더 넓혀볼 생각입니다. 그럼, 더 이상 지체하지 않고 바로 시작해 보겠습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.004899,
+  "out_tokens": 1283
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 691,
+  "domain": "speech",
+  "hyp": "여러분이 굳이 사지 않으셔도 되도록 제가 Xbox Series X를 구매해 봤습니다. 아니면 어쩌면, 정말로 사셔야 할 수도 있고요. 이번 영상에서는 Xbox Series X를 선택했을 때의 모든 장단점을 말씀드리려고 합니다. 또한 실제 하드웨어와 컨트롤러, 게임들, 그리고 지금까지 Xbox Series X를 써보며 느낀 제 경험의 거의 모든 것을 살펴볼 예정입니다. 그러니 이번 영상을 재미있게 시청해 주시고, 유용한 정보도 얻어가셨으면 좋겠습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0053895,
+  "out_tokens": 1413
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 770,
+  "domain": "speech",
+  "hyp": "스카티 킬머 채널 시간입니다. 차 페인트 색이 바랬나요? 그렇다면 채널 고정하세요. 오늘 색이 바랜 페인트를 광택 작업으로 벗겨내는 법을 보여드릴 테니까요. 필요한 건 물 한 양동이, 광택기, 그리고 이 맥과이어스 얼티밋 컴파운드 한 병뿐입니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0061635,
+  "out_tokens": 1626
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 750,
+  "domain": "speech",
+  "hyp": "여러분 안녕하세요, TS 매디슨입니다. 비즈니스, 브랜드, 또는 제품을 성장시키고 싶으시다면 저와 함께 광고해 보시는 건 어떨까요? 저희의 알찬 종합 광고 패키지를 이용해 보실 수 있도록 booktsmadison@gmail.com으로 이메일을 보내주세요. 순 방문자 수, 순 구독자 수, 자기야, 폭넓은 타깃층까지 다 잡았습니다. 지금 바로 저와 함께 광고하세요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00561825,
+  "out_tokens": 1479
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 768,
+  "domain": "speech",
+  "hyp": "레스큐 포스가 도시를 순찰하는 동안, 상자 안의 박물관은 우리가 지킬 거야. 우리가 안에서 기다리고 있으니 악당들이 카보니타를 훔치려 드는 건 좋은 생각이 아닐 텐데 말이지. 돈이 다 떨어졌어! 그 다이아몬드를 훔쳐서 팔아야 해! 안 그러면 탄산음료로 실험을 해야 할 판이라고! 로봇들은 어떻게 안으로 들여보낼 건데? 다 손써 뒀지.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0058335,
+  "out_tokens": 1531
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 731,
+  "domain": "speech",
+  "hyp": "하버드 대학교 심리학 석사 과정 지원은 처음에는 거절당했으나, 결국 입학 허가를 받았다. 초기의 난관은 밀그램이 퀸스 칼리지에서 학부 심리학 강좌를 전혀 수강하지 않았기 때문이었다. 1961년, 밀그램은 사회심리학 박사 학위를 취득했다. 그는 비슷한 시기에 예일 대학교의 조교수가 되었다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0038175,
+  "out_tokens": 1000
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 748,
+  "domain": "speech",
+  "hyp": "트랜스유로파 페스티벌(Transeuropa Festival)은 매우 다양한 형식을 한데 아우르는 2년 주기의 문화적, 정치적, 예술적 행사/포럼/컨퍼런스입니다. 이 행사의 주관 단체인 '유러피언 얼터너티브(European Alternative)'로서 저희는 이 일을 10년 동안 해오고 있습니다. 따라서 경험도 꽤 풍부한 편입니다. 동시에 이 행사는 유목적인 성격을 띠고 있어 항상 다른 도시에서 열립니다. 2년 전 지난번에는 유럽연합(EU) 역외 도시인 베오그라드에서 진행했습니다. 올해 2017년에는 여러 가지 다양한 이유로 마드리드를 찾고 싶었습니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00609675,
+  "out_tokens": 1594
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 716,
+  "domain": "speech",
+  "hyp": "아주 초기에 어떻게, 글쎄요, 공학은 도전 과제의 일부일 뿐이라는 생각을 하거나 깨닫게 되셨나요? 특히 우리는 엔지니어로서 문제를 다루고, 그렇죠? 해결책을 찾는다고 배우잖아요. 그게 우리의 일이고요. 그렇죠, 맞아요. 어떻게 그렇게 이른 시기에 그걸 깨닫게 되셨나요? 글쎄요, 말하자면 기묘한 우연이었습니다. 물론 저는 1970년대에 자랐습니다. 1970년대에 학문적 이해뿐만 아니라 정치적 의식도 갖추게 되었는데, 물론 그 맥락이 대단히 중요하게 작용하죠.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00498375,
+  "out_tokens": 1299
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 747,
+  "domain": "speech",
+  "hyp": "지구 크기의 절반 정도인 행성, 화성 말입니다. 오래전 화성에는 물이 아주 많았습니다. 그런 걸 하려... 화성에는 높이가 81,000피트에 달하는 화산이 있는데--에베레스트보다 거의 세 배나 높죠. 그러니까, 그 엄청난 시간 동안 일어난 일은 제 상상력으로는 도저히 가늠하기 힘들 정도입니다. 어쨌든, 먼저 물이고요. 최초의 생명체: 37억 년, 그냥 생명체라고 하죠. 그러니까, 아시다시피, 아주, 아주 초기에, 있잖아요, 초기 진화의",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.005607,
+  "out_tokens": 1466
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 790,
+  "domain": "speech",
+  "hyp": "먼저 인포시스(Infosys)의 CEO이신 비샬 시카 박사님께 질문을 드리며 시작하겠습니다. 비샬 박사님, 박사님께서는 철도 엔지니어의 아들이십니다. 그 시절의 기술을 직접 보셨고, 또 서퍼이시기도 하니 파도를 피하고 헤쳐 나가는 법을 잘 알고 계실 텐데요. 새로운 기술들로부터 비롯되는 파괴적 변화 중 우리가 가장 주목해야 할 것은 무엇이며, 그 이유는 무엇인가요? 왜 우리가 그 변화에 그토록 많은 관심을 기울여야 할까요?",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00442425,
+  "out_tokens": 1156
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 708,
+  "domain": "speech",
+  "hyp": "안녕하세요, 바히아노 레노의 바히아노입니다. 네, 줄눈을 좀 보수하려고 합니다. 타일은 한 14, 15년 정도 된 것 같네요. 타일 상태 자체는 괜찮아서 단순히 타일을 안정적으로 고정하기 위해 작업하는 겁니다. 몇몇 부분만 헐거워지고 있거든요. 타일 전체나 줄눈 전체를 다 교체하고 싶지는 않아서요. 전체 리모델링을 할 준비가 될 때까지 버틸 수 있도록 부분 보수만 하려고 합니다. 네, 이거 녹화되고 있나요?",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.0037575,
+  "out_tokens": 974
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 756,
+  "domain": "speech",
+  "hyp": "여보세요. 올버니 쪽 전화는 어떻게 됐습니까? 통화 중이라고요? 그럼 수석 교환원에게 연락해서 회선을 확보해 두라고 하세요. 공무입니다. 생사가 걸린 문제입니다. 케네디 양, 당신 말이 사실이길 바랍니다. 그렇지 않다면 당신에게도 결코 좋을 게 없을 겁니다. 정말이에요, 제가 드린 말씀은 한마디도 빠짐없이 다 사실이라고요. 더킨이 절 붙잡았어요. 제 옷을 찢었다고요. 우린 몸싸움을 벌였어요.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00839175,
+  "out_tokens": 2215
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "segment_id": 734,
+  "domain": "speech",
+  "hyp": "밀봉하는 데 타르를 쓰면 갈라집니다. 보여드릴게요. 절대 쓰면 안 되는 것 중 하나인 실리콘, 즉 실리콘 실러를 제거하는 중입니다. 그런데 누군가 여기에 타르를 바르고 그 타르 위에 페인트를 칠해 뒀네요. 보여드릴게요. 그게 무슨 효과가 있었을까요? 그냥 메꿈재에 불과합니다.",
+  "finish": "stop",
+  "provider": "Google",
+  "cost": 0.00468525,
+  "out_tokens": 1230
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 890,
+  "domain": "literary",
+  "hyp": "그들은 완전히 틀렸다. 아이보리는 남쪽 윙으로 걸어가며 생각했다. 도우미들이 벽을 따라 서로 속삭이고 있었다. 그들은 그 안에 무엇이 있는지 전혀 모른다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0006975,
+  "out_tokens": 52
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 986,
+  "domain": "literary",
+  "hyp": "\"응, 보여\" 코렌이 목 마이크를 사용하여 대답했다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0003,
+  "out_tokens": 18
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 899,
+  "domain": "literary",
+  "hyp": "\"그 공책은 어떤 거야?\" 아이보리가 카리의 침대 옆에 앉으며 물었다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0003825,
+  "out_tokens": 26
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 802,
+  "domain": "literary",
+  "hyp": "그거 웃기지 않아? 우리는 인력이 절반밖에 남지 않았는데, 서로 상처 주는 것조차 참지 못하고 있어. 나는 서둘러 속도를 높였다. 코너를 돌면 Al's가 있어서 안에 들어가면 괜찮을 거야. 뒤를 힐끗 보니 더 이상 누군가가 나를 따라오지 않는다는 것을 확인하고, 밝게 빛나는 \"Alborn's Pawnshop!\"이라는 간판 앞에 섰다. 천천히 걸음을 옮겨 다시 들어갔다. 이곳은 더 은밀한 곳이었는데, Alborn은 종종 변이된 사람들을 받아들여 Paltricus로 몰래 들여보내곤 했다. 문을 열자 불이 꺼져 있었다. 흥미롭게도 Al도 없고, 난민도 없었다. 아무것도 없었다. 뭔가 잘못된 것 같았다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0024725,
+  "out_tokens": 203
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 858,
+  "domain": "literary",
+  "hyp": "\"그래, 괜찮아. 뭔가를 죽였으니, 금방 괜찮아질 거야.\" 카옐은 자신의 작품을 살펴보았고, 테눅은 내려와 그의 옆에 착지하며 다시 그의 평소 스파스트 형태로 변신했다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0008575,
+  "out_tokens": 66
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 922,
+  "domain": "literary",
+  "hyp": "아이보리는 카리의 것만큼이나 정교한 문에 다가갔다. 그 문에는 6마리의 원시 용 중 하나인 백룡이 그려져 있었는데, 이 용은 전설에 따르면 프로스트펠을 창조했다고 한다. 화가가 자신의 문에 그것을 그려놓은 것은 당연한 일이었다. 그는 역사를 좋아했다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0010725,
+  "out_tokens": 86
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 916,
+  "domain": "literary",
+  "hyp": "그들은 방을 나서며 공주가 마침내 자신의 안전지대를 벗어나 페인트와 같은 자신의 권한 밖의 것들을 요청하고 있다는 사실에 안도했다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00055,
+  "out_tokens": 40
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 895,
+  "domain": "literary",
+  "hyp": "\"들어가도 될까요?\" 아이보리는 예전에 허락 없이 들어갔던 때를 떠올리며 물었다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0004125,
+  "out_tokens": 29
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 869,
+  "domain": "literary",
+  "hyp": "Nyssi는 어깨를 으쓱하고 나서 카메라를 꺼내 확실히 죽은 짐승들의 사진을 몇 장 찍었다. 그런 다음 그녀의 가장 좋아하는 단검, 화려하고 죽음의 신 같은 단검을 꺼내 생물의 뿔 하나를 자르기 시작했다가 다른 뿔로 옮겨갔다. 그러나 Nyssi가 막 끝냈을 때, 생물들이 갑자기 불타오르기 시작했고, 빠르게 재더미로 변했다. Nyssi가 잘라낸 뿔도 같은 일이 일어났다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00166,
+  "out_tokens": 135
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 914,
+  "domain": "literary",
+  "hyp": "\"좋아! 나중에 봐?\" 아이보리가 물으며 일어서서 종이와 노트북이 뒤섞인 혼란 속을 헤쳐 나갔다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0005225,
+  "out_tokens": 39
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 883,
+  "domain": "literary",
+  "hyp": "\"그녀를 놔줘!\"",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00017,
+  "out_tokens": 8
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 941,
+  "domain": "literary",
+  "hyp": "0430 이타니아 시간. 코렌은 이렇게 일찍 일어나는 것을 싫어했다. 주로 그의 부대에서 다른 모든 사람들을 깨우는 것이 그의 책임이었기 때문이다. 그는 조용히 침상에서 나와 전투복을 입고, 공격 조끼를 걸친 후 사물함에서 소지품을 챙겼다. 특히 작은 상자 하나를 조심스럽게 다뤘다. 그는 소총을 어깨에 메고 헬멧을 벨트에 연결된 작은 고리에 걸었다. 헬멧에는 필요한 모든 장비, 방독면, 고글 등이 있었다. 탄약 주머니를 점검한 후, 그는 조용히 막사를 나섰고, 그의 부츠 아래로 진흙과 얼음이 찌그러지는 소리가 났다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0022225,
+  "out_tokens": 183
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 847,
+  "domain": "literary",
+  "hyp": "\"그건 까다로울 거야!\"",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0002075,
+  "out_tokens": 10
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 921,
+  "domain": "literary",
+  "hyp": "그들은 귀를 막았다. 그들을 무시하는 것이 효과가 없었기 때문이다. 그들은 동쪽 날개에 있는 두 번째 왼쪽 문에 있는 왕실 화가의 방으로 향했다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00063,
+  "out_tokens": 46
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 827,
+  "domain": "literary",
+  "hyp": "카옐은 타살린이 무슨 생각을 하고 있는지 상상할 수 있어서 킥킥 웃었다. \"그래, 맞아. 그런데 뭘 주웠고, 왜 그렇게 빨리 날아갔어?\"",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.000685,
+  "out_tokens": 51
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 864,
+  "domain": "literary",
+  "hyp": "레트빅의 질문은 다행히도 다시 일어난 타살린에 의해 답변되었다. 그는 상처와 긁힌 자국으로 뒤덮여 있었고 약간 멍한 상태였지만, 크게 다친 것 같지는 않았다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00075,
+  "out_tokens": 57
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 983,
+  "domain": "literary",
+  "hyp": "\"글쎄, 알아보게 되겠지,\" 코렌이 웃으며 말했다. 오르슨은 대화를 이어가지 않았다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0004325,
+  "out_tokens": 30
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 816,
+  "domain": "literary",
+  "hyp": "\"내가 스스로 나는 것은 거대한 분홍색 용에게 갑자기 끌려가는 것과는 매우 다르다!\"",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0004125,
+  "out_tokens": 29
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 950,
+  "domain": "literary",
+  "hyp": "\"좋은 지적이야, 전문가,\" 코렌이 말했다. 그는 손을 뻗어 스위치를 켰다. 막사 안에서 경보가 울렸고, 소리는 크고 날카로웠다. 그는 안에서 웅얼거리는 소리와 사람들이 비틀거리는 소리를 들었다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0009025,
+  "out_tokens": 71
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 856,
+  "domain": "literary",
+  "hyp": "Nyssi가 무슨 일이 일어났는지 알아차리는 데는 잠시 시간이 걸렸다. 그들은 모두 Kayel이 이상한 그림자 능력을 가지고 있다는 것을 알고 있었고, 대부분이 그것을 불경하고 꽤 무섭다고 여겼기 때문에 그가 그 능력을 거의 사용하지 않는다는 것도 알고 있었다. 하지만 Nyssi는 Kayel이 그 능력을 어떤 어둠 속에서도 사용할 수 있다는 것을 몰랐다. 그리고 Kayel의 행동을 보니, 그도 꽤 놀란 것 같았다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0014075,
+  "out_tokens": 114
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 928,
+  "domain": "literary",
+  "hyp": "왕자는 이것을 깊이 생각하지 않았다. \"아, 자기야, 이건 그냥 한때일 뿐이야! 나중에 나이가 들면 벗어날 거야!\" 그는 말을 흐리며 말했다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00065,
+  "out_tokens": 47
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 972,
+  "domain": "literary",
+  "hyp": "부대는 흩어져서 각자의 분대에 합류했고, 분대장들은 그들을 탱크 중 하나에 탑승시켰다. 코렌은 대열에서 더 앞쪽에 있는 탱크 중 하나에 올라타 네믹, 크레이스, 그리고 두 명의 신병과 합류했다. 코렌은 그들이 며칠 전에 도착한 것을 기억했지만, 그들에 대해 잘 알지는 못했다. 그는 옆에 앉아 다리를 옆으로 늘어뜨리고, 이어폰과 목 마이크에 연결된 무전기와 배낭을 조정했다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0017275,
+  "out_tokens": 140
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 946,
+  "domain": "literary",
+  "hyp": "그가 대답하기도 전에 문이 열리고 해리스, 크레이스, 그리고 몇몇 다른 사람들이 이미 완전히 옷을 입고 장비를 갖춘 채 서둘러 나왔다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00058,
+  "out_tokens": 43
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 829,
+  "domain": "literary",
+  "hyp": "강력한 트라키가 갑자기 얼어붙었다. 니시와 카옐도 얼어붙었고, 그들의 시선은 숲의 빈틈으로 향했다. 커다랗고 검은 무언가가 그들을 바라보며 쉿 소리를 냈다. 그것이 무엇이든, 두 쌍의 거대한 날개를 펼치고 앞으로 돌진하며, 세 작은 존재들을 지나가야 한다는 것을 신경 쓰지 않고 타살린을 목표로 했다. 카옐과 테눅은 간신히 몸을 숨겼지만, 니시는 끌려가 거의 타살린에게 던져질 뻔했다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0018375,
+  "out_tokens": 151
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 871,
+  "domain": "literary",
+  "hyp": "프롤로그",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0001125,
+  "out_tokens": 3
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 817,
+  "domain": "literary",
+  "hyp": "\"그렇게 나쁘지 않지, 카엘?\"",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0002225,
+  "out_tokens": 12
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 810,
+  "domain": "literary",
+  "hyp": "감시를 내 모바일 기기로 옮겨서, 나는 하나하나 집중해서 지켜보았다. 아무것도 없었다. 마치 그들이 거기에 없었던 것 같았다. 말이 안 된다. 카메라는 원격 접근이 가능해도 보안이 철저했다. 어떻게..? 아악. 나는 화가 나서 일어섰다, 머릿속에서 생각을 좀 지우려고 – 나는 신발을 신고 열쇠를 챙기며 나섰다. “곧 돌아올게요, 아빠.” 침묵. 뭐, 어차피 그는 보통 대답하지 않았다, 아마 나보다 더 중요한 일을 하고 있었을 것이다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00182,
+  "out_tokens": 148
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 967,
+  "domain": "literary",
+  "hyp": "몇 초마다 그는 분대장들로부터 응답을 받았다. 하리스, 크레이스, 그리고 라빅은 모두 그곳에 도착했을 때 하급 부사관이었다. 네 명 모두 지구에서 기초 훈련을 받을 때부터 좋은 친구였다. 코렌이 그들을 만난 지 2년이 채 되지 않았음에도 불구하고, 이제는 아주 오래된 일처럼 느껴졌다. 그들은 분대장이었지만, 크레이스는 일주일 전부터 2소대를 이끌고 있었다. 이전 소대장이 데이브레이크 저격수의 총알에 맞아 의무적으로 퇴원한 후였다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0018575,
+  "out_tokens": 150
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 876,
+  "domain": "literary",
+  "hyp": "남쪽은 절박했고, 그들의 왕실은 유혈 사태를 막기 위해 무엇이든 할 준비가 되어 있었다. 그들은 유일한 공주를 북쪽의 왕비로 보내어 미래의 왕이 될 아들을 낳도록 제안했다. 그러면 남쪽은 북쪽과 합쳐 하나의 왕국을 이루게 될 것이다. 북쪽은 이를 받아들였고, 공주 에이르웬은 왕자 아쿨과 결혼했다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.001305,
+  "out_tokens": 106
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 912,
+  "domain": "literary",
+  "hyp": "이젤",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0001125,
+  "out_tokens": 3
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 144,
+  "domain": "news",
+  "hyp": "2023년 12월 20일자 유출된 메모에 따르면, 에두는 회계총괄에게 국가 사회 투자 사무소의 계좌에서 브리짓 오니엘루의 개인 계좌로 자금을 이체하라고 지시했습니다. 브리짓 오니엘루는 에두 부처의 프로젝트인 \"취약 계층을 위한 보조금\"이라는 연방 정부의 빈곤 개입 프로젝트의 회계사입니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0012575,
+  "out_tokens": 101
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 26,
+  "domain": "news",
+  "hyp": "양조업자들, 와인 제조업자들의 반폐기물 규제 면제에 분노",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0003425,
+  "out_tokens": 23
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 91,
+  "domain": "news",
+  "hyp": "스콧 브루스터는 2017년에 그의 아버지 알렉스와 함께 사업을 시작한 관리 이사로서 다음과 같이 말했습니다: \"스코틀랜드의 건설 부문은 산업이 사용하는 천연 자원의 양과 배출하는 탄소의 양을 줄이는 필요성을 점점 더 인식하고 있으며, 재활용 및 2차 자재의 사용을 증가시키고 있습니다. 지난 6년 동안 재활용된 건설, 철거 및 굴착 폐기물의 양이 엄청나게 증가했으며, 이 두 번째 사이트에 대한 우리의 투자는 이 분야에서 추가 확장의 여지가 있음을 보여줍니다.\"",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0018175,
+  "out_tokens": 148
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 112,
+  "domain": "news",
+  "hyp": "리시 수낙의 잘못된 유죄 판결을 무효화하는 법안은 심각한 의도치 않은 결과를 초래할 수 있다 - 스코츠맨 논평",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0005475,
+  "out_tokens": 42
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 81,
+  "domain": "news",
+  "hyp": "누군가 스코틀랜드의 NHS가 위기 상태에 있지 않거나 이것이 단지 일반적인 겨울 문제라고 감히 말한다면, 우리는 분노해야 합니다. 위험한 점은 곤경에 처한 보건부 장관 마이클 매티슨과 같은 정치인들이 유감스럽지만 이것이 어쩔 수 없이 받아들여야 할 상황이며, 장관들이 할 수 있는 일이 더 이상 없고, 이것이 새로운 정상 상태라고 우리를 설득하는 데 성공할 수 있다는 것입니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00145,
+  "out_tokens": 115
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 53,
+  "domain": "news",
+  "hyp": "의회는 1996년 이후로 12개의 법안을 개별적으로 통과시키지 않았습니다. 로울러는 이 과정이 올바르게 진행되도록 하기 위해 4개의 법안 통과를 지연시키는 것이 가치가 있다고 말했습니다. 만약 의회가 12개의 법안을 12월까지 통과시키지 못하면, 재정 책임법에 따라 국방 및 비국방 재량 지출에 1% 예산 삭감이 적용될 것입니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0013375,
+  "out_tokens": 109
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 142,
+  "domain": "news",
+  "hyp": "베타 에두가 어떻게 기능 장애가 있는 정치 시스템의 희생양이 되었는가",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0003125,
+  "out_tokens": 20
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 123,
+  "domain": "news",
+  "hyp": "우리가 발견한 것은 즉각적인 조치가 필요하다는 것을 보여줍니다. 워싱턴의 인구 증가를 고려하더라도, 워싱턴의 교도소 사망률은 2000년에서 2019년 사이에 거의 세 배로 증가했으며, 이는 전국 평균의 16배에 달하는 증가입니다. 다른 주들을 앞지르며, 워싱턴은 이제 전국에서 네 번째로 높은 교도소 사망률을 기록하고 있습니다. 이것은 계속될 수 없습니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.001385,
+  "out_tokens": 113
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 114,
+  "domain": "news",
+  "hyp": "수년간 The Scotsman을 비롯한 여러 매체에서 지적해왔듯이, Horizon 스캔들에서 수백 명의 우체국 지점장이 부당하게 유죄 판결을 받은 것은 역사상 가장 심각한 사법적 오류 중 하나입니다. 사람들은 감옥에 보내졌고, 집과 결혼, 명성을 잃었으며, 범죄자로 취급받는 정직한 사람의 정신적 고통을 견뎌야 했습니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.001315,
+  "out_tokens": 106
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 134,
+  "domain": "news",
+  "hyp": "항공기 모델은 일반적으로 항공편 예약 정보에 기재되어 있습니다. 구글 항공편에서는 목록을 확장할 때 항공편 세부 정보에 포함되어 있으며, 개별 항공사의 예약 페이지에도 보통 기재되어 있습니다. 만약 어떤 이유로 구글 항공편이나 예약 페이지에서 항공기 유형이 명확하지 않다면, Expert Flyer와 Seat Guru 같은 사이트는 좌석 배치도와 항공기 유형 같은 항공편 정보를 종합하여 제공합니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00136,
+  "out_tokens": 109
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 67,
+  "domain": "news",
+  "hyp": "Better Markets의 공동 창립자, 사장 및 CEO인 Dennis M. Kelleher는 이번 승인이 \"수천만 명의 투자자와 은퇴자에게 암호화폐 포식자를 풀어놓을 뿐만 아니라 금융 안정성을 저해할 가능성이 있는 역사적인 실수\"라고 말했습니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0008825,
+  "out_tokens": 68
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 16,
+  "domain": "news",
+  "hyp": "일부 아프리카 농촌 지역 사회에서는 시민 사회 단체들이 해로운 성인식을 건강 교육으로 대체하고 있습니다. 이러한 프로그램 중 하나는 케냐 마사이 마을인 마파라샤의 지도자인 카만다 티마이요가 여성 성기 절제에 대한 생각을 바꾸도록 도왔습니다. 그는 르 몽드와의 인터뷰에서 \"무지에서 벗어났다\"며 이 관행을 포기할 것이라고 말했습니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.001335,
+  "out_tokens": 108
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 4,
+  "domain": "news",
+  "hyp": "주제를 넘나들며 능숙하게 작업하는 시소는 아크릴, 파스텔, 연필 또는 수채화로 표현된 풍경화, 초상화, 정물화 시리즈를 다수 제작했습니다. 가족 초상화, 자신의 참고 사진, 기억을 바탕으로 한 그의 다채로운 구성은 매체 전반에 걸친 그의 다양한 관심사와 기술을 보여줍니다. 시소의 열대 풍경화와 해양 풍경화는 그의 과거 지리적 배경을 반영하며, 풍부한 패턴을 사용하고 사람들을 포함시켜 문화, 기억, 환경 간의 의미 있는 연결을 만듭니다. 시소는 자신의 작품에 스페인어와 영어를 혼합하여 제목을 붙이며 로스앤젤레스 카운티에서의 그의 삶의 복잡하고 중요한 측면을 기념합니다. \"비센테 시소: 땅과 물의 기억\" 전시는 1월 13일 토요일 오후 6시부터 8시까지 리셉션과 함께 개막합니다. 전시는 3월 3일 일요일까지 진행됩니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00299,
+  "out_tokens": 249
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 24,
+  "domain": "news",
+  "hyp": "노동자들의 분위기는 점점 더 분노로 가득 차고 있다. \"혁명의 환상을 담은 호소문이 퍼지고 있다\"고 하베크 씨는 경고했다. 극우 정당인 독일을 위한 대안당은 불만을 부추기기 위해 최선을 다하고 있다. 드레스덴에서는 또 다른 극우 단체인 자유 작센이 농민들의 시위에 침투하여 \"신호등의 멸종\"을 요구하고 있다(사회민주당, 자유민주당, 녹색당의 연립 정부를 당의 색깔 때문에 이렇게 부른다).",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.001675,
+  "out_tokens": 137
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 103,
+  "domain": "news",
+  "hyp": "소시지 롤과 스테이크 베이크로 유명한 FTSE 250 기업이 지점 네트워크를 확장할 계획이지만 가격은 인상하지 않을 것입니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0005325,
+  "out_tokens": 40
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 1,
+  "domain": "news",
+  "hyp": "시소의 땅과 물에 대한 묘사, 새로운 갤러리 전시회의 중심이 되다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00037,
+  "out_tokens": 26
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 127,
+  "domain": "news",
+  "hyp": "감독은 수감자들만을 위한 것이 아닙니다. 우리 태스크포스는 감독 기관이 과중한 업무를 겪고 있는 교도소 시스템과 협력하여 직원 안전을 증진하고 재범률을 줄이는 스마트 정책을 포함한 필요한 지원과 권고를 제공할 수 있다는 점을 인식했습니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.000945,
+  "out_tokens": 74
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 86,
+  "domain": "news",
+  "hyp": "순환 경제 추진 속에서 건설 폐기물 재활용 업체가 컴버널드에 새로운 공장을 개설하다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.000395,
+  "out_tokens": 28
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 63,
+  "domain": "news",
+  "hyp": "SEC는 수년간 유사한 펀드에 대한 신청을 거부했습니다. 그러나 작년에 컬럼비아 특별구 항소법원은 그레이스케일의 파생상품 펀드를 비트코인을 직접 다루는 펀드로 전환하려는 신청을 승인하지 않은 SEC의 결정을 반대하며, SEC의 입장을 \"",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0010125,
+  "out_tokens": 79
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 84,
+  "domain": "news",
+  "hyp": "실제로, 새로운 스코틀랜드 공중보건 자료에 따르면 상황이 실제로 악화되고 있습니다: 11월에 1,910명이 병원에서 지연되었으며, 이는 4월의 1,730명에서 증가한 수치입니다. 구급차가 환자를 신속하게 내려놓지 못하는 이유 중 하나는 병동이 가득 차서 응급실이 가득 차 있기 때문입니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0011725,
+  "out_tokens": 95
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 17,
+  "domain": "news",
+  "hyp": "세계은행은 다른 사례들을 인용합니다. 1970년부터 2022년까지 방글라데시는 여성 문해율을 네 배로 늘리고 여성 노동력 참여를 두 배로 증가시켰습니다. 국내총생산은 세 배 이상 증가했습니다. 변화는 자체적인 추진력을 얻었습니다. 자신의 지역사회에서 급여를 받는 여성들을 교사와 보건 요원으로 채용함으로써 신뢰를 높였고 \"여성의 이동성과 노동을 사회적으로 더 수용 가능하게 만들었습니다.\"",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0014325,
+  "out_tokens": 117
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 49,
+  "domain": "news",
+  "hyp": "로젠데일은 강경 우파 자유 코커스의 일원으로, 수요일 투표를 좌절시킨 인물 중 하나였다. 그는 존슨의 합의에서 제시된 최고 금액이 너무 높다고 보고 있으며, 34조 달러의 국가 부채를 줄이는 데 너무 적은 역할을 한다고 생각한다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00097,
+  "out_tokens": 76
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 118,
+  "domain": "news",
+  "hyp": "미국에서 도널드 트럼프는 대통령으로서 기소 면책 특권이 있었다고 주장하려 하고 있다. 영국에서는 보리스 존슨이 브렉시트 계획을 추진하기 위해 불법적으로 의회를 정지시켰으며, 수낙은 르완다가 안전한 국가가 아니라는 대법원 판결을 뒤집기 위해 르완다가 안전하다고 명시하는 법안을 통과시키려 하고 있다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.001225,
+  "out_tokens": 99
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 73,
+  "domain": "news",
+  "hyp": "크레멘은 또한 키예프의 한 택시 운전사가 고객에게 러시아어로 서비스를 제공한 것에 대해 3,400 흐리브냐(89달러)의 벌금이 부과되었다고 확인했습니다. 옴부즈맨은 \"국가 언어로 정보나 서비스를 받을 권리가 침해될 경우의 상세한 행동 알고리즘\"을 대중에게 상기시키며, 그러한 사례가 발생할 경우 즉시 위원회 웹사이트에 불만을 제기할 것을 촉구했습니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0014575,
+  "out_tokens": 118
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 29,
+  "domain": "news",
+  "hyp": "환경부 장관들은 크리스마스 전에 제안된 포장 및 포장 폐기물 규정(PPWR)에 대한 EU 이사회 협상 권한에 합의하여, 이미 기술적 수준에서 진행 중인 유럽 의회와의 즉각적인 정치적 논의를 위한 길을 열었습니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0008575,
+  "out_tokens": 67
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 31,
+  "domain": "news",
+  "hyp": "12월 18일 장관급 회담에서는 와인 제조업체들이 10년 말까지 제품의 10%를 재사용 또는 리필 시스템 내에서 재사용 가능한 용기로 공급해야 한다는 요구 사항에서 제외되었습니다. 이 비율은 2040년까지 40%로 증가할 예정입니다. 이 면제는 또한 유럽 의회가 지지하는 제안에 따라 2029년까지 시행되어야 하는 보증금 반환 제도에서 와인이 면제되어야 한다는 요구 사항에도 적용됩니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0014725,
+  "out_tokens": 116
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 135,
+  "domain": "news",
+  "hyp": "어떤 항공기 모델이 가장 안전한지를 결정하는 것은 그리 간단하지 않습니다. 미국 국가교통안전위원회는 사고 및 사건에 대한 포괄적인 데이터베이스를 유지하고 있습니다. 연방항공청은 또한 지난 10일 동안 발생한 사고 및 사건 보고서를 제공하며, 여기에는 관련 항공기의 제조업체 정보가 포함되어 있습니다. 이 정보는 항공 안전 정보 분석 및 공유 페이지에서 확인할 수 있습니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0012475,
+  "out_tokens": 101
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 19,
+  "domain": "news",
+  "hyp": "세계은행은 그 메시지를 전파하기를 희망합니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00024,
+  "out_tokens": 14
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 143,
+  "domain": "news",
+  "hyp": "최근 사건에서, 베타 에두는 볼라 아흐메드 티누부 대통령 행정부의 인도적 문제 및 빈곤 완화 장관으로서, 5억 8천 5백만 나이라의 구제 기금 유용 혐의로 인해 직위에서 해임하라는 요구를 받고 있습니다. 장관은 연방 회계 감사관(AG)인 올루와토인 마데인에게 5억 8천 5백만 나이라를 개인 계좌로 이체하라고 지시한 것으로 추정되는 유출된 메모가 공개된 후 상당한 대중의 반발에 직면했습니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0017625,
+  "out_tokens": 144
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 70,
+  "domain": "news",
+  "hyp": "당국은 국가의 탈러시아화를 위해 보고서를 제출할 것을 국민에게 촉구하고 있습니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0003525,
+  "out_tokens": 23
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 389,
+  "domain": "social",
+  "hyp": "밖에서 저를 보게 되면, 편하게 인사해 주세요!",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0002775,
+  "out_tokens": 16
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 197,
+  "domain": "social",
+  "hyp": "우리는 무의식적으로 모든 것을 둘러싸던 보편적인 공동체와 연결되기를 갈망합니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0003675,
+  "out_tokens": 25
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 192,
+  "domain": "social",
+  "hyp": "출처를 고려할 필요 없이 바로 일에 뛰어들어야 했습니다. 왜냐하면 출처를 파악하는 것이 그리 쉽지 않았기 때문입니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0005025,
+  "out_tokens": 37
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 322,
+  "domain": "social",
+  "hyp": "하지만 잠시 되돌아가 보죠. \"거기에 실제로 뭐가 들어있지?\" 아무도 묻지 않는 소리가 들리네요.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00045,
+  "out_tokens": 33
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 628,
+  "domain": "social",
+  "hyp": "우리 침실을 부수기 시작할 시간이다. 집에서 빠르게 장식만 한 유일한 방이다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0004025,
+  "out_tokens": 26
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 421,
+  "domain": "social",
+  "hyp": "@user36 당신이 올린 안경 둘 다 마음에 들어요. 색상이 정말 예쁘네요...새로 사고 싶어져요 😂",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0004475,
+  "out_tokens": 31
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 664,
+  "domain": "social",
+  "hyp": "순서대로 스트리밍되지 않지만, 브라우저는 마치 순서대로 스트리밍된 것처럼 HTML 문서를 조립할 것입니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0004675,
+  "out_tokens": 33
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 411,
+  "domain": "social",
+  "hyp": "이 빌어먹을 녹슨 K1100! 고착되지 않은 나사가 하나라도 있긴 한 건가?!",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0003925,
+  "out_tokens": 27
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 206,
+  "domain": "social",
+  "hyp": "미디어에 대한 집단 의식이 부재한 상황에서, 우리는 비판적인 태도를 유지하는 데 도움이 되는 계급 의식을 발전시켰습니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0004925,
+  "out_tokens": 36
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 313,
+  "domain": "social",
+  "hyp": "둥지 상자에 어안 렌즈는 좀 과한 것일지도 몰라요.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0003375,
+  "out_tokens": 22
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 450,
+  "domain": "social",
+  "hyp": "물론이죠! 현재 저는 Nextcloud를 사용하고 있으며, 가족이나 직업적으로도 좋은 첫 단계입니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00038,
+  "out_tokens": 25
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 306,
+  "domain": "social",
+  "hyp": "추신 - 이제는 그녀의 소설을 좋아하는 것에 대해 사과하거나 그것들을 평균적이라고 방어하는 단계를 지났기를 바랍니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.000465,
+  "out_tokens": 33
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 533,
+  "domain": "social",
+  "hyp": "비행 이론 교육이 순조롭게 시작되다",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.000215,
+  "out_tokens": 12
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 214,
+  "domain": "social",
+  "hyp": "인상적인 공중제비를 하고 단 한 번의 움직임으로 내 뗏목을 부숴버렸다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00039,
+  "out_tokens": 28
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 446,
+  "domain": "social",
+  "hyp": "오, 정말 *너무* 감사합니다!! 정말 감사드려요!! 🙏",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00029,
+  "out_tokens": 17
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 329,
+  "domain": "social",
+  "hyp": "저는 이것을 기능이라고 부릅니다. 그렇게 하면 새들도 어느 정도 사생활을 가질 수 있습니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.000355,
+  "out_tokens": 24
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 591,
+  "domain": "social",
+  "hyp": "현금으로 전환, 더 이상 마진 없음.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0002175,
+  "out_tokens": 12
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 652,
+  "domain": "social",
+  "hyp": "3. 섹션 1, 2, 3 등의 HTML.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0002775,
+  "out_tokens": 16
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 441,
+  "domain": "social",
+  "hyp": "@user4 @user3 할 수 있어요! 그리고 제 통찰을 여러분과 기꺼이 나누고 싶어요.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.000405,
+  "out_tokens": 27
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 255,
+  "domain": "social",
+  "hyp": "저는 그것이 매우 삶을 긍정적으로 만든다고 생각합니다. 이렇게 간단한 재료들을 이렇게 풍부하고 복잡한 것으로 변형시키는 것은 마치 출생을 목격하는 것과 같습니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0006175,
+  "out_tokens": 48
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 680,
+  "domain": "social",
+  "hyp": "@user27 ㅎㅎ 고마워 user26",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.000195,
+  "out_tokens": 10
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 582,
+  "domain": "social",
+  "hyp": "이제 2024년에 백만 미터가 가능할지 궁금하네요? 🤔 #펠로톤",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0003875,
+  "out_tokens": 26
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 478,
+  "domain": "social",
+  "hyp": "제가 직접 가서 명확히 물어봤을 때만 그들이 필수가 아니라고 말했습니다 •_•",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0003675,
+  "out_tokens": 24
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 469,
+  "domain": "social",
+  "hyp": "Hugging Face의 \"The Stack\"의 가장 좋은 점은 나에게 나열된 많은 저장소가 — 그리고 항상 그랬듯이 — 비공개 저장소라는 것입니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00057,
+  "out_tokens": 40
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 304,
+  "domain": "social",
+  "hyp": "그리고 그녀는 영어에 매우 능숙합니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0002025,
+  "out_tokens": 10
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 386,
+  "domain": "social",
+  "hyp": "행사에 참석할 때는 항상 가지고 있습니다. 현재 제 일정표에 있는 다가오는 행사들은 다음과 같습니다:",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00039,
+  "out_tokens": 26
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 475,
+  "domain": "social",
+  "hyp": "@user42 이것은 매우 흥미롭습니다. 왜냐하면 내 블로그에 대한 최신 공개 게시물이 2022년에 있었다고 하지만, 나는 이 저장소가 몇 년 동안 비공개였다는 것을 확신하기 때문입니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0006825,
+  "out_tokens": 52
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 581,
+  "domain": "social",
+  "hyp": "이번 달에 10만 미터를 목표로 했고, 도달할 수 있을 것 같아요.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00035,
+  "out_tokens": 23
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 356,
+  "domain": "social",
+  "hyp": "패널이 정말 형편없는 것 같아. 이제 더 큰 걸 주문했는데, 이게 효과가 있기를 바라고 있어.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00042,
+  "out_tokens": 29
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 321,
+  "domain": "social",
+  "hyp": "좋아, 그래서 낮 동안 나는 새로운 둥지 상자를 걸었어. 이것이 정원에 있는 제자리에 있는 모습이야.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0004575,
+  "out_tokens": 31
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 754,
+  "domain": "speech",
+  "hyp": "그리고 저는 많은 경험이 있습니다. 국제적으로 일해왔고, 이 대륙에서도 일해왔습니다. 다양한 주와 다양한 시장 부문에서 일해왔습니다. 제가 발견한 것은 사람들이 그것에 대해 정말로 흥미를 느낀다는 것입니다. 그들은 일종의 비하인드 스토리를 알고 싶어합니다. 그래서 이 비디오들 중 일부는 실제로 이 업계에서 일하는 사람의 팁이 될 것이고, 그것이 아마도 여러분이 팔로우할 수 있는 다른 여행 블로거들과 저를 조금 차별화하는 점이라고 생각합니다. 예를 들어, 저는 크루즈 산업에서 일해본 적은 없지만, 제 호텔 경영 학위를 위해 관련 과정을 수강해야 했습니다. 그래서 비록 그 분야에서 일해본 적은 없지만, 교육을 받았습니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0022475,
+  "out_tokens": 183
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 711,
+  "domain": "speech",
+  "hyp": "물, 바다를 이루는 액체. 그리고 끝없는 깊이를 채운다. 이 광대한 수중 세계의 끝없는 열린 바다로 모험을 떠나는 사람은 소수에 불과하다. 대부분의 바다 거주자들은 마치 인간 사회처럼 도시에서 산다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.000845,
+  "out_tokens": 64
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 718,
+  "domain": "speech",
+  "hyp": "그래서, 할아버지와 할머니 앞에서 무대를 가진 후 언제 처음으로 음악을 쓰고 공연하기 시작했나요? 음, 기본적으로는 공연을 더 많이 했어요. 글을 조금 쓰긴 했지만, 녹음할 때는 전문 작가들과 함께 했고, 전 세계적으로 큰 히트를 기록했을 때는 전문가들에게 맡겼어요.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0010425,
+  "out_tokens": 81
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 704,
+  "domain": "speech",
+  "hyp": "그리고 다운로드하면 파일 크기가 작고 빠르게 다운로드될 것입니다. 여러분은 바로 이렇게 생긴 앱을 받게 될 것입니다, 알겠죠? 그래서 지금 바로 클릭할 수 있습니다. 그리고 이것이 여러분이 바로 보게 될 화면입니다. 이제 실험실에 대해 몇 가지 말씀드리겠습니다. 한 가지 주목할 점은 여러분이 작업할 실험실 워크시트의 지침이 꽤 자명하다는 것입니다. 그래서 이 비디오의 목적은 실제로 앱을 사용하는 방법을 보여드리는 것입니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00149,
+  "out_tokens": 113
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 705,
+  "domain": "speech",
+  "hyp": "음, 그래도 핑크 플로이드보다는 낫다. 그래서 매닉 마이너에서는 화면에 있는 모든 아이템을 모으고 목표 지점으로 향한다. 그리고 공기가 다 떨어지거나 무언가에 부딪히기 전에 해야 한다. 정확히 무엇에 부딪히냐고? 잡초! 풀을 만지면 죽을 수 있다. 내 팬층의 절반 같은 소리다. 그리고 내가 완전히 다른 플랫폼에 있는 잡초를 만져서 죽었다는 걸 알아챘나? 그냥 플랫폼을 통과해서 잡초에 부딪혔다. 이게 좋은 게임 디자인이지. 그리고 여기서 rrrrr! 하고 있는 이 녀석도 있다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0019175,
+  "out_tokens": 155
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 786,
+  "domain": "speech",
+  "hyp": "너, 너 세상아! 너는 놀라움으로 가득 차 있구나, 그렇지 않니? 몇 년 전, 밀라 요보비치가 출연한 레지던트 이블 영화를 보면서 \"이보다 더 나쁠 수는 없겠지!\"라고 생각했던 기억이 나. 그래, 그때가 더 단순한 시절처럼 느껴져. 하지만 2021년의 마지막 숨결과 함께 레지던트 이블: 웰컴 투 라쿤 시티가 나왔어. 즉, 지옥에 온 걸 환영해.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00157,
+  "out_tokens": 128
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 788,
+  "domain": "speech",
+  "hyp": "오늘 우리는 토케 비치에 있습니다. 토케 비치는 시에라리온에 있는 리조트입니다. 저는 사촌들과 함께 여기 왔습니다. 멋진 하루가 될 것 같아요. 해변에서 정말 여유로운 시간을 보내고 있습니다. 특별한 계획은 없지만... 오, 결혼 피로연이 있을 것 같아요. 모두가 결혼하네요. 오오, 결혼식이나 약혼식 같은 게 있는 것 같아요. 여기 정말 아름답네요. 그렇지 않나요?",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0014275,
+  "out_tokens": 112
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 685,
+  "domain": "speech",
+  "hyp": "우리는 준비가 안 됐어. 그리고 밖은 더 위험해질 거야, 네가 그렉을 해고했기 때문에. 그에게 줄 돈이 없어서, 버트. 이건 네가 하는 거야, 내가 아니야. 내가 그렇다고? 내가 이 아이들을 여기 데려오기 위해 뭘 해야 했는지 이해 못 해? 보험 회사에 보증금을 내야 했던 거, 그걸 다 잃고 싶어? 아이들 중 한 명이라도 다칠 위험을 감수하느니? 그래. 왜? 전에는 신경 쓰지 않았잖아.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0016175,
+  "out_tokens": 130
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 759,
+  "domain": "speech",
+  "hyp": "엄마가 네가 우리를 방문하고 싶지 않다고 하셨어. 엄마가 그렇게 말씀하셨어? 그래. 사람마다 자기 이야기가 있는 거야, 아들아. 그게 엄마 이야기인 것 같네. 인생이 그런 식으로 웃기지 않니?",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0008,
+  "out_tokens": 63
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 765,
+  "domain": "speech",
+  "hyp": "안녕하세요, 이 여행 블로그에 오신 것을 환영합니다. 오늘 우리는 로테르담 시를 탐험할 것입니다. 로테르담은 남홀란드 주에 위치한 도시입니다. 이 도시는 더 현대적이고 도시적인 건축물 때문에 의견이 분분한 도시입니다. 로테르담은 제2차 세계 대전 중 독일군의 공격으로 거의 완전히 파괴되었습니다. 이로 인해 도시를 재건해야 했고, 그 결과 네덜란드의 다른 도시들과는 상당히 다른 모습을 갖게 되었습니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0015175,
+  "out_tokens": 122
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 714,
+  "domain": "speech",
+  "hyp": "스타파이어. 타마란의 공주. 편안하길 바랍니다. 바그록 경! 오! 정말 강력한 정신이군요. 당신의 여동생이 당신을 넘겨준 것은 현명한 선택이었습니다. 가블러 넥!",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0007525,
+  "out_tokens": 58
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 741,
+  "domain": "speech",
+  "hyp": "저의 나이가 들어가는 것에 대해 많은 분들이 재미를 느끼고 있다는 것을 알고 있습니다. 최근 수술을 제 나이와 연결짓기도 했죠. 솔직히 말씀드리자면, 젊었을 때도 같은 수술을 받았고, 너무 좋았기 때문에 나이가 들기 전에 다시 받고 싶었습니다. 하지만 제 나이를 인식하고 있습니다. 이제 건강 검진을 받으러 가면, 더 이상 제 나이를 묻지 않습니다. 그냥 탄소 연대 측정을 합니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.001455,
+  "out_tokens": 113
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 689,
+  "domain": "speech",
+  "hyp": "저는 그들이 선생님이 어떤 점에서 틀렸다고 생각할 때에도 선생님에게 도전하도록 격려합니다. 사람들이 나가서 모든 것을 있는 그대로 받아들이지 않는 것이 좋다고 생각합니다. 맞아요. 네. 그런 독립심이죠--. 당신은 유명하게도, 국회의원으로서 모든 투표를 페이스북에 설명했는데, 이는 권위가 드물게 양보하여 \"좋아, 내가 왜 이렇게 했는지\"라고 말하는 것입니다. 네, 사실, 많은 지도자들과 국회의원들이 제가 그렇게 하는 것을 좋아하지 않았습니다. 왜냐하면 제가 집에 있는 사람들에게 그들을 도전할 수 있는 힘을 주고 있었기 때문입니다. 네.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.002,
+  "out_tokens": 159
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 692,
+  "domain": "speech",
+  "hyp": "해양 공룡이 여전히 존재한다고 확신합니다. 당신의 생각을 방해해서 죄송합니다, 마드모아젤. 하지만 엄밀히 말하면, 육지에서 걸어 다니던 파충류만을 공룡이라고 부릅니다. 물속에 살았던 경우에는 해양 파충류라고 부르며, 그들은 아주, 아주 오래 전에 모두 사라졌습니다. 무슨 일이 있었냐고요? 곧 알게 될 거예요, 줄리.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00137,
+  "out_tokens": 112
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 767,
+  "domain": "speech",
+  "hyp": "안녕하세요, 여러분? Veteran Construction의 잭입니다. 많은 분들에게는 이번이 유튜브의 지붕 관련 콘텐츠를 처음 접하는 순간일 것입니다. 그래서 여러분을 개인적으로 환영하고자 저에게 매우 중요한 영상을 만들었습니다. 이 영상의 주제는, 만약 제가 이 지붕을 작업해야 한다면, 그리고 이전에 지붕을 시공한 적이 없다면, 지금 알고 있는 모든 것을 바탕으로 어떻게 할 것인가입니다. 이 영상은 DIY를 하거나 새로운 시공자들이 실수를 하지 않고, 시간을 낭비하지 않으면서 올바르게 작업을 완료할 수 있도록 적절한 예방 조치를 취하는 데 도움을 줄 것입니다. 그래서 가장 먼저 해야 할 일은 이 재료에 익숙해지는 것입니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0020825,
+  "out_tokens": 167
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 697,
+  "domain": "speech",
+  "hyp": "오늘은 벤 애플렉이 인터뷰를 방어하는 것에 대해 이야기할 것입니다. 그렉, 우리가 볼 비디오에 대해 이야기해 주시겠어요? 네, 몇 주 전에 벤 애플렉이 하워드 스턴과의 두 시간 인터뷰에 출연했습니다. 그는 전 아내와의 이별과 가족에 대해 이야기했고, 그로 인해 몇 가지 후폭풍이 있었습니다. 자, 여기 있습니다, 벤 애플렉!",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0013075,
+  "out_tokens": 102
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 700,
+  "domain": "speech",
+  "hyp": "이제 무대 뒤에서 무슨 일이 일어나든 상관없다는 것을 알게 되었습니다. 왜냐하면 쇼는 계속될 것이기 때문입니다. 그리고 Lovely Lych로부터 그녀가 정말로 비디오를 좋아했다는 댓글을 받았습니다. 그녀는 \"축제에 가는 것, 그곳의 분위기, 음식과 같은 비하인드 씬을 좋아했어요. 말하자면 당신의 하루를 보는 것 같았어요.\"라고 썼습니다. 그래서 이 비디오를 좋아하셨기를 바라며 가능한 한 많이 보여드리겠습니다. 이제 점심시간이 되었고, Deep가 스크램블 에그를 만들고 있습니다. 여기서의 비법은 계란 노른자를 하나 더 추가하는 것입니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.001985,
+  "out_tokens": 161
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 784,
+  "domain": "speech",
+  "hyp": "안녕하세요, 새로운 시리즈의 일종인 파일럿에 오신 것을 환영합니다. 이 시리즈는 세계 최악의 스캔들 중 일부의 역사를 파헤칠 것입니다. 여러분이 알고 있는 것도 있을 것이고, 모르는 것도 있을 것입니다. 이는 부분적으로 Scannál이라는 RTE 프로그램에서 영감을 받았습니다. 하지만 아일랜드와 관련된 사건에 집중하기보다는 제가 다룰 범위를 넓힐 계획입니다. 자, 더 이상 지체하지 않고 시작해 보겠습니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.00142,
+  "out_tokens": 113
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 691,
+  "domain": "speech",
+  "hyp": "그래서 여러분이 굳이 살 필요 없도록 제가 Xbox 시리즈 X를 샀습니다. 아니면 어쩌면 여러분도 실제로 사야 할지도 모르죠. 이 영상에서는 Xbox 시리즈 X를 선택할 때의 장단점을 모두 알려드리겠습니다. 실제 하드웨어, 컨트롤러, 게임 등 Xbox 시리즈 X와 관련된 모든 경험을 다룰 예정입니다. 이 영상을 즐기시고, 유용하게 보셨으면 좋겠습니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0013425,
+  "out_tokens": 104
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 770,
+  "domain": "speech",
+  "hyp": "스코티 킬머 채널 시간입니다. 당신의 차에 페인트가 바랜 부분이 있나요? 그렇다면 계속 지켜보세요, 오늘은 바랜 페인트를 어떻게 광택 내는지 보여드리겠습니다. 필요한 것은 물 한 양동이, 폴리셔, 그리고 이 메구이어스 얼티밋 컴파운드 한 병뿐입니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0010625,
+  "out_tokens": 83
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 750,
+  "domain": "speech",
+  "hyp": "안녕하세요, 여러분, TS 매디슨입니다. 사업, 브랜드 또는 제품을 성장시키고 싶다면 저와 광고를 해보세요. 저희의 포괄적인 광고 패키지를 통해 참여할 수 있도록 booktsmadison@gmail.com으로 이메일을 보내주세요. 독특한 방문자, 독특한 구독자, 다양한 인구 통계, 오늘 저와 광고하세요.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0010825,
+  "out_tokens": 83
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 768,
+  "domain": "speech",
+  "hyp": "구조대가 도시를 순찰하는 동안, 우리는 상자 안의 박물을 관찰할 것입니다. 악당들이 우리가 안에 기다리고 있는 동안 카보니타를 훔치려는 것은 좋은 생각이 아닐 것입니다. 우리는 돈이 다 떨어졌어요! 그 다이아몬드를 훔쳐서 팔아야 해요! 그렇지 않으면 탄산음료로 실험을 해야 할 거예요! 로봇들을 어떻게 안으로 들여보낼까요? 모든 것이 준비되었습니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.001405,
+  "out_tokens": 111
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 731,
+  "domain": "speech",
+  "hyp": "하버드 대학교의 심리학 석사 과정에 대한 초기 지원은 거절되었지만, 결국 입학이 허가되었다. 초기의 좌절은 밀그램이 퀸즈 칼리지에서 심리학 학부 과정을 수강하지 않았기 때문이었다. 1961년, 밀그램은 사회 심리학 박사 학위를 받았다. 그는 같은 시기에 예일 대학교의 조교수가 되었다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0012125,
+  "out_tokens": 98
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 748,
+  "domain": "speech",
+  "hyp": "트랜스유로파 페스티벌은 격년으로 열리는 문화적, 정치적, 예술적 행사/포럼/회의로, 다양한 형식을 결합한 이벤트입니다. 우리는 이 행사를 유럽 대안이라는 이름으로 10년 동안 진행해왔습니다. 그래서 꽤 많은 경험을 가지고 있습니다. 동시에, 이 행사는 유목적 성격을 띠고 있어 항상 다른 도시에서 열립니다. 지난번에는 2년 전, 유럽 연합 외부의 도시인 베오그라드에서 열렸습니다. 올해, 2017년에는 여러 가지 이유로 마드리드에 오고 싶었습니다.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0018125,
+  "out_tokens": 142
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 716,
+  "domain": "speech",
+  "hyp": "어떻게 그렇게 일찍 엔지니어링이 단지 도전의 일부라는 것을 고려하거나 깨달았나요? 특히 엔지니어로서 우리는 문제를 다루고 해결책을 찾는 것이 우리의 일이라고 배우잖아요. 맞아요, 맞아요. 어떻게 그렇게 일찍 그걸 알게 되었나요? 음, 말하자면 이상한 우연이었어요. 물론 저는 1970년대에 자랐고, 1970년대에 정치적 의식과 학문적 이해를 얻었으며, 그 맥락은 물론 엄청나게 중요합니다.",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.00167,
+  "out_tokens": 131
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 747,
+  "domain": "speech",
+  "hyp": "화성은 지구의 절반 크기의 행성입니다. 오래 전 화성에는 많은 물이 있었습니다. 그런 종류의 일을 하기 위해... 화성에는 에베레스트보다 거의 세 배 높은 81,000피트 높이의 화산이 있습니다. 그래서, 그러니까, 오랜 시간 동안 일어난 일은 정말로 내 상상력이 이해할 수 있는 것보다 더 큽니다. 어쨌든, 먼저 물. 첫 번째 생명: 37억 년 전, 그냥 생명이라고 말하겠습니다. 그래서, 알다시피, 꽤, 꽤 초기의, 초기 진화에서",
+  "finish": "stop",
+  "provider": "Azure",
+  "cost": 0.0017075,
+  "out_tokens": 135
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 790,
+  "domain": "speech",
+  "hyp": "그리고 저는 Infosys의 CEO인 비샬 시카 박사에게 먼저 말씀을 드리고 싶습니다. 비샬, 당신은 철도 엔지니어의 아들입니다. 그 단계에서 기술을 보셨고, 또한 서퍼이기도 하니 파도를 피하는 것에 대해 잘 알고 계십니다. 새로운 기술로부터 오는 가장 주목해야 할 혼란은 무엇이며, 그 이유는 무엇입니까? 왜 우리는 그 혼란에 그렇게 많은 주의를 기울여야 합니까?",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0013875,
+  "out_tokens": 109
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 708,
+  "domain": "speech",
+  "hyp": "안녕하세요, 바히아노 리노의 바히아노입니다. 네, 우리는 타일 줄눈을 수리할 예정입니다. 타일은 약 14, 15년 된 것 같습니다. 타일이 보기에는 괜찮아 보이지만 일부 지역에서 느슨해지고 있어서 타일을 안정화하기 위해 수리를 할 것입니다. 전체 타일이나 줄눈을 교체하고 싶지는 않습니다. 전체 리노베이션을 할 준비가 될 때까지 지속되도록 일부 수리만 할 것입니다. 네, 녹화 중인가요?",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0015425,
+  "out_tokens": 121
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 756,
+  "domain": "speech",
+  "hyp": "안녕하세요. 그 올버니 전화는 어때요? 바쁘신가요? 그럼 수석 교환원에게 전화해서 회선을 열어두라고 하세요. 공식적인 일입니다. 생사가 걸린 문제입니다. 케네디 양, 당신이 진실을 말하고 있기를 바랍니다. 그렇지 않으면 당신에게 좋지 않을 겁니다. 제가 말한 모든 말은 진실입니다. 디르켄이 저를 붙잡았어요. 제 드레스를 찢었어요. 우리는 몸싸움을 벌였어요.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0014725,
+  "out_tokens": 119
+ },
+ {
+  "model": "gpt-4o",
+  "segment_id": 734,
+  "domain": "speech",
+  "hyp": "타르로 밀봉하려고 하면, 금이 갈 거예요. 제가 보여드릴게요. 실리콘 실러는 하지 말아야 할 것 중 하나인데, 제가 지금 실리콘을 제거하고 있어요. 그런데 누군가 여기에 타르를 발랐고 그 위에 페인트를 칠했어요. 제가 보여드릴게요. 그게 무슨 효과가 있었을까요? 그냥 메우는 역할만 했어요.",
+  "finish": "stop",
+  "provider": "OpenAI",
+  "cost": 0.0012375,
+  "out_tokens": 100
+ }
+]

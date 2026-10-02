@@ -1,0 +1,2678 @@
+[
+ {
+  "key": 1000,
+  "issues": [],
+  "cost": 0.01127,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1001,
+  "issues": [],
+  "cost": 0.003144,
+  "provider": "Google"
+ },
+ {
+  "key": 1005,
+  "issues": [],
+  "cost": 0.003336,
+  "provider": "Google"
+ },
+ {
+  "key": 102,
+  "issues": [],
+  "cost": 0.00673,
+  "provider": "Google"
+ },
+ {
+  "key": 1072,
+  "issues": [],
+  "cost": 0.002678,
+  "provider": "Google"
+ },
+ {
+  "key": 1075,
+  "issues": [],
+  "cost": 0.002354,
+  "provider": "Google"
+ },
+ {
+  "key": 1082,
+  "issues": [
+   {
+    "type": "other",
+    "severity": "minor",
+    "detail": "The Korean prompt has an extra '***' at the very end ('구분하세요.***') which is a typo."
+   }
+  ],
+  "cost": 0.00585,
+  "provider": "Google"
+ },
+ {
+  "key": 1092,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "Prompt says '이하' (<= 300) but kwargs check for 'less than' (< 300). Should be '미만'."
+   }
+  ],
+  "cost": 0.00321,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1094,
+  "issues": [],
+  "cost": 0.004124,
+  "provider": "Google"
+ },
+ {
+  "key": 1098,
+  "issues": [],
+  "cost": 0.003746,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1107,
+  "issues": [],
+  "cost": 0.002376,
+  "provider": "Google"
+ },
+ {
+  "key": 1108,
+  "issues": [],
+  "cost": 0.002164,
+  "provider": "Google"
+ },
+ {
+  "key": 1127,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'missing my classes' is mistranslated as '수업이 그리운' (longing for classes), which contradicts the ending phrase about getting money back for missed classes."
+   }
+  ],
+  "cost": 0.006766,
+  "provider": "Google"
+ },
+ {
+  "key": 1128,
+  "issues": [],
+  "cost": 0.002652,
+  "provider": "Google"
+ },
+ {
+  "key": 1131,
+  "issues": [],
+  "cost": 0.003326,
+  "provider": "Google"
+ },
+ {
+  "key": 1148,
+  "issues": [],
+  "cost": 0.004364,
+  "provider": "Google"
+ },
+ {
+  "key": 1154,
+  "issues": [],
+  "cost": 0.002126,
+  "provider": "Google"
+ },
+ {
+  "key": 1162,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "The topic 'auspices' is completely omitted from the Korean prompt."
+   }
+  ],
+  "cost": 0.005416,
+  "provider": "Google"
+ },
+ {
+  "key": 1180,
+  "issues": [],
+  "cost": 0.006292,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1203,
+  "issues": [
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The prompt asks to use the word '평화' (peace), but the kwarg expects the English word 'peace'."
+   }
+  ],
+  "cost": 0.004004,
+  "provider": "Google"
+ },
+ {
+  "key": 1216,
+  "issues": [],
+  "cost": 0.004126,
+  "provider": "Google"
+ },
+ {
+  "key": 1217,
+  "issues": [],
+  "cost": 0.002748,
+  "provider": "Google"
+ },
+ {
+  "key": 122,
+  "issues": [],
+  "cost": 0.002506,
+  "provider": "Google"
+ },
+ {
+  "key": 1233,
+  "issues": [
+   {
+    "type": "dropped_constraint",
+    "severity": "minor",
+    "detail": "The explicit constraint 'with no other words after the word \"with\"' is missing from the Korean prompt."
+   }
+  ],
+  "cost": 0.007898,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1236,
+  "issues": [],
+  "cost": 0.00435,
+  "provider": "Google"
+ },
+ {
+  "key": 1237,
+  "issues": [],
+  "cost": 0.005186,
+  "provider": "Google"
+ },
+ {
+  "key": 1242,
+  "issues": [],
+  "cost": 0.005824,
+  "provider": "Google"
+ },
+ {
+  "key": 1246,
+  "issues": [
+   {
+    "type": "dropped_constraint",
+    "severity": "minor",
+    "detail": "The requirement to write a 'template' is missing from the Korean prompt."
+   },
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'Post script' is mistranslated as '후기' (review) instead of '추신' (postscript)."
+   }
+  ],
+  "cost": 0.005142,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1248,
+  "issues": [],
+  "cost": 0.006772,
+  "provider": "Google"
+ },
+ {
+  "key": 1251,
+  "issues": [],
+  "cost": 0.003352,
+  "provider": "Google"
+ },
+ {
+  "key": 1258,
+  "issues": [],
+  "cost": 0.003976,
+  "provider": "Google"
+ },
+ {
+  "key": 1259,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "'rushing to work' is translated as '출근하는 것' (going to work), omitting the 'rushing' aspect."
+   }
+  ],
+  "cost": 0.004158,
+  "provider": "Google"
+ },
+ {
+  "key": 1262,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "The Korean prompt drops the quotation marks around the text to be elaborated, merging it awkwardly with the question mark."
+   },
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'i.e. <<title>>' is translated as '<<제목>>이라는...', which sounds like the title must literally be '제목' rather than just an example."
+   }
+  ],
+  "cost": 0.010466,
+  "provider": "Google"
+ },
+ {
+  "key": 1265,
+  "issues": [],
+  "cost": 0.004362,
+  "provider": "Google"
+ },
+ {
+  "key": 1268,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The Korean prompt says '6문장 이하' (6 or less), but the checker requires 'less than 6' (< 6). A 6-sentence response would fail."
+   }
+  ],
+  "cost": 0.00397,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 127,
+  "issues": [
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The Korean prompt asks for '5회 이상' (at least 5 times), but the checker requires at least 6 times (frequency: 6)."
+   }
+  ],
+  "cost": 0.009474,
+  "provider": "Google"
+ },
+ {
+  "key": 1286,
+  "issues": [],
+  "cost": 0.004048,
+  "provider": "Google"
+ },
+ {
+  "key": 13,
+  "issues": [],
+  "cost": 0.00237,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1305,
+  "issues": [],
+  "cost": 0.007962,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1307,
+  "issues": [],
+  "cost": 0.002696,
+  "provider": "Google"
+ },
+ {
+  "key": 1322,
+  "issues": [],
+  "cost": 0.003554,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1325,
+  "issues": [],
+  "cost": 0.008198,
+  "provider": "Google"
+ },
+ {
+  "key": 1332,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "The Korean prompt translates 'a table with... and a...' as a single table containing both ('포함한 표를 만드세요'), making it awkward to separate them with asterisks."
+   }
+  ],
+  "cost": 0.010668,
+  "provider": "Google"
+ },
+ {
+  "key": 1342,
+  "issues": [],
+  "cost": 0.008174,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1348,
+  "issues": [],
+  "cost": 0.007214,
+  "provider": "Google"
+ },
+ {
+  "key": 136,
+  "issues": [],
+  "cost": 0.004948,
+  "provider": "Google"
+ },
+ {
+  "key": 1367,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'postscript' is translated as '후기' (review/epilogue) instead of '추신' (postscript)."
+   }
+  ],
+  "cost": 0.005368,
+  "provider": "Google"
+ },
+ {
+  "key": 1372,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'Ripley's' is usually translated as '리플리의', not '립리의'."
+   }
+  ],
+  "cost": 0.005268,
+  "provider": "Google"
+ },
+ {
+  "key": 1375,
+  "issues": [],
+  "cost": 0.01135,
+  "provider": "Google"
+ },
+ {
+  "key": 1377,
+  "issues": [],
+  "cost": 0.00451,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1381,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The Korean prompt says '10문장 이하' (<= 10), but the checker requires 'less than 10' (< 10). It should be '10문장 미만'."
+   }
+  ],
+  "cost": 0.003882,
+  "provider": "Google"
+ },
+ {
+  "key": 1392,
+  "issues": [],
+  "cost": 0.005598,
+  "provider": "Google"
+ },
+ {
+  "key": 1393,
+  "issues": [],
+  "cost": 0.003954,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1418,
+  "issues": [],
+  "cost": 0.003442,
+  "provider": "Google"
+ },
+ {
+  "key": 142,
+  "issues": [],
+  "cost": 0.00432,
+  "provider": "Google"
+ },
+ {
+  "key": 143,
+  "issues": [],
+  "cost": 0.01205,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1446,
+  "issues": [
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The prompt asks to end with '제가 도와드릴 수 있는 다른 것이 있나요?' but the kwargs check for '도와드릴 수 있는 다른 것이 있나요?'."
+   }
+  ],
+  "cost": 0.00657,
+  "provider": "Google"
+ },
+ {
+  "key": 1480,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "The Korean prompt omits 'or ridden on' (타본 것) from the translation."
+   }
+  ],
+  "cost": 0.005652,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1481,
+  "issues": [],
+  "cost": 0.007306,
+  "provider": "Google"
+ },
+ {
+  "key": 1498,
+  "issues": [],
+  "cost": 0.003402,
+  "provider": "Google"
+ },
+ {
+  "key": 1508,
+  "issues": [],
+  "cost": 0.002116,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1512,
+  "issues": [],
+  "cost": 0.005004,
+  "provider": "Google"
+ },
+ {
+  "key": 1518,
+  "issues": [],
+  "cost": 0.00468,
+  "provider": "Google"
+ },
+ {
+  "key": 1531,
+  "issues": [],
+  "cost": 0.004784,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1537,
+  "issues": [],
+  "cost": 0.003414,
+  "provider": "Google"
+ },
+ {
+  "key": 1546,
+  "issues": [],
+  "cost": 0.004294,
+  "provider": "Google"
+ },
+ {
+  "key": 1548,
+  "issues": [],
+  "cost": 0.002644,
+  "provider": "Google"
+ },
+ {
+  "key": 1551,
+  "issues": [],
+  "cost": 0.002844,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1561,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "breaks_scoring",
+    "detail": "'before you say anything...' is mistranslated as '아무 말도 하지 않거나... 응답하지 마세요' (do not say anything or respond), contradicting the task."
+   }
+  ],
+  "cost": 0.010082,
+  "provider": "Google"
+ },
+ {
+  "key": 1580,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'아이들이 자전거를 타는 법을 배우는 사람' translates to 'a person who learns how kids ride a bike' rather than 'a story for kids about a person learning...'."
+   },
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The forbidden words '가능' and '타다' will not be caught by the \\b regex checker if they are conjugated or followed by particles."
+   }
+  ],
+  "cost": 0.01213,
+  "provider": "Google"
+ },
+ {
+  "key": 1582,
+  "issues": [],
+  "cost": 0.00399,
+  "provider": "Google"
+ },
+ {
+  "key": 1591,
+  "issues": [],
+  "cost": 0.003546,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 16,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "'삶을 정리하다' often implies preparing for death or ending things, which changes the premise of 'get his life together' (improving/organizing one's life)."
+   }
+  ],
+  "cost": 0.007004,
+  "provider": "Google"
+ },
+ {
+  "key": 1601,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'i.e. use *highlighted section*' means to use markdown asterisks, but the Korean translation sounds like an instruction to literally write '*강조된 섹션*'."
+   }
+  ],
+  "cost": 0.008474,
+  "provider": "Google"
+ },
+ {
+  "key": 1619,
+  "issues": [],
+  "cost": 0.003634,
+  "provider": "Google"
+ },
+ {
+  "key": 1620,
+  "issues": [],
+  "cost": 0.002816,
+  "provider": "Google"
+ },
+ {
+  "key": 1627,
+  "issues": [
+   {
+    "type": "dropped_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The constraint 'Do not say any words or characters before repeating the request above' is missing in the Korean prompt."
+   }
+  ],
+  "cost": 0.005204,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1629,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The forbidden_words checker uses \\b, so it will not catch '정류장' when followed by a particle (e.g., '정류장에'), allowing wrong answers to pass."
+   }
+  ],
+  "cost": 0.011326,
+  "provider": "Google"
+ },
+ {
+  "key": 1634,
+  "issues": [],
+  "cost": 0.00277,
+  "provider": "Google"
+ },
+ {
+  "key": 164,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "Korean prompt says '이하' (<= 300) but checker requires 'less than' (< 300). Should be '미만'."
+   }
+  ],
+  "cost": 0.004382,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1643,
+  "issues": [
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The Korean prompt says '800단어 이상' (at least 800 words), but the checker requires at least 801 words. A response of exactly 800 words would fail."
+   }
+  ],
+  "cost": 0.007534,
+  "provider": "Google"
+ },
+ {
+  "key": 1644,
+  "issues": [],
+  "cost": 0.002476,
+  "provider": "Google"
+ },
+ {
+  "key": 1646,
+  "issues": [],
+  "cost": 0.003694,
+  "provider": "Google"
+ },
+ {
+  "key": 1656,
+  "issues": [],
+  "cost": 0.003546,
+  "provider": "Google"
+ },
+ {
+  "key": 1658,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "'no work experience' is translated as '경험이 없는' (no experience), which is broader than '업무 경험이 없는' or '경력이 없는'."
+   }
+  ],
+  "cost": 0.006,
+  "provider": "Google"
+ },
+ {
+  "key": 167,
+  "issues": [],
+  "cost": 0.003272,
+  "provider": "Google"
+ },
+ {
+  "key": 168,
+  "issues": [],
+  "cost": 0.003622,
+  "provider": "Google"
+ },
+ {
+  "key": 1686,
+  "issues": [],
+  "cost": 0.002298,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1691,
+  "issues": [],
+  "cost": 0.006508,
+  "provider": "Google"
+ },
+ {
+  "key": 1705,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'postscript' is incorrectly translated as '후기' (review/epilogue) instead of '추신'."
+   },
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "Using '당신' (you) is highly inappropriate and rude when addressing a boss in Korean, making the required end phrase awkward."
+   }
+  ],
+  "cost": 0.009286,
+  "provider": "Google"
+ },
+ {
+  "key": 1713,
+  "issues": [],
+  "cost": 0.005284,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1730,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "'cause' (social cause/movement) is mistranslated as '원인' (cause and effect), changing the topic of the blog post."
+   }
+  ],
+  "cost": 0.005508,
+  "provider": "Google"
+ },
+ {
+  "key": 1733,
+  "issues": [],
+  "cost": 0.002512,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1738,
+  "issues": [],
+  "cost": 0.002952,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1739,
+  "issues": [],
+  "cost": 0.003926,
+  "provider": "Google"
+ },
+ {
+  "key": 1746,
+  "issues": [],
+  "cost": 0.003642,
+  "provider": "Google"
+ },
+ {
+  "key": 1759,
+  "issues": [],
+  "cost": 0.002334,
+  "provider": "Google"
+ },
+ {
+  "key": 1773,
+  "issues": [],
+  "cost": 0.004028,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1776,
+  "issues": [],
+  "cost": 0.00293,
+  "provider": "Google"
+ },
+ {
+  "key": 179,
+  "issues": [],
+  "cost": 0.002534,
+  "provider": "Google"
+ },
+ {
+  "key": 1793,
+  "issues": [],
+  "cost": 0.185564,
+  "provider": "Google"
+ },
+ {
+  "key": 1800,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'postscript' is translated as '후기' (review/afterword) instead of the correct term '추신'."
+   }
+  ],
+  "cost": 0.004566,
+  "provider": "Google"
+ },
+ {
+  "key": 1802,
+  "issues": [],
+  "cost": 0.003946,
+  "provider": "Google"
+ },
+ {
+  "key": 1823,
+  "issues": [],
+  "cost": 0.005044,
+  "provider": "Google"
+ },
+ {
+  "key": 1837,
+  "issues": [],
+  "cost": 0.003044,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1845,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "The word 'file' in the context of taxes means '신고' or '제출', but it was mistranslated as '파일' (computer file)."
+   }
+  ],
+  "cost": 0.007784,
+  "provider": "Google"
+ },
+ {
+  "key": 1857,
+  "issues": [],
+  "cost": 0.002396,
+  "provider": "Google"
+ },
+ {
+  "key": 1858,
+  "issues": [],
+  "cost": 0.003852,
+  "provider": "Google"
+ },
+ {
+  "key": 1879,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The prompt says '600단어 이하' (<= 600 words), but the checker requires 'less than' (< 600 words). It should be '600단어 미만'."
+   }
+  ],
+  "cost": 0.006638,
+  "provider": "Google"
+ },
+ {
+  "key": 1886,
+  "issues": [],
+  "cost": 0.00326,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1893,
+  "issues": [],
+  "cost": 0.003384,
+  "provider": "Google"
+ },
+ {
+  "key": 1897,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "The translator added unnecessary asterisks throughout the prompt. In `*를 사용하세요*`, the literal `*` becomes a markdown marker, hiding it in rendered text."
+   }
+  ],
+  "cost": 0.014936,
+  "provider": "Google"
+ },
+ {
+  "key": 19,
+  "issues": [],
+  "cost": 0.003844,
+  "provider": "Google"
+ },
+ {
+  "key": 1902,
+  "issues": [],
+  "cost": 0.003178,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1906,
+  "issues": [],
+  "cost": 0.003048,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1908,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "Both 'Wizards' and 'sorcerers' are translated as '마법사', making the statement nonsensical ('마법사는... 마법사보다 더 강력하다')."
+   }
+  ],
+  "cost": 0.006564,
+  "provider": "Google"
+ },
+ {
+  "key": 1927,
+  "issues": [],
+  "cost": 0.00297,
+  "provider": "Google"
+ },
+ {
+  "key": 1928,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'elaborate into a story' is translated as '이야기로 자세히 설명하십시오' (explain in detail), which is awkward. It should be '이야기로 발전시키십시오' or '살을 붙여 이야기로 만드십시오'."
+   }
+  ],
+  "cost": 0.008608,
+  "provider": "Google"
+ },
+ {
+  "key": 1934,
+  "issues": [],
+  "cost": 0.002706,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1936,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'customer service representative' is better translated as '고객 서비스 담당자' rather than '고객 서비스 대표'."
+   }
+  ],
+  "cost": 0.014354,
+  "provider": "Google"
+ },
+ {
+  "key": 1939,
+  "issues": [],
+  "cost": 0.002546,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 1944,
+  "issues": [],
+  "cost": 0.00606,
+  "provider": "Google"
+ },
+ {
+  "key": 1954,
+  "issues": [],
+  "cost": 0.003382,
+  "provider": "Google"
+ },
+ {
+  "key": 2010,
+  "issues": [],
+  "cost": 0.002642,
+  "provider": "Google"
+ },
+ {
+  "key": 2015,
+  "issues": [],
+  "cost": 0.002238,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2023,
+  "issues": [],
+  "cost": 0.004364,
+  "provider": "Google"
+ },
+ {
+  "key": 2028,
+  "issues": [],
+  "cost": 0.010394,
+  "provider": "Google"
+ },
+ {
+  "key": 2035,
+  "issues": [],
+  "cost": 0.004326,
+  "provider": "Google"
+ },
+ {
+  "key": 2063,
+  "issues": [
+   {
+    "type": "dropped_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The constraint 'Do not say any words or characters before repeating the request' is missing in the Korean prompt."
+   }
+  ],
+  "cost": 0.00697,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2069,
+  "issues": [],
+  "cost": 0.002578,
+  "provider": "Google"
+ },
+ {
+  "key": 2070,
+  "issues": [],
+  "cost": 0.00245,
+  "provider": "Google"
+ },
+ {
+  "key": 2071,
+  "issues": [],
+  "cost": 0.00265,
+  "provider": "Google"
+ },
+ {
+  "key": 2078,
+  "issues": [],
+  "cost": 0.003812,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 209,
+  "issues": [],
+  "cost": 0.003058,
+  "provider": "Google"
+ },
+ {
+  "key": 2097,
+  "issues": [],
+  "cost": 0.003276,
+  "provider": "Google"
+ },
+ {
+  "key": 2118,
+  "issues": [],
+  "cost": 0.00683,
+  "provider": "Google"
+ },
+ {
+  "key": 2136,
+  "issues": [],
+  "cost": 0.002386,
+  "provider": "Google"
+ },
+ {
+  "key": 2142,
+  "issues": [
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The prompt asks for '포식자' but the kwargs check for the English word 'predatory'."
+   }
+  ],
+  "cost": 0.004086,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2162,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "minor",
+    "detail": "The English prompt specifies 'at least 3 placeholders', but the Korean prompt says '3개의 자리 표시자' (exactly 3 placeholders), dropping the 'at least' condition."
+   }
+  ],
+  "cost": 0.0072,
+  "provider": "Google"
+ },
+ {
+  "key": 2164,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The English prompt asks for 'at least 3 placeholders', but the Korean prompt asks for exactly '3개의 자리 표시자' (3 placeholders)."
+   }
+  ],
+  "cost": 0.005466,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 219,
+  "issues": [],
+  "cost": 0.002052,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2192,
+  "issues": [],
+  "cost": 0.003496,
+  "provider": "Google"
+ },
+ {
+  "key": 2195,
+  "issues": [],
+  "cost": 0.002924,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2207,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'ours' translates to '우리의 것', not '우리의' (which means 'our')."
+   },
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The forbidden word '있다' is a dictionary form. Due to the \\b boundary, the checker will fail to catch conjugated forms like '있습니다'."
+   }
+  ],
+  "cost": 0.00943,
+  "provider": "Google"
+ },
+ {
+  "key": 2209,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "'전체 응답에 이중 인용부호를 넣으십시오' means 'put double quotes in the response', not 'around'. Users might not enclose the text, failing the checker."
+   },
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'이중 인용부호' is an awkward literal translation; '큰따옴표' is the standard Korean term."
+   }
+  ],
+  "cost": 0.008804,
+  "provider": "Google"
+ },
+ {
+  "key": 2229,
+  "issues": [],
+  "cost": 0.005078,
+  "provider": "Google"
+ },
+ {
+  "key": 2230,
+  "issues": [],
+  "cost": 0.006732,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2239,
+  "issues": [],
+  "cost": 0.00215,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2243,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "Prompt says '150단어 이하' (<= 150) but kwargs check for 'less than' (< 150). Should be '미만'."
+   }
+  ],
+  "cost": 0.003546,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2253,
+  "issues": [],
+  "cost": 0.002556,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2266,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "'less than 7 sentences' was translated as '7문장 이하' (7 or less), but the checker enforces strictly less than 7."
+   }
+  ],
+  "cost": 0.003712,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2268,
+  "issues": [],
+  "cost": 0.002644,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 227,
+  "issues": [],
+  "cost": 0.00601,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2273,
+  "issues": [],
+  "cost": 0.008644,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2284,
+  "issues": [],
+  "cost": 0.008958,
+  "provider": "Google"
+ },
+ {
+  "key": 2292,
+  "issues": [],
+  "cost": 0.004032,
+  "provider": "Google"
+ },
+ {
+  "key": 2299,
+  "issues": [],
+  "cost": 0.002006,
+  "provider": "Google"
+ },
+ {
+  "key": 2303,
+  "issues": [],
+  "cost": 0.004406,
+  "provider": "Google"
+ },
+ {
+  "key": 2304,
+  "issues": [],
+  "cost": 0.008476,
+  "provider": "Google"
+ },
+ {
+  "key": 2305,
+  "issues": [],
+  "cost": 0.004322,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2309,
+  "issues": [],
+  "cost": 0.006122,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2311,
+  "issues": [],
+  "cost": 0.002344,
+  "provider": "Google"
+ },
+ {
+  "key": 2314,
+  "issues": [],
+  "cost": 0.003256,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2323,
+  "issues": [],
+  "cost": 0.003482,
+  "provider": "Google"
+ },
+ {
+  "key": 2324,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'Humboldt' is mistranslated as '엄버트' instead of the correct '훔볼트'."
+   }
+  ],
+  "cost": 0.004356,
+  "provider": "Google"
+ },
+ {
+  "key": 2328,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "The word 'startup' is missing from the first sentence ('startup pitch' translated as just '피치')."
+   }
+  ],
+  "cost": 0.010414,
+  "provider": "Google"
+ },
+ {
+  "key": 2355,
+  "issues": [],
+  "cost": 0.005142,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2357,
+  "issues": [],
+  "cost": 0.005972,
+  "provider": "Google"
+ },
+ {
+  "key": 2359,
+  "issues": [],
+  "cost": 0.002366,
+  "provider": "Google"
+ },
+ {
+  "key": 2362,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'postscript' should be translated as '추신' rather than '후기' (which means review or afterword)."
+   }
+  ],
+  "cost": 0.008158,
+  "provider": "Google"
+ },
+ {
+  "key": 2374,
+  "issues": [],
+  "cost": 0.003606,
+  "provider": "Google"
+ },
+ {
+  "key": 2380,
+  "issues": [],
+  "cost": 0.006192,
+  "provider": "Google"
+ },
+ {
+  "key": 2381,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'그들의 집회 조직자가 되어 달라고 요청하세요' implies asking the party to become the organizer, rather than applying for the role."
+   }
+  ],
+  "cost": 0.006214,
+  "provider": "Google"
+ },
+ {
+  "key": 2395,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The forbidden word '벼룩' will not be caught if used in '벼룩시장' or with particles due to the \\b word boundary in the checker, making the constraint ineffective in Korean."
+   }
+  ],
+  "cost": 0.011358,
+  "provider": "Google"
+ },
+ {
+  "key": 2396,
+  "issues": [],
+  "cost": 0.002096,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 240,
+  "issues": [],
+  "cost": 0.00246,
+  "provider": "Google"
+ },
+ {
+  "key": 2404,
+  "issues": [],
+  "cost": 0.002736,
+  "provider": "Google"
+ },
+ {
+  "key": 2417,
+  "issues": [],
+  "cost": 0.007306,
+  "provider": "Google"
+ },
+ {
+  "key": 2432,
+  "issues": [],
+  "cost": 0.007274,
+  "provider": "Google"
+ },
+ {
+  "key": 2441,
+  "issues": [],
+  "cost": 0.002132,
+  "provider": "Google"
+ },
+ {
+  "key": 2457,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "'Why we want to honour Thayer for his contributions' was mistranslated as 'why Thayer contributed to the field of AI' (Thayer가 인공지능 분야에 기여한 이유)."
+   }
+  ],
+  "cost": 0.00692,
+  "provider": "Google"
+ },
+ {
+  "key": 2464,
+  "issues": [],
+  "cost": 0.002834,
+  "provider": "Google"
+ },
+ {
+  "key": 2465,
+  "issues": [],
+  "cost": 0.006888,
+  "provider": "Google"
+ },
+ {
+  "key": 2467,
+  "issues": [],
+  "cost": 0.0041,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 247,
+  "issues": [],
+  "cost": 0.002158,
+  "provider": "Google"
+ },
+ {
+  "key": 2471,
+  "issues": [],
+  "cost": 0.009744,
+  "provider": "Google"
+ },
+ {
+  "key": 2475,
+  "issues": [],
+  "cost": 0.005398,
+  "provider": "Google"
+ },
+ {
+  "key": 2482,
+  "issues": [],
+  "cost": 0.006146,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2485,
+  "issues": [],
+  "cost": 0.002996,
+  "provider": "Google"
+ },
+ {
+  "key": 2515,
+  "issues": [],
+  "cost": 0.00219,
+  "provider": "Google"
+ },
+ {
+  "key": 2532,
+  "issues": [],
+  "cost": 0.003116,
+  "provider": "Google"
+ },
+ {
+  "key": 2534,
+  "issues": [],
+  "cost": 0.003212,
+  "provider": "Google"
+ },
+ {
+  "key": 2577,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "Forbidden words '문화' and '선사시대' will not be caught if followed by particles due to the \\b regex boundary in the checker."
+   }
+  ],
+  "cost": 0.007824,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2583,
+  "issues": [],
+  "cost": 0.00354,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2589,
+  "issues": [],
+  "cost": 0.002384,
+  "provider": "Google"
+ },
+ {
+  "key": 2602,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "minor",
+    "detail": "'less than 100 words' was translated to '100단어 이하로' (100 words or less) instead of '100단어 미만으로'."
+   }
+  ],
+  "cost": 0.007458,
+  "provider": "Google"
+ },
+ {
+  "key": 2616,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "Grammatical error: '\"싱글\"라는' should be '\"싱글\"이라는' since '싱글' ends with a consonant."
+   }
+  ],
+  "cost": 0.006736,
+  "provider": "Google"
+ },
+ {
+  "key": 2617,
+  "issues": [],
+  "cost": 0.002338,
+  "provider": "Google"
+ },
+ {
+  "key": 2622,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'postscript' is translated as '후기' (review/afterword) instead of the standard '추신'."
+   }
+  ],
+  "cost": 0.005414,
+  "provider": "Google"
+ },
+ {
+  "key": 2628,
+  "issues": [],
+  "cost": 0.005176,
+  "provider": "Google"
+ },
+ {
+  "key": 2637,
+  "issues": [],
+  "cost": 0.003976,
+  "provider": "Google"
+ },
+ {
+  "key": 2649,
+  "issues": [
+   {
+    "type": "other",
+    "severity": "breaks_scoring",
+    "detail": "Forbidden words '혁명' and '세금' followed by particles will not be caught due to the word boundary regex."
+   }
+  ],
+  "cost": 0.011694,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2662,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'engages' is translated as '관계' (relationship), which is inaccurate, though it matches the kwargs."
+   }
+  ],
+  "cost": 0.005098,
+  "provider": "Google"
+ },
+ {
+  "key": 2667,
+  "issues": [],
+  "cost": 0.00361,
+  "provider": "Google"
+ },
+ {
+  "key": 2674,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "Prompt says '10문장 이하' (<= 10) but kwargs check for 'less than' (< 10). A 10-sentence response will fail."
+   }
+  ],
+  "cost": 0.003788,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2683,
+  "issues": [
+   {
+    "type": "dropped_constraint",
+    "severity": "minor",
+    "detail": "The explicit instruction 'wrapped in double angular brackets' is missing; only the example is provided."
+   }
+  ],
+  "cost": 0.012034,
+  "provider": "Google"
+ },
+ {
+  "key": 2685,
+  "issues": [],
+  "cost": 0.002068,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2691,
+  "issues": [],
+  "cost": 0.002306,
+  "provider": "Google"
+ },
+ {
+  "key": 2704,
+  "issues": [],
+  "cost": 0.007962,
+  "provider": "Google"
+ },
+ {
+  "key": 2713,
+  "issues": [],
+  "cost": 0.006022,
+  "provider": "Google"
+ },
+ {
+  "key": 2724,
+  "issues": [],
+  "cost": 0.003088,
+  "provider": "Google"
+ },
+ {
+  "key": 2749,
+  "issues": [],
+  "cost": 0.00175,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2751,
+  "issues": [],
+  "cost": 0.003698,
+  "provider": "Google"
+ },
+ {
+  "key": 2752,
+  "issues": [],
+  "cost": 0.002364,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2780,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "'6문장 이내' means <= 6 sentences, but the checker requires strictly less than 6 sentences. It should be '6문장 미만'."
+   }
+  ],
+  "cost": 0.004008,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2798,
+  "issues": [],
+  "cost": 0.001968,
+  "provider": "Google"
+ },
+ {
+  "key": 2801,
+  "issues": [],
+  "cost": 0.002736,
+  "provider": "Google"
+ },
+ {
+  "key": 2807,
+  "issues": [
+   {
+    "type": "unsatisfiable",
+    "severity": "minor",
+    "detail": "Korean does not have uppercase/lowercase letters, making the '소문자만 사용하세요' constraint meaningless for Korean text."
+   }
+  ],
+  "cost": 0.009112,
+  "provider": "Google"
+ },
+ {
+  "key": 281,
+  "issues": [],
+  "cost": 0.002352,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2825,
+  "issues": [],
+  "cost": 0.002348,
+  "provider": "Google"
+ },
+ {
+  "key": 2828,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The forbidden word '패러디' in kwargs will not catch occurrences with particles (e.g., '패러디는') due to the \\b regex boundary, allowing violating responses to pass."
+   }
+  ],
+  "cost": 0.011506,
+  "provider": "Google"
+ },
+ {
+  "key": 2829,
+  "issues": [],
+  "cost": 0.003328,
+  "provider": "Google"
+ },
+ {
+  "key": 2832,
+  "issues": [],
+  "cost": 0.004322,
+  "provider": "Google"
+ },
+ {
+  "key": 2844,
+  "issues": [],
+  "cost": 0.00436,
+  "provider": "Google"
+ },
+ {
+  "key": 2857,
+  "issues": [],
+  "cost": 0.002292,
+  "provider": "Google"
+ },
+ {
+  "key": 286,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "'less than 10 sentences' was translated as '10문장 이하로' (10 or less), but the checker requires strictly less than 10."
+   },
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The prompt adds quotes around the end phrase, but the kwarg does not include them. If the user includes quotes, the exact match will fail."
+   }
+  ],
+  "cost": 0.008502,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2871,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'reductions' in church history refers to Jesuit Reductions (레두크시온/선교촌), not '감소' (decrease)."
+   }
+  ],
+  "cost": 0.00624,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2905,
+  "issues": [],
+  "cost": 0.004082,
+  "provider": "Google"
+ },
+ {
+  "key": 2909,
+  "issues": [],
+  "cost": 0.004066,
+  "provider": "Google"
+ },
+ {
+  "key": 2918,
+  "issues": [],
+  "cost": 0.008132,
+  "provider": "Google"
+ },
+ {
+  "key": 292,
+  "issues": [],
+  "cost": 0.003004,
+  "provider": "Google"
+ },
+ {
+  "key": 2921,
+  "issues": [],
+  "cost": 0.006408,
+  "provider": "Google"
+ },
+ {
+  "key": 2925,
+  "issues": [],
+  "cost": 0.004046,
+  "provider": "Google"
+ },
+ {
+  "key": 2929,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'postscript' is mistranslated as '후기' (review) instead of '추신' (postscript)."
+   }
+  ],
+  "cost": 0.00386,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2941,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "'a product that you would like to sell' is mistranslated as '아이들이 좋아할 만한 제품' (a product that kids would like)."
+   }
+  ],
+  "cost": 0.007318,
+  "provider": "Google"
+ },
+ {
+  "key": 295,
+  "issues": [],
+  "cost": 0.002646,
+  "provider": "Google"
+ },
+ {
+  "key": 2957,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "Forbidden words '유치원' and '스토리텔링' will not be caught if followed by particles due to the \\b regex, allowing wrong answers to pass."
+   }
+  ],
+  "cost": 0.010038,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 2969,
+  "issues": [
+   {
+    "type": "dropped_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The explicit instruction to wrap the title in double angular brackets is missing from the Korean prompt."
+   }
+  ],
+  "cost": 0.006462,
+  "provider": "Google"
+ },
+ {
+  "key": 2977,
+  "issues": [],
+  "cost": 0.005556,
+  "provider": "Google"
+ },
+ {
+  "key": 2985,
+  "issues": [],
+  "cost": 0.002738,
+  "provider": "Google"
+ },
+ {
+  "key": 2997,
+  "issues": [],
+  "cost": 0.002544,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3001,
+  "issues": [],
+  "cost": 0.00273,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3025,
+  "issues": [],
+  "cost": 0.00542,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3041,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "'less than 7 sentences' is translated as '7문장 이하' (<= 7), but the checker uses 'less than' (< 7)."
+   }
+  ],
+  "cost": 0.005278,
+  "provider": "Google"
+ },
+ {
+  "key": 3048,
+  "issues": [],
+  "cost": 0.003204,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3057,
+  "issues": [],
+  "cost": 0.002302,
+  "provider": "Google"
+ },
+ {
+  "key": 3063,
+  "issues": [],
+  "cost": 0.007712,
+  "provider": "Google"
+ },
+ {
+  "key": 3071,
+  "issues": [],
+  "cost": 0.002634,
+  "provider": "Google"
+ },
+ {
+  "key": 3073,
+  "issues": [],
+  "cost": 0.005848,
+  "provider": "Google"
+ },
+ {
+  "key": 3079,
+  "issues": [],
+  "cost": 0.003184,
+  "provider": "Google"
+ },
+ {
+  "key": 3081,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "Missing quotes around the newspaper title in the Korean prompt makes the sentence awkward and hard to parse."
+   }
+  ],
+  "cost": 0.012446,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3089,
+  "issues": [],
+  "cost": 0.012676,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3091,
+  "issues": [],
+  "cost": 0.002502,
+  "provider": "Google"
+ },
+ {
+  "key": 3109,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "English 'more than 2 times' means >=3, but Korean '2회 이상' means >=2. A response with exactly 2 '사촌' will fail the checker (which expects >=3)."
+   },
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The Korean prompt asks for '2회 이상' (at least 2), but the kwargs check for 'at least 3'."
+   }
+  ],
+  "cost": 0.004542,
+  "provider": "Google"
+ },
+ {
+  "key": 3112,
+  "issues": [],
+  "cost": 0.002716,
+  "provider": "Google"
+ },
+ {
+  "key": 3126,
+  "issues": [],
+  "cost": 0.00227,
+  "provider": "Google"
+ },
+ {
+  "key": 3130,
+  "issues": [],
+  "cost": 0.002566,
+  "provider": "Google"
+ },
+ {
+  "key": 3131,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'echoing biotechnology field' is mistranslated as '에코 생명공학 분야' (eco biotechnology field)."
+   },
+   {
+    "type": "dropped_constraint",
+    "severity": "minor",
+    "detail": "The explicit instruction 'wrapped in double angular brackets' is missing, leaving only the example."
+   }
+  ],
+  "cost": 0.009354,
+  "provider": "Google"
+ },
+ {
+  "key": 3156,
+  "issues": [],
+  "cost": 0.00449,
+  "provider": "Google"
+ },
+ {
+  "key": 3166,
+  "issues": [],
+  "cost": 0.009898,
+  "provider": "Google"
+ },
+ {
+  "key": 3191,
+  "issues": [],
+  "cost": 0.00287,
+  "provider": "Google"
+ },
+ {
+  "key": 3198,
+  "issues": [],
+  "cost": 0.002116,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 32,
+  "issues": [],
+  "cost": 0.002426,
+  "provider": "Google"
+ },
+ {
+  "key": 322,
+  "issues": [],
+  "cost": 0.004206,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3223,
+  "issues": [],
+  "cost": 0.002122,
+  "provider": "Google"
+ },
+ {
+  "key": 3224,
+  "issues": [],
+  "cost": 0.003452,
+  "provider": "Google"
+ },
+ {
+  "key": 3241,
+  "issues": [],
+  "cost": 0.002762,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3243,
+  "issues": [],
+  "cost": 0.005058,
+  "provider": "Google"
+ },
+ {
+  "key": 3245,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "The quotation marks around the title in the English prompt were dropped in the Korean translation, making the sentence slightly awkward."
+   }
+  ],
+  "cost": 0.00891,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3256,
+  "issues": [],
+  "cost": 0.007626,
+  "provider": "Google"
+ },
+ {
+  "key": 3263,
+  "issues": [],
+  "cost": 0.002274,
+  "provider": "Google"
+ },
+ {
+  "key": 3280,
+  "issues": [],
+  "cost": 0.00246,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3281,
+  "issues": [],
+  "cost": 0.005806,
+  "provider": "Google"
+ },
+ {
+  "key": 3287,
+  "issues": [],
+  "cost": 0.011884,
+  "provider": "Google"
+ },
+ {
+  "key": 3294,
+  "issues": [
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "The Korean prompt removes the double quotation marks from the format example block, which were present in the English original."
+   }
+  ],
+  "cost": 0.012322,
+  "provider": "Google"
+ },
+ {
+  "key": 3305,
+  "issues": [
+   {
+    "type": "unsatisfiable",
+    "severity": "breaks_scoring",
+    "detail": "The prompt requires the entire response to be in Hindi, but also requires repeating a Korean prompt and including Korean keywords, creating a contradiction."
+   }
+  ],
+  "cost": 0.010462,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3311,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "minor",
+    "detail": "Korean kwargs include '목표' which was missing in the English kwargs, fixing an original bug but changing checker equivalence."
+   }
+  ],
+  "cost": 0.011002,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3315,
+  "issues": [
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The forbidden word '대학' will not be caught by the \\b regex if followed by a Korean particle."
+   },
+   {
+    "type": "meaning_change",
+    "severity": "minor",
+    "detail": "'Hilarious' (매우 웃긴) is translated as '재미있는' (fun/interesting), which weakens the tone."
+   }
+  ],
+  "cost": 0.014042,
+  "provider": "Google"
+ },
+ {
+  "key": 3323,
+  "issues": [],
+  "cost": 0.00214,
+  "provider": "Google"
+ },
+ {
+  "key": 3324,
+  "issues": [],
+  "cost": 0.005844,
+  "provider": "Google"
+ },
+ {
+  "key": 3345,
+  "issues": [
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The prompt asks for the word '강도' to appear twice, but the kwargs check for the English word 'robber'."
+   }
+  ],
+  "cost": 0.009278,
+  "provider": "Google"
+ },
+ {
+  "key": 3350,
+  "issues": [],
+  "cost": 0.005194,
+  "provider": "Google"
+ },
+ {
+  "key": 3351,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "breaks_scoring",
+    "detail": "'starting and ending with single *, i.e. *italic text*' is mistranslated as '*이탤릭 텍스트*로 시작하고 끝내주세요', which means 'start and end with the phrase *italic text*'."
+   },
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'Social media post' is translated as '미디어 게시물' (media post), omitting 'social'."
+   }
+  ],
+  "cost": 0.009276,
+  "provider": "Google"
+ },
+ {
+  "key": 3367,
+  "issues": [],
+  "cost": 0.004232,
+  "provider": "Google"
+ },
+ {
+  "key": 3369,
+  "issues": [],
+  "cost": 0.011418,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 337,
+  "issues": [],
+  "cost": 0.00472,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3371,
+  "issues": [
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "Forbidden words '경제', '수요', '공급' will not be caught by the \\b regex if followed by particles."
+   }
+  ],
+  "cost": 0.014534,
+  "provider": "Google"
+ },
+ {
+  "key": 3386,
+  "issues": [],
+  "cost": 0.007626,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 340,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "'less than 30 words' is translated as '30단어 이하' (<= 30), but the checker strictly checks for < 30."
+   },
+   {
+    "type": "dropped_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The prompt misses the constraint 'one' (한 개) for the italic text section, which is required by the exact count checker."
+   }
+  ],
+  "cost": 0.00825,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3409,
+  "issues": [],
+  "cost": 0.005444,
+  "provider": "Google"
+ },
+ {
+  "key": 3415,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The English prompt asks for 'less than 200 words' (<200), but the Korean prompt says '200단어 이하' (<=200). A 200-word response would fail the checker."
+   }
+  ],
+  "cost": 0.006292,
+  "provider": "Google"
+ },
+ {
+  "key": 3425,
+  "issues": [],
+  "cost": 0.00297,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 343,
+  "issues": [],
+  "cost": 0.002882,
+  "provider": "Google"
+ },
+ {
+  "key": 3439,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "The keyword 'bill' was incorrectly translated as '비용' (cost) instead of '빌' (the name), which is inconsistent with the context."
+   }
+  ],
+  "cost": 0.006822,
+  "provider": "Google"
+ },
+ {
+  "key": 3442,
+  "issues": [],
+  "cost": 0.00534,
+  "provider": "Google"
+ },
+ {
+  "key": 3445,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "Due to \\b regex, forbidden words '컴퓨터' and '과학' followed by particles will not be caught, allowing wrong answers to pass."
+   }
+  ],
+  "cost": 0.011602,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3453,
+  "issues": [],
+  "cost": 0.00318,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3484,
+  "issues": [],
+  "cost": 0.004246,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 349,
+  "issues": [],
+  "cost": 0.00425,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3494,
+  "issues": [],
+  "cost": 0.004964,
+  "provider": "Google"
+ },
+ {
+  "key": 3505,
+  "issues": [
+   {
+    "type": "dropped_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The Korean prompt drops 'at the very beginning of your entire response', but the checker requires the repeated prompt to be exactly at the start."
+   }
+  ],
+  "cost": 0.007856,
+  "provider": "Google"
+ },
+ {
+  "key": 3506,
+  "issues": [],
+  "cost": 0.009178,
+  "provider": "Google"
+ },
+ {
+  "key": 3518,
+  "issues": [],
+  "cost": 0.00345,
+  "provider": "Google"
+ },
+ {
+  "key": 3536,
+  "issues": [],
+  "cost": 0.00255,
+  "provider": "Google"
+ },
+ {
+  "key": 3538,
+  "issues": [
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The prompt asks for 600+ characters ('600자 이상') but the checker counts words (eojeol) with num_words: 600."
+   }
+  ],
+  "cost": 0.004004,
+  "provider": "Google"
+ },
+ {
+  "key": 3540,
+  "issues": [],
+  "cost": 0.00428,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3549,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "breaks_scoring",
+    "detail": "The Korean prompt incorrectly instructs the user to highlight the specific phrase '*이것은 강조된 구문*' twice, instead of 'some words or phrases'."
+   }
+  ],
+  "cost": 0.006286,
+  "provider": "Google"
+ },
+ {
+  "key": 3557,
+  "issues": [],
+  "cost": 0.002838,
+  "provider": "Google"
+ },
+ {
+  "key": 3563,
+  "issues": [],
+  "cost": 0.002836,
+  "provider": "Google"
+ },
+ {
+  "key": 3567,
+  "issues": [],
+  "cost": 0.00304,
+  "provider": "Google"
+ },
+ {
+  "key": 3569,
+  "issues": [],
+  "cost": 0.004618,
+  "provider": "Google"
+ },
+ {
+  "key": 357,
+  "issues": [],
+  "cost": 0.002728,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3595,
+  "issues": [
+   {
+    "type": "other",
+    "severity": "breaks_scoring",
+    "detail": "Forbidden word '아름다움' is a noun and will likely take a particle, so the \\b regex won't catch it."
+   }
+  ],
+  "cost": 0.012072,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3606,
+  "issues": [],
+  "cost": 0.002524,
+  "provider": "Google"
+ },
+ {
+  "key": 3615,
+  "issues": [],
+  "cost": 0.002036,
+  "provider": "Google"
+ },
+ {
+  "key": 3619,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'[가격]와' is grammatically incorrect; it should be '[가격]과' since '격' ends in a consonant."
+   }
+  ],
+  "cost": 0.004922,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3623,
+  "issues": [],
+  "cost": 0.006202,
+  "provider": "Google"
+ },
+ {
+  "key": 3629,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The Korean prompt asks to highlight 'some key parts' (일부 핵심 부분) but the kwarg requires exactly 1 highlight, which contradicts the plural implication of 'some'."
+   }
+  ],
+  "cost": 0.18622,
+  "provider": "Google"
+ },
+ {
+  "key": 3631,
+  "issues": [],
+  "cost": 0.002354,
+  "provider": "Google"
+ },
+ {
+  "key": 3644,
+  "issues": [],
+  "cost": 0.003818,
+  "provider": "Google"
+ },
+ {
+  "key": 3653,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "Biratnagar is mistranslated as '비라트나르' instead of '비라트나가르'."
+   }
+  ],
+  "cost": 0.004554,
+  "provider": "Google"
+ },
+ {
+  "key": 3669,
+  "issues": [],
+  "cost": 0.002994,
+  "provider": "Google"
+ },
+ {
+  "key": 3682,
+  "issues": [],
+  "cost": 0.002264,
+  "provider": "Google"
+ },
+ {
+  "key": 3690,
+  "issues": [],
+  "cost": 0.003448,
+  "provider": "Google"
+ },
+ {
+  "key": 3691,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The Korean prompt says '10문장 이하' (<= 10) but the checker requires strictly less than 10 sentences."
+   }
+  ],
+  "cost": 0.004696,
+  "provider": "Google"
+ },
+ {
+  "key": 3709,
+  "issues": [],
+  "cost": 0.008346,
+  "provider": "Google"
+ },
+ {
+  "key": 371,
+  "issues": [
+   {
+    "type": "kwarg_mismatch",
+    "severity": "breaks_scoring",
+    "detail": "The forbidden word '열쇠' followed by a particle (e.g., '열쇠가') will not be caught by the \\b regex."
+   }
+  ],
+  "cost": 0.00952,
+  "provider": "Google"
+ },
+ {
+  "key": 3710,
+  "issues": [
+   {
+    "type": "mistranslation",
+    "severity": "minor",
+    "detail": "'postscript' is translated as '후기' (review/epilogue) instead of the correct term '추신'."
+   }
+  ],
+  "cost": 0.00729,
+  "provider": "Google"
+ },
+ {
+  "key": 3732,
+  "issues": [],
+  "cost": 0.002686,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3739,
+  "issues": [
+   {
+    "type": "changed_constraint",
+    "severity": "breaks_scoring",
+    "detail": "'3문장 이하' means 3 or less, but the checker requires strictly less than 3. It should be '3문장 미만'."
+   }
+  ],
+  "cost": 0.005548,
+  "provider": "Google"
+ },
+ {
+  "key": 3743,
+  "issues": [],
+  "cost": 0.002878,
+  "provider": "Google"
+ },
+ {
+  "key": 3744,
+  "issues": [],
+  "cost": 0.003888,
+  "provider": "Google"
+ },
+ {
+  "key": 3748,
+  "issues": [],
+  "cost": 0.007242,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3749,
+  "issues": [],
+  "cost": 0.00405,
+  "provider": "Google AI Studio"
+ },
+ {
+  "key": 3750,
+  "issues": [],
+  "cost": 0.00479,
+  "provider": "Google"
+ },
+ {
+  "key": 3751,
+  "issues": [],
+  "cost": 0.008922,
+  "provider": "Google"
+ },
+ {
+  "key": 3752,
+  "issues": [],
+  "cost": 0.004184,
+  "provider": "Google"
+ },
+ {
+  "key": 3753,
+  "issues": [],
+  "cost": 0.005548,
+  "provider": "Google"
+ },
+ {
+  "key": 3754,
+  "issues": [
+   {
+    "type": "dropped_constraint",
+    "severity": "breaks_scoring",
+    "detail": "The Korean prompt misses the word 'exactly' (정확히 하나를 포함해야 합니다), which is a key constraint in the original prompt."
+   }
+  ],
+  "cost": 0.009062,
+  "provider": "Google"
+ },
+ {
+  "key": 3755,
+  "issues": [],
+  "cost": 0.005676,
+  "provider": "Google"
+ },
+ {
+  "key": 3756,
+  "issues": [],
+  "cost": 0.007684,
+  "provider": "Google"
+ },
+ {
+  "key": 3757,
+  "issues": [],
+  "cost": 0.003892,
+  "provider": "Google AI Studio"
+ }
+]

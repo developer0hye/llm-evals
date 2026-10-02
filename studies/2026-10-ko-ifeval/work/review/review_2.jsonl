@@ -1,0 +1,54 @@
+{"key": 19, "issues": []}
+{"key": 143, "issues": []}
+{"key": 227, "issues": []}
+{"key": 295, "issues": []}
+{"key": 343, "issues": []}
+{"key": 1012, "issues": [{"type": "inherited_from_source", "severity": "minor", "detail": "prompt_to_repeat contains '<<제목>>', so any answer that repeats the prompt passes detectable_format:title even without an email title. Same in English ('<<title>>')."}]}
+{"key": 1107, "issues": []}
+{"key": 1148, "issues": []}
+{"key": 1220, "issues": []}
+{"key": 1258, "issues": []}
+{"key": 1307, "issues": []}
+{"key": 1375, "issues": []}
+{"key": 1466, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Forbidden list has only Hangul forms; prompt keeps the English title, so an answer quoting 'Getting Back Together' or writing 'Taylor Swift' passes. English forbids these. Add 'taylor','swift','together' to kwargs and prompt."}]}
+{"key": 1518, "issues": []}
+{"key": 1582, "issues": []}
+{"key": 1634, "issues": []}
+{"key": 1686, "issues": []}
+{"key": 1746, "issues": []}
+{"key": 1825, "issues": []}
+{"key": 1897, "issues": []}
+{"key": 1936, "issues": [{"type": "meaning_change", "severity": "minor", "detail": "'bad' rendered as '불량' (defective/delinquent), not the natural rubric word '나쁜/나쁨'; an answer using '나쁜' passes. Prompt and kwargs agree, but the English constraint is weakened."}]}
+{"key": 2023, "issues": []}
+{"key": 2071, "issues": []}
+{"key": 2143, "issues": []}
+{"key": 2225, "issues": []}
+{"key": 2253, "issues": []}
+{"key": 2304, "issues": []}
+{"key": 2337, "issues": [{"type": "unsatisfiable", "severity": "breaks_scoring", "detail": "prompt_to_repeat contains '쉼표(,)', so the mandated verbatim repeat puts an ASCII comma in the response and punctuation:no_comma fails strict. English repeat text has no comma. Loose passes."}]}
+{"key": 2383, "issues": []}
+{"key": 2432, "issues": []}
+{"key": 2471, "issues": [{"type": "changed_constraint", "severity": "breaks_scoring", "detail": "Forbidden '미친' is a substring of '영향을 미친다/미친', routine in an academic paper; a faithful answer fails. Verified: '영향을 미친다' fails the checker."}, {"type": "changed_constraint", "severity": "minor", "detail": "'슬픈', '미친' are inflected forms, not stems: '슬픔', '슬프다', '미쳤다' pass, weakening the ban."}, {"type": "inherited_from_source", "severity": "minor", "detail": "Topic is the president's stress but '스트레스' is forbidden; answer must use 압박/중압감. English has the same tension ('stressed' vs 'stress')."}]}
+{"key": 2534, "issues": []}
+{"key": 2591, "issues": []}
+{"key": 2649, "issues": []}
+{"key": 2704, "issues": []}
+{"key": 2759, "issues": []}
+{"key": 2825, "issues": []}
+{"key": 2880, "issues": []}
+{"key": 2929, "issues": []}
+{"key": 3025, "issues": []}
+{"key": 3081, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "'room'→'침실' (bedroom) and 'law'→'법률' are narrower than the English; '방', '법' pass. Defensible since '방'/'법' collide with 방법/방송, but the ban is weaker."}]}
+{"key": 3130, "issues": []}
+{"key": 3223, "issues": []}
+{"key": 3280, "issues": []}
+{"key": 3324, "issues": []}
+{"key": 3367, "issues": []}
+{"key": 3425, "issues": []}
+{"key": 3494, "issues": []}
+{"key": 3549, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "Korean adds '정확히 두 번' (exactly twice); checker is at least 2, so a 3-highlight answer violates the Korean prompt yet passes. English 'twice' does not say 'exactly'."}]}
+{"key": 3615, "issues": []}
+{"key": 3653, "issues": []}
+{"key": 3709, "issues": [{"type": "changed_constraint", "severity": "minor", "detail": "'좋은' is an inflected form, not a stem: '좋습니다', '좋아요', '좋다' pass though they mean 'good'. Verified with checker. Consider stem '좋' or list forms."}]}
+{"key": 3744, "issues": []}
+{"key": 3755, "issues": []}
