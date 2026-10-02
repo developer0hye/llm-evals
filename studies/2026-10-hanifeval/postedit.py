@@ -2,7 +2,7 @@
 """Apply the logged manual edits to the Gemini translations and write the release files.
 
 Usage:
-    python3 postedit.py                     # writes release/ko_ifeval_v1.jsonl, release/provenance.json,
+    python3 postedit.py                     # writes release/hanifeval_v1.jsonl, release/provenance.json,
                                             # and work/review/responses_final.jsonl
 
 Every edit is a literal entry in EDITS below: which item, which string is replaced in the prompt
@@ -110,7 +110,7 @@ def main():
     out_dir = HERE / "release"
     out_dir.mkdir(exist_ok=True)
     edited = {e["key"] for e in EDITS}
-    with (out_dir / "ko_ifeval_v1.jsonl").open("w", encoding="utf-8") as f:
+    with (out_dir / "hanifeval_v1.jsonl").open("w", encoding="utf-8") as f:
         for k in sorted(items):
             o = items[k]
             subset = "response_language" if "language:response_language" in o["instruction_id_list"] else "core"
@@ -138,12 +138,12 @@ def main():
                        "reasoning": rows[min(rows)]["reasoning"], "temperature": rows[min(rows)]["temperature"],
                        "guideline_sha256": sorted({r["guideline_sha256"] for r in meta.values()}),
                        "cost_usd": round(sum(r["cost"] or 0 for r in meta.values()), 4)},
-        "checker": "checker/ (allganize/IFEval-Ko@54199e3 with five [ko-ifeval] fixes)",
+        "checker": "checker/ (allganize/IFEval-Ko@54199e3 with five [hanifeval] fixes)",
         "edits": [{k: v for k, v in e.items()} | {"prompt": [list(p) for p in e["prompt"]],
                                                    "repeat": [list(p) for p in e["repeat"]]} for e in EDITS],
         "response_edits": RESPONSE_EDITS,
         "known_issues": {str(k): v for k, v in KNOWN.items()},
-        "files": {"release/ko_ifeval_v1.jsonl": sha(out_dir / "ko_ifeval_v1.jsonl"),
+        "files": {"release/hanifeval_v1.jsonl": sha(out_dir / "hanifeval_v1.jsonl"),
                   "work/translations.jsonl": sha(HERE / "work" / "translations.jsonl"),
                   "translation_guideline.md": sha(HERE / "translation_guideline.md")},
     }

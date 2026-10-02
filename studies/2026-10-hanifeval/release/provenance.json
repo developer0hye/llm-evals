@@ -18,7 +18,7 @@
   ],
   "cost_usd": 3.6891
  },
- "checker": "checker/ (allganize/IFEval-Ko@54199e3 with five [ko-ifeval] fixes)",
+ "checker": "checker/ (allganize/IFEval-Ko@54199e3 with five [hanifeval] fixes)",
  "edits": [
   {
    "key": 1546,
@@ -400,7 +400,7 @@
   ]
  },
  "files": {
-  "release/ko_ifeval_v1.jsonl": "46d85943714ed283787e5e5575181f837e1fdb46cdf4e6175537fdc050881fcc",
+  "release/hanifeval_v1.jsonl": "46d85943714ed283787e5e5575181f837e1fdb46cdf4e6175537fdc050881fcc",
   "work/translations.jsonl": "a8f364b8a5feb65b400e8c77fb9c81d33a1c234d7597641bf42a2465a2b9ada7",
   "translation_guideline.md": "c090a5261f66cd366204e41634984c71657150da5e9ae054f9dd0ae656f02b53"
  }

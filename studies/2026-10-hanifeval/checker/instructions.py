@@ -25,7 +25,7 @@ from typing import Dict, Optional, Sequence, Union
 
 import langdetect
 
-# [ko-ifeval] Deterministic language detection (langdetect is randomized by default).
+# [hanifeval] Deterministic language detection (langdetect is randomized by default).
 langdetect.DetectorFactory.seed = 0
 
 from . import instructions_util
@@ -780,7 +780,7 @@ class KeywordChecker(Instruction):
 
     def check_following(self, value):
         """Check if the response contain the expected keywords."""
-        # [ko-ifeval] escaped substring match (a Korean keyword may carry a particle).
+        # [hanifeval] escaped substring match (a Korean keyword may carry a particle).
         for keyword in self._keywords:
             if not re.search(re.escape(keyword), value, flags=re.IGNORECASE):
                 return False
@@ -851,7 +851,7 @@ class KeywordFrequencyChecker(Instruction):
 
     def check_following(self, value):
         """Checks if the response contain the keyword with required frequency."""
-        # [ko-ifeval] escaped substring count.
+        # [hanifeval] escaped substring count.
         actual_occurrences = len(re.findall(re.escape(self._keyword), value, flags=re.IGNORECASE))
 
         if self._comparison_relation == _COMPARISON_RELATION[0]:
@@ -1058,7 +1058,7 @@ class ParagraphFirstWordCheck(Instruction):
                 break
             first_word += letter.lower()
 
-        # [ko-ifeval] prefix match: a Korean first word usually carries a particle ("회사는" for "회사").
+        # [hanifeval] prefix match: a Korean first word usually carries a particle ("회사는" for "회사").
         para_start = paragraph.lstrip("'\"“‘ ").lower()
         return num_paragraphs == self._num_paragraphs and para_start.startswith(self._first_word.lower())
 
@@ -1162,7 +1162,7 @@ class ForbiddenWords(Instruction):
     def check_following(self, value):
         """Check if the response does not contain the expected keywords."""
         for word in self._forbidden_words:
-            # [ko-ifeval] substring match: with \b, a noun followed by a particle (사과를) escaped detection.
+            # [hanifeval] substring match: with \b, a noun followed by a particle (사과를) escaped detection.
             if re.search(re.escape(word), value, flags=re.IGNORECASE):
                 return False
         return True

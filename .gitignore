@@ -5,5 +5,5 @@ __pycache__/
 # Evaluation data is fetched by each study's download_data.sh, never committed.
 studies/*/data/
 
-# ko-ifeval working files are committed explicitly when final
-studies/2026-10-ko-ifeval/work/*.tmp
+# hanifeval working files are committed explicitly when final
+studies/2026-10-hanifeval/work/*.tmp

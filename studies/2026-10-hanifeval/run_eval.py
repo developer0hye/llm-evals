@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Evaluate OpenRouter models on Ko-IFEval v1 and log one scored row per item.
+"""Evaluate OpenRouter models on HanIFEval v1 and log one scored row per item.
 
 Usage (from this directory, after `set -a; source ../../.env`):
     python3 run_eval.py --models gpt-6-luna --subset pilot --out eval/pilot
     python3 run_eval.py --models deepseek-v4.1-flash gpt-6-luna glm-5.3-flash solar-pro4 \
         --subset all --confirm-full --out eval/main
 
-Items come from release/ko_ifeval_v1.jsonl. The prompt is sent as the single user message, as in
+Items come from release/hanifeval_v1.jsonl. The prompt is sent as the single user message, as in
 IFEval. Settings follow studies/2026-10-korean (same models, pinned providers, reasoning on at the
 provider default, temperature 0, max_tokens 64000, one sample per item).
 
@@ -37,7 +37,7 @@ from checker.utils import InputExample, test_instruction_following_loose, test_i
 from common.models import ALL_MODELS, MODEL_CONCURRENCY_CAP  # noqa: E402
 from common.openrouter import CallFailed, chat  # noqa: E402
 
-RELEASE = HERE / "release" / "ko_ifeval_v1.jsonl"
+RELEASE = HERE / "release" / "hanifeval_v1.jsonl"
 PILOT_KEYS = HERE / "work" / "pilot_keys.json"   # the 28-item translation pilot: covers all 21 instruction types
 
 

@@ -72,7 +72,7 @@ def main():
     ap.add_argument("--md", default=None)
     args = ap.parse_args()
     d = HERE / args.dir
-    release = {r["key"]: r for r in map(json.loads, (HERE / "release" / "ko_ifeval_v1.jsonl").open())}
+    release = {r["key"]: r for r in map(json.loads, (HERE / "release" / "hanifeval_v1.jsonl").open())}
     known = {k for k, r in release.items() if r["known_issues"]}
     data = {m: load(d, m) for m in args.models}
     out = []

@@ -27,13 +27,13 @@ dataset they derive from:
   studies/2026-10-korean/**/klue_ner.jsonl        CC BY-SA 4.0 (KLUE)
 The CC BY-NC files are for non-commercial use only.
 
-studies/2026-10-ko-ifeval
+studies/2026-10-hanifeval
 -------------------------
 checker/  IFEval-Ko checker (allganize/IFEval-Ko @ 54199e3, ifeval_ko/), itself derived from
           Google Research's IFEval code; Apache License 2.0 (headers retained). Modified: changes
-          are marked "[ko-ifeval]" in checker/instructions.py.
+          are marked "[hanifeval]" in checker/instructions.py.
 Source data fetched at run time: google/IFEval @ 966cd89 (Apache-2.0).
-release/ko_ifeval_v1.jsonl: Korean translation of 429 google/IFEval items (Apache-2.0),
+release/hanifeval_v1.jsonl: Korean translation of 429 google/IFEval items (Apache-2.0),
           translated by Gemini 3.1 Pro under translation_guideline.md and edited as logged in
           release/provenance.json. Distributed under Apache-2.0.
 work/lexical_collisions.json: eojeol counts derived from KLUE-NER v1.1 dev (CC BY-SA 4.0);

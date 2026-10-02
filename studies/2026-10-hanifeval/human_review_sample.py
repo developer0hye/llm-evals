@@ -19,10 +19,10 @@ N, SEED = 40, 20261001
 
 def main():
     src = {r["key"]: r for r in map(json.loads, (HERE / "data" / "ifeval_input_data.jsonl").open())}
-    items = [json.loads(l) for l in (HERE / "release" / "ko_ifeval_v1.jsonl").open()]
+    items = [json.loads(l) for l in (HERE / "release" / "hanifeval_v1.jsonl").open()]
     sample = sorted(random.Random(SEED).sample([r["key"] for r in items], N))
     by_key = {r["key"]: r for r in items}
-    out = ["# Ko-IFEval v1: native-speaker review sheet (40 items)", "",
+    out = ["# HanIFEval v1: native-speaker review sheet (40 items)", "",
            f"Sample: `random.Random({SEED}).sample(keys, {N})` over the 429 released keys.", "",
            "For each item, answer:",
            "1. Natural: is the Korean prompt natural Korean? (yes / awkward / no)",

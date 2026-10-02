@@ -4,7 +4,7 @@
 Usage:
     python3 validate.py --ifeval-ko evidence/ifeval_ko_audit/ifeval_ko_54199e3.parquet   # audit IFEval-Ko
     python3 validate.py --translations work/translations.jsonl                            # validate ours
-    python3 validate.py --translations release/ko_ifeval_v1.jsonl                         # validate the release
+    python3 validate.py --translations release/hanifeval_v1.jsonl                         # validate the release
 
 Each item is compared with its English source (google/IFEval, matched by key).
 Checks, each reported per item:

@@ -1,4 +1,4 @@
-# Ko-IFEval v1: native-speaker review sheet (40 items)
+# HanIFEval v1: native-speaker review sheet (40 items)
 
 Sample: `random.Random(20261001).sample(keys, 40)` over the 429 released keys.
 

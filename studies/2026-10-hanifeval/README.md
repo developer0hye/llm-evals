@@ -1,7 +1,14 @@
-# Ko-IFEval v1: a Korean IFEval built for its checker (2026-10)
+# HanIFEval: a checker-consistent Korean translation of IFEval (v1, 2026-10)
+
+**Naming.** HanIFEval was called "Ko-IFEval v1" until 2026-10-03. The name was
+changed because four Hugging Face datasets already use Ko-IFEval-style names:
+`allganize/IFEval-Ko`, `thunder-research-group/SNU_Ko-IFEval`,
+`davidkim205/ko-ifeval` and `global-llm-2024/ko_ifeval`. HanIFEval is not
+derived from any of them. It is translated from `google/IFEval`, and
+IFEval-Ko was used only as the audited comparison.
 
 **Status (2026-10-02):** release v1 is built: 429 items in
-`release/ko_ifeval_v1.jsonl`. Four budget-tier models are evaluated on it
+`release/hanifeval_v1.jsonl`. Four budget-tier models are evaluated on it
 (below). **No native-speaker review was done, and none is planned.** The
 items are validated by code (prompt↔kwargs checks, satisfiability) and by
 models (Gemini translated, 8 Claude reviewers), not by humans. A 40-item
@@ -62,7 +69,7 @@ paragraph failure, was checked against the response. All are model
 failures under the checker; none is a substring-collision false fail
 (NOTES §8). Total cost was $2.409, pilot included.
 
-Ko-IFEval v1 is a Korean translation of `google/IFEval@966cd89`. It differs
+HanIFEval v1 is a Korean translation of `google/IFEval@966cd89`. It differs
 from a plain translation in one respect: every item is translated *together
 with* the arguments of the rule-based checker that scores it. The Korean
 prompt and the checker kwargs therefore say the same thing, which is the
@@ -110,7 +117,7 @@ capped keyword. They are tagged `source_unsatisfiable_strict`.
 
 ## Using it
 
-Each row in `release/ko_ifeval_v1.jsonl` has the following fields:
+Each row in `release/hanifeval_v1.jsonl` has the following fields:
 - `key`, `prompt`, `instruction_id_list` and `kwargs`, in IFEval's own
   schema;
 - `subset`: `core` (399) or `response_language` (30; the answer must be in
@@ -125,7 +132,7 @@ vendored checker:
 ```bash
 bash download_source.sh                       # google/IFEval source, SHA-256 checked (needed by validate.py)
 pip install -r ../../requirements.txt
-python3 satisfy.py --translations release/ko_ifeval_v1.jsonl --responses <responses.jsonl> --report <out.json>
+python3 satisfy.py --translations release/hanifeval_v1.jsonl --responses <responses.jsonl> --report <out.json>
 ```
 
 `satisfy.py` prints strict and loose prompt-level accuracy and writes
@@ -175,7 +182,7 @@ per-item results.
 
 | Path | Content |
 |---|---|
-| `release/ko_ifeval_v1.jsonl` | the dataset |
+| `release/hanifeval_v1.jsonl` | the dataset |
 | `release/provenance.json` | source and translator pins, every edit with its reason, file hashes |
 | `NOTES.md` | full research log (§0–§7) |
 | `translation_guideline.md`, `checker_semantics.md` | the fixed procedure |
@@ -185,7 +192,7 @@ per-item results.
 | `work/pilot_*`, `work/v11_check.jsonl` | pilot evidence |
 | `evidence/ifeval_ko_audit/` | the IFEval-Ko audit |
 | `evidence/translator_selection/` | WMT24++ MetricX / chrF comparison |
-| `checker/` | vendored checker (Apache-2.0, changes marked `[ko-ifeval]`) |
+| `checker/` | vendored checker (Apache-2.0, changes marked `[hanifeval]`) |
 
 ## License
 

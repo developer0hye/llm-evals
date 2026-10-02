@@ -1,4 +1,12 @@
-# Research notes: building a Korean IFEval
+# Research notes: building a Korean IFEval (HanIFEval)
+
+Naming: the dataset was called "Ko-IFEval v1" until 2026-10-03 and was then
+renamed HanIFEval. Four Hugging Face datasets already carry Ko-IFEval-style
+names (allganize/IFEval-Ko, thunder-research-group/SNU_Ko-IFEval,
+davidkim205/ko-ifeval, global-llm-2024/ko_ifeval). The release file, the
+study directory and the checker patch marker (`[hanifeval]`) were renamed
+with it. The release content is unchanged (same SHA-256), and so are the
+eval logs.
 
 A dated record of every decision, its evidence, and the numbers behind it,
 kept so that this work can be written up as a paper or technical report. Each
@@ -494,7 +502,7 @@ the Korean item was satisfiable but its constraint was near-vacuous.
 
 ### 7.5 Release check
 
-- `validate.py` on `release/ko_ifeval_v1.jsonl` flags 12/429, all
+- `validate.py` on `release/hanifeval_v1.jsonl` flags 12/429, all
   adjudicated (`work/validator_release.json`):
   - the 9 v1.1 flags of §6, with 2549 'gao' added as an accepted Latin kwarg;
   - repeat_conflict on 374 and 3371 (inherited).
