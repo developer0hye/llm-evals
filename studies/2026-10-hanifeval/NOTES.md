@@ -711,9 +711,8 @@ named below as OpenAI documents them:
   - It is distinct from the Ultrafast service tier
     (developers.openai.com/api/docs/guides/ultrafast-mode).
 
-Which model wrote which review was not recorded. Their findings shaped
-v1.1, and we thank both.
-- **Review 1, a focused review** of the 40-item sample, the high-risk
+Their findings shaped v1.1, and we thank both.
+- **Review 1, by GPT-6 Pro: a focused review** of the 40-item sample, the high-risk
   items and the logs for 2859. Findings:
   - 1127 accepts 5 sections when the prompt asks for 4;
   - 2028, 1580, 1733, 1466, 2041 (lexical);
@@ -721,7 +720,8 @@ v1.1, and we thank both.
   - 1137 and 1675 are `core` items that ask for a foreign-language answer;
   - responses are not NFC-normalised;
   - 340.
-- **Review 2, a full audit** of all 429 items: 16 topics, F01–F16, with
+- **Review 2, by GPT-6 Astra at the Ultra reasoning effort: a full
+  audit** of all 429 items: 16 topics, F01–F16, with
   37 constructed or published counterexamples, and all 1,716 stored
   responses re-scored (0 differences from our stored verdicts).
 
@@ -802,8 +802,9 @@ the `source_unsatisfiable_strict` items.
 - **Hugging Face.**
   - Tag `v1` was set on the v1 commit (`0c0ef9a`).
   - v1.1 was uploaded as commit `9678bfe`. The card was then updated to
-    name the external reviewers (commit `1fba3c9`, data unchanged). Tag
-    `v1.1` points to `1fba3c9`.
+    name the external reviewers (commit `1fba3c9`) and then to say which
+    review each model wrote (commit `e349b6b`). Data was unchanged in
+    both. Tag `v1.1` points to `e349b6b`.
   - The default config loads v1.1; the `v1` config and the `v1` tag load
     v1.
   - All three were checked with `datasets.load_dataset` (429 rows each,

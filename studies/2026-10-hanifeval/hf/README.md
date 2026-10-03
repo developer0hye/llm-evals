@@ -61,10 +61,11 @@ Each such case is listed under Limitations or tagged per item.
 - **Review:** 8 independent Claude Opus 5.5 instances reviewed all 429
   items. For v1.1, the dataset author also ran two external model-based
   reviews (2026-10-03):
-  - OpenAI **GPT-6 Pro** (ChatGPT; "powered by GPT-6 Astra");
-  - OpenAI **GPT-6 Astra at the Ultra reasoning effort** (ChatGPT/Codex;
-    "Ultra uses subagents to handle separate parts of a complex task in
-    parallel").
+  - review 1, a focused review: OpenAI **GPT-6 Pro** (ChatGPT; "powered
+    by GPT-6 Astra");
+  - review 2, a full audit of all 429 items: OpenAI **GPT-6 Astra at the
+    Ultra reasoning effort** (ChatGPT/Codex; "Ultra uses subagents to
+    handle separate parts of a complex task in parallel").
 - **Edits:** 33 logged edits on 32 items (17 in v1, 16 in v1.1), each with
   its reason in `provenance.json`.
 - **Validation:** model-validated, not human-validated. No native speaker
@@ -100,9 +101,10 @@ and none is a translation defect:
 | 1 | 3367, where "두 가지 광고" names the task rather than a count |
 
 **Semantic review.** In v1, 8 Claude Opus 5.5 reviewers made 70 findings
-on 60 items. v1.1 adds two external reviews, by GPT-6 Pro and by GPT-6
-Astra at the Ultra reasoning effort: one focused review, and one full
-audit of all 429 items with 37 counterexamples.
+on 60 items. v1.1 adds two external reviews:
+- a focused review by GPT-6 Pro;
+- a full audit of all 429 items, with 37 counterexamples, by GPT-6 Astra
+  at the Ultra reasoning effort.
 
 **Satisfiability.** A reviewer wrote one honest answer per item, and the
 checker scored it: strict 426 of 429, loose 429 of 429. The 3 strict

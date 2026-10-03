@@ -9,8 +9,11 @@ IFEval-Ko was used only as the audited comparison.
 
 **Status (2026-10-03): v1.1 is the current release** (`release/hanifeval_v1.1.jsonl`,
 Hugging Face `developer0hye/HanIFEval`). It was made after two external
-model-based reviews of v1, by OpenAI GPT-6 Pro and by GPT-6 Astra at the
-Ultra reasoning effort (names as OpenAI documents them; NOTES §10):
+model-based reviews of v1 (names as OpenAI documents them; NOTES §10):
+- a focused review by OpenAI GPT-6 Pro;
+- a full 429-item audit by GPT-6 Astra at the Ultra reasoning effort.
+
+The changes:
 - 16 items were edited;
 - the checker was fixed (sentence splitter, undetectable language);
 - three fields were added (`answer_language`, `adaptation`, `edits`).
