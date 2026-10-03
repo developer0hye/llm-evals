@@ -784,6 +784,13 @@ the `source_unsatisfiable_strict` items.
   `adaptation` and `edits`.
 - `release/hanifeval_v1.jsonl` is unchanged (SHA-256 `46d85943…`).
 - `provenance.json` records both versions.
+- **Hugging Face.**
+  - Tag `v1` was set on the v1 commit (`0c0ef9a`).
+  - v1.1 was uploaded as commit `9678bfe` and tagged `v1.1`.
+  - The default config loads v1.1; the `v1` config and the `v1` tag load
+    v1.
+  - All three were checked with `datasets.load_dataset` (429 rows each,
+    with the expected columns).
 
 
 
