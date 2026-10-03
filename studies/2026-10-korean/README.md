@@ -1,7 +1,11 @@
 # Korean ability of budget-tier LLMs (2026-10)
 
-**Status (2026-09-30): KoBALT, KLUE-NER and LBox main runs are complete for 4
-models:** DeepSeek V4.1 Flash, GPT-6 Luna, GLM 5.3 Flash and Solar Pro 4.
+**Status (2026-10-03): KoBALT, KLUE-NER and LBox main runs are complete for 5
+models:**
+- DeepSeek V4.1 Flash, GPT-6 Luna, GLM 5.3 Flash and Solar Pro 4, run on
+  2026-09-29/30;
+- Solar Mini 4, added on 2026-10-03 (see
+  [Added model: Solar Mini 4](#added-model-solar-mini-4-2026-10-03)).
 **Gemma 4 31B and Gemma 4 26B were dropped.** Neither could be evaluated
 normally through OpenRouter under this protocol (see
 [Not evaluated](#not-evaluated-gemma-4-31b-and-gemma-4-26b)). KoSimpleQA has
@@ -152,7 +156,60 @@ difference in length and entity density is not tested as a cause here.
   not reachable. Its facts are public court precedents.
 
 
-## Tasks
+## Added model: Solar Mini 4 (2026-10-03)
+
+`upstage/solar-mini4` (released on OpenRouter 2026-09-23), pinned to
+Upstage. It was run with the same settings as the four models above:
+- reasoning on, `max_tokens` 64000, temperature 0;
+- the same item sets.
+
+**Statistics.** It was added after the main run, so it is tested in its
+own family: the 4 pairs that include it, Bonferroni α = 0.0125
+(`analyze.py --focus solar-mini4`). The 6-pair family of the original
+four models is unchanged. Rows are in `results/solar-mini4/`; the summary
+is in `results/SUMMARY_solar-mini4.md`.
+
+| Task | Solar Mini 4 | Solar Pro 4 | vs each of the other four models |
+|---|---|---|---|
+| KoBALT accuracy (n=700) | **0.591** | 0.727 | lower than all four, p < 0.0001 |
+| KLUE-NER micro-F1 (n=1000) | **0.651** [0.626, 0.676] | 0.764 | lower than all four, p < 0.0001 (paired bootstrap) |
+| LBox casename accuracy (n=1000) | **0.770** | 0.814 | lower than all four, p ≤ 0.0025 |
+
+**Solar Mini 4 is the weakest of the five models on all three tasks**,
+significantly so in every pairwise test. The gap to Solar Pro 4 is
+13.6 points on KoBALT (34 vs 129 discordant items), 0.113 F1 on NER and
+4.4 points on LBox (33 vs 77).
+
+**Run record.**
+- **Rows.** 2,700/2,700 rows scored, 0 errored, every row served by
+  Upstage. Cost $3.32: KoBALT $1.61, NER $0.95, LBox $0.76.
+- **Pilot.** The pilot (50 items per task, `pilot/solar-mini4/`) had 0
+  errors and 0 truncations.
+- **Low NER parse rate.** In the pilot, all 8 of 50 NER replies that
+  failed to parse were copy errors by the model, not parser misses:
+  - dropped words ("선고");
+  - duplicated words ("연내 연내", "6시2분분");
+  - a changed particle ("두개는" → "두개은");
+  - a dropped closing parenthesis.
+
+  01689's ᄏ (U+110F) is in the source sentence itself, so it is not a
+  normalisation artefact. The main run's parse rate is 84.1%: 159
+  unparsed, the lowest of the five models.
+- **Truncations.** KoBALT 2, LBox 1. LBox 1896 shows a degenerate loop in
+  the visible content:
+  - the reasoning reached the correct label '근저당권말소' in 930 tokens;
+  - the content then repeated "사건명: 근저당권설정등기? No." 1,892 times
+    until it hit 64,000 tokens.
+
+  Per protocol it is scored `no_answer_truncated`.
+- **Throughput.** KoBALT took 9,162 s for its 700 items, about 4.6 items
+  per minute (mean 11.4k output tokens per item). The run was
+  first started as one process doing the tasks in order. It was stopped
+  after 117 KoBALT rows (killed by exact PID) and restarted as one process
+  per task. The resume kept the 117 logged rows; no row was lost or run
+  twice. At 24–32 requests in flight, 0 rows ended in an error. Retries
+  are not logged, so whether any 429s were retried is unknown.
+
 
 Four tasks, each measuring a different Korean ability. They are reported
 separately, never pooled.
