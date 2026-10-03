@@ -1,0 +1,15 @@
+HanIFEval
+Copyright 2026 developer0hye
+
+Licensed under the Apache License, Version 2.0 (LICENSE).
+
+data/hanifeval_v1.jsonl
+  Korean translation of 429 items of google/IFEval @ 966cd89545d6b6acfd7638bc708b98261ca58e84
+  (Apache-2.0). Translated by Gemini 3.1 Pro under a fixed guideline, reviewed by Claude Opus 5.5,
+  with 17 logged manual edits (provenance.json).
+
+checker/
+  The IFEval-Ko checker (allganize/IFEval-Ko @ 54199e3801116897697babf341865741dcd06fc8,
+  ifeval_ko/), itself derived from Google Research's IFEval code (Apache-2.0). Original copyright
+  headers are retained. Modified: changes are marked "[hanifeval]" in checker/instructions.py and
+  checker/instructions_util.py.

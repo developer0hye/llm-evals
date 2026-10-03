@@ -75,6 +75,8 @@ with* the arguments of the rule-based checker that scores it. The Korean
 prompt and the checker kwargs therefore say the same thing, which is the
 property that existing translations break.
 
+Hugging Face: [`developer0hye/HanIFEval`](https://huggingface.co/datasets/developer0hye/HanIFEval).
+
 The research log, with every decision, number and dead end, is
 [`NOTES.md`](NOTES.md). This README summarises it.
 

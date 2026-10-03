@@ -71,6 +71,7 @@ _MULTIPLE_DOTS = r"\.{2,}"
 _MIXED_ALPHABETS = "([A-Za-z가-힣])" # 한글과 영어 모두 포함
 _KOREAN_LIST = "([가나다라마바사])"  # 한글 리스트 마커
 
+# [hanifeval] two pattern literals below made raw strings (same regex; silences SyntaxWarning).
 def split_into_sentences(text):
     """Split the text into sentences. (답변을 문장 단위로 분리합니다.)
     기존 함수를 이용합니다. 한국어 문장 생성에서도 중간에 약어 등은 영어로 표기될 수 있습니다.
@@ -109,8 +110,8 @@ def split_into_sentences(text):
 
     text = re.sub(" " + _SUFFIXES + "[.]", " \\1<prd>", text)
     text = re.sub(" " + _ALPHABETS + "[.]", " \\1<prd>", text)
-    text = re.sub(r"\s" + _ALPHABETS + "[.]\s+(?=[가-힣])", " \\1<prd> ", text) # 영어 약어 + 직후 한글이 적힐 시 온점 아님 처리
-    text = re.sub(r"\s" + _KOREAN_LIST + "[.]\s+", " \\1<prd> ", text) # 한글로 된 리스트 마커 처리
+    text = re.sub(r"\s" + _ALPHABETS + r"[.]\s+(?=[가-힣])", " \\1<prd> ", text) # 영어 약어 + 직후 한글이 적힐 시 온점 아님 처리
+    text = re.sub(r"\s" + _KOREAN_LIST + r"[.]\s+", " \\1<prd> ", text) # 한글로 된 리스트 마커 처리
 
     if "”" in text:
         text = text.replace(".”", "”.")

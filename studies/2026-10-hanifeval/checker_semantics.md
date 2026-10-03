@@ -6,7 +6,10 @@ follows from it.
 
 `checker/` is the IFEval-Ko checker (`allganize/IFEval-Ko@54199e3`,
 `ifeval_ko/`), which derives from Google's IFEval code (Apache-2.0). It is
-vendored with five changes, each marked `[hanifeval]` in the code:
+vendored with five scoring changes, each marked `[hanifeval]` in the code
+(a sixth, added 2026-10-03, makes two regex literals in `instructions_util.py`
+raw strings; the regexes are identical, and re-scoring all 1,716 eval rows
+changed 0 results):
 
 1. `language:response_language`: `langdetect.DetectorFactory.seed = 0`, so the
    detection is deterministic.
