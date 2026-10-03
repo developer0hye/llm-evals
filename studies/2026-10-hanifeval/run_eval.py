@@ -6,7 +6,7 @@ Usage (from this directory, after `set -a; source ../../.env`):
     python3 run_eval.py --models deepseek-v4.1-flash gpt-6-luna glm-5.3-flash solar-pro4 \
         --subset all --confirm-full --out eval/main
 
-Items come from release/hanifeval_v1.jsonl. The prompt is sent as the single user message, as in
+Items come from release/hanifeval_v1.jsonl (--release 1) or hanifeval_v1.1.jsonl (--release 1.1). The prompt is sent as the single user message, as in
 IFEval. Settings follow studies/2026-10-korean (same models, pinned providers, reasoning on at the
 provider default, temperature 0, max_tokens 64000, one sample per item).
 
@@ -37,7 +37,7 @@ from checker.utils import InputExample, test_instruction_following_loose, test_i
 from common.models import ALL_MODELS, MODEL_CONCURRENCY_CAP  # noqa: E402
 from common.openrouter import CallFailed, chat  # noqa: E402
 
-RELEASE = HERE / "release" / "hanifeval_v1.jsonl"
+RELEASES = {"1": HERE / "release" / "hanifeval_v1.jsonl", "1.1": HERE / "release" / "hanifeval_v1.1.jsonl"}
 PILOT_KEYS = HERE / "work" / "pilot_keys.json"   # the 28-item translation pilot: covers all 21 instruction types
 
 
@@ -96,6 +96,7 @@ def load_done(path, items):
 
 async def main_async(args):
     key = os.environ.get("OPENROUTER_API_KEY") or sys.exit("OPENROUTER_API_KEY is not set")
+    RELEASE = RELEASES[args.release]
     items = {r["key"]: r for r in map(json.loads, RELEASE.open())}
     if args.keys:
         keys = args.keys
@@ -170,6 +171,8 @@ def main():
     p.add_argument("--concurrency", type=int, default=8)
     p.add_argument("--out", required=True)
     p.add_argument("--min-credit", type=float, default=2.0)
+    p.add_argument("--release", choices=list(RELEASES), default="1",
+                   help="dataset version; the release SHA-256 is pinned in each model's config")
     args = p.parse_args()
     if args.subset == "all" and not args.confirm_full and not args.keys:
         sys.exit("--subset all runs 429 items per model; add --confirm-full.")

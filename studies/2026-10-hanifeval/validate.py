@@ -19,6 +19,10 @@ Checks, each reported per item:
   char_unit_for_words  number_words constraint phrased with 자/글자
   repeat_wording     repeat_prompt item lacks an instruction that nothing may precede the repetition
   constrained_options  constrained_response item lacks one of the three fixed Korean options
+  ge_wording         a count the checker scores as >= N (sections, highlights, placeholders) is stated
+                     without 이상/최소 in the prompt (added in v1.1, after external review)
+  keyword_not_in_kwargs  a quoted word in the sentence that asks for keywords is missing from the kwargs
+                     (added in v1.1; the case was 3311, inherited from google/IFEval)
   repeat_conflict    the text the answer must repeat violates another constraint of the same item
                      (an ASCII comma under no_comma, or a forbidden word); unsatisfiable under strict scoring
 Writes a JSON report (--report) and prints counts.
@@ -102,6 +106,27 @@ def check_item(src, prompt, ids, kwargs):
             issues.append(("repeat_wording", iid))
         if iid == "detectable_format:constrained_response" and not all(o in prompt for o in OPTIONS):
             issues.append(("constrained_options", iid))
+    GE_KEYS = {"detectable_format:multiple_sections": "num_sections",
+               "detectable_format:number_highlighted_sections": "num_highlights",
+               "detectable_content:number_placeholders": "num_placeholders"}
+    for iid, kw in zip(ids, kwargs):
+        kw = clean(kw)
+        if iid in GE_KEYS and GE_KEYS[iid] in kw:
+            n = int(kw[GE_KEYS[iid]])
+            stated = re.search(rf"(?<!\d){n}(?!\d)|({KO_NUM.get(n, 'X')})\s*(개|번|군데|곳|가지)", prompt)
+            if stated and not re.search(r"이상|최소|적어도", prompt):
+                issues.append(("ge_wording", f"{iid}: checker >= {n}, prompt states the count without 이상/최소"))
+        if iid == "keywords:existence":
+            want = {w for k2 in kwargs for w in (clean(k2).get("keywords") or [])}
+            want |= {clean(k2)["keyword"] for k2 in kwargs if clean(k2).get("keyword")}
+            want |= {w for k2 in kwargs for w in (clean(k2).get("forbidden_words") or [])}
+            for sent in re.split(r"(?<=[.?!])\s+", prompt):
+                if "키워드" in sent or "단어" in sent:
+                    quoted = re.findall(r"['\"‘“]([^'\"’”]{1,15})['\"’”]", sent)
+                    if want & set(quoted):
+                        for q in quoted:
+                            if q not in want and re.search(r"[가-힣A-Za-z]", q):
+                                issues.append(("keyword_not_in_kwargs", f"{q!r} requested, kwargs {sorted(want)}"))
     rep = next((clean(kw).get("prompt_to_repeat") for kw in kwargs if clean(kw).get("prompt_to_repeat")), None)
     if rep:
         for iid, kw in zip(ids, kwargs):

@@ -1,0 +1,18 @@
+solar-pro4: 16 to run (0 logged)
+  solar-pro4  3311 strict=1 loose=1 $0.0002
+  solar-pro4  2925 strict=1 loose=1 $0.0004
+  solar-pro4  2023 strict=1 loose=1 $0.0005
+  solar-pro4  2807 strict=1 loose=1 $0.0006
+  solar-pro4  1127 strict=1 loose=1 $0.0004
+  solar-pro4  1131 strict=1 loose=1 $0.0008
+  solar-pro4  1548 strict=1 loose=1 $0.0007
+  solar-pro4   340 strict=1 loose=1 $0.0010
+  solar-pro4  1730 strict=1 loose=1 $0.0011
+  solar-pro4  1733 strict=1 loose=1 $0.0005
+  solar-pro4  1466 strict=1 loose=1 $0.0008
+  solar-pro4    30 strict=0 loose=0 $0.0014
+  solar-pro4   357 strict=1 loose=1 $0.0006
+  solar-pro4  3324 strict=1 loose=1 $0.0014
+  solar-pro4  2889 strict=1 loose=1 $0.0016
+  solar-pro4  1342 strict=1 loose=1 $0.0013
+solar-pro4: done in 70s

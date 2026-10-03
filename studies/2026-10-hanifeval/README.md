@@ -1,4 +1,4 @@
-# HanIFEval: a checker-consistent Korean translation of IFEval (v1, 2026-10)
+# HanIFEval: a checker-consistent Korean translation of IFEval (v1.1, 2026-10)
 
 **Naming.** HanIFEval was called "Ko-IFEval v1" until 2026-10-03. The name was
 changed because four Hugging Face datasets already use Ko-IFEval-style names:
@@ -7,15 +7,67 @@ changed because four Hugging Face datasets already use Ko-IFEval-style names:
 derived from any of them. It is translated from `google/IFEval`, and
 IFEval-Ko was used only as the audited comparison.
 
-**Status (2026-10-02):** release v1 is built: 429 items in
-`release/hanifeval_v1.jsonl`. Four budget-tier models are evaluated on it
-(below). **No native-speaker review was done, and none is planned.** The
-items are validated by code (prompt↔kwargs checks, satisfiability) and by
-models (Gemini translated, 8 Claude reviewers), not by humans. A 40-item
-review sheet (`work/human_review_40.md`) is included for anyone who wants
-to run one.
+**Status (2026-10-03): v1.1 is the current release** (`release/hanifeval_v1.1.jsonl`,
+Hugging Face `developer0hye/HanIFEval`). It was made after two external
+reviews of v1:
+- 16 items were edited;
+- the checker was fixed (sentence splitter, undetectable language);
+- three fields were added (`answer_language`, `adaptation`, `edits`).
 
-## Results: 4 models × 429 items (2026-10-02)
+v1 (`release/hanifeval_v1.jsonl`) is unchanged and kept. NOTES §10 has
+every finding, ruling and re-score.
+
+**No native-speaker review was done, and none is planned.** The items are
+validated by code (prompt↔kwargs checks, satisfiability, 37 checker tests)
+and by models (Gemini translated, Claude reviewers), not by humans.
+
+## Results on v1.1: 5 models × 429 items (2026-10-03)
+
+v1.1 results are assembled by `build_v11_eval.py` and written to
+`eval/v1.1/`:
+- the 16 edited items were re-generated (`eval/v1.1_regen/`);
+- the other 413 items reuse the v1 responses, re-scored with the v1.1
+  checker.
+
+```bash
+python3 analyze_eval.py eval/v1.1 --release 1.1 --models deepseek-v4.1-flash gpt-6-luna glm-5.3-flash solar-pro4
+python3 analyze_eval.py eval/v1.1 --release 1.1 --models deepseek-v4.1-flash gpt-6-luna glm-5.3-flash solar-pro4 solar-mini4 --focus solar-mini4
+```
+
+| Model | prompt strict [95% CI] | quality-controlled (n=421) | prompt loose | inst strict | inst loose |
+|---|---|---|---|---|---|
+| DeepSeek V4.1 Flash | **97.2** [95.2, 98.4] | 98.1 | 97.7 | 97.9 | 98.4 |
+| GLM 5.3 Flash | 95.3 [92.9, 97.0] | 96.2 | 97.2 | 96.8 | 98.1 |
+| GPT-6 Luna | 93.2 [90.5, 95.3] | 94.1 | 94.2 | 95.1 | 95.7 |
+| Solar Pro 4 | 93.0 [90.2, 95.1] | 94.1 | 95.3 | 95.1 | 96.8 |
+| Solar Mini 4 | 92.5 [89.7, 94.7] | 93.3 | 95.6 | 94.6 | 96.8 |
+
+"Quality-controlled" is the same metric over the 421 items without
+`known_issues`.
+
+**Paired tests (McNemar exact, prompt-level strict).**
+- **First four models, Bonferroni over their 6 pairs:**
+  - DeepSeek > GPT-6 Luna (22 vs 5 discordant, p = 0.0015);
+  - DeepSeek > Solar Pro 4 (22 vs 4, p = 0.0005);
+  - the other four pairs are not significant.
+- **Solar Mini 4, added after the main run, tested in its own family of 4
+  pairs:**
+  - DeepSeek > Mini 4 (26 vs 6, p = 0.0005);
+  - Mini 4 vs Luna, GLM and Pro 4: not significant (p ≥ 0.096).
+  - Mini 4 scores 83.3% on the 30 `response_language` items. Its five
+    failures there were checked by hand: two are refusals or answers in
+    the wrong language, three break other instructions. None is a
+    language-detection error.
+
+**v1 → v1.1.** Scores moved by at most 0.3 points: Luna 93.5 → 93.2, Solar
+Pro 4 93.2 → 93.0, the others unchanged. Both changed rows fail an
+instruction the edit did not touch, so they are re-generation variance.
+The ranking and the significant pairs are unchanged.
+
+The v1 analysis follows (4 models, `eval/main/`). Its numbers are
+unchanged, and re-scoring with the v1.1 checker changes 0 rows.
+
+## Results on v1: 4 models × 429 items (2026-10-02)
 
 Prompt-level strict is the share of items in which every instruction is
 followed; n = 429 per model. All rows are in `eval/main/`, and the numbers
@@ -119,33 +171,33 @@ capped keyword. They are tagged `source_unsatisfiable_strict`.
 
 ## Using it
 
-Each row in `release/hanifeval_v1.jsonl` has the following fields:
-- `key`, `prompt`, `instruction_id_list` and `kwargs`, in IFEval's own
-  schema;
-- `subset`: `core` (399) or `response_language` (30; the answer must be in
-  a language other than Korean);
-- `edited`: true for the 17 hand-edited items;
-- `known_issues`: `source_unsatisfiable_strict` (374, 3369, 3371),
-  `lexical_collision` (2028) or `lexical_inflection_weak` (1580).
+Use `release/hanifeval_v1.1.jsonl`. The Hugging Face card
+(`hf/README.md`) documents its fields:
+- `key`, `prompt`, `instruction_id_list`, `kwargs`;
+- `subset`;
+- `answer_language`;
+- `adaptation`;
+- `edits`;
+- `known_issues`.
 
-Score responses (`{"key": int, "response": str}` per line) with the
-vendored checker:
+Score responses (one `{"key": int, "response": str}` per line) with the
+standalone scorer, which is also shipped on Hugging Face. It counts a
+missing response as a failure:
 
 ```bash
-bash download_source.sh                       # google/IFEval source, SHA-256 checked (needed by validate.py)
 pip install -r ../../requirements.txt
-python3 satisfy.py --translations release/hanifeval_v1.jsonl --responses <responses.jsonl> --report <out.json>
+python3 hf/score.py --data release/hanifeval_v1.1.jsonl --responses <responses.jsonl> --report <out.json>
+python -m pytest tests -q                      # 37 checker regression tests
 ```
-
-`satisfy.py` prints strict and loose prompt-level accuracy and writes
-per-item results.
 
 ## Caveats a reader should weigh
 
-- **Word counts are eojeol.** `number_words` counts whitespace tokens.
-  Korean has 0.717 eojeol per English word over the 429 prompts (11,373 vs
-  15,855). So "600단어 이상" asks for about 1.4× the English content, and
-  "N단어 미만" is looser. N is kept as in the source. This affects 41 items
+- **Word counts are eojeol.** `number_words` counts whitespace tokens,
+  as the prompts say. The Korean *prompts* have 0.717 eojeol per English
+  word (11,373 vs 15,855). The burden this places on *answers* was not
+  measured. (v1 extrapolated the prompt ratio to "about 1.4× the content";
+  external review F10 correctly called that unsupported, and the claim was
+  withdrawn in v1.1.) N is kept as in the source. This affects 41 items
   (43 instructions).
 - **Loose scoring hides repeat conflicts.** The loose variants include one
   that drops the first line of the answer, which is where the repeated
@@ -162,10 +214,11 @@ per-item results.
   - 2028, 'yes'/'no' → '예'/'아니요': `lexical_collision`;
   - 1580, 'ride' → '타다', where inflected forms escape:
     `lexical_inflection_weak`.
-- **Two items count a stem, not the word the prompt names.** In 1733 and
-  3369 the kwarg is the stem of the quoted word ('대답했' for '대답했다', '옳'
-  for '옳다'), so inflected forms count. These are the only places where
-  the prompt and the kwargs do not name the same string.
+- **Stems.**
+  - 1733's kwarg is the stem '대답했'. Since v1.1 its prompt says that
+    inflected forms count.
+  - 3369 counts '옳' while its prompt names '옳다'. It is tagged
+    `source_unsatisfiable_strict` and left as is.
 - **No human validation.** The naturalness and faithfulness of the Korean
   are judged only by models. Agreement between prompts and checker
   arguments, and satisfiability, are checked by code and do not depend on
@@ -184,9 +237,13 @@ per-item results.
 
 | Path | Content |
 |---|---|
-| `release/hanifeval_v1.jsonl` | the dataset |
-| `release/provenance.json` | source and translator pins, every edit with its reason, file hashes |
-| `NOTES.md` | full research log (§0–§7) |
+| `release/hanifeval_v1.1.jsonl` | the dataset, current version |
+| `release/hanifeval_v1.jsonl` | v1, unchanged |
+| `release/provenance.json` | source and translator pins, every edit of both versions with its reason, file hashes |
+| `NOTES.md` | full research log (§0–§10) |
+| `tests/test_checker.py` | checker regression tests |
+| `hf/` | Hugging Face card, `score.py`, `build.sh` |
+| `build_v11_eval.py`, `eval/v1.1/`, `eval/v1.1_regen/` | v1.1 evaluation |
 | `translation_guideline.md`, `checker_semantics.md` | the fixed procedure |
 | `translate.py`, `validate.py`, `satisfy.py`, `review_input.py`, `lexical_collisions.py`, `postedit.py`, `human_review_sample.py` | the pipeline, in order |
 | `work/translations.jsonl` | raw translator output with per-row usage, cost, provider and guideline hash |

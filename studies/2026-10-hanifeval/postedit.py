@@ -14,6 +14,7 @@ The same string edits are applied to the reviewers' satisfiability answers (RESP
 satisfiability check can be re-run on the released items; those edits are logged too.
 """
 
+import copy
 import hashlib
 import json
 from pathlib import Path
@@ -82,6 +83,66 @@ KNOWN = {
     1580: ["lexical_inflection_weak"],
 }
 
+# ---- v1.1 (2026-10-03), after two external reviews (NOTES.md section 10) -------------------------
+# Applied on top of the v1 items above. v1 stays byte-identical in release/hanifeval_v1.jsonl.
+GE = "Checker scores this count as >= N (as in Google's IFEval); the prompt said N."
+EDITS_V11 = [
+    *[{"key": k, "id": f"V11-{i + 1:02d}", "finding": "review-1, review-2",
+       "prompt": [(old, new)], "kwargs": {}, "reason": GE + " Now states 'N개 이상'."}
+      for i, (k, old, new) in enumerate([
+          (357, "응답은 3개의 섹션으로", "응답은 3개 이상의 섹션으로"),
+          (1127, "4개의 섹션으로 구성되어야", "4개 이상의 섹션으로 구성되어야"),
+          (1131, "이력서를 4개의 섹션으로", "이력서를 4개 이상의 섹션으로"),
+          (1548, "문서는 4개의 섹션으로", "문서는 4개 이상의 섹션으로"),
+          (1730, "응답은 5개의 섹션으로", "응답은 5개 이상의 섹션으로"),
+          (2023, "시는 4개의 섹션으로", "시는 4개 이상의 섹션으로"),
+          (2889, "라는 두 개의 섹션을 포함하세요", "를 포함해 섹션을 두 개 이상 작성하세요"),
+          (2925, "농담을 3개의 섹션으로", "농담을 3개 이상의 섹션으로"),
+          (3324, "각 버전은 7개의 섹션으로", "각 버전은 7개 이상의 섹션으로"),
+          (340, "섹션을 1개 포함해 주세요", "섹션을 1개 이상 포함해 주세요"),
+      ])],
+    {"key": 1342, "id": "V11-11", "finding": "review-2 F01; corpus screen (사진 10.86/10k)",
+     "prompt": [('"사진"이라는 단어는 언급하지 마세요.',
+                 '"사진"이라는 단어는 언급하지 마세요("청사진"처럼 "사진"이 들어간 다른 단어도 쓰지 마세요).')],
+     "kwargs": {},
+     "reason": "keywords:frequency < 1 on '사진' is a substring rule, so '청사진' (a common business word) fails. "
+               "The prompt now states the rule the checker applies, as item 3114 does ('글자')."},
+    {"key": 1466, "id": "V11-12", "finding": "review-1, review-2 F11",
+     "prompt": [("'테일러', '스위프트', '투게더'라는 단어는",
+                 "'테일러', '스위프트', '투게더'라는 단어(영문 'Taylor', 'Swift', 'Together' 포함)는")],
+     "kwargs": {1: {"forbidden_words": ["테일러", "스위프트", "투게더", "Taylor", "Swift", "Together"]}},
+     "reason": "The prompt keeps the English song title, so the Latin forms escaped the Hangul-only forbidden list; "
+               "the English item forbids them. Latin forms added to prompt and kwargs (matching is case-insensitive)."},
+    {"key": 1733, "id": "V11-13", "finding": "review-1, review-2 F04",
+     "prompt": [("'대답했다'라는 단어가 최소 2번 이상 포함되어야 합니다.",
+                 "'대답했다'라는 표현이 최소 2번 이상 포함되어야 합니다('대답했습니다'처럼 어미가 바뀐 형태도 셉니다).")],
+     "kwargs": {},
+     "reason": "Since v1 (E13) the checker counts the stem '대답했'; the prompt now says that inflected forms count."},
+    {"key": 3311, "id": "V11-14", "finding": "review-2 F05 (inherited from google/IFEval)",
+     "prompt": [], "kwargs": {2: {"keywords": ["지표", "목표", "관리"]}},
+     "reason": "The prompt requires three keywords; the source kwargs check two ('objective' missing). "
+               "v1.1 fixes inherited prompt/kwargs mismatches on scored instructions."},
+    {"key": 30, "id": "V11-15", "finding": "review-2 F15",
+     "prompt": [("소문자로 답변해 주세요. ", "")], "kwargs": {},
+     "reason": "'Answer in lower case' has no meaning for Hangul and is not scored (the change_case checker is not "
+               "in this item). Removed; adaptation = task."},
+    {"key": 2807, "id": "V11-16", "finding": "review-2 F15",
+     "prompt": [(" 오직 소문자만 사용하세요.", "")], "kwargs": {},
+     "reason": "Same as V11-15."},
+]
+KNOWN_V11 = {**KNOWN,
+             2859: ["source_checker_artifact"],     # XML closing tags count as a sentence (review-2 F03)
+             3305: ["source_contradiction"],        # Hindi-only answer must start with a Korean repeat (F07)
+             2078: ["source_contradiction"]}       # exactly 1 bullet vs "a few bullet points"
+# adaptation: how far an item departs from a word-for-word rendering of the English task.
+#   task    = the constraint itself was changed (2716 'the' -> '회사', 2207 'have' -> '영향', 30/2807 removed)
+#   lexical = a keyword/forbidden string's scope differs from the English word (synonym choice, stem, syllable)
+ADAPTATION = {**{k: "task" for k in (2716, 2207, 30, 2807)},
+              **{k: "lexical" for k in (127, 301, 1242, 1342, 1476, 1580, 1629, 1733, 1936, 2028, 2041, 2395,
+                                         2471, 2577, 2997, 3081, 3114, 3345, 3369, 3386)}}
+ANSWER_LANGUAGE = {1137: ["fr"], 1675: ["de"], 2534: ["de", "ko"]}   # items without a language checker
+RESPONSE_EDITS_V11 = []   # filled below if a reviewer answer needs to follow a v1.1 edit
+
 RESPONSE_EDITS = [
     *[{"key": k, "old": COMMA, "new": "쉼표", "reason": f"follow {e}"}
       for e, k in zip([f"E{i + 1:02d}" for i in range(8)], [1546, 1627, 2063, 2337, 2713, 2739, 3633, 3718])],
@@ -118,7 +179,7 @@ def main():
                                 "kwargs": o["kwargs"], "subset": subset, "edited": k in edited,
                                 "known_issues": KNOWN.get(k, [])}, ensure_ascii=False) + "\n")
     resp = {}
-    for p in sorted((HERE / "work" / "review").glob("responses_*.jsonl")):
+    for p in sorted((HERE / "work" / "review").glob("responses_[0-9].jsonl")):  # reviewer shards only
         if p.name == "responses_final.jsonl":
             continue
         for r in map(json.loads, p.open()):
@@ -129,6 +190,36 @@ def main():
     with (HERE / "work" / "review" / "responses_final.jsonl").open("w", encoding="utf-8") as f:
         for k in sorted(resp):
             f.write(json.dumps({"key": k, "response": resp[k]}, ensure_ascii=False) + "\n")
+    # v1.1
+    items11 = copy.deepcopy(items)
+    for e in EDITS_V11:
+        o = items11[e["key"]]
+        for old, new in e["prompt"]:
+            assert o["prompt"].count(old) == 1, (e["id"], old)
+            o["prompt"] = o["prompt"].replace(old, new)
+        for idx, upd in e["kwargs"].items():
+            o["kwargs"][idx].update(upd)
+    ids11 = {}
+    for e in EDITS + EDITS_V11:
+        ids11.setdefault(e["key"], []).append(e["id"])
+    with (out_dir / "hanifeval_v1.1.jsonl").open("w", encoding="utf-8") as f:
+        for k in sorted(items11):
+            o = items11[k]
+            lang = [kw["language"] for kw in o["kwargs"] if kw and kw.get("language")]
+            f.write(json.dumps({"key": k, "prompt": o["prompt"], "instruction_id_list": o["instruction_id_list"],
+                                "kwargs": o["kwargs"],
+                                "subset": "response_language" if lang else "core",
+                                "answer_language": lang or ANSWER_LANGUAGE.get(k, ["ko"]),
+                                "adaptation": ADAPTATION.get(k, "none"),
+                                "edits": ids11.get(k, []),
+                                "known_issues": KNOWN_V11.get(k, [])}, ensure_ascii=False) + "\n")
+    resp11 = dict(resp)
+    for e in RESPONSE_EDITS_V11:
+        assert e["old"] in resp11[e["key"]], e
+        resp11[e["key"]] = resp11[e["key"]].replace(e["old"], e["new"])
+    with (HERE / "work" / "review" / "responses_final_v1.1.jsonl").open("w", encoding="utf-8") as f:
+        for k in sorted(resp11):
+            f.write(json.dumps({"key": k, "response": resp11[k]}, ensure_ascii=False) + "\n")
     sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
     meta = {k: rows[k] for k in sorted(rows)}
     prov = {
@@ -138,18 +229,30 @@ def main():
                        "reasoning": rows[min(rows)]["reasoning"], "temperature": rows[min(rows)]["temperature"],
                        "guideline_sha256": sorted({r["guideline_sha256"] for r in meta.values()}),
                        "cost_usd": round(sum(r["cost"] or 0 for r in meta.values()), 4)},
-        "checker": "checker/ (allganize/IFEval-Ko@54199e3 with five [hanifeval] fixes)",
+        "checker": "checker/ (allganize/IFEval-Ko@54199e3 with [hanifeval] changes; v1.1 changes listed under v1.1)",
         "edits": [{k: v for k, v in e.items()} | {"prompt": [list(p) for p in e["prompt"]],
                                                    "repeat": [list(p) for p in e["repeat"]]} for e in EDITS],
         "response_edits": RESPONSE_EDITS,
         "known_issues": {str(k): v for k, v in KNOWN.items()},
+        "v1.1": {"date": "2026-10-03",
+                 "edits": [{k: v for k, v in e.items()} | {"prompt": [list(p) for p in e["prompt"]]}
+                           for e in EDITS_V11],
+                 "response_edits": RESPONSE_EDITS_V11,
+                 "known_issues": {str(k): v for k, v in KNOWN_V11.items()},
+                 "adaptation": {str(k): v for k, v in sorted(ADAPTATION.items())},
+                 "answer_language_overrides": {str(k): v for k, v in ANSWER_LANGUAGE.items()},
+                 "checker_changes": ["sentence splitter: list markers only at line start (review-2 F02, F12)",
+                                     "response_language: undetectable text fails (review-2 F13)",
+                                     "kwargs strings NFC-normalised (review-1)"]},
         "files": {"release/hanifeval_v1.jsonl": sha(out_dir / "hanifeval_v1.jsonl"),
+                  "release/hanifeval_v1.1.jsonl": sha(out_dir / "hanifeval_v1.1.jsonl"),
                   "work/translations.jsonl": sha(HERE / "work" / "translations.jsonl"),
                   "translation_guideline.md": sha(HERE / "translation_guideline.md")},
     }
     (out_dir / "provenance.json").write_text(json.dumps(prov, ensure_ascii=False, indent=1))
-    print(f"released {len(items)} items, {len(edited)} edited ({len(EDITS)} edits), "
-          f"{len(RESPONSE_EDITS)} response edits")
+    print(f"v1: {len(items)} items, {len(edited)} edited ({len(EDITS)} edits), {len(RESPONSE_EDITS)} response edits")
+    print(f"v1.1: +{len(EDITS_V11)} edits on {len({e['key'] for e in EDITS_V11})} items, "
+          f"{len(RESPONSE_EDITS_V11)} response edits, {sum(1 for v in KNOWN_V11.values() if v)} items with known_issues")
 
 
 if __name__ == "__main__":

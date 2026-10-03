@@ -18,6 +18,9 @@ F1 difference, resampling sentences (10,000 resamples, seed 0). Added after
 the main run, not pre-registered.
 Rows with an `error` are excluded: they are infrastructure failures, retried by run.py.
 --models restricts the report to models whose runs are complete.
+--focus M tests only the pairs that include model M, with Bonferroni over those pairs. It is used to
+add a model after the main run (Solar Mini 4, 2026-10-03) without changing the alpha of the
+original 6-pair family.
 """
 
 import random
@@ -128,6 +131,7 @@ def main():
     ap.add_argument("run_dir")
     ap.add_argument("--md", default=None)
     ap.add_argument("--models", nargs="*", default=None, help="only these model directories")
+    ap.add_argument("--focus", default=None, help="only test pairs that include this model")
     args = ap.parse_args()
     root = HERE / args.run_dir
     models = sorted(p.name for p in root.iterdir() if p.is_dir() and (not args.models or p.name in args.models))
@@ -172,7 +176,7 @@ def main():
                     len_rows[r["item"]] = (sc["tp"], sc["fp"], sc["fn"])
                 ner_lenient[m] = len_rows
         lines.append("")
-    pairs = list(itertools.combinations(models, 2))
+    pairs = [p for p in itertools.combinations(models, 2) if not args.focus or args.focus in p]
     if pairs:
         alpha = 0.05 / len(pairs)
         lines += [f"## Pairwise McNemar (Bonferroni alpha = {alpha:.4f} over {len(pairs)} pairs per task)", ""]
@@ -187,6 +191,8 @@ def main():
         lines.append("")
     if len(ner) >= 2:
         n, ci, tests = ner_bootstrap(ner)
+        if args.focus:
+            tests = {k: v for k, v in tests.items() if args.focus in k}
         alpha = 0.05 / len(tests)
         lines += [f"## klue_ner: bootstrap over {n} shared sentences (10,000 resamples; Bonferroni alpha = "
                   f"{alpha:.4f}; added after the main run, not pre-registered)", ""]
@@ -194,6 +200,8 @@ def main():
         lines += [f"- {a} vs {b}: dF1 {d:+.3f}, p={'<0.0001' if p == 0 else f'{p:.4f}'}{' **' if p < alpha else ''}"
                   for (a, b), (d, p) in tests.items()]
         _, ci, tests = ner_bootstrap(ner_lenient)
+        if args.focus:
+            tests = {k: v for k, v in tests.items() if args.focus in k}
         lines += ["", "Sensitivity, lenient parse (trailing punctuation/whitespace forgiven):", ""]
         lines += [f"- {m}: micro-F1 95% CI [{lo:.3f}, {hi:.3f}]" for m, (lo, hi) in ci.items()]
         lines += [f"- {a} vs {b}: dF1 {d:+.3f}, p={'<0.0001' if p == 0 else f'{p:.4f}'}{' **' if p < alpha else ''}"

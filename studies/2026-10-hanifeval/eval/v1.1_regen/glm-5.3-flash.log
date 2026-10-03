@@ -1,0 +1,18 @@
+glm-5.3-flash: 16 to run (0 logged)
+  glm-5.3-flash   340 strict=1 loose=1 $0.0003
+  glm-5.3-flash  3311 strict=1 loose=1 $0.0006
+  glm-5.3-flash  1127 strict=1 loose=1 $0.0009
+  glm-5.3-flash  1466 strict=1 loose=1 $0.0011
+  glm-5.3-flash  1730 strict=1 loose=1 $0.0012
+  glm-5.3-flash  1548 strict=1 loose=1 $0.0013
+  glm-5.3-flash  1131 strict=1 loose=1 $0.0017
+  glm-5.3-flash  2023 strict=1 loose=1 $0.0020
+  glm-5.3-flash  2925 strict=1 loose=1 $0.0018
+  glm-5.3-flash  1733 strict=1 loose=1 $0.0019
+  glm-5.3-flash  2889 strict=1 loose=1 $0.0013
+  glm-5.3-flash  2807 strict=1 loose=1 $0.0025
+  glm-5.3-flash  1342 strict=1 loose=1 $0.0011
+  glm-5.3-flash   357 strict=1 loose=1 $0.0017
+  glm-5.3-flash  3324 strict=1 loose=1 $0.0032
+  glm-5.3-flash    30 strict=1 loose=1 $0.0085
+glm-5.3-flash: done in 249s

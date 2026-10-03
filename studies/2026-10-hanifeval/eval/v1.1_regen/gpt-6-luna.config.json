@@ -1,0 +1,8 @@
+{
+  "model_id": "openai/gpt-6-luna",
+  "provider": "openai",
+  "reasoning": true,
+  "max_tokens": 64000,
+  "temperature": 0,
+  "release_sha256": "9d8f5792fa9a055a0193c2b830d738723a3ab639a613c21ed372a846c87663de"
+}

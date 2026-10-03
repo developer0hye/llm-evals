@@ -7,7 +7,7 @@ out="${1:?usage: build.sh <out_dir>}"
 rm -rf "$out" && mkdir -p "$out/data" "$out/checker"
 cp "$here/hf/README.md" "$here/hf/NOTICE" "$here/hf/score.py" "$out/"
 cp "$here/../../LICENSE" "$out/LICENSE"
-cp "$here/release/hanifeval_v1.jsonl" "$out/data/"
+cp "$here/release/hanifeval_v1.jsonl" "$here/release/hanifeval_v1.1.jsonl" "$out/data/"
 cp "$here/release/provenance.json" "$out/"
 cp "$here"/checker/*.py "$out/checker/"
 find "$out" -name __pycache__ -prune -exec rm -rf {} +

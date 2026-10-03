@@ -3,13 +3,13 @@
 
 Usage:
     pip install absl-py immutabledict langdetect nltk
-    python score.py --data data/hanifeval_v1.jsonl --responses responses.jsonl [--report per_item.json]
+    python score.py --responses responses.jsonl [--data data/hanifeval_v1.1.jsonl] [--report per_item.json]
 
 responses.jsonl: one {"key": int, "response": str} per line, one response per item.
 Prints IFEval's four accuracies: prompt-level strict / loose (every instruction of an item followed)
-and instruction-level strict / loose (each instruction counted separately). Items without a
-response are reported as missing and are not counted as failures; score them or drop them
-deliberately.
+and instruction-level strict / loose (each instruction counted separately). An item without a
+response counts as a failure (all its instructions fail); --skip-missing drops it from the
+denominator instead. The denominator is always printed.
 """
 
 import argparse
@@ -24,15 +24,28 @@ from checker.utils import InputExample, test_instruction_following_loose, test_i
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--data", default=str(HERE / "data" / "hanifeval_v1.jsonl"))
+    ap.add_argument("--data", default=str(HERE / "data" / "hanifeval_v1.1.jsonl"))
     ap.add_argument("--responses", required=True)
     ap.add_argument("--report", default=None)
+    ap.add_argument("--skip-missing", action="store_true",
+                    help="leave items without a response out of the denominator (default: count them as failures)")
     args = ap.parse_args()
     items = {r["key"]: r for r in map(json.loads, Path(args.data).open(encoding="utf-8"))}
     resp = {r["key"]: r["response"] for r in map(json.loads, Path(args.responses).open(encoding="utf-8"))}
+    unknown = sorted(set(resp) - set(items))
+    if unknown:
+        sys.exit(f"responses for keys not in the data: {unknown[:10]}")
+    given = set(resp)
     rows, ps, pl, n_inst, is_, il = [], 0, 0, 0, 0, 0
     for k, it in sorted(items.items()):
         if k not in resp:
+            if args.skip_missing:
+                continue
+            # No response: every instruction fails. (An empty string would pass e.g. no_comma.)
+            fail = [False] * len(it["instruction_id_list"])
+            n_inst += len(fail)
+            rows.append({"key": k, "missing": True, "strict": False, "loose": False,
+                         "strict_list": fail, "loose_list": fail})
             continue
         inp = InputExample(key=k, instruction_id_list=it["instruction_id_list"], prompt=it["prompt"],
                            kwargs=it["kwargs"])
@@ -46,8 +59,10 @@ def main():
         rows.append({"key": k, "strict": s.follow_all_instructions, "loose": lo.follow_all_instructions,
                      "strict_list": s.follow_instruction_list, "loose_list": lo.follow_instruction_list})
     n = len(rows)
-    missing = len(items) - n
-    print(f"scored {n} of {len(items)} items" + (f" ({missing} without a response)" if missing else ""))
+    missing = sum(1 for k in items if k not in given)
+    print(f"items {len(items)}; responses given {len(items) - missing}; "
+          + (f"{missing} missing, {'excluded' if args.skip_missing else 'counted as failures'}; " if missing else "")
+          + f"denominator {n}")
     if n:
         print(f"prompt-level strict      {ps / n:.4f}  ({ps}/{n})")
         print(f"prompt-level loose       {pl / n:.4f}  ({pl}/{n})")

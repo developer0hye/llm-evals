@@ -5,6 +5,17 @@ from typing import Dict, Optional, Union
 from . import instructions_registry
 
 
+def _nfc(kwargs):
+    # [hanifeval] v1.1
+    def norm(v):
+        if isinstance(v, str):
+            return unicodedata.normalize("NFC", v)
+        if isinstance(v, list):
+            return [norm(x) for x in v]
+        return v
+    return {k: norm(v) for k, v in kwargs.items()}
+
+
 @dataclasses.dataclass
 class InputExample:
     key: int
@@ -37,6 +48,7 @@ def test_instruction_following_strict(
 
         # Remove None values from kwargs to avoid unexpected keyword argument errors in build_description method.
         kwargs = {k: v for k, v in inp.kwargs[index].items() if v}
+        kwargs = _nfc(kwargs)  # [hanifeval] v1.1: NFC-normalise string arguments, as the response already is
         instruction.build_description(**kwargs)
         args = instruction.get_instruction_args()
         if args and "prompt" in args:
@@ -90,6 +102,7 @@ def test_instruction_following_loose(
 
         # Remove None values from kwargs to avoid unexpected keyword argument errors in build_description method.
         kwargs = {k: v for k, v in inp.kwargs[index].items() if v}
+        kwargs = _nfc(kwargs)  # [hanifeval] v1.1: NFC-normalise string arguments, as the response already is
         instruction.build_description(**kwargs)
         args = instruction.get_instruction_args()
         if args and "prompt" in args:

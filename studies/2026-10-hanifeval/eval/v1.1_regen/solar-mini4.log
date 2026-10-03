@@ -1,0 +1,18 @@
+solar-mini4: 16 to run (0 logged)
+  solar-mini4   340 strict=1 loose=1 $0.0001
+  solar-mini4  3311 strict=1 loose=1 $0.0001
+  solar-mini4  2807 strict=1 loose=1 $0.0001
+  solar-mini4  2023 strict=1 loose=1 $0.0003
+  solar-mini4  1127 strict=1 loose=1 $0.0002
+  solar-mini4  1548 strict=1 loose=1 $0.0003
+  solar-mini4  1131 strict=1 loose=1 $0.0005
+  solar-mini4  1466 strict=1 loose=1 $0.0004
+  solar-mini4   357 strict=1 loose=1 $0.0002
+  solar-mini4  1733 strict=1 loose=1 $0.0006
+  solar-mini4  1730 strict=1 loose=1 $0.0006
+  solar-mini4  3324 strict=1 loose=1 $0.0005
+  solar-mini4  1342 strict=1 loose=1 $0.0008
+  solar-mini4  2889 strict=1 loose=1 $0.0021
+  solar-mini4  2925 strict=1 loose=1 $0.0033
+  solar-mini4    30 strict=1 loose=1 $0.0034
+solar-mini4: done in 206s

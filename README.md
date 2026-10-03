@@ -10,7 +10,7 @@ statistics.
 | Study | What it measures | Status |
 |---|---|---|
 | [`studies/2026-10-korean`](studies/2026-10-korean/README.md) | Korean ability of 6 budget-tier models: linguistic knowledge (KoBALT), Korea-specific factuality (KoSimpleQA), NER (KLUE-NER), long-document classification (LBox casename) | KoBALT, KLUE-NER, LBox done for 4 models; Gemma 4 31B/26B dropped (not runnable normally via OpenRouter); KoSimpleQA in TODO |
-| [`studies/2026-10-hanifeval`](studies/2026-10-hanifeval/README.md) | HanIFEval v1 ([HF: developer0hye/HanIFEval](https://huggingface.co/datasets/developer0hye/HanIFEval); formerly Ko-IFEval v1): Korean IFEval translated jointly with its checker kwargs (Gemini 3.1 Pro), audited against IFEval-Ko, reviewed by 8 Claude reviewers, 17 logged edits | Release v1 (429 items; satisfiability strict 426/429). 4 models evaluated: DeepSeek V4.1 Flash 97.2% prompt-level strict, GLM 5.3 Flash 95.3, GPT-6 Luna 93.5, Solar Pro 4 93.2; model-validated, no human review |
+| [`studies/2026-10-hanifeval`](studies/2026-10-hanifeval/README.md) | HanIFEval v1 ([HF: developer0hye/HanIFEval](https://huggingface.co/datasets/developer0hye/HanIFEval); formerly Ko-IFEval v1): Korean IFEval translated jointly with its checker kwargs (Gemini 3.1 Pro), audited against IFEval-Ko, reviewed by 8 Claude reviewers, 17 logged edits | v1.1 (429 items; 16 items edited after two external reviews; checker fixes; satisfiability strict 426/429). 5 models, prompt-level strict: DeepSeek V4.1 Flash 97.2, GLM 5.3 Flash 95.3, GPT-6 Luna 93.2, Solar Pro 4 93.0, Solar Mini 4 92.5; model-validated, no human review |
 
 ## Layout
 

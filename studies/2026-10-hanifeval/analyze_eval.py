@@ -10,6 +10,8 @@ instruction-level strict / loose (each instruction counted separately). Denomina
 items (rows without `error`); rows with an error are listed, never counted as failures.
 Intervals: Wilson 95% for prompt-level rates. Pairwise: McNemar exact test on prompt-level strict,
 over items scored for both models, Bonferroni over all model pairs.
+--focus M tests only the pairs that include model M (Bonferroni over those pairs), for a model added
+after the main run without changing the original family's alpha.
 Sensitivity: (a) without the items tagged in the release `known_issues` field, (b) without truncated
 rows, (c) core subset only (no response_language items).
 """
@@ -70,9 +72,11 @@ def main():
     ap.add_argument("dir")
     ap.add_argument("--models", nargs="+", required=True)
     ap.add_argument("--md", default=None)
+    ap.add_argument("--focus", default=None, help="only test pairs that include this model")
+    ap.add_argument("--release", default="1", choices=["1", "1.1"], help="dataset version whose known_issues to use")
     args = ap.parse_args()
     d = HERE / args.dir
-    release = {r["key"]: r for r in map(json.loads, (HERE / "release" / "hanifeval_v1.jsonl").open())}
+    release = {r["key"]: r for r in map(json.loads, (HERE / "release" / f"hanifeval_v{args.release}.jsonl").open())}
     known = {k for k, r in release.items() if r["known_issues"]}
     data = {m: load(d, m) for m in args.models}
     out = []
@@ -110,7 +114,7 @@ def main():
           f"| {r_(lambda r: r['subset'] == 'core')} | {r_(lambda r: r['subset'] == 'response_language')} |")
     w("")
 
-    pairs = list(itertools.combinations(args.models, 2))
+    pairs = [p for p in itertools.combinations(args.models, 2) if not args.focus or args.focus in p]
     if pairs:
         alpha = 0.05 / len(pairs)
         w(f"## Paired comparison (prompt-level strict, McNemar exact, Bonferroni α = {alpha:.4f} over {len(pairs)} pairs)\n")

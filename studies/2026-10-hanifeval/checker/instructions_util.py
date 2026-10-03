@@ -70,6 +70,7 @@ _MULTIPLE_DOTS = r"\.{2,}"
 
 _MIXED_ALPHABETS = "([A-Za-z가-힣])" # 한글과 영어 모두 포함
 _KOREAN_LIST = "([가나다라마바사])"  # 한글 리스트 마커
+_KOREAN_LIST_ITEM = "[가나다라마바사아자차카타파하]"  # [hanifeval] v1.1, used line-anchored only
 
 # [hanifeval] two pattern literals below made raw strings (same regex; silences SyntaxWarning).
 def split_into_sentences(text):
@@ -82,6 +83,10 @@ def split_into_sentences(text):
     Returns:
       A list of strings where each string is a sentence.
     """
+    # [hanifeval] v1.1: list markers ("가.", "1.", "2)") are recognised only at the start of a line,
+    # before newlines are flattened. IFEval-Ko matched Korean markers anywhere after a space, so the
+    # imperative endings "마." / "가." were read as markers, and numbered lines counted "1." as a sentence.
+    text = re.sub(r"(?m)^(\s*)(" + _KOREAN_LIST_ITEM + r"|\d{1,3})[.)](\s+)", "\\1\\2<prd>\\3", text)
     text = " " + text + "  "
     text = text.replace("\n", " ")
     text = re.sub(_PREFIXES, "\\1<prd>", text)
@@ -111,7 +116,7 @@ def split_into_sentences(text):
     text = re.sub(" " + _SUFFIXES + "[.]", " \\1<prd>", text)
     text = re.sub(" " + _ALPHABETS + "[.]", " \\1<prd>", text)
     text = re.sub(r"\s" + _ALPHABETS + r"[.]\s+(?=[가-힣])", " \\1<prd> ", text) # 영어 약어 + 직후 한글이 적힐 시 온점 아님 처리
-    text = re.sub(r"\s" + _KOREAN_LIST + r"[.]\s+", " \\1<prd> ", text) # 한글로 된 리스트 마커 처리
+    # [hanifeval] v1.1: the unanchored Korean list-marker rule was removed (see the top of this function).
 
     if "”" in text:
         text = text.replace(".”", "”.")

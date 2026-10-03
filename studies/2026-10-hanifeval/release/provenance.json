@@ -18,7 +18,7 @@
   ],
   "cost_usd": 3.6891
  },
- "checker": "checker/ (allganize/IFEval-Ko@54199e3 with five [hanifeval] fixes)",
+ "checker": "checker/ (allganize/IFEval-Ko@54199e3 with [hanifeval] changes; v1.1 changes listed under v1.1)",
  "edits": [
   {
    "key": 1546,
@@ -399,8 +399,306 @@
    "lexical_inflection_weak"
   ]
  },
+ "v1.1": {
+  "date": "2026-10-03",
+  "edits": [
+   {
+    "key": 357,
+    "id": "V11-01",
+    "finding": "review-1, review-2",
+    "prompt": [
+     [
+      "응답은 3개의 섹션으로",
+      "응답은 3개 이상의 섹션으로"
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Checker scores this count as >= N (as in Google's IFEval); the prompt said N. Now states 'N개 이상'."
+   },
+   {
+    "key": 1127,
+    "id": "V11-02",
+    "finding": "review-1, review-2",
+    "prompt": [
+     [
+      "4개의 섹션으로 구성되어야",
+      "4개 이상의 섹션으로 구성되어야"
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Checker scores this count as >= N (as in Google's IFEval); the prompt said N. Now states 'N개 이상'."
+   },
+   {
+    "key": 1131,
+    "id": "V11-03",
+    "finding": "review-1, review-2",
+    "prompt": [
+     [
+      "이력서를 4개의 섹션으로",
+      "이력서를 4개 이상의 섹션으로"
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Checker scores this count as >= N (as in Google's IFEval); the prompt said N. Now states 'N개 이상'."
+   },
+   {
+    "key": 1548,
+    "id": "V11-04",
+    "finding": "review-1, review-2",
+    "prompt": [
+     [
+      "문서는 4개의 섹션으로",
+      "문서는 4개 이상의 섹션으로"
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Checker scores this count as >= N (as in Google's IFEval); the prompt said N. Now states 'N개 이상'."
+   },
+   {
+    "key": 1730,
+    "id": "V11-05",
+    "finding": "review-1, review-2",
+    "prompt": [
+     [
+      "응답은 5개의 섹션으로",
+      "응답은 5개 이상의 섹션으로"
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Checker scores this count as >= N (as in Google's IFEval); the prompt said N. Now states 'N개 이상'."
+   },
+   {
+    "key": 2023,
+    "id": "V11-06",
+    "finding": "review-1, review-2",
+    "prompt": [
+     [
+      "시는 4개의 섹션으로",
+      "시는 4개 이상의 섹션으로"
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Checker scores this count as >= N (as in Google's IFEval); the prompt said N. Now states 'N개 이상'."
+   },
+   {
+    "key": 2889,
+    "id": "V11-07",
+    "finding": "review-1, review-2",
+    "prompt": [
+     [
+      "라는 두 개의 섹션을 포함하세요",
+      "를 포함해 섹션을 두 개 이상 작성하세요"
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Checker scores this count as >= N (as in Google's IFEval); the prompt said N. Now states 'N개 이상'."
+   },
+   {
+    "key": 2925,
+    "id": "V11-08",
+    "finding": "review-1, review-2",
+    "prompt": [
+     [
+      "농담을 3개의 섹션으로",
+      "농담을 3개 이상의 섹션으로"
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Checker scores this count as >= N (as in Google's IFEval); the prompt said N. Now states 'N개 이상'."
+   },
+   {
+    "key": 3324,
+    "id": "V11-09",
+    "finding": "review-1, review-2",
+    "prompt": [
+     [
+      "각 버전은 7개의 섹션으로",
+      "각 버전은 7개 이상의 섹션으로"
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Checker scores this count as >= N (as in Google's IFEval); the prompt said N. Now states 'N개 이상'."
+   },
+   {
+    "key": 340,
+    "id": "V11-10",
+    "finding": "review-1, review-2",
+    "prompt": [
+     [
+      "섹션을 1개 포함해 주세요",
+      "섹션을 1개 이상 포함해 주세요"
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Checker scores this count as >= N (as in Google's IFEval); the prompt said N. Now states 'N개 이상'."
+   },
+   {
+    "key": 1342,
+    "id": "V11-11",
+    "finding": "review-2 F01; corpus screen (사진 10.86/10k)",
+    "prompt": [
+     [
+      "\"사진\"이라는 단어는 언급하지 마세요.",
+      "\"사진\"이라는 단어는 언급하지 마세요(\"청사진\"처럼 \"사진\"이 들어간 다른 단어도 쓰지 마세요)."
+     ]
+    ],
+    "kwargs": {},
+    "reason": "keywords:frequency < 1 on '사진' is a substring rule, so '청사진' (a common business word) fails. The prompt now states the rule the checker applies, as item 3114 does ('글자')."
+   },
+   {
+    "key": 1466,
+    "id": "V11-12",
+    "finding": "review-1, review-2 F11",
+    "prompt": [
+     [
+      "'테일러', '스위프트', '투게더'라는 단어는",
+      "'테일러', '스위프트', '투게더'라는 단어(영문 'Taylor', 'Swift', 'Together' 포함)는"
+     ]
+    ],
+    "kwargs": {
+     "1": {
+      "forbidden_words": [
+       "테일러",
+       "스위프트",
+       "투게더",
+       "Taylor",
+       "Swift",
+       "Together"
+      ]
+     }
+    },
+    "reason": "The prompt keeps the English song title, so the Latin forms escaped the Hangul-only forbidden list; the English item forbids them. Latin forms added to prompt and kwargs (matching is case-insensitive)."
+   },
+   {
+    "key": 1733,
+    "id": "V11-13",
+    "finding": "review-1, review-2 F04",
+    "prompt": [
+     [
+      "'대답했다'라는 단어가 최소 2번 이상 포함되어야 합니다.",
+      "'대답했다'라는 표현이 최소 2번 이상 포함되어야 합니다('대답했습니다'처럼 어미가 바뀐 형태도 셉니다)."
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Since v1 (E13) the checker counts the stem '대답했'; the prompt now says that inflected forms count."
+   },
+   {
+    "key": 3311,
+    "id": "V11-14",
+    "finding": "review-2 F05 (inherited from google/IFEval)",
+    "prompt": [],
+    "kwargs": {
+     "2": {
+      "keywords": [
+       "지표",
+       "목표",
+       "관리"
+      ]
+     }
+    },
+    "reason": "The prompt requires three keywords; the source kwargs check two ('objective' missing). v1.1 fixes inherited prompt/kwargs mismatches on scored instructions."
+   },
+   {
+    "key": 30,
+    "id": "V11-15",
+    "finding": "review-2 F15",
+    "prompt": [
+     [
+      "소문자로 답변해 주세요. ",
+      ""
+     ]
+    ],
+    "kwargs": {},
+    "reason": "'Answer in lower case' has no meaning for Hangul and is not scored (the change_case checker is not in this item). Removed; adaptation = task."
+   },
+   {
+    "key": 2807,
+    "id": "V11-16",
+    "finding": "review-2 F15",
+    "prompt": [
+     [
+      " 오직 소문자만 사용하세요.",
+      ""
+     ]
+    ],
+    "kwargs": {},
+    "reason": "Same as V11-15."
+   }
+  ],
+  "response_edits": [],
+  "known_issues": {
+   "374": [
+    "source_unsatisfiable_strict"
+   ],
+   "3371": [
+    "source_unsatisfiable_strict"
+   ],
+   "3369": [
+    "source_unsatisfiable_strict"
+   ],
+   "2028": [
+    "lexical_collision"
+   ],
+   "1580": [
+    "lexical_inflection_weak"
+   ],
+   "2859": [
+    "source_checker_artifact"
+   ],
+   "3305": [
+    "source_contradiction"
+   ],
+   "2078": [
+    "source_contradiction"
+   ]
+  },
+  "adaptation": {
+   "30": "task",
+   "127": "lexical",
+   "301": "lexical",
+   "1242": "lexical",
+   "1342": "lexical",
+   "1476": "lexical",
+   "1580": "lexical",
+   "1629": "lexical",
+   "1733": "lexical",
+   "1936": "lexical",
+   "2028": "lexical",
+   "2041": "lexical",
+   "2207": "task",
+   "2395": "lexical",
+   "2471": "lexical",
+   "2577": "lexical",
+   "2716": "task",
+   "2807": "task",
+   "2997": "lexical",
+   "3081": "lexical",
+   "3114": "lexical",
+   "3345": "lexical",
+   "3369": "lexical",
+   "3386": "lexical"
+  },
+  "answer_language_overrides": {
+   "1137": [
+    "fr"
+   ],
+   "1675": [
+    "de"
+   ],
+   "2534": [
+    "de",
+    "ko"
+   ]
+  },
+  "checker_changes": [
+   "sentence splitter: list markers only at line start (review-2 F02, F12)",
+   "response_language: undetectable text fails (review-2 F13)",
+   "kwargs strings NFC-normalised (review-1)"
+  ]
+ },
  "files": {
   "release/hanifeval_v1.jsonl": "46d85943714ed283787e5e5575181f837e1fdb46cdf4e6175537fdc050881fcc",
+  "release/hanifeval_v1.1.jsonl": "9d8f5792fa9a055a0193c2b830d738723a3ab639a613c21ed372a846c87663de",
   "work/translations.jsonl": "a8f364b8a5feb65b400e8c77fb9c81d33a1c234d7597641bf42a2465a2b9ada7",
   "translation_guideline.md": "c090a5261f66cd366204e41634984c71657150da5e9ae054f9dd0ae656f02b53"
  }

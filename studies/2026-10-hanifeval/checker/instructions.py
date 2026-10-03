@@ -178,11 +178,12 @@ class ResponseLanguageChecker(Instruction):
         try:
             return langdetect.detect(value) == self._language
         except langdetect.LangDetectException as e:
-            # Count as instruction is followed.
+            # Google's IFEval counts this as followed; HanIFEval v1.1 does not (see below).
             logging.error(
                 "Unable to detect language for text %s due to %s", value, e
             )  # refex: disable=pytotw.037
-            return True
+            # [hanifeval] v1.1: undetectable text fails (Google's IFEval returns True here).
+            return False
 
 
 class NumberOfSentences(Instruction):

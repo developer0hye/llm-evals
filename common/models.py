@@ -3,7 +3,8 @@
 Every model is pinned to one provider (`provider.only`, `allow_fallbacks: false`):
 unpinned, OpenRouter load-balances each call across providers with different
 hardware, quantization and serving stacks. Prices are the pinned endpoint's list
-price from OpenRouter's /models/<id>/endpoints on 2026-09-29, in $ per 1M tokens.
+price from OpenRouter's /models/<id>/endpoints on 2026-09-29 (solar-mini4: 2026-10-03),
+in $ per 1M tokens.
 """
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
@@ -14,6 +15,7 @@ MODELS = {
     "gpt-6-luna": ("openai/gpt-6-luna", "openai", 0.10, 0.50),
     "glm-5.3-flash": ("z-ai/glm-5.3-flash", "z-ai/fp8", 0.15, 0.50),
     "solar-pro4": ("upstage/solar-pro4", "upstage", 0.09, 0.36),
+    "solar-mini4": ("upstage/solar-mini4", "upstage", 0.05, 0.20),
     # Gemma 4 26B and 31B were dropped from studies/2026-10-korean on 2026-09-30:
     # 31B's only healthy bf16 pin (Crusoe) rate-limits upstream, and 26B does not
     # terminate with reasoning on. Kept here for their pilot rows; see that study's README.

@@ -1,0 +1,18 @@
+gpt-6-luna: 16 to run (0 logged)
+  gpt-6-luna   340 strict=1 loose=1 $0.0001
+  gpt-6-luna  3311 strict=1 loose=1 $0.0001
+  gpt-6-luna  2807 strict=1 loose=1 $0.0001
+  gpt-6-luna  2925 strict=1 loose=1 $0.0002
+  gpt-6-luna  1548 strict=1 loose=1 $0.0003
+  gpt-6-luna  2023 strict=1 loose=1 $0.0003
+  gpt-6-luna  1127 strict=1 loose=1 $0.0002
+  gpt-6-luna  1730 strict=1 loose=1 $0.0004
+  gpt-6-luna  1466 strict=1 loose=1 $0.0002
+  gpt-6-luna  2889 strict=1 loose=1 $0.0002
+  gpt-6-luna  1131 strict=1 loose=1 $0.0005
+  gpt-6-luna   357 strict=1 loose=1 $0.0002
+  gpt-6-luna  1733 strict=1 loose=1 $0.0003
+  gpt-6-luna  1342 strict=0 loose=0 $0.0003
+  gpt-6-luna  3324 strict=1 loose=1 $0.0007
+  gpt-6-luna    30 strict=1 loose=1 $0.0011
+gpt-6-luna: done in 27s

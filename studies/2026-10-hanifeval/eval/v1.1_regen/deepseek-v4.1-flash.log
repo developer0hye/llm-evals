@@ -1,0 +1,18 @@
+deepseek-v4.1-flash: 16 to run (0 logged)
+  deepseek-v4.1-flash   340 strict=1 loose=1 $0.0002
+  deepseek-v4.1-flash  3311 strict=1 loose=1 $0.0005
+  deepseek-v4.1-flash  1127 strict=1 loose=1 $0.0007
+  deepseek-v4.1-flash  2023 strict=1 loose=1 $0.0011
+  deepseek-v4.1-flash  2925 strict=1 loose=1 $0.0013
+  deepseek-v4.1-flash  1730 strict=1 loose=1 $0.0014
+  deepseek-v4.1-flash  1131 strict=1 loose=1 $0.0016
+  deepseek-v4.1-flash  2807 strict=1 loose=1 $0.0015
+  deepseek-v4.1-flash  1548 strict=1 loose=1 $0.0021
+  deepseek-v4.1-flash  1466 strict=1 loose=1 $0.0010
+  deepseek-v4.1-flash  1733 strict=1 loose=1 $0.0011
+  deepseek-v4.1-flash   357 strict=1 loose=1 $0.0010
+  deepseek-v4.1-flash  2889 strict=1 loose=1 $0.0023
+  deepseek-v4.1-flash  1342 strict=1 loose=1 $0.0020
+  deepseek-v4.1-flash    30 strict=1 loose=1 $0.0064
+  deepseek-v4.1-flash  3324 strict=1 loose=1 $0.0038
+deepseek-v4.1-flash: done in 67s
