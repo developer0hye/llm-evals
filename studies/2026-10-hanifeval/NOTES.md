@@ -695,9 +695,24 @@ all 1,716 main-run rows changed 0 results.
 
 ## 10. External reviews and v1.1 (2026-10-03)
 
-**Two external reviews.** The user shared them; both were model-based
-reviews of the published v1. We thank both reviewers; their findings
-shaped v1.1.
+**Two external reviews.** The dataset author ran them and shared them.
+Both were model-based reviews of the published v1. The two models are
+named below as OpenAI documents them:
+- **GPT-6 Pro** (ChatGPT). OpenAI Help Center, "GPT-5.6 and GPT-6 Pro in
+  ChatGPT": "GPT-6 Pro, powered by GPT-6 Astra, is available in ChatGPT
+  for Pro $100, Pro $200, Business and Enterprise plans." Retrieved via
+  the Wayback snapshot of 2026-10-02, because help.openai.com returned
+  HTTP 403 to direct fetches.
+- **GPT-6 Astra at the Ultra reasoning effort** (ChatGPT/Codex).
+  learn.chatgpt.com/docs/models: "Reasoning effort ranges from Light to
+  Ultra." and "Ultra uses subagents to handle separate parts of a complex
+  task in parallel." Fetched 2026-10-03, HTTP 200.
+  - "Ultra" is a reasoning-effort level, not a separate model.
+  - It is distinct from the Ultrafast service tier
+    (developers.openai.com/api/docs/guides/ultrafast-mode).
+
+Which model wrote which review was not recorded. Their findings shaped
+v1.1, and we thank both.
 - **Review 1, a focused review** of the 40-item sample, the high-risk
   items and the logs for 2859. Findings:
   - 1127 accepts 5 sections when the prompt asks for 4;
@@ -786,7 +801,9 @@ the `source_unsatisfiable_strict` items.
 - `provenance.json` records both versions.
 - **Hugging Face.**
   - Tag `v1` was set on the v1 commit (`0c0ef9a`).
-  - v1.1 was uploaded as commit `9678bfe` and tagged `v1.1`.
+  - v1.1 was uploaded as commit `9678bfe`. The card was then updated to
+    name the external reviewers (commit `1fba3c9`, data unchanged). Tag
+    `v1.1` points to `1fba3c9`.
   - The default config loads v1.1; the `v1` config and the `v1` tag load
     v1.
   - All three were checked with `datasets.load_dataset` (429 rows each,

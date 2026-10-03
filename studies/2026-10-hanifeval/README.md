@@ -9,7 +9,8 @@ IFEval-Ko was used only as the audited comparison.
 
 **Status (2026-10-03): v1.1 is the current release** (`release/hanifeval_v1.1.jsonl`,
 Hugging Face `developer0hye/HanIFEval`). It was made after two external
-reviews of v1:
+model-based reviews of v1, by OpenAI GPT-6 Pro and by GPT-6 Astra at the
+Ultra reasoning effort (names as OpenAI documents them; NOTES §10):
 - 16 items were edited;
 - the checker was fixed (sentence splitter, undetectable language);
 - three fields were added (`answer_language`, `adaptation`, `edits`).
@@ -223,9 +224,15 @@ python -m pytest tests -q                      # 37 checker regression tests
   are judged only by models. Agreement between prompts and checker
   arguments, and satisfiability, are checked by code and do not depend on
   this.
-- **Same model family as some evaluated models.** The translator is Gemini
-  and the reviewers are Claude. Neither was evaluated here, but a study
-  that evaluates Gemini or Claude models on this set should state this.
+- **Same model family as some evaluated models.**
+  - The translator is Gemini.
+  - The item reviewers are Claude.
+  - The v1.1 external reviewers are OpenAI GPT-6 Pro and GPT-6 Astra
+    (Ultra reasoning effort).
+
+  GPT-6 Luna, evaluated here, is a GPT-6-family model. The reviews
+  shaped 16 edits and wrote none of the items. A study that evaluates
+  Gemini, Claude or GPT-6 models on this set should state this.
 - **Not identical to English IFEval item by item.** In 1627 and 3718, the
   English repeat contains a comma under `no_comma`, so the English items
   are unsatisfiable. Our guideline had added a second comma ("쉼표(,)") in

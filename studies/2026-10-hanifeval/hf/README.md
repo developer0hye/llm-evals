@@ -59,7 +59,12 @@ Each such case is listed under Limitations or tagged per item.
   reasoning high, temperature 0), with a fixed guideline as the system
   prompt.
 - **Review:** 8 independent Claude Opus 5.5 instances reviewed all 429
-  items. In v1.1, two external model-based reviews were added.
+  items. For v1.1, the dataset author also ran two external model-based
+  reviews (2026-10-03):
+  - OpenAI **GPT-6 Pro** (ChatGPT; "powered by GPT-6 Astra");
+  - OpenAI **GPT-6 Astra at the Ultra reasoning effort** (ChatGPT/Codex;
+    "Ultra uses subagents to handle separate parts of a complex task in
+    parallel").
 - **Edits:** 33 logged edits on 32 items (17 in v1, 16 in v1.1), each with
   its reason in `provenance.json`.
 - **Validation:** model-validated, not human-validated. No native speaker
@@ -94,8 +99,10 @@ and none is a translation defect:
 | 1 | a paragraph count the source leaves implicit |
 | 1 | 3367, where "두 가지 광고" names the task rather than a count |
 
-**Semantic review.** In v1, 8 Claude reviewers made 70 findings on 60
-items. v1.1 adds two external reviews.
+**Semantic review.** In v1, 8 Claude Opus 5.5 reviewers made 70 findings
+on 60 items. v1.1 adds two external reviews, by GPT-6 Pro and by GPT-6
+Astra at the Ultra reasoning effort: one focused review, and one full
+audit of all 429 items with 37 counterexamples.
 
 **Satisfiability.** A reviewer wrote one honest answer per item, and the
 checker scored it: strict 426 of 429, loose 429 of 429. The 3 strict
@@ -263,8 +270,13 @@ markup (see 2859).
 
 **No human validation.**
 
-**Model families.** The translator is Gemini and the reviewers are
-Claude. Disclose this when evaluating Gemini or Claude models.
+**Model families.**
+- The translator is Gemini.
+- The item reviewers are Claude.
+- The v1.1 external reviewers are OpenAI GPT-6 (GPT-6 Pro, GPT-6 Astra).
+
+Disclose this when evaluating Gemini, Claude or GPT-6 models. The
+reviewers shaped the edits; they did not write the items.
 
 **Not identical to English IFEval item by item.**
 - 1627, 3718 and 3311 were fixed where the English item has a
@@ -273,8 +285,12 @@ Claude. Disclose this when evaluating Gemini or Claude models.
 
 ## Changelog
 
-**v1.1 (2026-10-03).** Prompted by two external reviews (2026-10-03),
-credited in the research log.
+**v1.1 (2026-10-03).** Prompted by two external model-based reviews, run by
+the dataset author with OpenAI GPT-6 Pro and with GPT-6 Astra at the Ultra
+reasoning effort. Model names follow OpenAI's documentation
+([GPT-6 Pro](https://help.openai.com/en/articles/20001354-gpt-56-and-gpt-6-pro-in-chatgpt),
+[Ultra reasoning effort](https://learn.chatgpt.com/docs/models)). Every
+finding and ruling is in the research log, NOTES.md §10.
 
 Items edited (16):
 - 340, 357, 1127, 1131, 1548, 1730, 2023, 2889, 2925, 3324: ≥-scored
